@@ -1,0 +1,46 @@
+{
+  "axiom_under_audit": "MS-A4: The terminal period of social interaction is unknowable by any agent at any time.",
+  "four_questions": {
+    "is_it_derivable": {
+      "verdict": "NO",
+      "analysis": "MS-A4 is not derivable from MS-A1, MS-A2, or MS-A3. Free will, self-ownership, and NAP say nothing about what agents can know about temporal horizons. MS-A4 is a completely separate claim about epistemic access to future states. It cannot be derived from the other axioms."
+    },
+    "is_it_merely_asserted": {
+      "verdict": "YES — and ad hoc",
+      "analysis": "MS-A4 is a bare assertion added specifically to solve the last-round problem. No independent motivation is given. The Theory of Liberty provides independent motivation for its equivalent (Resurrection is independently grounded in Tawhid and Prophethood, and serves multiple functions beyond last-round stability). MS-A4 serves ONE function only: preventing backward induction. This is the textbook definition of an ad hoc axiom."
+    },
+    "is_it_empirical": {
+      "verdict": "PARTIALLY — and problematic",
+      "analysis": "MS-A4 claims 'unknowable at ANY time.' This is an empirical claim about human epistemic access to future states, and it is partially FALSE as a universal claim. Counterexamples: (1) A terminally ill person with 2 weeks to live KNOWS their social interactions will terminate imminently. Backward induction becomes rational for them. (2) A fixed-term contract specifies T explicitly. Both parties KNOW the terminal period. (3) A prisoner's last day before execution is known. MS-A4 cannot be a universal axiom because it is empirically falsified in common cases. Compare: Resurrection says the game continues BEYOND death (afterlife) — this is not an epistemic claim about what agents know but a metaphysical claim about what IS. Resurrection is NOT empirically falsifiable by any known event."
+    },
+    "is_it_metaphysical": {
+      "verdict": "AMBIGUOUSLY — creating a classification problem",
+      "analysis": "MS-A4 can be read two ways: (a) EPISTEMOLOGICAL reading: 'Agents cannot know T' — a claim about knowledge. This is empirically falsifiable (see above). (b) METAPHYSICAL reading: 'T is objectively unknowable' — a claim about reality. If metaphysical, it requires a ground: WHY is T unknowable? The Theory of Liberty's Resurrection provides the metaphysical ground: the game continues in the afterlife, making finite T irrelevant. CE-003 provides no metaphysical ground for MS-A4. Without a ground, the metaphysical reading is empty."
+    }
+  },
+  "the_defeating_counterexample": {
+    "scenario": "Dying Person Game",
+    "description": "Player A is diagnosed with terminal cancer: 2 weeks to live. Player A engages in social interaction with Player B. Player A knows with near-certainty that T = 14 days. MS-A4 says: 'The terminal period is unknowable at any time.' QUESTION: Does MS-A4 apply to Player A? If YES: MS-A4 overrides Player A's knowledge, which is epistemically implausible. If NO: MS-A4 fails as a universal axiom — it has exceptions. In the exception case, backward induction is restored for the 'known-terminal' agents, and the last-round problem is not fully solved.",
+    "ToL_response": "Resurrection says: even if Player A dies in 14 days, the game continues in the afterlife. Therefore T (the TRUE terminal period of the accountability interaction) is not 14 days but potentially infinite. Player A's knowledge of their physical death does not give them knowledge of T, because T extends beyond physical death. This is immune to the dying-person counterexample.",
+    "verdict": "MS-A4 IS VULNERABLE TO THE DYING-PERSON COUNTEREXAMPLE. RESURRECTION IS NOT."
+  },
+  "structural_comparison": {
+    "MS-A4": {
+      "derivable": false,
+      "independently_motivated": false,
+      "ad_hoc": true,
+      "empirically_falsifiable": true,
+      "immune_to_dying_person_counterexample": false,
+      "game_theoretic_prerequisite_count": 2
+    },
+    "Resurrection": {
+      "derivable": true,
+      "independently_motivated": true,
+      "ad_hoc": false,
+      "empirically_falsifiable": false,
+      "immune_to_dying_person_counterexample": true,
+      "game_theoretic_prerequisite_count": 0
+    }
+  },
+  "verdict": "MS-A4 is: (1) not derivable, (2) merely asserted, (3) ad hoc, (4) empirically partially false, (5) metaphysically ungrounded, and (6) vulnerable to the dying-person counterexample. Resurrection is: (1) derived within the theory, (2) independently motivated, (3) not ad hoc, (4) metaphysically rather than empirically stated, (5) immune to the dying-person counterexample. MS-A4 is structurally INFERIOR to Resurrection on all six dimensions."
+}

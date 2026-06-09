@@ -1,0 +1,52 @@
+{
+  "method": "Compare CE-003 vs Theory of Liberty on: named axioms, hidden axioms, total axioms, derivations per axiom, derivational depth.",
+  "comparison": {
+    "named_axioms": {
+      "CE003": 4,
+      "ToL": 6,
+      "advantage": "CE-003 (+2)"
+    },
+    "hidden_axioms": {
+      "CE003": 13,
+      "ToL": 12,
+      "advantage": "ToL (+1)"
+    },
+    "total_axioms": {
+      "CE003": 17,
+      "ToL": 18,
+      "advantage": "CE-003 (+1)"
+    },
+    "ad_hoc_axioms": {
+      "CE003": 1,
+      "ToL": 0,
+      "advantage": "ToL — no ad hoc axioms"
+    },
+    "confirmed_redundant_axioms": {
+      "CE003": 0,
+      "ToL": 1,
+      "advantage": "CE-003 — A-000003 in ToL is confirmed redundant"
+    },
+    "derivations_from_axioms": {
+      "CE003": 6,
+      "ToL": 19,
+      "advantage": "ToL (+13 derivations)",
+      "note": "The Theory of Liberty produces 19 documented inference chains; CE-003 claims 6 derivations."
+    },
+    "cross_domain_derivations": {
+      "CE003": "Only political philosophy",
+      "ToL": "Political, game-theoretic, epistemological, theological, AI-alignment",
+      "advantage": "ToL — cross-domain coverage"
+    },
+    "accountability_mechanism_derived": {
+      "CE003": false,
+      "ToL": true,
+      "advantage": "ToL — accountability mechanism is derivable (Resurrection + community enforcement)"
+    }
+  },
+  "occams_razor_analysis": {
+    "principle": "Entia non sunt multiplicanda praeter necessitatem (entities should not be multiplied beyond necessity).",
+    "application": "Occam's Razor compares systems by what they EXPLAIN, not just by axiom count. A system with 4 axioms that explains 6 things is not more parsimonious than a system with 6 axioms that explains 19 things, if the 6-axiom system explains everything the 4-axiom system explains PLUS 13 additional items. FORMAL PARSIMONY METRIC: (derivations produced) / (total axioms including hidden). CE-003: 6 / 17 = 0.35 derivations per total axiom. ToL: 19 / 18 = 1.06 derivations per total axiom. By this metric, the Theory of Liberty is THREE TIMES more parsimonious than CE-003.",
+    "verdict": "THEORY_OF_LIBERTY_IS_MORE_PARSIMONIOUS_BY_DERIVATION_DENSITY"
+  },
+  "verdict": "CE-003's apparent parsimony advantage (4 vs 6 named axioms) is illusory when hidden axioms are counted and derivational productivity is measured. CE-003 saves 2 named axioms but: (a) requires 1 more hidden axiom, (b) adds 1 ad hoc axiom, (c) produces 13 fewer derivations. By any meaningful parsimony metric that weights derivational productivity, the Theory of Liberty is more parsimonious, not less."
+}

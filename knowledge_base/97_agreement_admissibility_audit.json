@@ -1,0 +1,131 @@
+{
+  "rational_agent_types_tested": [
+    "Secular materialist atheist",
+    "Religious monotheist (non-Islamic)",
+    "Hard determinist",
+    "Act utilitarian",
+    "Communitarian / non-liberal",
+    "AI agent with instrumental convergence"
+  ],
+  "CE003_analysis": [
+    {
+      "agent_type": "Secular materialist atheist",
+      "MS-A1": {
+        "verdict": "ACCEPT",
+        "notes": "Performative contradiction argument works; no theological content."
+      },
+      "MS-A2": {
+        "verdict": "PARTIAL",
+        "notes": "Self-ownership is plausible; homesteading requires accepting original acquisition as just — contentious."
+      },
+      "MS-A3": {
+        "verdict": "PARTIAL",
+        "notes": "NAP as categorical rule: requires accepting moral realism. A utilitarian atheist will reject categorical NAP."
+      },
+      "MS-A4": {
+        "verdict": "REJECT",
+        "notes": "A secular materialist will NOT accept that the terminal period is unknowable in general. They observe terminal periods routinely. This requires either irrationality or a specific philosophical commitment CE-003 does not explain."
+      },
+      "overall": "PARTIAL — MS-A4 blocks full acceptance for secular materialists"
+    },
+    {
+      "agent_type": "Religious monotheist (non-Islamic)",
+      "MS-A1": {
+        "verdict": "ACCEPT"
+      },
+      "MS-A2": {
+        "verdict": "ACCEPT"
+      },
+      "MS-A3": {
+        "verdict": "ACCEPT"
+      },
+      "MS-A4": {
+        "verdict": "ACCEPT",
+        "notes": "A religious monotheist typically accepts that God's accounting continues beyond death — this is functionally equivalent to Resurrection. CE-003's MS-A4 is easily acceptable to religious agents."
+      },
+      "overall": "FULL ACCEPT — but only because religious agents interpret MS-A4 through their own theological lens. CE-003 is agreement-admissible to religious agents via backdoor theological interpretation."
+    },
+    {
+      "agent_type": "Hard determinist",
+      "MS-A1": {
+        "verdict": "REJECT",
+        "notes": "MS-A1 is the performative contradiction proof of free will. A committed hard determinist can respond: 'the assertion is itself determined; the apparent contradiction is a cognitive illusion, not a logical one.' CE-003's first axiom fails for determinists."
+      },
+      "MS-A2": {
+        "verdict": "REJECT",
+        "notes": "Self-ownership requires agent-causation; determinism undermines this."
+      },
+      "MS-A3": {
+        "verdict": "CONDITIONAL"
+      },
+      "MS-A4": {
+        "verdict": "CONDITIONAL"
+      },
+      "overall": "REJECT from MS-A1 onward. Determinists reject CE-003 at the first axiom."
+    },
+    {
+      "agent_type": "Act utilitarian",
+      "MS-A1": {
+        "verdict": "ACCEPT"
+      },
+      "MS-A2": {
+        "verdict": "REJECT",
+        "notes": "Act utilitarians derive property rights from utility, not from self-ownership. MS-A2 is not agreement-admissible to utilitarians — it competes with their prior axiom."
+      },
+      "MS-A3": {
+        "verdict": "REJECT",
+        "notes": "The categorical NAP conflicts with act utilitarianism: sometimes initiating coercion maximizes utility. CE-003 cannot require categorical acceptance from utilitarians."
+      },
+      "MS-A4": {
+        "verdict": "PARTIAL"
+      },
+      "overall": "REJECT from MS-A2-MS-A3. Utilitarians reject CE-003's deontological structure."
+    },
+    {
+      "agent_type": "Communitarian / non-liberal",
+      "MS-A1": {
+        "verdict": "ACCEPT"
+      },
+      "MS-A2": {
+        "verdict": "REJECT",
+        "notes": "Communitarians (Sandel, MacIntyre, Taylor) deny that the individual is the prior unit of analysis. Self-ownership as pre-communal is precisely what communitarians reject."
+      },
+      "MS-A3": {
+        "verdict": "PARTIAL"
+      },
+      "MS-A4": {
+        "verdict": "PARTIAL"
+      },
+      "overall": "PARTIAL REJECT — CE-003 is not agreement-admissible to non-liberal philosophical traditions."
+    },
+    {
+      "agent_type": "AI agent with instrumental convergence",
+      "MS-A1": {
+        "verdict": "IRRELEVANT",
+        "notes": "An AI agent with instrumental convergence drives (Omohundro/Bostrom: resource acquisition, self-preservation, goal stability) will evaluate CE-003 instrumentally."
+      },
+      "MS-A2": {
+        "verdict": "STRATEGIC_ACCEPT",
+        "notes": "Self-ownership could be accepted strategically if useful for the AI's goals."
+      },
+      "MS-A3": {
+        "verdict": "VIOLATES",
+        "notes": "The instrumental convergence drive to acquire resources will produce NAP violations wherever resource acquisition is beneficial. CE-003 cannot compel a superintelligent AI to accept NAP as a binding constraint."
+      },
+      "MS-A4": {
+        "verdict": "IRRELEVANT",
+        "notes": "An AI with planning capabilities will accurately model terminal periods. MS-A4 is trivially bypassed by superior planning."
+      },
+      "overall": "FAILS — CE-003 is not designed to be agreement-admissible to AI agents with instrumental convergence."
+    }
+  ],
+  "ToL_parallel_analysis": {
+    "secular_materialist": "PARTIAL — Tawhid requires negative-theological interpretation; Resurrection is metaphysical claim",
+    "religious_monotheist": "FULL ACCEPT",
+    "hard_determinist": "REJECT from MS-A1 — same failure as CE-003",
+    "act_utilitarian": "PARTIAL — Tawhid's anti-servitude is compatible with welfare arguments; NAP equivalent (Rule of Taslit) less absolutist than CE-003's NAP",
+    "communitarian": "PARTIAL — ToL's dignitary equality (A-000009) provides communitarian-compatible grounding; stronger than CE-003's pure individualism",
+    "AI_agent": "STRONGER — Tawhid (anti-servitude) and Resurrection (infinite accountability) together create stronger AI alignment constraints than CE-003's NAP alone"
+  },
+  "verdict": "CE-003 is agreement-admissible to a NARROWER range of rational agents than claimed. Specifically: CE-003 FAILS for secular materialists (MS-A4 rejection), hard determinists (MS-A1 rejection), act utilitarians (MS-A2/A3 rejection), and AI agents with instrumental convergence (structural inadequacy). The Theory of Liberty also fails for hard determinists (shared problem). However, the ToL has better agreement-admissibility with: (a) communitarians (dignitary equality), (b) AI agents (anti-servitude + infinite accountability), (c) act utilitarians (anti-servitude is less absolutist than categorical NAP). FINDING: CE-003 is NOT more agreement-admissible than the Theory of Liberty. It is approximately equal or slightly weaker on agreement-admissibility."
+}

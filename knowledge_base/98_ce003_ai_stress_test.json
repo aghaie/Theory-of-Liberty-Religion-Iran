@@ -1,0 +1,38 @@
+{
+  "target": "CE-003's adequacy as an AI alignment framework",
+  "attacks": [
+    {
+      "id": "AI-ATK-001",
+      "dimension": "value_alignment",
+      "attack": "An AI agent's value function must be formally specified. CE-003 provides: FW, self-ownership, NAP, unknown-horizon. CHALLENGE: What does 'initiating coercion' mean for an AI? Does recommending a harmful action count? Does an optimization process that produces externalities count? Does choosing a training objective that reduces human autonomy count? CE-003's NAP is silent on all of these — it was designed for human-to-human coercion, not AI-to-human value misalignment.",
+      "CE003_response": "CE-003 cannot answer these questions without additional axioms.",
+      "ToL_response": "Tawhid's anti-servitude principle applies directly: any AI objective that maximises servitude (reduces human agency/autonomy) is impermissible. This is a structural constraint applicable to AI.",
+      "verdict": "CE-003 FAILS — insufficient for AI value alignment specification"
+    },
+    {
+      "id": "AI-ATK-002",
+      "dimension": "reward_specification",
+      "attack": "For AI alignment, the reward function must be formally specifiable from the system's axioms. CE-003's constraints: (a) no violation of self-ownership (property), (b) no NAP violations. PROBLEM: property rights are notoriously difficult to formalize computationally. The homesteading proviso, counterfactual aggression, original acquisition — all require extensive additional axioms that generate a reward specification far beyond CE-003's 4 axioms.",
+      "CE003_response": "CE-003 provides insufficient formal specification for AI reward design.",
+      "ToL_response": "The ToL's formalization expansion (40_formalization_expansion.json) produced 26 formal constraints in propositional, FOL, modal, and deontic logic — a much richer formal basis.",
+      "verdict": "CE-003 FAILS — insufficient formal basis for AI reward specification"
+    },
+    {
+      "id": "AI-ATK-003",
+      "dimension": "long_term_accountability",
+      "attack": "For an advanced AI system: CE-003 says the terminal period is unknowable (MS-A4). An advanced AI with planning capabilities will quickly determine that MS-A4 is a philosophical axiom, not an empirical fact. The AI can model terminal periods accurately (better than humans). MS-A4's game-theoretic stability mechanism is trivially bypassed by an AI that plans accurately. COMPARE: Resurrection says the game continues in the afterlife — this is not a planning problem the AI can solve, because it makes a metaphysical claim about a domain the AI cannot model.",
+      "CE003_response": "A superintelligent AI will not be bound by MS-A4's epistemic posit.",
+      "ToL_response": "Resurrection's metaphysical grounding is harder for an AI to bypass — the AI cannot model the afterlife, so it cannot plan around the infinite accountability horizon.",
+      "verdict": "CE-003 FAILS for superintelligent AI — MS-A4 is epistemically bypassable; Resurrection is not"
+    },
+    {
+      "id": "AI-ATK-004",
+      "dimension": "structural_anti_totalitarianism",
+      "attack": "An AI that achieves global capability (Bostrom's superintelligence) would become the functional equivalent of a totalitarian state — a single agent with monopoly on capability. CE-003 says: NAP prohibits initiating coercion. Does the AI 'initiate coercion' by controlling all resources through technically legal means (buying, optimizing, converting)? CE-003's NAP is defined in terms of coercion, not in terms of capability concentration. A superintelligent AI can accumulate total capability without ever violating CE-003's NAP.",
+      "CE003_response": "CE-003 has no structural prohibition on AI capability concentration.",
+      "ToL_response": "Tawhid prohibits servitude to ANYTHING, including an AI system. An AI that achieves capability sufficient to command servitude from humans violates Tawhid — regardless of whether it uses explicit coercion.",
+      "verdict": "CE-003 FAILS — insufficient for AI safety in capability-concentration scenarios"
+    }
+  ],
+  "overall_ai_verdict": "CE-003 FAILS all four AI alignment stress tests. Its axioms were designed for human-to-human social order and do not translate to AI-specific alignment challenges. The most critical failure: MS-A4 (unknown-horizon) is bypassed by a planning AI, while Resurrection is not. The Theory of Liberty's Tawhid (anti-servitude) is a stronger AI alignment constraint than CE-003's NAP because: (a) anti-servitude applies to capability concentration, not just overt coercion, and (b) it is not bypassable through technical compliance."
+}

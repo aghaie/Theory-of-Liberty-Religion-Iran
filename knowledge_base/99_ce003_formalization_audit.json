@@ -1,0 +1,46 @@
+{
+  "question": "Can CE-003 be formalized to theorem-prover-ready standard?",
+  "attempt": {
+    "MS-A1_formalization": {
+      "FOL": "∀x[Asserts(x, ¬FW) → FW]",
+      "problems": "This requires a predicate 'Asserts' with a formal semantics. What is the domain of x? What counts as an assertion? The FOL formalization leaves 'Asserts' undefined. A theorem prover cannot check this without a formal semantics for assertions.",
+      "prover_ready": false
+    },
+    "MS-A2_formalization": {
+      "FOL": "∀x[Person(x) → Owns(x, body(x))] ∧ ∀x∀r[Person(x) ∧ Unowned(r) ∧ LabourMixed(x, r) → Owns(x, r)]",
+      "problems": "Requires formal definitions of: Person, Owns, body (functional mapping), Unowned, LabourMixed. Each of these has contested definitions. 'LabourMixed' is particularly problematic — Locke spent pages on it. The FOL form is sketchy but possible with extensive definition work.",
+      "prover_ready": false
+    },
+    "MS-A3_formalization": {
+      "Deontic": "∀x∀y∀a[Person(x) ∧ Person(y) ∧ ¬AggressedAgainst(x, y) → Forbidden(Coerce(x, y, a))]",
+      "problems": "Requires formal definition of: Coerce (highly contested), AggressedAgainst (circular with Coerce?), 'initiating' (requires counterfactual evaluation). Deontic formalization requires a deontic logic — CE-003 uses none specified. The 'categorical' character of the prohibition requires modal-deontic framework. CRITICAL: 'Forbidden' in deontic logic can be either D (standard) or K4D. CE-003 does not specify which deontic logic it employs.",
+      "prover_ready": false
+    },
+    "MS-A4_formalization": {
+      "Modal": "□(∀x∀t[Agent(x) ∧ time(t) → ¬KnowsTerminal(x, t)])",
+      "problems": "The box (□) operator requires specification of which modal logic applies. KnowsTerminal requires a formal epistemic semantics. The claim 'at any time' requires a temporal domain T. CRITICAL: the formalization under S4 (knowledge logic) would be: K_x(¬∃t[Terminal(t)]) — 'agent x knows that no terminal exists.' But this is equivalent to saying agents cannot reason about finite games, which contradicts standard game theory. A theorem prover would detect this as inconsistent with standard game-theoretic axioms about finite games.",
+      "prover_ready": false,
+      "consistency_problem": "MS-A4 + standard finite-game axioms may be INCONSISTENT. Standard game theory axioms include: ∃t[Terminal(t)] for finite games. MS-A4 says no agent knows T. These are consistent only if knowledge and existence are separated — which requires a specific epistemic logic. CE-003 does not specify the epistemic logic, making consistency unverifiable."
+    }
+  },
+  "ce003_formal_readiness_score": {
+    "score": 22,
+    "scale": "0-100",
+    "components": {
+      "explicit_inference_rules": 0,
+      "formal_language_defined": 0,
+      "key_terms_defined": 15,
+      "deontic_logic_specified": 0,
+      "modal_logic_specified": 0,
+      "consistency_demonstrable": 40,
+      "arithmetic_encoding": 0
+    },
+    "comparison_with_ToL": {
+      "ToL_score": 64,
+      "CE003_score": 22,
+      "gap": 42,
+      "note": "The Theory of Liberty scored 64/100 on formal readiness in Phase 1 Step 8. CE-003, despite having fewer named axioms, scores only 22/100 because it has NO explicit inference rules, NO formal language, and its deontic content (NAP) uses no specified deontic logic. CE-003 is significantly less formalizable than the Theory of Liberty."
+    }
+  },
+  "verdict": "CE-003 CANNOT be formalized to theorem-prover-ready standard without significant additional work equivalent to what Phase 0.9 did for the Theory of Liberty. Key blockers: no formal language, no inference rules, no deontic logic, no epistemic logic for MS-A4, potential inconsistency between MS-A4 and standard finite-game axioms. CE-003 is LESS formalizable than the Theory of Liberty (22/100 vs 64/100)."
+}

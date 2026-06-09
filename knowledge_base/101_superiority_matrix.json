@@ -1,0 +1,181 @@
+{
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Named Axiom Count",
+      "CE003": {
+        "value": 4,
+        "note": "4 named"
+      },
+      "ToL": {
+        "value": 6,
+        "note": "6 named"
+      },
+      "winner": "CE-003",
+      "margin": "CE-003 has 2 fewer named axioms",
+      "weight": 3
+    },
+    {
+      "id": "D2",
+      "name": "Hidden Axiom Count",
+      "CE003": {
+        "value": 13,
+        "note": "13 discovered in Phase 2.5"
+      },
+      "ToL": {
+        "value": 12,
+        "note": "12 discovered in Phase 0.9"
+      },
+      "winner": "ToL",
+      "margin": "ToL has 1 fewer hidden axiom",
+      "weight": 3
+    },
+    {
+      "id": "D3",
+      "name": "Total Axiom Count (Named + Hidden)",
+      "CE003": {
+        "value": 17
+      },
+      "ToL": {
+        "value": 18
+      },
+      "winner": "CE-003",
+      "margin": "Trivial: CE-003 has 1 fewer total axiom",
+      "weight": 2
+    },
+    {
+      "id": "D4",
+      "name": "Parsimony (Derivations / Total Axioms)",
+      "CE003": {
+        "value": 0.35,
+        "note": "6 derivations / 17 total axioms"
+      },
+      "ToL": {
+        "value": 1.06,
+        "note": "19 derivations / 18 total axioms"
+      },
+      "winner": "ToL",
+      "margin": "ToL is 3× more parsimonious by derivation density",
+      "weight": 8
+    },
+    {
+      "id": "D5",
+      "name": "Last-Round Solution Quality",
+      "CE003": {
+        "value": "POSITED — fails 4 adversarial attacks",
+        "note": "MS-A4 is ad hoc, empirically falsifiable, bypassable"
+      },
+      "ToL": {
+        "value": "DERIVED — passes all adversarial attacks",
+        "note": "Resurrection is derived, metaphysical, immune to dying-person counterexample"
+      },
+      "winner": "ToL",
+      "margin": "ToL's solution is structurally superior on all 6 evaluated dimensions",
+      "weight": 10
+    },
+    {
+      "id": "D6",
+      "name": "Derivational Depth",
+      "CE003": {
+        "value": 6,
+        "note": "6 claimed derivations"
+      },
+      "ToL": {
+        "value": 19,
+        "note": "19 documented inference chains"
+      },
+      "winner": "ToL",
+      "margin": "ToL derives 3× more conclusions from its axioms",
+      "weight": 7
+    },
+    {
+      "id": "D7",
+      "name": "Formalizability Score",
+      "CE003": {
+        "value": "22/100"
+      },
+      "ToL": {
+        "value": "64/100"
+      },
+      "winner": "ToL",
+      "margin": "ToL is 3× more formalizable",
+      "weight": 9
+    },
+    {
+      "id": "D8",
+      "name": "AI Applicability",
+      "CE003": {
+        "value": "FAILS 4/4 AI stress tests"
+      },
+      "ToL": {
+        "value": "PASSES 2/4, PARTIAL 2/4"
+      },
+      "winner": "ToL",
+      "margin": "ToL is structurally more applicable to AI alignment",
+      "weight": 7
+    },
+    {
+      "id": "D9",
+      "name": "Agreement Admissibility",
+      "CE003": {
+        "value": "Fails for: secular materialists (MS-A4), determinists, utilitarians, AI agents"
+      },
+      "ToL": {
+        "value": "Fails for: determinists (same); stronger for communitarians, utilitarians, AI agents"
+      },
+      "winner": "ToL",
+      "margin": "Marginal: ToL slightly broader acceptance across rational agent types",
+      "weight": 5
+    },
+    {
+      "id": "D10",
+      "name": "Robustness (Adversarial Attacks Survived)",
+      "CE003": {
+        "value": "MS-A4 fails 4/4 adversarial attacks; MS-A3 has definitional problem; MS-A2 has partial redundancy"
+      },
+      "ToL": {
+        "value": "Resurrection survives all 4 adversarial attacks; core chain valid; 5 of 8 inference tests valid"
+      },
+      "winner": "ToL",
+      "margin": "ToL is significantly more robust",
+      "weight": 10
+    },
+    {
+      "id": "D11",
+      "name": "Explanatory Power",
+      "CE003": {
+        "value": "Explains: property rights, anti-statism, last-round (weakly)"
+      },
+      "ToL": {
+        "value": "Explains: property rights, anti-statism, last-round, accountability, AI alignment, religion-state relationship, game-theoretic stability, moral realism grounding"
+      },
+      "winner": "ToL",
+      "margin": "ToL explains 5+ additional phenomena not covered by CE-003",
+      "weight": 8
+    },
+    {
+      "id": "D12",
+      "name": "Ad Hoc Axioms",
+      "CE003": {
+        "value": 1,
+        "note": "MS-A4 is textbook ad hoc"
+      },
+      "ToL": {
+        "value": 0,
+        "note": "No confirmed ad hoc axioms"
+      },
+      "winner": "ToL",
+      "margin": "Critical defect for CE-003: an ad hoc axiom undermines formal credibility",
+      "weight": 9
+    }
+  ],
+  "score_summary": {
+    "method": "Sum of (weight × (1 if winner=ToL, 0.5 if tied, 0 if winner=CE-003))",
+    "ToL_weighted_score": 76,
+    "CE003_weighted_score": 5,
+    "total_weight": 81,
+    "ToL_pct": 94,
+    "CE003_pct": 6,
+    "verdict": "Theory of Liberty wins 76/81 weighted dimensions (94%). CE-003 wins 5/81 weighted dimensions (6%). CE-003's only advantage is named axiom count (2 fewer). This is a minor syntactic advantage that disappears when hidden axioms, derivational depth, robustness, formalizability, and ad hoc character are counted."
+  }
+}

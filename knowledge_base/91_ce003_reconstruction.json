@@ -1,0 +1,52 @@
+{
+  "ce003": {
+    "name": "CE-003: Minimum Secular CFS",
+    "origin": "Constructed in Phase 2 Step 11 as minimal 4-axiom secular alternative.",
+    "axioms": [
+      {
+        "id": "MS-A1",
+        "text": "Free will exists. Denial of free will is self-refuting because assertion of any claim presupposes the ability to reason, which presupposes free will.",
+        "type": "epistemological_foundational",
+        "source_tradition": "Performative-contradiction argument; see also C-000039 in Theory of Liberty",
+        "explicit": true
+      },
+      {
+        "id": "MS-A2",
+        "text": "Persons own themselves. Property in external things arises from self-ownership through labour-mixing/homesteading of unowned resources.",
+        "type": "normative_foundational",
+        "source_tradition": "Rothbard (Ethics of Liberty); Locke (Second Treatise, Ch. 5)",
+        "explicit": true
+      },
+      {
+        "id": "MS-A3",
+        "text": "Initiating coercion against a person or their legitimately-held property is categorically impermissible. (Non-Aggression Principle, NAP.)",
+        "type": "normative_deontological",
+        "source_tradition": "Rothbard; Spooner; Spencer; natural rights tradition",
+        "explicit": true
+      },
+      {
+        "id": "MS-A4",
+        "text": "The terminal period of social interaction is unknowable by any agent at any time.",
+        "type": "game_theoretic_stability",
+        "source_tradition": "Constructed for CE-003; functional analogue to Resurrection in Theory of Liberty",
+        "explicit": true
+      }
+    ],
+    "claimed_derivations": [
+      "MS-A1 → self-ownership justified (I own my reasoning capacity → I own my body)",
+      "MS-A2 → property rights as pre-political (arises prior to any state)",
+      "MS-A3 → anti-statism (state = systematic initiator of coercion → state is impermissible)",
+      "MS-A4 → last-round stability (unknown terminal prevents backward induction → cooperation is always rational)",
+      "MS-A1 + MS-A2 + MS-A3 → liberty (sphere of non-interference over self and property)",
+      "MS-A3 + MS-A4 → structural resistance to totalitarianism (totalitarianism = maximised coercion → maximally impermissible)"
+    ],
+    "claimed_inference_rules": [
+      "Modus ponens (assumed)",
+      "Universal instantiation (assumed)",
+      "Standard first-order logic (assumed)"
+    ],
+    "formal_language": "Natural language with formal intent — no explicit formal grammar stated.",
+    "consistency_mechanism": "Self-application: does the system violate its own axioms? NAP applied to NAP: the NAP itself does not initiate coercion → passes. Self-ownership applied to self-ownership: the axiom does not deprive anyone of ownership → passes."
+  },
+  "audit_note": "Reconstruction reveals that CE-003 as stated is a minimal 4-axiom skeleton. The derivations claimed presuppose inference rules, definitions, and background conditions that are not stated. Phase 2.5 will audit these systematically."
+}

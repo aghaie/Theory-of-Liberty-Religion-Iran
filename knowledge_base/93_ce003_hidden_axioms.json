@@ -1,0 +1,168 @@
+{
+  "named_axioms": 4,
+  "hidden_axioms": [
+    {
+      "id": "HA-CE-001",
+      "name": "Objective Truth",
+      "description": "MS-A1 (free will via performative contradiction) requires that there is an objective truth that is falsified by the denial. Without objective truth, the contradiction is not a contradiction.",
+      "required_by": [
+        "MS-A1"
+      ],
+      "classification": "SECRETLY_FOUNDATIONAL",
+      "parallel_in_ToL": "HA-001 (same requirement, explicitly identified in Phase 0.9)"
+    },
+    {
+      "id": "HA-CE-002",
+      "name": "Reliable Reason",
+      "description": "The performative contradiction argument requires that reason is a reliable guide to truth. If reason is unreliable, the self-refutation argument fails.",
+      "required_by": [
+        "MS-A1"
+      ],
+      "classification": "SECRETLY_FOUNDATIONAL",
+      "parallel_in_ToL": "HA-002 (same requirement)"
+    },
+    {
+      "id": "HA-CE-003",
+      "name": "Non-Arbitrariness of Logical Inference",
+      "description": "Any derivation in CE-003 requires that inference rules are non-arbitrary. Modus ponens must be valid. This is not stated.",
+      "required_by": [
+        "MS-A1",
+        "MS-A2",
+        "MS-A3",
+        "MS-A4"
+      ],
+      "classification": "SECRETLY_FOUNDATIONAL",
+      "parallel_in_ToL": "HA-005 (same requirement)"
+    },
+    {
+      "id": "HA-CE-004",
+      "name": "Identity Persistence",
+      "description": "Self-ownership (MS-A2) requires that the same person who mixes labour at time T is the owner at time T+1. This requires a theory of personal identity across time. CE-003 does not state it.",
+      "required_by": [
+        "MS-A2"
+      ],
+      "classification": "CRITICAL",
+      "parallel_in_ToL": "HA-004 (same requirement)",
+      "extra_note": "Especially important for property rights: does inherited property require a theory of identity-through-death?"
+    },
+    {
+      "id": "HA-CE-005",
+      "name": "Moral Realism",
+      "description": "MS-A3 (NAP) says coercion is 'categorically impermissible.' The word 'categorically' imports moral realism: there are objective moral facts, not merely preferences or conventions. CE-003 does not state this.",
+      "required_by": [
+        "MS-A3"
+      ],
+      "classification": "SECRETLY_FOUNDATIONAL",
+      "parallel_in_ToL": "HA-012 (same requirement)",
+      "extra_note": "Without moral realism, NAP is merely a PREFERENCE ('I prefer not to be coerced') not a CATEGORICAL PROHIBITION. The entire anti-statism derivation depends on NAP's categorical character."
+    },
+    {
+      "id": "HA-CE-006",
+      "name": "Definition of Coercion",
+      "description": "MS-A3 prohibits 'initiating coercion.' This requires a definition of coercion that CE-003 does not provide. Is withholding a resource coercion? Is environmental pollution coercion? Is monopoly coercion? Each answer requires additional axioms.",
+      "required_by": [
+        "MS-A3"
+      ],
+      "classification": "DEFINITIONAL_GAP",
+      "parallel_in_ToL": "Rule of Taslīṭ (A-000008) provides explicit definition of property sovereignty",
+      "extra_note": "The Rothbardian tradition has produced hundreds of pages on what counts as aggression. CE-003 treats this as settled when it is not."
+    },
+    {
+      "id": "HA-CE-007",
+      "name": "Original Acquisition Justice",
+      "description": "MS-A2 (homesteading) requires that first-possession of unowned resources is just. This is the Lockean proviso problem: what if all resources are already owned? Or what if a first-possessor claims monopoly on a scarce resource? CE-003 does not resolve this.",
+      "required_by": [
+        "MS-A2"
+      ],
+      "classification": "CRITICAL_GAP",
+      "parallel_in_ToL": "Rule of Taslīṭ + Dignitary Equality (A-000009) together address this",
+      "extra_note": "Nozick's Anarchy, State, and Utopia devotes 20 pages to this and still does not fully resolve it."
+    },
+    {
+      "id": "HA-CE-008",
+      "name": "Rational Expected-Utility Maximization",
+      "description": "MS-A4 (unknown-horizon posit) only solves the last-round problem if agents are rational expected-utility maximizers who update their strategies on terminal-period probability. CE-003 does not state this assumption.",
+      "required_by": [
+        "MS-A4"
+      ],
+      "classification": "GAME_THEORETIC_PREREQUISITE",
+      "parallel_in_ToL": "None — Resurrection operates independently of rationality assumption",
+      "extra_note": "Critical: if agents are NOT EU-maximizers (e.g., they are time-inconsistent, hyperbolic discounters, or simply vengeful), MS-A4 does not stabilize cooperation."
+    },
+    {
+      "id": "HA-CE-009",
+      "name": "Common Knowledge of MS-A4",
+      "description": "For MS-A4 to stabilize cooperation game-theoretically, it must be COMMON KNOWLEDGE among all players that the terminal period is unknowable. If even one player believes otherwise, the cooperative equilibrium breaks down from their end. CE-003 does not state this.",
+      "required_by": [
+        "MS-A4"
+      ],
+      "classification": "GAME_THEORETIC_PREREQUISITE",
+      "parallel_in_ToL": "Resurrection is a shared cultural-metaphysical belief providing natural common knowledge",
+      "extra_note": "This is a crucial disanalogy with Resurrection. Resurrection provides common knowledge through shared cultural-religious practice. MS-A4 is a philosophical posit that rational agents must individually accept."
+    },
+    {
+      "id": "HA-CE-010",
+      "name": "Counterfactual Reasoning for Aggression Identification",
+      "description": "To apply NAP, agents must determine who 'initiated' coercion. This requires counterfactual reasoning: 'what would have happened without this action?' CE-003 provides no specification for how counterfactuals are evaluated.",
+      "required_by": [
+        "MS-A3"
+      ],
+      "classification": "OPERATIONAL_GAP",
+      "parallel_in_ToL": "Implied through the property-sovereignty framework but similarly not fully specified"
+    },
+    {
+      "id": "HA-CE-011",
+      "name": "Natural Person Concept",
+      "description": "MS-A2 (self-ownership) applies to 'persons.' What is a person? Does it include corporations, animals, future generations, AI systems? CE-003 does not define 'person.'",
+      "required_by": [
+        "MS-A2",
+        "MS-A3"
+      ],
+      "classification": "DEFINITIONAL_GAP",
+      "parallel_in_ToL": "A-000009 (dignitary equality) + A-000001 (free will) together define personhood"
+    },
+    {
+      "id": "HA-CE-012",
+      "name": "Causal Regularity",
+      "description": "For CE-003's derivations to function, causes must reliably produce effects — so that coercion can be identified as causing harm, property can be traced to labour, etc. CE-003 assumes causal regularity without stating it.",
+      "required_by": [
+        "MS-A2",
+        "MS-A3"
+      ],
+      "classification": "METAPHYSICAL_PREREQUISITE",
+      "parallel_in_ToL": "HA-003 (same requirement in Theory of Liberty)"
+    },
+    {
+      "id": "HA-CE-013",
+      "name": "Temporal Epistemic Stability of MS-A4",
+      "description": "MS-A4 says the terminal period is 'unknowable at any time.' But what happens when an agent observes a near-terminal signal (e.g., they are dying, or the counterparty is dying)? Does MS-A4 hold even when strong probabilistic evidence suggests T is near? If MS-A4 allows for near-terminal beliefs, backward induction can resume from that near-terminal belief. CE-003 does not address this.",
+      "required_by": [
+        "MS-A4"
+      ],
+      "classification": "CRITICAL_STRUCTURAL_GAP",
+      "parallel_in_ToL": "Resurrection: the afterlife makes ALL terminals unknowable because the game continues beyond physical death — not merely 'we don't know when T is' but 'T ≥ ∞ is structurally guaranteed'"
+    }
+  ],
+  "true_axiom_count": 17,
+  "effective_axiom_burden": "CE-003 has 4 named + 13 hidden = 17 total axioms. The Theory of Liberty has 6 named + 12 hidden = 18 total axioms. CE-003's apparent parsimony (4 vs 6 named) disappears when hidden axioms are counted (17 vs 18). CE-003 has nearly identical axiom burden to the Theory of Liberty.",
+  "classified_as_secretly_foundational": [
+    "HA-CE-001",
+    "HA-CE-002",
+    "HA-CE-003",
+    "HA-CE-005"
+  ],
+  "classified_as_critical": [
+    "HA-CE-004",
+    "HA-CE-007",
+    "HA-CE-013"
+  ],
+  "comparison_with_ToL": {
+    "CE003_named": 4,
+    "CE003_hidden": 13,
+    "CE003_total": 17,
+    "ToL_named": 6,
+    "ToL_hidden": 12,
+    "ToL_total": 18,
+    "parsimony_advantage": "NONE — CE-003 saves 2 named axioms but adds 1 hidden axiom. Effectively equivalent."
+  }
+}

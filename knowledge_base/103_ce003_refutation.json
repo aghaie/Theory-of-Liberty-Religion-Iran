@@ -1,0 +1,31 @@
+{
+  "role": "Strongest possible refutation of CE-003 as a genuine counterexample",
+  "arguments": [
+    {
+      "id": "REF-CE-001",
+      "title": "The Ad Hoc Axiom Disqualification",
+      "argument": "A formal system is axiom-set-dependent: its claims are only as trustworthy as its axioms are motivated. An ad hoc axiom — one added specifically to solve a problem for the theory — does not constitute a genuine structural solution. MS-A4 was CONSTRUCTED to make CE-003 pass C5 (last-round). It has no independent motivation from any existing philosophical tradition. By contrast, Resurrection's game-theoretic function was NOT constructed to solve the last-round problem — the last-round problem is INDEPENDENTLY derivable from the theological axioms. The ad hoc character of MS-A4 means CE-003 is not an independent formal system but a POST-HOC PATCH designed specifically to mimic the ToL's game-theoretic solution. A post-hoc patch is not a genuine counterexample — it is a derivation from the ToL's structure with theological content removed.",
+      "strength": "DEFINITIVE"
+    },
+    {
+      "id": "REF-CE-002",
+      "title": "The Hidden-Axiom Parity Collapse",
+      "argument": "CE-003's apparent advantage of 2 fewer named axioms collapses when hidden axioms are counted: 13 vs. 12. Furthermore: CE-003's 13 hidden axioms include all three of the secretly-foundational hidden axioms of the ToL (HA-001, HA-002, HA-005) PLUS two additional critical-gap hidden axioms that the ToL does not require (HA-CE-006 definition of coercion, HA-CE-007 original acquisition justice, HA-CE-008 rational EU maximization, HA-CE-009 common knowledge of MS-A4). CE-003 has MORE qualitatively significant hidden axioms than the ToL, not fewer. The parsimony advantage is negative when quality is counted.",
+      "strength": "STRONG"
+    },
+    {
+      "id": "REF-CE-003",
+      "title": "The Last-Round Structural Failure",
+      "argument": "Phase 2.5 Step 6 demonstrated that MS-A4 fails all 4 adversarial attacks on the last-round problem: (a) Common-knowledge failure, (b) Sophisticated-defector bypass, (c) Bootstrap regress, (d) Defector-community enforcement gap. CE-003 DOES NOT GENUINELY SOLVE the last-round problem. It posits that the terminal period is unknowable — but under adversarial conditions (which is the appropriate test), this posit breaks down in all four tested scenarios. Since C5 (last-round solution) was the DEFINING criterion differentiating the ToL from all 12 competitors, and CE-003's C5 solution fails under adversarial testing, CE-003 does not actually pass C5.",
+      "strength": "DEFINITIVE"
+    },
+    {
+      "id": "REF-CE-004",
+      "title": "The Formalizability Deficit",
+      "argument": "CE-003 scores 22/100 on formalizability vs. ToL's 64/100. The theory's uniqueness claim is specifically about being 'the only CFS' — a Consistent Formal System. If CE-003 is not formalizable to the same standard as the Theory of Liberty, it is not a CFS — it is a proto-philosophical sketch. A counterexample must be of the same TYPE as what it claims to match. CE-003, scoring 22/100 on formalizability, does not satisfy the FORMAL part of 'Consistent Formal System.' It is an informal system with formal aspirations. Therefore CE-003 does not refute the uniqueness claim for CFS — it only shows that a rough informal sketch can be constructed. This is not the same thing.",
+      "strength": "STRONG"
+    }
+  ],
+  "strongest_attack": "REF-CE-001 (ad hoc axiom) + REF-CE-003 (last-round structural failure) together",
+  "conclusion": "CE-003 fails on two decisive criteria: (1) MS-A4 is a textbook ad hoc axiom — added after the fact to solve the ToL's problem. An ad hoc posit is not an independent discovery. (2) MS-A4 fails adversarial last-round testing — CE-003 does not ACTUALLY solve C5, it only appears to solve C5 in the absence of adversarial analysis. These two failures together constitute a refutation of CE-003 as a genuine CFS counterexample."
+}

@@ -1,0 +1,49 @@
+{
+  "total_axioms": 4,
+  "independence_analyses": [
+    {
+      "axiom": "MS-A1",
+      "verdict": "INDEPENDENT",
+      "derivable_from_others": false,
+      "analysis": "MS-A1 (free will) cannot be derived from MS-A2 (self-ownership), MS-A3 (NAP), or MS-A4 (unknown-horizon). None of the other three axioms entail that free will exists — they only presuppose it. INDEPENDENT: MS-A1 is a genuine axiom of CE-003.",
+      "flag": null
+    },
+    {
+      "axiom": "MS-A2",
+      "verdict": "PARTIALLY_DEPENDENT",
+      "derivable_from_others": "PARTIAL",
+      "analysis": "Self-ownership (MS-A2) is NOT derivable from MS-A3 alone. However, it IS partially presupposed by MS-A1: 'I own my reasoning capacity → I own my body' is a derivation from MS-A1, not an independent axiom. The PROPERTY ACQUISITION part of MS-A2 (homesteading) is genuinely independent. The SELF-OWNERSHIP part of MS-A2 may be derivable from MS-A1 given the hidden bridge premise that 'to own one's reasoning capacity is to own the substrate of reasoning.' FLAG: MS-A2 is partially redundant — the self-ownership component may reduce to MS-A1 given a bridge premise. The homesteading component is independently required.",
+      "flag": "PARTIAL_REDUNDANCY_RISK"
+    },
+    {
+      "axiom": "MS-A3",
+      "verdict": "DEFINITIONALLY_DEPENDENT",
+      "derivable_from_others": "DEFINITIONAL",
+      "analysis": "MS-A3 (NAP) is not derivable from MS-A1 or MS-A2 without an additional bridge. Why is initiating coercion categorically impermissible? The standard derivation is: self-ownership (MS-A2) → coercion violates self-ownership → coercion is impermissible. BUT this derivation requires: (a) categorical impermissibility (moral realism, not just instrumental prudence), and (b) 'violations of self-ownership are always wrong' which is an ADDITIONAL normative premise. As stated, MS-A3 is a deontological axiom that CANNOT be derived from the property axiom alone without importing moral realism. ALTERNATIVE READING: if MS-A3 is intended as a DEFINITION ('coercion' means 'that which is impermissible'), then it is definitional, not synthetic. FLAG: MS-A3 is either (a) a genuine independent axiom (requiring moral realism), or (b) a definition — in which case it adds no content beyond what 'impermissible' already implies.",
+      "flag": "DEFINITIONAL_OR_MORAL_REALISM_REQUIRED"
+    },
+    {
+      "axiom": "MS-A4",
+      "verdict": "INDEPENDENT_AND_AD_HOC",
+      "derivable_from_others": false,
+      "analysis": "MS-A4 (unknown-horizon posit) is completely independent of MS-A1, MS-A2, MS-A3. No derivation from the other three axioms produces MS-A4. MS-A4 was ADDED specifically to solve the last-round problem — it was not independently motivated by the other axioms. AD HOC FLAG: an axiom is 'ad hoc' if it is added specifically to save a theory from a counterexample, with no independent motivation. MS-A4 is textbook ad hoc: it was added to CE-003 precisely and only to solve the last-round problem. It has no derivation from the liberty-grounding axioms and no independent motivation. VERDICT: INDEPENDENT but AD HOC.",
+      "flag": "AD_HOC_AXIOM"
+    }
+  ],
+  "summary": {
+    "truly_independent": [
+      "MS-A1",
+      "MS-A4"
+    ],
+    "partially_dependent": [
+      "MS-A2"
+    ],
+    "definitional_or_requires_hidden_axiom": [
+      "MS-A3"
+    ],
+    "ad_hoc_axioms": [
+      "MS-A4"
+    ],
+    "critical_finding": "CE-003 has ONE confirmed ad hoc axiom (MS-A4) and ONE axiom with a definitional problem (MS-A3). The ad hoc character of MS-A4 is a serious structural defect: axioms should be independently motivated, not added to solve specific problems. Compare: Resurrection in the Theory of Liberty is not ad hoc — it is independently motivated by theology and connects to Tawhid and Prophethood via derivation chains. MS-A4 has no such motivation."
+  }
+}

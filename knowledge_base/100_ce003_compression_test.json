@@ -1,0 +1,40 @@
+{
+  "question": "Can CE-003 be compressed beyond 4 axioms?",
+  "attempt_3_axioms": {
+    "description": "Remove MS-A4 (unknown-horizon posit).",
+    "result": {
+      "C5_status": "FAIL — last-round problem unsolved without MS-A4",
+      "verdict": "INVALID — removing MS-A4 causes C5 failure",
+      "alternative_without_A4": "Without MS-A4, CE-003 reduces to Rothbardian Libertarianism (MS-A1 + MS-A2 + MS-A3). This was already tested in Phase 2 and failed C5. CE-003 WITHOUT MS-A4 = SYS-04 (Rothbardian), score 64.5/80."
+    }
+  },
+  "attempt_2_axioms": {
+    "description": "Remove MS-A2 (self-ownership): retain FW, NAP, unknown-horizon.",
+    "result": {
+      "C3_status": "FAIL — liberty (property rights) has no grounding without self-ownership",
+      "C4_status": "FAIL — property rights cannot be derived without self-ownership",
+      "verdict": "INVALID — removing MS-A2 causes C3 and C4 failures"
+    }
+  },
+  "attempt_2_axioms_alt": {
+    "description": "Remove MS-A3 (NAP): retain FW, self-ownership, unknown-horizon.",
+    "result": {
+      "C6_status": "FAIL — structural anti-totalitarianism requires NAP",
+      "C3_status": "WEAKENED — liberty cannot be defined as non-interference without NAP",
+      "verdict": "INVALID — removing MS-A3 causes multiple failures"
+    }
+  },
+  "attempt_1_axiom": {
+    "description": "Could all 4 axioms derive from a single meta-axiom?",
+    "result": {
+      "candidate_meta_axiom": "Each person is a self-originating cause of action with sovereignty over their causal domain, and this sovereignty extends temporally without knowable bound.",
+      "problems": "This 'meta-axiom' implicitly contains: FW (self-originating cause), self-ownership (sovereignty over causal domain), NAP (non-interference with sovereignty), and unknown-horizon (temporally without knowable bound). It is not actually one axiom — it is a conjunction of four claims compressed into a sentence. A conjunction is as burdensome as its conjuncts.",
+      "verdict": "INVALID — the single-axiom form is a disguised conjunction, not a genuine compression"
+    }
+  },
+  "minimum_compression": {
+    "result": "4 axioms is the MINIMUM for CE-003. Any further compression causes at least one required property to fail.",
+    "comparison": "Theory of Liberty minimum kernel: 6 axioms (A-000001, A-000004, A-000006, A-000007, A-000011, A-000012). The ToL minimum was established in Phase 0.9 Step 9 (41_minimum_axiom_set.json). CE-003 minimum: 4 axioms. BUT: CE-003 requires 13 hidden axioms vs. ToL's 12. CE-003 total: 17 axioms. ToL total: 18 axioms. The one-axiom saving is real but trivial."
+  },
+  "verdict": "CE-003 cannot be compressed below 4 named axioms. The compression test confirms: all 4 axioms are load-bearing. Removing any single axiom causes at least one required property to fail. CE-003 is at its minimum — which is 1 hidden-axiom-equivalent less than the ToL. This is a real but tiny parsimony advantage."
+}
