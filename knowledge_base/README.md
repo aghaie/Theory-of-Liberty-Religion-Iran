@@ -8,6 +8,7 @@ After reading these files, the source PDF is not needed for analysis.
 
 ## File Index
 
+### Phase 1 — Representative Sample (superseded)
 | File | Contents |
 |------|----------|
 | `01_paragraph_index.json` | 70 representative paragraphs with IDs, chapter, section, page, text |
@@ -22,6 +23,15 @@ After reading these files, the source PDF is not needed for analysis.
 | `10_formalization_layer.json` | 20 symbolic formalizations of key claims with confidence scores |
 | `11_theory_architecture.json` | Layered theory architecture: Layer 0 (axioms) → Layer 5 (AI/terminal conclusions) |
 | `12_compilation_report.md` | Phase 0 Compilation Report answering representability questions |
+
+### Phase 2 — Complete Per-Paragraph Extraction (100% of book)
+| File | Contents |
+|------|----------|
+| `13_claims_complete.jsonl` | **16,569 claims** — every substantive sentence, with domain, type, axiom flag, paragraph source |
+| `14_definitions_complete.jsonl` | **1,244 definitions** — explicit and implicit definitions extracted per paragraph |
+| `15_axiom_candidates_complete.jsonl` | **838 axiom candidates** — propositions bearing axiomatic language, tiered (foundational / methodological / derived) |
+| `16_paragraph_extractions_full.jsonl` | **1,807 paragraph records** — per-paragraph summary: sentence count, claim/def/axiom counts, references list, dependency concepts list |
+| `17_compilation_report_full.json` | Final counts, domain breakdown, top-30 referenced entities |
 
 ## Theory in One Paragraph
 
