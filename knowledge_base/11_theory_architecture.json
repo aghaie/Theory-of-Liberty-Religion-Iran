@@ -1,0 +1,123 @@
+{
+  "theory_architecture": {
+    "name": "Theory of Liberty — Religion — Iran",
+    "author": "Mohammadali Jannatkhahdoost",
+    "description": "Layered architecture showing how claims build from foundational axioms to terminal conclusions across six layers.",
+
+    "layer_0_primary_axioms": {
+      "label": "Layer 0: Primary Axioms (Foundations)",
+      "description": "Propositions treated as necessarily true; the system rests on these.",
+      "nodes": [
+        { "id": "A-000001", "text": "Human free will exists and is universally presupposed." },
+        { "id": "A-000011", "text": "A valid formal system must have finite and minimal axioms." },
+        { "id": "A-000012", "text": "A valid system must be internally consistent (non-contradictory)." },
+        { "id": "A-000013", "text": "Liberty and property rights are prior normative axioms to any scientific conclusion." },
+        { "id": "A-000014", "text": "Theory has primacy over data in understanding history and religion." }
+      ]
+    },
+
+    "layer_1_direct_consequences": {
+      "label": "Layer 1: Direct Consequences of Primary Axioms",
+      "description": "Claims derivable directly and tightly from Layer 0.",
+      "nodes": [
+        { "id": "C-000001", "text": "Liberty = individual property rights.", "derives_from": ["A-000001", "A-000013"] },
+        { "id": "C-000015", "text": "Free will is the axiom everyone is forced to presuppose.", "derives_from": ["A-000001"] },
+        { "id": "C-000039", "text": "Denial of free will is self-refuting.", "derives_from": ["A-000001"] },
+        { "id": "C-000014", "text": "Acceptance of free will is prerequisite for science.", "derives_from": ["A-000001"] },
+        { "id": "C-000022", "text": "Liberty and property rights are prior to scientific conclusions.", "derives_from": ["A-000013"] },
+        { "id": "A-000002", "text": "Property begins with the human body.", "derives_from": ["A-000001"] },
+        { "id": "A-000004", "text": "Tawhid: no servitude to anything other than God.", "derives_from": [] },
+        { "id": "A-000005", "text": "No compulsion in religion.", "derives_from": ["A-000004"] }
+      ]
+    },
+
+    "layer_2_intermediate_theories": {
+      "label": "Layer 2: Intermediate Theoretical Constructions",
+      "description": "Multi-step derivations connecting axioms to applied domains.",
+      "nodes": [
+        { "id": "C-000003", "text": "Owning the body is necessary for being free.", "derives_from": ["C-000001", "A-000002"] },
+        { "id": "C-000038", "text": "Deterministic government is incompatible with volitional liberty.", "derives_from": ["A-000001", "C-000001"] },
+        { "id": "C-000016", "text": "Tawhid guarantees liberty by eliminating servitude to other-than-God.", "derives_from": ["A-000004", "C-000001"] },
+        { "id": "C-000017", "text": "Eliminating Tawhid proliferates axioms and leads to totalitarianism.", "derives_from": ["A-000011", "C-000016"] },
+        { "id": "C-000018", "text": "Formal systems must have finite, minimal axioms.", "derives_from": ["A-000011", "A-000012"] },
+        { "id": "C-000027", "text": "Gödel: humans are not machines; they perceive truths no formal system can prove.", "derives_from": ["E-000049"] },
+        { "id": "C-000028", "text": "A consistent formal system is necessary for understanding true religion.", "derives_from": ["A-000012", "C-000004"] },
+        { "id": "C-000021", "text": "Liberty is unstable without resurrection (last-round problem).", "derives_from": ["A-000006", "A-000001"] },
+        { "id": "A-000006", "text": "Resurrection exists; it stabilizes liberty.", "derives_from": ["A-000004"] },
+        { "id": "C-000023", "text": "Prophethood is barrier against fraud and false messiahs.", "derives_from": ["A-000007", "A-000004"] },
+        { "id": "C-000041", "text": "Law is discovered, not enacted.", "derives_from": ["C-000001", "A-000008"] },
+        { "id": "C-000042", "text": "Institution ≠ organization; conflating them destroys liberty.", "derives_from": ["C-000041"] },
+        { "id": "C-000046", "text": "Envy is the root of socialism.", "derives_from": ["C-000001"] },
+        { "id": "C-000034", "text": "Central bank = earthly god; violates liberty.", "derives_from": ["C-000001", "C-000016"] }
+      ]
+    },
+
+    "layer_3_applied_political_conclusions": {
+      "label": "Layer 3: Applied Political Conclusions",
+      "description": "Conclusions about governance, economics, law, and institutions.",
+      "nodes": [
+        { "id": "C-000043", "text": "Democracy does not legitimize the choice of the devil.", "derives_from": ["C-000001", "C-000022"] },
+        { "id": "C-000004", "text": "True religion purified of mysticism is the most precise system for liberty's defense.", "derives_from": ["C-000013", "A-000004", "A-000005"] },
+        { "id": "C-000040", "text": "Austrian School is incomplete without theological grounding.", "derives_from": ["A-000003", "C-000013"] },
+        { "id": "C-000050", "text": "Hobbes is more honest than Locke and Rothbard but still inconsistent.", "derives_from": ["C-000001", "A-000003"] },
+        { "id": "C-000047", "text": "Taxation is a penalty for creativity.", "derives_from": ["C-000046", "C-000001"] },
+        { "id": "C-000048", "text": "State education reproduces slavery.", "derives_from": ["C-000047", "C-000001"] },
+        { "id": "C-000045", "text": "Family disruption paves the way for the state.", "derives_from": ["C-000001", "C-000037"] },
+        { "id": "C-000036", "text": "Suffolk Bank demonstrates viability of free banking.", "derives_from": ["C-000022"] },
+        { "id": "C-000037", "text": "Mudarabah is the natural contract under free banking.", "derives_from": ["C-000022", "C-000036"] },
+        { "id": "C-000029", "text": "The formal system of liberty is equivalent to religion.", "derives_from": ["C-000028", "C-000004"] },
+        { "id": "C-000055", "text": "Religion is the antithesis of the state.", "derives_from": ["C-000004", "C-000006"] },
+        { "id": "C-000067", "text": "Rule of Taslīṭ is the religious form of property rights.", "derives_from": ["A-000008", "C-000041"] },
+        { "id": "C-000013", "text": "Liberty → property rights → religion (master derivation).", "derives_from": ["C-000001", "C-000004", "A-000003"] }
+      ]
+    },
+
+    "layer_4_historical_civilizational_conclusions": {
+      "label": "Layer 4: Historical and Civilizational Conclusions",
+      "description": "Conclusions about Iran, Islamic history, and civilizational patterns.",
+      "nodes": [
+        { "id": "C-000010", "text": "Iran is the civilizational continuum — land of proprietors.", "derives_from": ["C-000060", "A-000014"] },
+        { "id": "C-000059", "text": "Iran's crisis: distortion of religion + theft of history.", "derives_from": ["C-000058", "C-000060"] },
+        { "id": "C-000053", "text": "Shahnameh myths are the civilizational memory of liberty.", "derives_from": ["A-000014", "C-000060"] },
+        { "id": "C-000055", "text": "Religion is antithesis of the state.", "derives_from": ["C-000004", "C-000006"] },
+        { "id": "C-000056", "text": "Ghadir = transfer of wilayah, not political state.", "derives_from": ["C-000055", "A-000007"] },
+        { "id": "C-000057", "text": "Islam entered Iran as theory of transformation, not only sword.", "derives_from": ["C-000010", "C-000004"] },
+        { "id": "C-000060", "text": "Iranian nation defined by liberty and property rights.", "derives_from": ["C-000001", "C-000053"] },
+        { "id": "C-000032", "text": "Iran historically independent from Hobbesian Leviathan model.", "derives_from": ["C-000053", "A-000014"] },
+        { "id": "C-000074", "text": "Hegel, Marx, fascism, communism are recyclings of ancient mysticism.", "derives_from": ["A-000014", "C-000009"] },
+        { "id": "C-000078", "text": "If Shi'ism were consistent with socialism/fascism, Iran would already be finished.", "derives_from": ["C-000004", "C-000057"] }
+      ]
+    },
+
+    "layer_5_ai_and_terminal_conclusions": {
+      "label": "Layer 5: AI and Terminal Civilizational Conclusions",
+      "description": "The theory's final claims about AI alignment and the future of human civilization.",
+      "nodes": [
+        { "id": "C-000011", "text": "AI tests consistency: machines cannot tolerate contradiction.", "derives_from": ["A-000012"] },
+        { "id": "C-000012", "text": "True religion as CFS must be translatable to machines.", "derives_from": ["C-000004", "C-000011", "A-000012"] },
+        { "id": "C-000071", "text": "Theory of liberty is the only existing solution for AI ethics.", "derives_from": ["C-000012", "C-000029"] },
+        { "id": "C-000072", "text": "A civilization without consistent principles collapses.", "derives_from": ["A-000011", "A-000012"] },
+        { "id": "C-000051", "text": "Without Mahdism, the theory cannot be completed.", "derives_from": ["C-000013", "A-000015"] },
+        { "id": "C-000033", "text": "Iran, if it returns to its truth, becomes the land of liberty and faith and a model for human-machine civilization.", "derives_from": ["C-000010", "C-000059", "C-000013"] }
+      ]
+    },
+
+    "cross_cutting_themes": [
+      {
+        "theme": "Mysticism Pipeline",
+        "description": "Mysticism (in any historical form) → separates humans from property → delivers to collective entity → totalitarianism.",
+        "key_nodes": ["C-000009", "C-000074", "ARG-000012"]
+      },
+      {
+        "theme": "Iran and Religion Reconciliation",
+        "description": "The book's driving motivation: Iran and true religion are not enemies but two pillars of liberty. Their false opposition is manufactured by mysticism and state.",
+        "key_nodes": ["C-000033", "C-000059", "C-000010"]
+      },
+      {
+        "theme": "AI as Ultimate Test",
+        "description": "The age of AI demands consistent formal systems; the theory of liberty claims to be the only one that meets the requirement.",
+        "key_nodes": ["C-000011", "C-000012", "C-000071"]
+      }
+    ]
+  }
+}

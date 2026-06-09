@@ -1,0 +1,167 @@
+{
+  "dependency_graph": {
+    "description": "Maps which claims depend on which other claims or axioms. An edge C1 -> C2 means C1 DEPENDS ON C2 (C2 must be true for C1 to be true).",
+    "edges": [
+
+      { "claim_id": "C-000001", "depends_on": ["A-000001", "A-000013"] },
+
+      { "claim_id": "C-000002", "depends_on": ["C-000001"] },
+
+      { "claim_id": "C-000003", "depends_on": ["C-000002"] },
+
+      { "claim_id": "C-000004", "depends_on": ["C-000013", "A-000004", "A-000005"] },
+
+      { "claim_id": "C-000005", "depends_on": ["A-000004"] },
+
+      { "claim_id": "C-000006", "depends_on": ["A-000004"] },
+
+      { "claim_id": "C-000007", "depends_on": ["C-000006"] },
+
+      { "claim_id": "C-000008", "depends_on": ["C-000004", "A-000004"] },
+
+      { "claim_id": "C-000009", "depends_on": ["C-000001", "C-000002"] },
+
+      { "claim_id": "C-000010", "depends_on": ["C-000060", "A-000014"] },
+
+      { "claim_id": "C-000011", "depends_on": ["A-000012"] },
+
+      { "claim_id": "C-000012", "depends_on": ["C-000004", "C-000011", "A-000012"] },
+
+      { "claim_id": "C-000013", "depends_on": ["C-000001", "C-000004", "A-000003"] },
+
+      { "claim_id": "C-000014", "depends_on": ["A-000001"] },
+
+      { "claim_id": "C-000015", "depends_on": [] },
+
+      { "claim_id": "C-000016", "depends_on": ["A-000004", "C-000005"] },
+
+      { "claim_id": "C-000017", "depends_on": ["C-000016", "A-000011"] },
+
+      { "claim_id": "C-000018", "depends_on": ["A-000011", "A-000012"] },
+
+      { "claim_id": "C-000019", "depends_on": ["C-000018", "A-000012"] },
+
+      { "claim_id": "C-000020", "depends_on": ["C-000013", "C-000021"] },
+
+      { "claim_id": "C-000021", "depends_on": ["A-000006", "A-000001"] },
+
+      { "claim_id": "C-000022", "depends_on": ["A-000013"] },
+
+      { "claim_id": "C-000023", "depends_on": ["A-000007", "A-000004"] },
+
+      { "claim_id": "C-000024", "depends_on": ["A-000007"] },
+
+      { "claim_id": "C-000025", "depends_on": ["C-000046", "C-000045"] },
+
+      { "claim_id": "C-000026", "depends_on": ["A-000004"] },
+
+      { "claim_id": "C-000027", "depends_on": ["A-000001"] },
+
+      { "claim_id": "C-000028", "depends_on": ["A-000012", "C-000004"] },
+
+      { "claim_id": "C-000029", "depends_on": ["C-000028", "C-000004"] },
+
+      { "claim_id": "C-000030", "depends_on": ["C-000029", "A-000012"] },
+
+      { "claim_id": "C-000031", "depends_on": ["C-000004", "C-000013"] },
+
+      { "claim_id": "C-000032", "depends_on": ["C-000053", "A-000014"] },
+
+      { "claim_id": "C-000033", "depends_on": ["C-000013", "C-000010", "C-000004"] },
+
+      { "claim_id": "C-000034", "depends_on": ["C-000001", "C-000016"] },
+
+      { "claim_id": "C-000035", "depends_on": ["C-000034"] },
+
+      { "claim_id": "C-000036", "depends_on": ["C-000022"] },
+
+      { "claim_id": "C-000037", "depends_on": ["C-000022", "C-000036"] },
+
+      { "claim_id": "C-000038", "depends_on": ["A-000001", "C-000001"] },
+
+      { "claim_id": "C-000039", "depends_on": ["A-000001"] },
+
+      { "claim_id": "C-000040", "depends_on": ["A-000003", "C-000013"] },
+
+      { "claim_id": "C-000041", "depends_on": ["C-000001", "A-000008"] },
+
+      { "claim_id": "C-000042", "depends_on": ["C-000041"] },
+
+      { "claim_id": "C-000043", "depends_on": ["C-000001", "C-000022"] },
+
+      { "claim_id": "C-000044", "depends_on": ["C-000043"] },
+
+      { "claim_id": "C-000045", "depends_on": ["C-000001", "C-000037"] },
+
+      { "claim_id": "C-000046", "depends_on": ["C-000001"] },
+
+      { "claim_id": "C-000047", "depends_on": ["C-000046", "C-000001"] },
+
+      { "claim_id": "C-000048", "depends_on": ["C-000047", "C-000001"] },
+
+      { "claim_id": "C-000049", "depends_on": ["A-000008", "C-000001"] },
+
+      { "claim_id": "C-000050", "depends_on": ["C-000001", "A-000003"] },
+
+      { "claim_id": "C-000051", "depends_on": ["C-000013", "A-000015"] },
+
+      { "claim_id": "C-000052", "depends_on": ["C-000001", "C-000002"] },
+
+      { "claim_id": "C-000053", "depends_on": ["A-000014", "C-000060"] },
+
+      { "claim_id": "C-000054", "depends_on": ["C-000053", "C-000006"] },
+
+      { "claim_id": "C-000055", "depends_on": ["C-000004", "C-000006"] },
+
+      { "claim_id": "C-000056", "depends_on": ["C-000055", "A-000007"] },
+
+      { "claim_id": "C-000057", "depends_on": ["C-000010", "C-000004"] },
+
+      { "claim_id": "C-000058", "depends_on": ["A-000014"] },
+
+      { "claim_id": "C-000059", "depends_on": ["C-000058", "C-000060"] },
+
+      { "claim_id": "C-000060", "depends_on": ["C-000001", "C-000053"] },
+
+      { "claim_id": "C-000061", "depends_on": ["A-000014", "C-000057"] },
+
+      { "claim_id": "C-000062", "depends_on": ["C-000016", "A-000004"] },
+
+      { "claim_id": "C-000063", "depends_on": ["C-000001", "A-000004"] },
+
+      { "claim_id": "C-000064", "depends_on": ["A-000004", "A-000007"] },
+
+      { "claim_id": "C-000065", "depends_on": ["C-000040", "A-000003"] },
+
+      { "claim_id": "C-000066", "depends_on": ["A-000003", "C-000022"] },
+
+      { "claim_id": "C-000067", "depends_on": ["A-000008", "C-000041"] },
+
+      { "claim_id": "C-000068", "depends_on": ["C-000001", "C-000013"] },
+
+      { "claim_id": "C-000069", "depends_on": ["C-000034", "C-000001"] },
+
+      { "claim_id": "C-000070", "depends_on": ["C-000059", "A-000014"] },
+
+      { "claim_id": "C-000071", "depends_on": ["C-000012", "C-000029"] },
+
+      { "claim_id": "C-000072", "depends_on": ["A-000011", "A-000012"] },
+
+      { "claim_id": "C-000073", "depends_on": [] },
+
+      { "claim_id": "C-000074", "depends_on": ["A-000014", "C-000009"] },
+
+      { "claim_id": "C-000075", "depends_on": ["C-000001", "C-000006"] },
+
+      { "claim_id": "C-000076", "depends_on": ["A-000014"] },
+
+      { "claim_id": "C-000077", "depends_on": ["C-000059", "A-000014"] },
+
+      { "claim_id": "C-000078", "depends_on": ["C-000004", "C-000057"] },
+
+      { "claim_id": "C-000079", "depends_on": ["A-000014", "C-000010"] },
+
+      { "claim_id": "C-000080", "depends_on": ["C-000052", "C-000001"] }
+    ]
+  }
+}

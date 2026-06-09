@@ -1,0 +1,216 @@
+{
+  "argument_catalog": [
+
+    {
+      "argument_id": "ARG-000001",
+      "title": "The Master Argument: From Free Will to Religion",
+      "premises": [
+        "A-000001: Human free will is necessarily presupposed by all rational agents.",
+        "A-000013: Liberty and property rights are prior normative axioms to any scientific conclusion.",
+        "C-000001: Liberty in its objective form is individual property rights.",
+        "C-000066: Natural law grounded only in subject-centered reason cannot withstand the state or the majority."
+      ],
+      "intermediate_steps": [
+        "If free will exists, agents are responsible for their choices.",
+        "If agents are responsible for choices, property (beginning with the body) exists.",
+        "If property exists, its defense requires rights.",
+        "If rights are to be defensible against the state, majority, or power, they require a source beyond human convention.",
+        "Only a transcendent (divine) source of rights is independent of state or majority."
+      ],
+      "conclusion": "Individual property rights require a divine source. Therefore, religion (as the formal system of divinely-grounded rights) is necessary for liberty. True religion = the formal system of liberty.",
+      "source_paragraphs": ["P-000002", "P-000004", "P-000013", "P-000056"]
+    },
+
+    {
+      "argument_id": "ARG-000002",
+      "title": "The Game-Theory Argument for Religion (Last-Round Problem)",
+      "premises": [
+        "In any finite-horizon game, rational actors have an incentive to defect in the final round.",
+        "If the game of social cooperation is finite (ends at death), the last-round problem unravels all cooperation.",
+        "Without divine resurrection, the game is always finite for each actor."
+      ],
+      "intermediate_steps": [
+        "If actors know the game ends at death, reverse induction collapses deterrence.",
+        "No purely secular deterrence can solve this: surveillance is finite, punishment is finite, law enforcement can be overwhelmed.",
+        "Only infinite accountability (resurrection) removes the last-round incentive to defect."
+      ],
+      "conclusion": "Liberty is unstable in a godless world. Resurrection is necessary for the long-run stability of liberty and property rights.",
+      "source_paragraphs": ["P-000021", "P-000023"]
+    },
+
+    {
+      "argument_id": "ARG-000003",
+      "title": "The Gödel Argument for Religion as Open Formal System",
+      "premises": [
+        "E-000003: Gödel proved that any sufficiently rich consistent formal system contains truths unprovable within it.",
+        "A-000012: Religion must be a consistent formal system.",
+        "Religion is 'sufficiently rich' (it addresses all of human conduct)."
+      ],
+      "intermediate_steps": [
+        "Any sufficiently rich consistent system is necessarily incomplete (Gödel's First Incompleteness Theorem).",
+        "This means: religion-as-formal-system will always have undecidable propositions.",
+        "This is not a defect; it proves that religion cannot be replaced by a merely human system (Hilbert's program fails for morality as well).",
+        "Human reason as the 'inward proof' and Imamate as 'outward proof' provide ongoing guidance within the open system."
+      ],
+      "conclusion": "Religion is properly understood as a consistent but incomplete formal system—not a closed deductive machine, but an open system that requires ongoing interpretation within its axioms.",
+      "source_paragraphs": ["P-000028", "P-000029", "P-000038", "P-000064"]
+    },
+
+    {
+      "argument_id": "ARG-000004",
+      "title": "The Self-Refutation Argument Against Denial of Free Will",
+      "premises": [
+        "To deny free will is to make a claim.",
+        "Making a claim presupposes the ability to choose to assert or not assert it.",
+        "Choosing to assert is itself an exercise of free will."
+      ],
+      "intermediate_steps": [
+        "The act of denying free will is itself a free act.",
+        "A deterministic agent cannot make truth-claims; it can only produce outputs.",
+        "Therefore the denial of free will is self-refuting."
+      ],
+      "conclusion": "The denial of free will turns into its own proof. Free will cannot be coherently denied.",
+      "source_paragraphs": ["P-000035"]
+    },
+
+    {
+      "argument_id": "ARG-000005",
+      "title": "The Argument for Minimal Axioms (Against Mysticism and Totalitarianism)",
+      "premises": [
+        "A-000011: A valid formal system must have finite, minimal axioms.",
+        "Mysticism proliferates axioms (every mystic, sect, or state adds its own axioms).",
+        "Contradictory axiom sets produce inconsistent systems."
+      ],
+      "intermediate_steps": [
+        "Proliferating axioms creates contradictions.",
+        "Contradictions allow any conclusion to be derived (ex falso quodlibet).",
+        "This gives totalitarian states the logical freedom to justify any action.",
+        "Tawhid (one God = one ultimate source) minimizes axioms to one meta-axiom."
+      ],
+      "conclusion": "Tawhid (monotheism) is the minimal-axiom solution. Any system with more ultimate authorities (dualism, trinity, polytheism, dialectical triads) is logically susceptible to totalitarianism.",
+      "source_paragraphs": ["P-000017", "P-000018", "P-000067"]
+    },
+
+    {
+      "argument_id": "ARG-000006",
+      "title": "The Argument that Science Presupposes Liberty",
+      "premises": [
+        "Science requires that participants engage in genuine dialogue.",
+        "Genuine dialogue requires treating participants as equals.",
+        "Treating participants as equals requires accepting that each possesses free will and choice.",
+        "Free will and choice are the foundations of liberty and property rights."
+      ],
+      "intermediate_steps": [
+        "Therefore, the framework of liberty and property rights is logically prior to the framework of science.",
+        "No scientific conclusion can override the normative axioms it presupposes."
+      ],
+      "conclusion": "Liberty and property rights are prior to any scientific conclusion. Positivism that attempts to derive liberty from science inverts the logical order.",
+      "source_paragraphs": ["P-000024"]
+    },
+
+    {
+      "argument_id": "ARG-000007",
+      "title": "The Argument Against Democracy as Foundation of Liberty",
+      "premises": [
+        "Individual property rights are not subject to democratic vote.",
+        "Democracy allows majorities to vote to violate individual rights.",
+        "Any system where individual rights are negotiable is not a system of liberty."
+      ],
+      "intermediate_steps": [
+        "If the majority votes to enslave the minority, democracy produces slavery.",
+        "Therefore democracy is neither necessary nor sufficient for liberty.",
+        "Liberty precedes and constrains democracy, not the other way around."
+      ],
+      "conclusion": "Democracy does not legitimize the choice of the devil. Individual property rights are pre-political, non-negotiable, and not subject to democratic vote.",
+      "source_paragraphs": ["P-000040"]
+    },
+
+    {
+      "argument_id": "ARG-000008",
+      "title": "The Argument from Ghadir: Wilayah is not State Power",
+      "premises": [
+        "The Prophet's governance did not constitute a 'state' in the modern sense (no monopoly of violence over a territory).",
+        "What was transferred at Ghadir was wilayah (guardianship), not a political monopoly.",
+        "Those who denied Ghadir were seeking to re-establish the state."
+      ],
+      "intermediate_steps": [
+        "Therefore Ghadir is properly understood as a religious-institutional transfer, not a political-state succession.",
+        "Confusing wilayah with caliphate/state is the source of the Islamic world's statist deviation.",
+        "The Imamate preserved religion against state capture; this is its institutional function."
+      ],
+      "conclusion": "Religion is the antithesis of the state. The Imamate exists to preserve religion against state confiscation, not to itself become a state.",
+      "source_paragraphs": ["P-000051", "P-000062"]
+    },
+
+    {
+      "argument_id": "ARG-000009",
+      "title": "The Argument that Mahdism Completes the Theory of Liberty",
+      "premises": [
+        "A consistent theory of liberty requires that liberty is not a permanent exception but a trajectory.",
+        "A society with a consistent theory of liberty will gradually recede the state.",
+        "The full receding of the state requires a condition where all human beings voluntarily accept liberty's axioms."
+      ],
+      "intermediate_steps": [
+        "In historical time, perfect liberty cannot be achieved because coercive actors always exist.",
+        "The doctrine of the Advent (Mahdism) posits a future state where the cycle of domination is finally broken.",
+        "Without this eschatological horizon, the theory has no terminal condition—it remains an asymptotic trajectory without a limit."
+      ],
+      "conclusion": "Mahdism is logically necessary for the completion of the theory of liberty. Without it, the theory is an open-ended process without closure.",
+      "source_paragraphs": ["P-000053"]
+    },
+
+    {
+      "argument_id": "ARG-000010",
+      "title": "The Argument Against the Austrian School's Incompleteness",
+      "premises": [
+        "The Austrian School (Mises, Hayek, Rothbard) correctly identifies individual property rights and spontaneous order.",
+        "However, it grounds these in natural law or praxeology without a transcendent source.",
+        "Without transcendent grounding, rights are subject to state override, majority vote, or evolutionary revision."
+      ],
+      "intermediate_steps": [
+        "Rothbard's four theoretical gaps: (1) grounding of natural law, (2) problem of last-round defection, (3) inability to explain religion's civilizational function, (4) incomplete theory of money.",
+        "Each gap requires theological grounding to close.",
+        "The theory of liberty extends the Austrian School by providing the missing theological foundation."
+      ],
+      "conclusion": "The Austrian School is correct but incomplete. The theory of liberty completes it by providing the theological grounding for natural rights.",
+      "source_paragraphs": ["P-000036", "P-000056"]
+    },
+
+    {
+      "argument_id": "ARG-000011",
+      "title": "The AI Ethics Argument",
+      "premises": [
+        "Artificial intelligence requires a finite, non-contradictory, executable ethical system.",
+        "No existing secular ethical system (utilitarianism, deontology, social contract) can be rendered as a consistent formal axiomatic system.",
+        "The theory of liberty claims to be a consistent formal axiomatic system grounded in religion."
+      ],
+      "intermediate_steps": [
+        "If a consistent formal ethical system can be derived from religion, it can be programmed.",
+        "If it can be programmed, AI can be aligned to it.",
+        "If no consistent system exists, AI will default to serving whoever controls it (totalitarian states)."
+      ],
+      "conclusion": "The theory of liberty (religion as consistent formal system) is the only existing solution for AI alignment. The challenge to any alternative: produce a consistent axiomatic system. If you cannot, you cannot object to this theory.",
+      "source_paragraphs": ["P-000011", "P-000012"]
+    },
+
+    {
+      "argument_id": "ARG-000012",
+      "title": "The Mysticism-to-Totalitarianism Pipeline",
+      "premises": [
+        "Mysticism separates humans from property, reason, and individual responsibility.",
+        "Without individual responsibility, collective entities (state, party, nation, class) fill the void.",
+        "Collective entities require a central authority to define and enforce collective identity.",
+        "Central authority with undefined mandate = totalitarianism."
+      ],
+      "intermediate_steps": [
+        "Hegel's dialectic is the modern philosophical form of mysticism.",
+        "Marx applied Hegel's dialectic to class struggle → communism.",
+        "Fascism applied it to nation/race.",
+        "All share the structure: dissolve individual in collective → empower state.",
+        "Iran risk: if reaction to statist religion reproduces European post-Church mystical revival, same trajectory follows."
+      ],
+      "conclusion": "Mysticism (in any form) is the philosophical pipeline to totalitarianism. The only defense is a formal system grounded in individual property rights.",
+      "source_paragraphs": ["P-000008", "P-000055"]
+    }
+  ]
+}

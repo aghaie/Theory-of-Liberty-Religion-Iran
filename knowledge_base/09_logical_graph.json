@@ -1,0 +1,169 @@
+{
+  "logical_graph": {
+    "description": "Directed graph of all nodes (entities, concepts, claims, axioms, arguments) with typed edges.",
+    "node_types": {
+      "A": "Axiom",
+      "C": "Claim",
+      "CN": "Concept",
+      "D": "Definition",
+      "E": "Entity",
+      "ARG": "Argument"
+    },
+    "edges": [
+
+      { "from": "A-000001", "to": "C-000001",    "relation": "supports" },
+      { "from": "A-000001", "to": "C-000014",    "relation": "supports" },
+      { "from": "A-000001", "to": "C-000015",    "relation": "supports" },
+      { "from": "A-000001", "to": "C-000038",    "relation": "supports" },
+      { "from": "A-000001", "to": "C-000039",    "relation": "supports" },
+      { "from": "A-000001", "to": "ARG-000001",  "relation": "supports" },
+      { "from": "A-000001", "to": "ARG-000004",  "relation": "supports" },
+
+      { "from": "A-000002", "to": "C-000001",    "relation": "defines" },
+      { "from": "A-000002", "to": "C-000002",    "relation": "defines" },
+
+      { "from": "A-000003", "to": "C-000013",    "relation": "supports" },
+      { "from": "A-000003", "to": "C-000040",    "relation": "supports" },
+      { "from": "A-000003", "to": "C-000066",    "relation": "supports" },
+      { "from": "A-000003", "to": "ARG-000001",  "relation": "supports" },
+
+      { "from": "A-000004", "to": "C-000016",    "relation": "supports" },
+      { "from": "A-000004", "to": "C-000005",    "relation": "supports" },
+      { "from": "A-000004", "to": "C-000017",    "relation": "supports" },
+      { "from": "A-000004", "to": "C-000026",    "relation": "supports" },
+      { "from": "A-000004", "to": "C-000063",    "relation": "supports" },
+      { "from": "A-000004", "to": "ARG-000005",  "relation": "supports" },
+      { "from": "A-000004", "to": "CN-000004",   "relation": "defines" },
+
+      { "from": "A-000005", "to": "C-000004",    "relation": "supports" },
+      { "from": "A-000005", "to": "CN-000036",   "relation": "defines" },
+
+      { "from": "A-000006", "to": "C-000021",    "relation": "supports" },
+      { "from": "A-000006", "to": "ARG-000002",  "relation": "supports" },
+
+      { "from": "A-000007", "to": "C-000023",    "relation": "supports" },
+      { "from": "A-000007", "to": "C-000024",    "relation": "supports" },
+      { "from": "A-000007", "to": "C-000064",    "relation": "supports" },
+
+      { "from": "A-000008", "to": "C-000067",    "relation": "supports" },
+      { "from": "A-000008", "to": "C-000041",    "relation": "supports" },
+
+      { "from": "A-000009", "to": "C-000046",    "relation": "contradicts" },
+      { "from": "A-000009", "to": "C-000048",    "relation": "contradicts" },
+
+      { "from": "A-000010", "to": "C-000046",    "relation": "supports" },
+
+      { "from": "A-000011", "to": "C-000017",    "relation": "supports" },
+      { "from": "A-000011", "to": "C-000018",    "relation": "supports" },
+      { "from": "A-000011", "to": "C-000072",    "relation": "supports" },
+      { "from": "A-000011", "to": "ARG-000005",  "relation": "supports" },
+
+      { "from": "A-000012", "to": "C-000011",    "relation": "supports" },
+      { "from": "A-000012", "to": "C-000028",    "relation": "supports" },
+      { "from": "A-000012", "to": "C-000072",    "relation": "supports" },
+      { "from": "A-000012", "to": "ARG-000003",  "relation": "supports" },
+
+      { "from": "A-000013", "to": "C-000001",    "relation": "supports" },
+      { "from": "A-000013", "to": "C-000022",    "relation": "supports" },
+      { "from": "A-000013", "to": "ARG-000006",  "relation": "supports" },
+
+      { "from": "A-000014", "to": "C-000053",    "relation": "supports" },
+      { "from": "A-000014", "to": "C-000058",    "relation": "supports" },
+      { "from": "A-000014", "to": "C-000060",    "relation": "supports" },
+
+      { "from": "A-000015", "to": "C-000051",    "relation": "supports" },
+      { "from": "A-000015", "to": "ARG-000009",  "relation": "supports" },
+
+      { "from": "C-000001", "to": "C-000002",    "relation": "supports" },
+      { "from": "C-000001", "to": "C-000003",    "relation": "supports" },
+      { "from": "C-000001", "to": "C-000022",    "relation": "supports" },
+      { "from": "C-000001", "to": "C-000041",    "relation": "supports" },
+      { "from": "C-000001", "to": "C-000043",    "relation": "supports" },
+      { "from": "C-000001", "to": "C-000055",    "relation": "supports" },
+      { "from": "C-000001", "to": "CN-000001",   "relation": "defines" },
+
+      { "from": "C-000004", "to": "C-000008",    "relation": "supports" },
+      { "from": "C-000004", "to": "C-000028",    "relation": "supports" },
+      { "from": "C-000004", "to": "C-000029",    "relation": "supports" },
+      { "from": "C-000004", "to": "C-000031",    "relation": "supports" },
+      { "from": "C-000004", "to": "C-000055",    "relation": "supports" },
+
+      { "from": "C-000013", "to": "C-000004",    "relation": "supports" },
+      { "from": "C-000013", "to": "C-000033",    "relation": "supports" },
+      { "from": "C-000013", "to": "C-000051",    "relation": "supports" },
+      { "from": "C-000013", "to": "C-000071",    "relation": "supports" },
+
+      { "from": "C-000016", "to": "C-000017",    "relation": "supports" },
+      { "from": "C-000016", "to": "C-000062",    "relation": "supports" },
+
+      { "from": "C-000021", "to": "C-000020",    "relation": "supports" },
+
+      { "from": "C-000029", "to": "C-000071",    "relation": "supports" },
+
+      { "from": "C-000040", "to": "C-000013",    "relation": "derives_from" },
+
+      { "from": "C-000055", "to": "C-000056",    "relation": "supports" },
+
+      { "from": "C-000009", "to": "C-000074",    "relation": "supports" },
+
+      { "from": "C-000046", "to": "C-000047",    "relation": "supports" },
+
+      { "from": "C-000047", "to": "C-000048",    "relation": "supports" },
+
+      { "from": "C-000045", "to": "C-000025",    "relation": "supports" },
+
+      { "from": "E-000003", "to": "ARG-000003",  "relation": "references" },
+      { "from": "E-000003", "to": "C-000027",    "relation": "supports" },
+      { "from": "E-000003", "to": "A-000012",    "relation": "supports" },
+
+      { "from": "E-000004", "to": "C-000022",    "relation": "supports" },
+      { "from": "E-000004", "to": "C-000036",    "relation": "references" },
+
+      { "from": "E-000005", "to": "C-000065",    "relation": "references" },
+      { "from": "E-000005", "to": "ARG-000010",  "relation": "references" },
+
+      { "from": "E-000007", "to": "C-000074",    "relation": "references" },
+      { "from": "E-000007", "to": "C-000009",    "relation": "references" },
+
+      { "from": "E-000009", "to": "C-000050",    "relation": "references" },
+      { "from": "E-000009", "to": "C-000032",    "relation": "references" },
+
+      { "from": "E-000014", "to": "C-000045",    "relation": "references" },
+
+      { "from": "E-000047", "to": "C-000036",    "relation": "supports" },
+
+      { "from": "E-000049", "to": "A-000012",    "relation": "supports" },
+      { "from": "E-000049", "to": "C-000027",    "relation": "supports" },
+      { "from": "E-000049", "to": "ARG-000003",  "relation": "supports" },
+
+      { "from": "CN-000003", "to": "C-000009",   "relation": "defines" },
+      { "from": "CN-000003", "to": "C-000074",   "relation": "defines" },
+
+      { "from": "CN-000005", "to": "C-000016",   "relation": "defines" },
+      { "from": "CN-000005", "to": "C-000017",   "relation": "defines" },
+
+      { "from": "CN-000006", "to": "C-000006",   "relation": "defines" },
+
+      { "from": "CN-000007", "to": "A-000001",   "relation": "defines" },
+
+      { "from": "CN-000008", "to": "A-000012",   "relation": "defines" },
+
+      { "from": "CN-000013", "to": "A-000006",   "relation": "defines" },
+
+      { "from": "CN-000014", "to": "A-000015",   "relation": "defines" },
+
+      { "from": "ARG-000001", "to": "C-000013",  "relation": "derives_from" },
+      { "from": "ARG-000002", "to": "C-000021",  "relation": "derives_from" },
+      { "from": "ARG-000003", "to": "C-000028",  "relation": "derives_from" },
+      { "from": "ARG-000004", "to": "C-000039",  "relation": "derives_from" },
+      { "from": "ARG-000005", "to": "C-000016",  "relation": "derives_from" },
+      { "from": "ARG-000006", "to": "C-000022",  "relation": "derives_from" },
+      { "from": "ARG-000007", "to": "C-000043",  "relation": "derives_from" },
+      { "from": "ARG-000008", "to": "C-000056",  "relation": "derives_from" },
+      { "from": "ARG-000009", "to": "C-000051",  "relation": "derives_from" },
+      { "from": "ARG-000010", "to": "C-000040",  "relation": "derives_from" },
+      { "from": "ARG-000011", "to": "C-000071",  "relation": "derives_from" },
+      { "from": "ARG-000012", "to": "C-000074",  "relation": "derives_from" }
+    ]
+  }
+}

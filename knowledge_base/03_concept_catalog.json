@@ -1,0 +1,304 @@
+{
+  "concept_catalog": [
+    {
+      "concept_id": "CN-000001",
+      "name": "Liberty",
+      "definition": "In its objective form, liberty is nothing other than individual property rights. It is not a feeling, sentiment, political slogan, or mystical state. It is definable, measurable, formally expressible, and defensible. Liberty is first a theological question (humans created free), then legal, then political.",
+      "source_paragraphs": ["P-000003", "P-000004", "P-000013", "P-000063"]
+    },
+    {
+      "concept_id": "CN-000002",
+      "name": "Individual Property Rights",
+      "definition": "Ownership beginning with the human body and extending to life, will, time, labor, thought, reputation, family, contracts, achievements, land, livelihood, choice, and responsibility. The objective form of liberty. The starting point of the theory.",
+      "source_paragraphs": ["P-000005", "P-000004", "P-000013"]
+    },
+    {
+      "concept_id": "CN-000003",
+      "name": "Mysticism (as used in the theory)",
+      "definition": "Any intellectual or political system that separates the human being from property, body, land, reason, revelation, the market, contracts, and liberty, and delivers him to an ambiguous whole: the state, history, class, nation, world-spirit, dialectic, spiritual master, party, ummah, race, sect, or ideology. Distinguished from personal spirituality. Includes: Hegelian dialectics, socialism, nationalism, modern statism, Sufi mysticism, gnosticism, and occultism.",
+      "source_paragraphs": ["P-000008", "P-000059"]
+    },
+    {
+      "concept_id": "CN-000004",
+      "name": "True Religion",
+      "definition": "Religion purified of mysticism, state-worship, superstition, anti-rational philosophies, and power-centered interpretations. It is the formal system for the defense of individual property rights and liberty. It came to liberate the human being from servitude to anything other than God.",
+      "source_paragraphs": ["P-000006", "P-000013", "P-000047"]
+    },
+    {
+      "concept_id": "CN-000005",
+      "name": "Tawhid (Monotheism)",
+      "definition": "The principle of the oneness of God; the refusal of servitude to anything other than God. Functions as the meta-axiom that guarantees liberty by prohibiting submission to any worldly entity (state, party, ideological master). Eliminates Tawhid and you proliferate axioms, sliding into mysticism and totalitarianism.",
+      "source_paragraphs": ["P-000017", "P-000067"]
+    },
+    {
+      "concept_id": "CN-000006",
+      "name": "The State",
+      "definition": "Any entity that monopolizes violence, power, or money and thereby violates individual property rights. Analogized to Satan (Iblis), Zahhak, Dwalpa (a mythological enslaver), and modern idolatry. The main violator of liberty. Distinguished from legitimate governance limited to protecting property rights.",
+      "source_paragraphs": ["P-000026", "P-000055", "P-000059", "P-000066"]
+    },
+    {
+      "concept_id": "CN-000007",
+      "name": "Free Will",
+      "definition": "The foundational axiom of the entire theory. Everyone, even when disagreeing, is forced to presuppose it. It is the precondition for any dialogue, agreement, science, or social order. The acceptance of free will is itself a prerequisite for the acceptance of science.",
+      "source_paragraphs": ["P-000002", "P-000035"]
+    },
+    {
+      "concept_id": "CN-000008",
+      "name": "Formal Axiomatic System",
+      "definition": "A finite, non-contradictory (consistent) set of axioms from which all valid propositions can be derived. Religion must function as such a system. A civilization without consistent principles collapses under its own contradictions. Gödel's theorems show that any sufficiently complex consistent system contains truths unprovable within it.",
+      "source_paragraphs": ["P-000028", "P-000038", "P-000054"]
+    },
+    {
+      "concept_id": "CN-000009",
+      "name": "Iran (Civilizational)",
+      "definition": "Not merely a geography, state, political border, or historical memory, but a civilizational continuum: the land of proprietors and free people. Iran holds the secret of uniting liberty and faith. Its crisis has two roots: distortion of religion and theft of history.",
+      "source_paragraphs": ["P-000010", "P-000048", "P-000070"]
+    },
+    {
+      "concept_id": "CN-000010",
+      "name": "Salaam (Islamic Greeting)",
+      "definition": "Not merely a verbal greeting but a declaration of proprietary peace: 'I will not violate your life, property, body, will, reputation, or ownership, and you accept the same covenant.' Derived from the Semitic root salam (peace/wholeness/property-security).",
+      "source_paragraphs": ["P-000007", "P-000044"]
+    },
+    {
+      "concept_id": "CN-000011",
+      "name": "Islam (Root Meaning)",
+      "definition": "Submission to God; and submission to God, at the social level, means submission to the rights that God has established for His servants. Islam is interpreted as the covenant of liberty at the social level.",
+      "source_paragraphs": ["P-000007", "P-000044"]
+    },
+    {
+      "concept_id": "CN-000012",
+      "name": "Prophethood",
+      "definition": "A divine institution functioning as a barrier against fraud, false messiahs, and new religions. The finality of prophethood closes the door to illusions of personal messengership. Prophethood is necessary in addition to Tawhid and Resurrection because without it, fraud proliferates.",
+      "source_paragraphs": ["P-000025"]
+    },
+    {
+      "concept_id": "CN-000013",
+      "name": "Resurrection (Ma'ad)",
+      "definition": "The principle of divine accountability after death. Functions in the theory as the mechanism that makes liberty stable in the long run: if there is no resurrection, the last-round problem collapses all deterrence; rational actors will defect in the final round.",
+      "source_paragraphs": ["P-000023"]
+    },
+    {
+      "concept_id": "CN-000014",
+      "name": "Mahdism (Doctrine of the Advent)",
+      "definition": "The Shi'i doctrine of the Hidden Imam's expected return. Analyzed as logically necessary: without Mahdism, a theory of liberty cannot become fully consistent. Society awaiting the Advent gradually recedes the state. The time of the Advent is indeterminate (rejecting date-setting).",
+      "source_paragraphs": ["P-000053"]
+    },
+    {
+      "concept_id": "CN-000015",
+      "name": "Imamate",
+      "definition": "The Shi'i institution of divinely-guided leadership after the Prophet. Its function is to preserve religion against state capture. Ghadir Khumm transferred wilayah (guardianship), not a political state. The Imamate is an institution, not an organization.",
+      "source_paragraphs": ["P-000051", "P-000062"]
+    },
+    {
+      "concept_id": "CN-000016",
+      "name": "Wilayah vs. Caliphate",
+      "definition": "Wilayah (guardianship) is the transfer at Ghadir: spiritual-juridical authority to preserve religion. Caliphate/state is the political monopoly of power. Those who denied Ghadir were looking to re-establish the state, not merely dispute a succession.",
+      "source_paragraphs": ["P-000051", "P-000062"]
+    },
+    {
+      "concept_id": "CN-000017",
+      "name": "Institution vs. Organization",
+      "definition": "An institution is a relatively stable set of norms, rules, values, roles, expectations, and patterns of behavior regulating a social sphere. An organization is a concrete unit with members, structure, goals, hierarchy. Religion is an institution; a seminary or government ministry is an organization. The institution of religion must restrain the state, not collaborate with it.",
+      "source_paragraphs": ["P-000039"]
+    },
+    {
+      "concept_id": "CN-000018",
+      "name": "Discovered Law vs. Fabricated Law",
+      "definition": "Law is discovered, not merely enacted. Discovered law derives from the objective structure of property rights and liberty. Fabricated law is created by legislative will. Only discovered law is legitimate; fabricated law that violates property rights is illegitimate.",
+      "source_paragraphs": ["P-000037"]
+    },
+    {
+      "concept_id": "CN-000019",
+      "name": "Rule of Taslīṭ",
+      "definition": "Islamic jurisprudential rule: 'People have dominion (taslīṭ) over their own property.' The religious form of individual property rights. Used as criterion for evaluating narrations within the theory of liberty—any narration incompatible with Taslīṭ is rejected.",
+      "source_paragraphs": ["P-000057"]
+    },
+    {
+      "concept_id": "CN-000020",
+      "name": "Envy",
+      "definition": "The root of socialism. Envy armed with greed produces socialist states. Taxation is analyzed as a penalty for creativity rooted in institutionalized envy. Affirmative action is analyzed as institutionalized envy.",
+      "source_paragraphs": ["P-000042", "P-000045"]
+    },
+    {
+      "concept_id": "CN-000021",
+      "name": "Central Bank / Monopoly Money",
+      "definition": "The central bank is described as 'the earthly god'; its monopoly on money creation is a violation of liberty equivalent to state-worship. Inflation is the mechanism of moral decline (via dopamine analogy). The alternative is free banking with competing private currencies.",
+      "source_paragraphs": ["P-000032"]
+    },
+    {
+      "concept_id": "CN-000022",
+      "name": "Free Banking",
+      "definition": "A monetary system with competing private currencies and private clearing houses. The Suffolk Bank is cited as historical proof of viability. Free banking restores moral order, enables mudarabah contracts, and ends the hidden rent of those close to power.",
+      "source_paragraphs": ["P-000032", "P-000033", "P-000034"]
+    },
+    {
+      "concept_id": "CN-000023",
+      "name": "Usury (Riba)",
+      "definition": "Described as 'the most compressed expression of the entire problem': negative real interest rates constitute hidden rent for those close to power; usury is the mechanism by which monetary systems redistribute from productive people to rent-seekers.",
+      "source_paragraphs": ["P-000032"]
+    },
+    {
+      "concept_id": "CN-000024",
+      "name": "Divine Justice ('Adl)",
+      "definition": "One of the four principles of the theory; the critical point of the system of liberty. Divine justice negates state-engineered justice. It includes personal accountability for penalty—the state violates this by punishing individuals for others' acts.",
+      "source_paragraphs": ["P-000046"]
+    },
+    {
+      "concept_id": "CN-000025",
+      "name": "Statolatry (State-Worship)",
+      "definition": "The modern form of idolatry: submission to the visible state as the ultimate authority. Statism is Shirk (associating partners with God). The human impulse toward visible obedience creates idolatry in the form of state-worship.",
+      "source_paragraphs": ["P-000059", "P-000063"]
+    },
+    {
+      "concept_id": "CN-000026",
+      "name": "Shirk",
+      "definition": "Islamic theological term for associating partners with God. Extended in the theory to include statism: any submission to the state as ultimate authority is shirk. Statism is shirk.",
+      "source_paragraphs": ["P-000059"]
+    },
+    {
+      "concept_id": "CN-000027",
+      "name": "Positivism",
+      "definition": "Philosophical stance that only empirically verifiable statements are meaningful. Critiqued as methodologically insufficient: liberty and property rights are normative axioms prior to scientific conclusions; positivism cannot generate them.",
+      "source_paragraphs": ["P-000024"]
+    },
+    {
+      "concept_id": "CN-000028",
+      "name": "Natural Law",
+      "definition": "Rothbard's foundational framework; critiqued as subject-centered reason without revelation. Natural law cannot withstand the state, the majority, or power without a divine source of rights.",
+      "source_paragraphs": ["P-000056"]
+    },
+    {
+      "concept_id": "CN-000029",
+      "name": "Democracy",
+      "definition": "A political mechanism; does not legitimize the choice of the devil. Democracy is the gateway for collectivist infiltration. Democracy produces fragmentation and leads to wars. The primacy of liberty over democracy: individual property rights are not subject to democratic vote.",
+      "source_paragraphs": ["P-000040"]
+    },
+    {
+      "concept_id": "CN-000030",
+      "name": "Time Preference",
+      "definition": "Austrian economic concept: the degree to which actors prefer present goods over future goods. Land ownership lowers time preference (encourages long-term thinking). The 1979 Revolution analyzed through time preference dynamics.",
+      "source_paragraphs": ["P-000054"]
+    },
+    {
+      "concept_id": "CN-000031",
+      "name": "Human Vicegerency (Khalifah)",
+      "definition": "Quranic concept: humans as God's vicegerents on earth. In the theory: a human being who does not own his property cannot be a vicegerent. The state that confiscates human property inverts this divine appointment.",
+      "source_paragraphs": ["P-000009"]
+    },
+    {
+      "concept_id": "CN-000032",
+      "name": "Common Good / Public Interest",
+      "definition": "Described as a 'conceptual void': no objective definition can be given that does not collapse into state-imposed preference. The common good is used as justification for violating individual property rights.",
+      "source_paragraphs": ["P-000024"]
+    },
+    {
+      "concept_id": "CN-000033",
+      "name": "String of Beads (Axiomatic Chain of Religion)",
+      "definition": "The author's discovery: religion already contains an interlocked axiomatic chain (the beads); no one had noticed the string (the consistent formal system). The author claims not to have tampered with religion but to have pointed out its formal structure.",
+      "source_paragraphs": ["P-000019"]
+    },
+    {
+      "concept_id": "CN-000034",
+      "name": "Deterrence / Decisive Punishment",
+      "definition": "Anti-calculative deterrent punishment: from Hobbes's Leviathan to decisive penalties for violating property rights. The scale of liberty: either centralized state, or decisive cost of violating property (e.g., amputation for theft). The purpose is to make violation non-calculable.",
+      "source_paragraphs": ["P-000030", "P-000066"]
+    },
+    {
+      "concept_id": "CN-000035",
+      "name": "Enjoining Right and Forbidding Wrong (Amr bil Ma'ruf)",
+      "definition": "Islamic duty; analyzed as taking primacy over relations with rulers. The institution of religion must exercise this duty to restrain the state.",
+      "source_paragraphs": []
+    },
+    {
+      "concept_id": "CN-000036",
+      "name": "No Compulsion in Religion (La Ikraha fi al-Din)",
+      "definition": "Quranic principle: no compulsion in religion. Interpreted as the negation of a taghuti religion. Any religion that compels belief is a distorted, state-serving religion.",
+      "source_paragraphs": ["P-000025"]
+    },
+    {
+      "concept_id": "CN-000037",
+      "name": "Family as First Institution of Liberty",
+      "definition": "The family is the first and most fundamental institution defending liberty. Disruption of family and sex paves the way for the state. The family is where liberty begins. State education reproduces slavery by replacing the family.",
+      "source_paragraphs": ["P-000041"]
+    },
+    {
+      "concept_id": "CN-000038",
+      "name": "Romanticism as Mysticism of Love",
+      "definition": "Romanticism is analyzed as a new form of poisoned mysticism that disrupts the family institution and thereby expands the state.",
+      "source_paragraphs": ["P-000041"]
+    },
+    {
+      "concept_id": "CN-000039",
+      "name": "Dialectic",
+      "definition": "Hegelian method of thesis-antithesis-synthesis; analyzed as a form of mysticism that justifies any conclusion; gives the state self-generating legitimacy. Traced from Heraclitus through Hegel to Marx.",
+      "source_paragraphs": []
+    },
+    {
+      "concept_id": "CN-000040",
+      "name": "AI Ethics (Consistent Formal System)",
+      "definition": "The theory of liberty claims to be the only existing solution to the problem of AI ethics: a finite, non-contradictory, axiomatic, executable ethical system. Without it, machines will serve totalitarian states. Religion-as-formal-system is the solution.",
+      "source_paragraphs": ["P-000011", "P-000012"]
+    },
+    {
+      "concept_id": "CN-000041",
+      "name": "Geopolitics",
+      "definition": "Legitimate geopolitics: knowing how to defend your own property rights and the rights of those who voluntarily join a collective defense agreement. Beyond this, geopolitics becomes justification for domination.",
+      "source_paragraphs": []
+    },
+    {
+      "concept_id": "CN-000042",
+      "name": "Mahr (Dowry)",
+      "definition": "Islamic marriage gift from husband to wife; analyzed as a property-rights instrument within the marriage contract, not a ritual.",
+      "source_paragraphs": []
+    },
+    {
+      "concept_id": "CN-000043",
+      "name": "Tawakkul (Reliance on God)",
+      "definition": "Islamic concept: reliance on God; distinguished from superstition. Reliance on God without reason is superstition. Correct reliance = calculation, patience, and surrendering the outcome.",
+      "source_paragraphs": []
+    },
+    {
+      "concept_id": "CN-000044",
+      "name": "Immigration Policy",
+      "definition": "State-imposed mass immigration analyzed as a violation of local communities' property rights over their cultural environment. Local communities have property rights over their living environment; only they can decide acceptable migration.",
+      "source_paragraphs": []
+    },
+    {
+      "concept_id": "CN-000045",
+      "name": "Master Plan (Urban Planning)",
+      "definition": "Described as 'one of the greatest sources of rent'; must be replaced by local ownership units, private conflict rules, collective owner contracts, liability insurance, private accreditation, and local arbitration. The state arbitrates property disputes, not dictates land use.",
+      "source_paragraphs": ["P-000065"]
+    },
+    {
+      "concept_id": "CN-000046",
+      "name": "Praxeological Inference",
+      "definition": "Method derived from Austrian praxeology; applied in the theory of liberty to derive principles from the axiom of human action under free will. Reduction of principles, increase of scalability.",
+      "source_paragraphs": ["P-000058"]
+    },
+    {
+      "concept_id": "CN-000047",
+      "name": "Learned Helplessness",
+      "definition": "Psychological state of believing one cannot change one's situation; analyzed as a mechanism of domination used by states. Overcome through hope, faith, and rational action.",
+      "source_paragraphs": ["P-000075"]
+    },
+    {
+      "concept_id": "CN-000048",
+      "name": "Pyramid Scheme Logic / Cult Structure",
+      "definition": "The logic of cults and mystical organizations: the hidden secret creates dependency; the condition for group health is the absence of hidden sin. Mystical organizations function as spiritual pyramid schemes.",
+      "source_paragraphs": ["P-000061"]
+    },
+    {
+      "concept_id": "CN-000049",
+      "name": "Occult Sciences",
+      "definition": "Fortune-telling, talismans, astrology, sorcery, jinn-communication etc.; analyzed as: (a) metaphysical embodiment of the monopolistic state; (b) implicit denial of free will; (c) source of idolatry and state-worship.",
+      "source_paragraphs": []
+    },
+    {
+      "concept_id": "CN-000050",
+      "name": "Consistentness (of a formal system)",
+      "definition": "A system is consistent if it contains no contradictions. Religion must be consistent to be true; any interpretation producing a contradiction with liberty is distorted. AI machines test consistency; inconsistent systems cannot be programmed.",
+      "source_paragraphs": ["P-000011", "P-000012"]
+    }
+  ]
+}

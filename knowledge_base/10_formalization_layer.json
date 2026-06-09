@@ -1,0 +1,192 @@
+{
+  "formalization_layer": {
+    "notation": {
+      "->": "implies",
+      "<->": "if and only if",
+      "¬": "not",
+      "∀": "for all",
+      "∃": "there exists",
+      "∧": "and",
+      "∨": "or",
+      "L": "Liberty",
+      "P": "Property Rights",
+      "FW": "Free Will",
+      "R": "True Religion",
+      "M": "Mysticism",
+      "S": "The State (as violator)",
+      "T": "Tawhid",
+      "Res": "Resurrection / Divine Accountability",
+      "Proph": "Prophethood",
+      "Serv": "Servitude to other-than-God",
+      "AI": "Artificial Intelligence requiring ethical system",
+      "CFS": "Consistent Formal System",
+      "Isl": "Islam as social covenant",
+      "Iran": "Iranian civilizational continuum",
+      "Dem": "Democracy",
+      "Env": "Envy",
+      "Soc": "Socialism"
+    }
+  },
+  "formal_statements": [
+
+    {
+      "formal_statement_id": "F-000001",
+      "natural_language": "Liberty in its objective form is individual property rights.",
+      "symbolic_form": "L ↔ P",
+      "confidence": 95,
+      "source_claims": ["C-000001"]
+    },
+
+    {
+      "formal_statement_id": "F-000002",
+      "natural_language": "Without property rights, there is no liberty.",
+      "symbolic_form": "¬P → ¬L",
+      "confidence": 95,
+      "source_claims": ["C-000001", "C-000003"]
+    },
+
+    {
+      "formal_statement_id": "F-000003",
+      "natural_language": "If liberty, then property rights; if property rights, then (ultimately) religion.",
+      "symbolic_form": "L → P ∧ P → R",
+      "confidence": 85,
+      "source_claims": ["C-000013"]
+    },
+
+    {
+      "formal_statement_id": "F-000004",
+      "natural_language": "True religion is a consistent formal system if and only if it is purified of mysticism.",
+      "symbolic_form": "R → CFS ↔ ¬M",
+      "confidence": 80,
+      "source_claims": ["C-000004", "C-000028"]
+    },
+
+    {
+      "formal_statement_id": "F-000005",
+      "natural_language": "Tawhid (one God) guarantees liberty by eliminating servitude to other-than-God.",
+      "symbolic_form": "T → ¬Serv → L",
+      "confidence": 85,
+      "source_claims": ["C-000016"]
+    },
+
+    {
+      "formal_statement_id": "F-000006",
+      "natural_language": "Without Tawhid, axioms proliferate, leading to mysticism and totalitarianism.",
+      "symbolic_form": "¬T → (axioms → ∞) → M → ¬L",
+      "confidence": 75,
+      "source_claims": ["C-000017"]
+    },
+
+    {
+      "formal_statement_id": "F-000007",
+      "natural_language": "Free will is the necessary presupposition of all rational discourse.",
+      "symbolic_form": "∀ rational_agent x: discourse(x) → FW(x)",
+      "confidence": 90,
+      "source_claims": ["C-000015"]
+    },
+
+    {
+      "formal_statement_id": "F-000008",
+      "natural_language": "The denial of free will is self-refuting.",
+      "symbolic_form": "assert(¬FW) → FW (performative contradiction)",
+      "confidence": 90,
+      "source_claims": ["C-000039"]
+    },
+
+    {
+      "formal_statement_id": "F-000009",
+      "natural_language": "Without resurrection, the last-round problem collapses liberty.",
+      "symbolic_form": "¬Res → last_round_defection → ¬stable(L)",
+      "confidence": 80,
+      "source_claims": ["C-000021"]
+    },
+
+    {
+      "formal_statement_id": "F-000010",
+      "natural_language": "If resurrection exists, long-run stability of liberty is achievable.",
+      "symbolic_form": "Res → stable(L)",
+      "confidence": 75,
+      "source_claims": ["C-000021", "A-000006"]
+    },
+
+    {
+      "formal_statement_id": "F-000011",
+      "natural_language": "The state (as violator) is the negation of liberty.",
+      "symbolic_form": "S → ¬L ∨ S ↔ ¬L (under its monopoly)",
+      "confidence": 80,
+      "source_claims": ["C-000055", "C-000075"]
+    },
+
+    {
+      "formal_statement_id": "F-000012",
+      "natural_language": "Democracy does not imply liberty; individual rights are non-negotiable.",
+      "symbolic_form": "Dem ↛ L ∧ ¬(P ∈ domain(Dem))",
+      "confidence": 85,
+      "source_claims": ["C-000043", "C-000044"]
+    },
+
+    {
+      "formal_statement_id": "F-000013",
+      "natural_language": "Envy leads to socialism, which leads to the expansion of the state.",
+      "symbolic_form": "Env → Soc → S↑ → ¬L",
+      "confidence": 75,
+      "source_claims": ["C-000046", "C-000047"]
+    },
+
+    {
+      "formal_statement_id": "F-000014",
+      "natural_language": "Mysticism separates humans from property and delivers them to collective entities (state).",
+      "symbolic_form": "M → ¬P → S → ¬L",
+      "confidence": 80,
+      "source_claims": ["C-000009", "C-000074"]
+    },
+
+    {
+      "formal_statement_id": "F-000015",
+      "natural_language": "If religion is a consistent formal system, it can be encoded for AI alignment.",
+      "symbolic_form": "CFS(R) → encodable(R, AI) → aligned(AI, L)",
+      "confidence": 70,
+      "source_claims": ["C-000012", "C-000071"]
+    },
+
+    {
+      "formal_statement_id": "F-000016",
+      "natural_language": "Statism is shirk (associating partners with God): submitting to the state as ultimate authority = idolatry.",
+      "symbolic_form": "worship(S) ↔ Shirk ↔ ¬T",
+      "confidence": 75,
+      "source_claims": ["C-000062"]
+    },
+
+    {
+      "formal_statement_id": "F-000017",
+      "natural_language": "Without Mahdism, the theory of liberty cannot be complete (no terminal condition).",
+      "symbolic_form": "¬Mahdism → incomplete(theory_of_liberty)",
+      "confidence": 65,
+      "source_claims": ["C-000051"]
+    },
+
+    {
+      "formal_statement_id": "F-000018",
+      "natural_language": "Science presupposes liberty (free will is prior to scientific method).",
+      "symbolic_form": "science → FW → L; therefore L prior to science",
+      "confidence": 85,
+      "source_claims": ["C-000014", "C-000022"]
+    },
+
+    {
+      "formal_statement_id": "F-000019",
+      "natural_language": "A civilization without consistent principles collapses under its own contradictions.",
+      "symbolic_form": "¬CFS(civilization) → contradiction → collapse",
+      "confidence": 80,
+      "source_claims": ["C-000072"]
+    },
+
+    {
+      "formal_statement_id": "F-000020",
+      "natural_language": "Islam (salaam) = declaration of proprietary peace = covenant of property rights.",
+      "symbolic_form": "Islam ↔ covenant(P₁, P₂) where P₁ and P₂ agree ¬violate(property)",
+      "confidence": 70,
+      "source_claims": ["C-000006", "C-000007"]
+    }
+  ]
+}

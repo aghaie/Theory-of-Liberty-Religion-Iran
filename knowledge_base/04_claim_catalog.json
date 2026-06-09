@@ -1,0 +1,485 @@
+{
+  "claim_catalog": [
+
+    {
+      "claim_id": "C-000001",
+      "statement": "Liberty, in its objective form, is nothing other than individual property rights.",
+      "domains": ["Political Theory", "Ethics", "Philosophy"],
+      "source_paragraphs": ["P-000004"]
+    },
+    {
+      "claim_id": "C-000002",
+      "statement": "Property begins with the human body—with life, will, time, labor, thought, reputation, family, contracts, achievements, land, livelihood, choice, and responsibility.",
+      "domains": ["Political Theory", "Ethics"],
+      "source_paragraphs": ["P-000005"]
+    },
+    {
+      "claim_id": "C-000003",
+      "statement": "A human being who does not own his own body is not free.",
+      "domains": ["Political Theory", "Ethics"],
+      "source_paragraphs": ["P-000005"]
+    },
+    {
+      "claim_id": "C-000004",
+      "statement": "True religion—if purified of mysticism, state-worship, superstition, anti-rational philosophies, and power-centered interpretations—is the most precise system for the defense of liberty.",
+      "domains": ["Religion", "Theology", "Political Theory"],
+      "source_paragraphs": ["P-000006"]
+    },
+    {
+      "claim_id": "C-000005",
+      "statement": "Religion came to liberate the human being from servitude to anything other than God.",
+      "domains": ["Religion", "Theology"],
+      "source_paragraphs": ["P-000006"]
+    },
+    {
+      "claim_id": "C-000006",
+      "statement": "Islam means submission to God; and submission to God, at the social level, means submission to the rights that God has established for His servants.",
+      "domains": ["Religion", "Theology"],
+      "source_paragraphs": ["P-000007"]
+    },
+    {
+      "claim_id": "C-000007",
+      "statement": "Salaam is not merely a verbal greeting; it is a declaration of proprietary peace.",
+      "domains": ["Religion", "Theology", "Political Theory"],
+      "source_paragraphs": ["P-000007"]
+    },
+    {
+      "claim_id": "C-000008",
+      "statement": "The fundamental human conflict is not between religion and irreligion; it is between religion and mysticism.",
+      "domains": ["Religion", "Theology", "History", "Political Theory"],
+      "source_paragraphs": ["P-000009"]
+    },
+    {
+      "claim_id": "C-000009",
+      "statement": "Mysticism is any intellectual or political system that separates the human being from property, body, land, reason, revelation, the market, contracts, and liberty, and delivers him to an ambiguous whole.",
+      "domains": ["Religion", "Theology", "Political Theory", "Epistemology"],
+      "source_paragraphs": ["P-000008"]
+    },
+    {
+      "claim_id": "C-000010",
+      "statement": "Iran is a civilizational continuum—the land of proprietors and free people.",
+      "domains": ["History", "Political Theory", "Sociology"],
+      "source_paragraphs": ["P-000010"]
+    },
+    {
+      "claim_id": "C-000011",
+      "statement": "The age of artificial intelligence is the age of testing consistency: machines do not tolerate contradiction.",
+      "domains": ["Artificial Intelligence", "Computer Science", "Ethics"],
+      "source_paragraphs": ["P-000011"]
+    },
+    {
+      "claim_id": "C-000012",
+      "statement": "If true religion is a consistent formal system for defending liberty, it must be translatable into the language of machines.",
+      "domains": ["Artificial Intelligence", "AI Alignment", "Religion", "Computer Science"],
+      "source_paragraphs": ["P-000012"]
+    },
+    {
+      "claim_id": "C-000013",
+      "statement": "If Liberty is understood objectively, it leads to individual property rights; if individual property rights are pursued to their ultimate foundation, they lead to religion; and if religion is separated from mysticism, it becomes the only consistent formal system capable of defending Liberty.",
+      "domains": ["Political Theory", "Religion", "Theology", "Logic"],
+      "source_paragraphs": ["P-000013"]
+    },
+    {
+      "claim_id": "C-000014",
+      "statement": "The acceptance of human free will is a prerequisite for the acceptance of science.",
+      "domains": ["Epistemology", "Philosophy", "Logic"],
+      "source_paragraphs": ["P-000035"]
+    },
+    {
+      "claim_id": "C-000015",
+      "statement": "Free will is the only axiom that everyone, even when disagreeing with one another, is inevitably forced to presuppose.",
+      "domains": ["Philosophy", "Epistemology", "Logic"],
+      "source_paragraphs": ["P-000002"]
+    },
+    {
+      "claim_id": "C-000016",
+      "statement": "Tawhid (monotheism) is the principle that guarantees liberty by eliminating servitude to anything other than God.",
+      "domains": ["Religion", "Theology", "Political Theory"],
+      "source_paragraphs": ["P-000017"]
+    },
+    {
+      "claim_id": "C-000017",
+      "statement": "Eliminating Tawhid proliferates axioms and leads to a slide into mysticism and totalitarianism.",
+      "domains": ["Religion", "Theology", "Political Theory", "Logic"],
+      "source_paragraphs": ["P-000017"]
+    },
+    {
+      "claim_id": "C-000018",
+      "statement": "The number of axioms and postulates in a formal system must be finite and minimal for it to be valid.",
+      "domains": ["Logic", "Mathematics", "Formal Systems"],
+      "source_paragraphs": ["P-000018"]
+    },
+    {
+      "claim_id": "C-000019",
+      "statement": "Religion already contains an axiomatic chain (the 'string of beads'); the author did not add to religion but discovered its formal structure.",
+      "domains": ["Religion", "Theology", "Logic"],
+      "source_paragraphs": ["P-000019"]
+    },
+    {
+      "claim_id": "C-000020",
+      "statement": "Welfare is a temporary substitute for religion, and the welfare state onset creates a resource crisis.",
+      "domains": ["Economics", "Political Theory", "Religion"],
+      "source_paragraphs": ["P-000022"]
+    },
+    {
+      "claim_id": "C-000021",
+      "statement": "Liberty is unstable in a godless world because without resurrection, the last-round problem collapses all deterrence.",
+      "domains": ["Religion", "Economics", "Political Theory", "Game Theory / Formal Systems"],
+      "source_paragraphs": ["P-000023"]
+    },
+    {
+      "claim_id": "C-000022",
+      "statement": "Liberty and property rights are prior to any scientific conclusion; they are normative axioms, not scientific findings.",
+      "domains": ["Epistemology", "Philosophy", "Political Theory"],
+      "source_paragraphs": ["P-000024"]
+    },
+    {
+      "claim_id": "C-000023",
+      "statement": "Prophethood is necessary as a barrier against fraud, false messiahs, and new religions.",
+      "domains": ["Religion", "Theology"],
+      "source_paragraphs": ["P-000025"]
+    },
+    {
+      "claim_id": "C-000024",
+      "statement": "The finality of prophethood closes the door to the illusion of personal messengership.",
+      "domains": ["Religion", "Theology"],
+      "source_paragraphs": ["P-000025"]
+    },
+    {
+      "claim_id": "C-000025",
+      "statement": "The large state is a reflection of social sins.",
+      "domains": ["Political Theory", "Sociology", "Religion"],
+      "source_paragraphs": ["P-000026"]
+    },
+    {
+      "claim_id": "C-000026",
+      "statement": "Good is from God, evil is from man.",
+      "domains": ["Theology", "Ethics"],
+      "source_paragraphs": ["P-000069"]
+    },
+    {
+      "claim_id": "C-000027",
+      "statement": "Gödel's incompleteness theorems establish that humans are not machines, because humans can perceive truths that no consistent formal system can prove.",
+      "domains": ["Mathematics", "Computer Science", "Cognitive Science", "Philosophy"],
+      "source_paragraphs": ["P-000028"]
+    },
+    {
+      "claim_id": "C-000028",
+      "statement": "A consistent formal system is necessary for understanding true religion.",
+      "domains": ["Religion", "Theology", "Logic", "Formal Systems"],
+      "source_paragraphs": ["P-000028"]
+    },
+    {
+      "claim_id": "C-000029",
+      "statement": "The formal system of liberty is equivalent to religion.",
+      "domains": ["Religion", "Theology", "Political Theory", "Logic"],
+      "source_paragraphs": ["P-000029"]
+    },
+    {
+      "claim_id": "C-000030",
+      "statement": "Common sense is the criterion for detecting religious distortion.",
+      "domains": ["Religion", "Theology", "Epistemology"],
+      "source_paragraphs": ["P-000029"]
+    },
+    {
+      "claim_id": "C-000031",
+      "statement": "Religion is not merely a reaction to fear; it is a covenant defending liberty.",
+      "domains": ["Religion", "Theology", "Political Theory"],
+      "source_paragraphs": ["P-000030"]
+    },
+    {
+      "claim_id": "C-000032",
+      "statement": "Iran's civilizational history shows historical independence from Hobbes' Leviathan model.",
+      "domains": ["History", "Political Theory"],
+      "source_paragraphs": ["P-000031"]
+    },
+    {
+      "claim_id": "C-000033",
+      "statement": "Iran, religion, and liberty are the three sides of a theory.",
+      "domains": ["Political Theory", "Religion", "History"],
+      "source_paragraphs": ["P-000031"]
+    },
+    {
+      "claim_id": "C-000034",
+      "statement": "The central bank is the 'earthly god' and its monopoly on money creation contradicts liberty.",
+      "domains": ["Economics", "Political Theory", "Religion"],
+      "source_paragraphs": ["P-000032"]
+    },
+    {
+      "claim_id": "C-000035",
+      "statement": "Inflation causes moral decline through a dopamine-analogous mechanism.",
+      "domains": ["Economics", "Psychology", "Ethics"],
+      "source_paragraphs": ["P-000032"]
+    },
+    {
+      "claim_id": "C-000036",
+      "statement": "The Suffolk Bank demonstrates the historical viability of free banking and private clearing.",
+      "domains": ["Economics", "History"],
+      "source_paragraphs": ["P-000033"]
+    },
+    {
+      "claim_id": "C-000037",
+      "statement": "Mudarabah is the natural contractual form under private money and free banking.",
+      "domains": ["Economics", "Religion"],
+      "source_paragraphs": ["P-000034"]
+    },
+    {
+      "claim_id": "C-000038",
+      "statement": "Deterministic government is incompatible with volitional liberty.",
+      "domains": ["Political Theory", "Philosophy"],
+      "source_paragraphs": ["P-000035"]
+    },
+    {
+      "claim_id": "C-000039",
+      "statement": "The denial of free will turns into its own proof (because the act of denying free will presupposes it).",
+      "domains": ["Philosophy", "Logic", "Epistemology"],
+      "source_paragraphs": ["P-000035"]
+    },
+    {
+      "claim_id": "C-000040",
+      "statement": "The Austrian School, libertarianism, and classical liberalism are incomplete systems without theological grounding.",
+      "domains": ["Economics", "Political Theory", "Religion"],
+      "source_paragraphs": ["P-000036"]
+    },
+    {
+      "claim_id": "C-000041",
+      "statement": "Law is discovered, not merely enacted.",
+      "domains": ["Political Theory", "Ethics", "Religion"],
+      "source_paragraphs": ["P-000037"]
+    },
+    {
+      "claim_id": "C-000042",
+      "statement": "An institution is categorically distinct from an organization, and conflating them destroys liberty.",
+      "domains": ["Sociology", "Political Theory"],
+      "source_paragraphs": ["P-000039"]
+    },
+    {
+      "claim_id": "C-000043",
+      "statement": "Democracy does not legitimize the choice of the devil.",
+      "domains": ["Political Theory"],
+      "source_paragraphs": ["P-000040"]
+    },
+    {
+      "claim_id": "C-000044",
+      "statement": "Democracy is the gateway for collectivist infiltration.",
+      "domains": ["Political Theory"],
+      "source_paragraphs": ["P-000040"]
+    },
+    {
+      "claim_id": "C-000045",
+      "statement": "Disruption in sex and family paves the way for the state.",
+      "domains": ["Sociology", "Political Theory"],
+      "source_paragraphs": ["P-000041"]
+    },
+    {
+      "claim_id": "C-000046",
+      "statement": "Envy is the root of socialism.",
+      "domains": ["Psychology", "Economics", "Political Theory"],
+      "source_paragraphs": ["P-000042"]
+    },
+    {
+      "claim_id": "C-000047",
+      "statement": "Taxation is a penalty for creativity.",
+      "domains": ["Economics", "Political Theory"],
+      "source_paragraphs": ["P-000042"]
+    },
+    {
+      "claim_id": "C-000048",
+      "statement": "State education reproduces slavery.",
+      "domains": ["Sociology", "Political Theory", "Education"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000049",
+      "statement": "The story of Adam and Eve is a question of property rights.",
+      "domains": ["Religion", "Theology", "Political Theory"],
+      "source_paragraphs": ["P-000044"]
+    },
+    {
+      "claim_id": "C-000050",
+      "statement": "Hobbes is more honest than Locke and Rothbard, yet he is still inconsistent.",
+      "domains": ["Political Theory", "Philosophy"],
+      "source_paragraphs": ["P-000052"]
+    },
+    {
+      "claim_id": "C-000051",
+      "statement": "Without Mahdism, a theory of liberty cannot become fully consistent.",
+      "domains": ["Religion", "Theology", "Political Theory", "Logic"],
+      "source_paragraphs": ["P-000053"]
+    },
+    {
+      "claim_id": "C-000052",
+      "statement": "Property ownership lowers time preference and thereby builds civilization.",
+      "domains": ["Economics", "Sociology", "History"],
+      "source_paragraphs": ["P-000054"]
+    },
+    {
+      "claim_id": "C-000053",
+      "statement": "Iranian myths (Shahnameh) are the civilizational memory of liberty.",
+      "domains": ["History", "Sociology", "Political Theory"],
+      "source_paragraphs": ["P-000049"]
+    },
+    {
+      "claim_id": "C-000054",
+      "statement": "Zahhak and Iblis represent the universal pattern of state, power, and deception.",
+      "domains": ["Religion", "History", "Political Theory"],
+      "source_paragraphs": ["P-000055"]
+    },
+    {
+      "claim_id": "C-000055",
+      "statement": "Religion is the antithesis of the state.",
+      "domains": ["Religion", "Theology", "Political Theory"],
+      "source_paragraphs": ["P-000051"]
+    },
+    {
+      "claim_id": "C-000056",
+      "statement": "Ghadir Khumm transferred wilayah (guardianship), not a political state.",
+      "domains": ["Religion", "History", "Theology"],
+      "source_paragraphs": ["P-000051", "P-000062"]
+    },
+    {
+      "claim_id": "C-000057",
+      "statement": "Islam entered Iran not only by the sword but as a theory of transformation compatible with Iranian civilization.",
+      "domains": ["History", "Religion"],
+      "source_paragraphs": ["P-000051"]
+    },
+    {
+      "claim_id": "C-000058",
+      "statement": "History cannot be understood without theory.",
+      "domains": ["History", "Epistemology"],
+      "source_paragraphs": ["P-000047"]
+    },
+    {
+      "claim_id": "C-000059",
+      "statement": "Iran's crisis has two roots: the distortion of religion and the theft of history.",
+      "domains": ["History", "Religion", "Political Theory"],
+      "source_paragraphs": ["P-000048", "P-000070"]
+    },
+    {
+      "claim_id": "C-000060",
+      "statement": "The Iranian nation is defined by liberty and property rights.",
+      "domains": ["Political Theory", "History", "Sociology"],
+      "source_paragraphs": ["P-000048"]
+    },
+    {
+      "claim_id": "C-000061",
+      "statement": "Jizya was economically more favorable to Iranians than Sassanid taxation, explaining Islam's appeal.",
+      "domains": ["History", "Economics", "Religion"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000062",
+      "statement": "Statism is Shirk (theological term for polytheism or associating partners with God).",
+      "domains": ["Religion", "Theology", "Political Theory"],
+      "source_paragraphs": ["P-000059"]
+    },
+    {
+      "claim_id": "C-000063",
+      "statement": "Liberty is not primarily an economic issue; before anything else it is a theological question.",
+      "domains": ["Theology", "Political Theory", "Economics"],
+      "source_paragraphs": ["P-000063"]
+    },
+    {
+      "claim_id": "C-000064",
+      "statement": "God has established two proofs for humanity: one outward (prophets and Imams) and one inward (reason).",
+      "domains": ["Religion", "Theology", "Epistemology"],
+      "source_paragraphs": ["P-000064"]
+    },
+    {
+      "claim_id": "C-000065",
+      "statement": "Rothbard has four theoretical gaps that prevent his libertarianism from being complete.",
+      "domains": ["Economics", "Political Theory"],
+      "source_paragraphs": ["P-000056"]
+    },
+    {
+      "claim_id": "C-000066",
+      "statement": "Natural law and natural rights, grounded in subject-centered reason without revelation, cannot withstand the state or the majority.",
+      "domains": ["Political Theory", "Philosophy", "Ethics"],
+      "source_paragraphs": ["P-000056"]
+    },
+    {
+      "claim_id": "C-000067",
+      "statement": "The rule of Taslīṭ is the religious form of individual property rights and the criterion for evaluating narrations.",
+      "domains": ["Religion", "Theology", "Political Theory"],
+      "source_paragraphs": ["P-000057"]
+    },
+    {
+      "claim_id": "C-000068",
+      "statement": "The problem of the West is not liberty; it is intervention.",
+      "domains": ["Economics", "Political Theory"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000069",
+      "statement": "Usury is the most compressed expression of the entire problem of state-controlled money.",
+      "domains": ["Economics", "Religion"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000070",
+      "statement": "If Iran, in reaction to a distorted governmentalized religion, reproduces Europe's post-Church trajectory (mysticism → Hegel → socialism), the result will be a sea of blood.",
+      "domains": ["History", "Political Theory", "Sociology"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000071",
+      "statement": "The theory of liberty is the only existing solution for the ethical control of artificial intelligence.",
+      "domains": ["Artificial Intelligence", "AI Alignment", "Ethics"],
+      "source_paragraphs": ["P-000011", "P-000012"]
+    },
+    {
+      "claim_id": "C-000072",
+      "statement": "A civilization without consistent principles collapses under its own contradictions.",
+      "domains": ["Sociology", "History", "Logic", "Formal Systems"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000073",
+      "statement": "Gödel believed mathematical objects are real entities we perceive (Platonism/Objectivism in mathematics).",
+      "domains": ["Mathematics", "Philosophy", "Epistemology"],
+      "source_paragraphs": ["P-000028"]
+    },
+    {
+      "claim_id": "C-000074",
+      "statement": "Hegel, Marx, fascism, and communism are modern recyclings of the same ancient structure of mysticism and domination.",
+      "domains": ["History", "Political Theory", "Philosophy"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000075",
+      "statement": "Every intervention in the market is a step toward human servitude; modern states are new idol-temples.",
+      "domains": ["Economics", "Political Theory", "Religion"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000076",
+      "statement": "There is no consistent historical record of racist ideologies or racial massacres in Iran.",
+      "domains": ["History", "Sociology"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000077",
+      "statement": "The coup of 19 August 1953 represents the distortion/theft of Iranian history to control the present and future of Iranians.",
+      "domains": ["History", "Political Theory"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000078",
+      "statement": "If Shi'ism were truly consistent with socialism and fascism, Iran would already be finished.",
+      "domains": ["Religion", "History", "Political Theory"],
+      "source_paragraphs": []
+    },
+    {
+      "claim_id": "C-000079",
+      "statement": "Bahram Gur established a charter of limited kingship calling people kings over their own possessions.",
+      "domains": ["History", "Political Theory"],
+      "source_paragraphs": ["P-000050"]
+    },
+    {
+      "claim_id": "C-000080",
+      "statement": "Dense urban concentration creates exponential commons problems and erodes liberty.",
+      "domains": ["Economics", "Political Theory", "Sociology"],
+      "source_paragraphs": ["P-000054"]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "axiom_catalog": [
+
+    {
+      "axiom_id": "A-000001",
+      "label": "Free Will Axiom",
+      "statement": "Human beings possess free will. Every rational agent, even in the act of disagreeing, is forced to presuppose it.",
+      "tier": "Primary (Layer 0)",
+      "note": "Described as the single starting principle; self-referentially necessary; the foundation of all subsequent derivations.",
+      "supporting_paragraphs": ["P-000002", "P-000015", "P-000035"]
+    },
+    {
+      "axiom_id": "A-000002",
+      "label": "Property-as-Liberty Axiom",
+      "statement": "Liberty, in its objective form, is individual property rights. Property begins with the human body.",
+      "tier": "Primary (Layer 0)",
+      "note": "Presented as the first derived definition from A-000001; treated as axiomatic throughout the text.",
+      "supporting_paragraphs": ["P-000004", "P-000005"]
+    },
+    {
+      "axiom_id": "A-000003",
+      "label": "Divine Origin of Rights Axiom",
+      "statement": "Individual property rights require a divine source to withstand the state, the majority, and power. Without a transcendent grounding, rights cannot resist violation.",
+      "tier": "Primary (Layer 0)",
+      "note": "Used to bridge from libertarianism (incomplete) to religion (necessary).",
+      "supporting_paragraphs": ["P-000013", "P-000056"]
+    },
+    {
+      "axiom_id": "A-000004",
+      "label": "Tawhid Axiom",
+      "statement": "God is one; no servitude to anything other than God is legitimate. Every form of servitude to other-than-God is a violation of liberty.",
+      "tier": "Primary (Layer 0)",
+      "note": "The meta-axiom of the religious formal system. All other religious principles derive from or are consistent with this.",
+      "supporting_paragraphs": ["P-000017", "P-000067"]
+    },
+    {
+      "axiom_id": "A-000005",
+      "label": "Non-Compulsion Axiom",
+      "statement": "There is no compulsion in religion ('La Ikraha fi al-Din'). Any religion that compels is distorted.",
+      "tier": "Primary (Layer 0)",
+      "note": "Quranic axiom used to distinguish authentic from false religion.",
+      "supporting_paragraphs": ["P-000025"]
+    },
+    {
+      "axiom_id": "A-000006",
+      "label": "Resurrection Axiom",
+      "statement": "Divine accountability (resurrection) exists after death. This is the mechanism that makes liberty stable: without it, the 'last round problem' in game-theoretic deterrence collapses.",
+      "tier": "Secondary (Layer 1)",
+      "note": "Depends on A-000004. Required to solve the game-theory problem of deterrence.",
+      "supporting_paragraphs": ["P-000023"]
+    },
+    {
+      "axiom_id": "A-000007",
+      "label": "Prophethood Axiom",
+      "statement": "Prophethood is a real divine institution and it has been finalized (sealed). No new prophet will come.",
+      "tier": "Secondary (Layer 1)",
+      "note": "Required to prevent fraud and proliferation of false religions. Depends on A-000004.",
+      "supporting_paragraphs": ["P-000025"]
+    },
+    {
+      "axiom_id": "A-000008",
+      "label": "Rule of Taslīṭ Axiom",
+      "statement": "People have dominion (taslīṭ) over their own property. This is the religious codification of individual property rights.",
+      "tier": "Secondary (Layer 1)",
+      "note": "Functions as the operational axiom for evaluating all jurisprudential narrations.",
+      "supporting_paragraphs": ["P-000057"]
+    },
+    {
+      "axiom_id": "A-000009",
+      "label": "Dignitary Equality Axiom",
+      "statement": "All human beings possess equal dignity. This is a faith-based truth prior to any scientific conclusion.",
+      "tier": "Secondary (Layer 1)",
+      "note": "Used to argue against state-engineered discrimination and affirmative action alike.",
+      "supporting_paragraphs": ["P-000046"]
+    },
+    {
+      "axiom_id": "A-000010",
+      "label": "Personal Accountability Axiom",
+      "statement": "Penalty must be personally accountable: only the violator bears the punishment, not his family, community, or successors.",
+      "tier": "Secondary (Layer 1)",
+      "note": "Component of divine justice; used to critique collective punishment by the state.",
+      "supporting_paragraphs": ["P-000046"]
+    },
+    {
+      "axiom_id": "A-000011",
+      "label": "Finitude of Axioms Axiom",
+      "statement": "A valid formal system must have a finite and minimal number of axioms. Proliferating axioms leads to contradiction, mysticism, and totalitarianism.",
+      "tier": "Meta-Axiom (Layer 0)",
+      "note": "Methodological axiom governing the architecture of the whole theory.",
+      "supporting_paragraphs": ["P-000018"]
+    },
+    {
+      "axiom_id": "A-000012",
+      "label": "Consistency Axiom",
+      "statement": "A valid system must be internally consistent (non-contradictory). Any interpretation that produces contradictions with liberty is to be rejected.",
+      "tier": "Meta-Axiom (Layer 0)",
+      "note": "Methodological axiom; derived from Gödel's framework as applied to formal systems.",
+      "supporting_paragraphs": ["P-000028", "P-000038"]
+    },
+    {
+      "axiom_id": "A-000013",
+      "label": "Priority of Liberty Axiom",
+      "statement": "Liberty and property rights are prior to any scientific conclusion. They are normative axioms, not scientific findings.",
+      "tier": "Meta-Axiom (Layer 0)",
+      "note": "Used against positivism; establishes the normative primacy of liberty over empirical claims.",
+      "supporting_paragraphs": ["P-000022", "P-000024"]
+    },
+    {
+      "axiom_id": "A-000014",
+      "label": "Theory-Over-Data Axiom",
+      "statement": "Theory has primacy over data in understanding history and religion. Without theory, raw data cannot be interpreted.",
+      "tier": "Methodological (Layer 0)",
+      "note": "Applied to Shahnameh interpretation, historical analysis, and religious jurisprudence.",
+      "supporting_paragraphs": ["P-000049", "P-000047"]
+    },
+    {
+      "axiom_id": "A-000015",
+      "label": "Mahdism Necessity Axiom",
+      "statement": "Without the doctrine of the Hidden Imam (Mahdism/Advent), a consistent theory of liberty cannot be completed. The society awaiting the Advent gradually recedes the state.",
+      "tier": "Secondary (Layer 1)",
+      "note": "Used to complete the logical circle of the theory within Shi'i framework.",
+      "supporting_paragraphs": ["P-000053"]
+    }
+  ]
+}

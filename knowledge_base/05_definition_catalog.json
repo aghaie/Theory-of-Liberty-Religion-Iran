@@ -1,0 +1,154 @@
+{
+  "definition_catalog": [
+    {
+      "definition_id": "D-000001",
+      "term": "Liberty",
+      "definition": "In its objective form, liberty is nothing other than individual property rights. Not a feeling, sentiment, slogan, or mystical state. It is definable, measurable, formally expressible, and defensible. Before anything else, it is a theological question (humans created free), then a legal question, then a political one.",
+      "source_paragraphs": ["P-000004", "P-000063"]
+    },
+    {
+      "definition_id": "D-000002",
+      "term": "Property",
+      "definition": "Begins with the human body: life, will, time, labor, thought, reputation, family, contracts, achievements, land, livelihood, choice, and responsibility. Not merely ownership of house, land, money, or goods.",
+      "source_paragraphs": ["P-000005"]
+    },
+    {
+      "definition_id": "D-000003",
+      "term": "Mysticism (in the theory)",
+      "definition": "Any intellectual or political system that separates the human being from property, body, land, reason, revelation, the market, contracts, and liberty, and delivers him to an ambiguous whole: the state, history, class, nation, world-spirit, dialectic, spiritual master, party, ummah, race, sect, or ideology. The criterion: wherever human property, free will, and the right over body, wealth, reputation, and life are demeaned, mysticism is at work.",
+      "source_paragraphs": ["P-000008"]
+    },
+    {
+      "definition_id": "D-000004",
+      "term": "True Religion",
+      "definition": "The formal system for the defense of individual property rights and liberty. Religion purified of mysticism, state-worship, superstition, anti-rational philosophies, and power-centered interpretations.",
+      "source_paragraphs": ["P-000006", "P-000013"]
+    },
+    {
+      "definition_id": "D-000005",
+      "term": "Islam (social meaning)",
+      "definition": "Submission to God; at the social level: submission to the rights that God has established for His servants.",
+      "source_paragraphs": ["P-000007"]
+    },
+    {
+      "definition_id": "D-000006",
+      "term": "Salaam",
+      "definition": "Not merely a verbal greeting but a declaration of proprietary peace: 'I will not violate your life, property, body, will, reputation, or ownership, and you accept the same covenant.'",
+      "source_paragraphs": ["P-000007"]
+    },
+    {
+      "definition_id": "D-000007",
+      "term": "Iran (civilizational definition)",
+      "definition": "Not merely a geography, state, political border, or historical memory, but a civilizational continuum—the land of proprietors and free people.",
+      "source_paragraphs": ["P-000010"]
+    },
+    {
+      "definition_id": "D-000008",
+      "term": "State (political definition)",
+      "definition": "Any entity that monopolizes violence, power, or money and thereby violates individual property rights. The state as 'Dwalpa' (enslaver), analogized to Satan (Iblis) and the idol-temple in modern form.",
+      "source_paragraphs": ["P-000006", "P-000055"]
+    },
+    {
+      "definition_id": "D-000009",
+      "term": "Institution",
+      "definition": "A relatively stable set of norms, rules, values, roles, expectations, and patterns of behavior that takes shape in order to regulate a particular sphere of social life. Primarily a normative-meaningful structure, not an administrative or executive unit. Examples: family, religion, market, education, property, marriage.",
+      "source_paragraphs": ["P-000039"]
+    },
+    {
+      "definition_id": "D-000010",
+      "term": "Organization",
+      "definition": "A concrete, specific unit with members, structure, goals, hierarchy, and executive procedures, established to perform particular functions. Has a specific name, identifiable members, budget, internal regulations, managers, and employees. Can be registered, dissolved, reformed, and evaluated.",
+      "source_paragraphs": ["P-000039"]
+    },
+    {
+      "definition_id": "D-000011",
+      "term": "Taghut",
+      "definition": "Any illegitimate ruling power or idol; any state that exceeds the bounds of protecting property rights and becomes a violator of rights.",
+      "source_paragraphs": ["P-000025"]
+    },
+    {
+      "definition_id": "D-000012",
+      "term": "Shirk",
+      "definition": "In Islamic theology: associating partners with God. Extended in the theory: any submission to the state as ultimate authority is shirk; statism is shirk.",
+      "source_paragraphs": ["P-000059"]
+    },
+    {
+      "definition_id": "D-000013",
+      "term": "Wilayah",
+      "definition": "Guardianship; spiritual-juridical authority to preserve religion. Transferred at Ghadir Khumm; distinct from political caliphate or state power.",
+      "source_paragraphs": ["P-000051"]
+    },
+    {
+      "definition_id": "D-000014",
+      "term": "Legitimate Geopolitics",
+      "definition": "Knowing how to defend your own property rights and the rights of those who voluntarily join a collective defense agreement. Nothing beyond this.",
+      "source_paragraphs": []
+    },
+    {
+      "definition_id": "D-000015",
+      "term": "Tawakkul (correct form)",
+      "definition": "Reliance on God = calculation, patience, and surrendering the outcome. Reliance on God without reason is superstition.",
+      "source_paragraphs": []
+    },
+    {
+      "definition_id": "D-000016",
+      "term": "Discovered Law",
+      "definition": "Law derived from the objective structure of property rights and liberty; pre-existing to legislative will. Opposite of fabricated law.",
+      "source_paragraphs": ["P-000037"]
+    },
+    {
+      "definition_id": "D-000017",
+      "term": "Fabricated Law",
+      "definition": "Law created by legislative will without reference to the objective structure of property rights. Any such law that violates property rights is illegitimate.",
+      "source_paragraphs": ["P-000037"]
+    },
+    {
+      "definition_id": "D-000018",
+      "term": "Taslīṭ Rule",
+      "definition": "Islamic jurisprudential rule: 'People have dominion (taslīṭ) over their own property.' The religious form of individual property rights. Any narration incompatible with this rule is to be rejected.",
+      "source_paragraphs": ["P-000057"]
+    },
+    {
+      "definition_id": "D-000019",
+      "term": "Consistent Formal System",
+      "definition": "A finite set of non-contradictory axioms from which propositions can be derived. Must be executable. Religion must be this kind of system. Any interpretation of religion that produces contradictions is distorted.",
+      "source_paragraphs": ["P-000011", "P-000028"]
+    },
+    {
+      "definition_id": "D-000020",
+      "term": "Mudarabah",
+      "definition": "Islamic profit-sharing contract: investor provides capital, entrepreneur provides labor; profits split by agreement, losses borne by investor. Described as the natural financial form under private money and free banking.",
+      "source_paragraphs": ["P-000034"]
+    },
+    {
+      "definition_id": "D-000021",
+      "term": "Nazri (Votive Offering)",
+      "definition": "Grassroots voluntary charitable giving in Iranian/Islamic tradition. Distinct from state-administered welfare. Represents authentic civil society function of religion.",
+      "source_paragraphs": []
+    },
+    {
+      "definition_id": "D-000022",
+      "term": "Imamate",
+      "definition": "The Shi'i institution of divinely-guided leadership after the Prophet. Its function: preserving religion against state capture. The Imam is an outward proof of God; reason is the inward proof.",
+      "source_paragraphs": ["P-000064"]
+    },
+    {
+      "definition_id": "D-000023",
+      "term": "Iranian Nation",
+      "definition": "Defined not by ethnicity, language, or race, but by liberty and property rights. Any Iranian—regardless of religion, language, ethnicity, political inclination, or way of life—can find their place within this definition.",
+      "source_paragraphs": ["P-000048"]
+    },
+    {
+      "definition_id": "D-000024",
+      "term": "Dwalpa",
+      "definition": "A term used in the book for the state as enslaver. The state as Dwalpa: the mechanism that converts free human beings into dependents and servants.",
+      "source_paragraphs": []
+    },
+    {
+      "definition_id": "D-000025",
+      "term": "The Two Roots of Iran's Crisis",
+      "definition": "(1) The distortion of religion — converting a liberty-defending system into a tool of state power. (2) The theft of history — falsifying Iran's historical memory to prevent Iranians from recognizing the axis of liberty in their own tradition.",
+      "source_paragraphs": ["P-000048", "P-000070"]
+    }
+  ]
+}

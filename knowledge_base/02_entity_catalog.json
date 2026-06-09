@@ -1,0 +1,544 @@
+{
+  "entity_catalog": [
+    {
+      "entity_id": "E-000001",
+      "name": "Mohammadali Jannatkhahdoost",
+      "type": "Person",
+      "role": "Author of the book; Iranian thinker; self-described as independent theorist"
+    },
+    {
+      "entity_id": "E-000002",
+      "name": "Taha Doostmohammadi",
+      "type": "Person",
+      "role": "Translator of the book into English"
+    },
+    {
+      "entity_id": "E-000003",
+      "name": "Kurt Gödel",
+      "type": "Person",
+      "role": "Austrian-American logician and mathematician; author of Incompleteness Theorems; cited as foundational for the theory's formal-system framework"
+    },
+    {
+      "entity_id": "E-000004",
+      "name": "Friedrich Hayek",
+      "type": "Person",
+      "role": "Austrian-British economist; cited for free banking, spontaneous order, and critique of central planning"
+    },
+    {
+      "entity_id": "E-000005",
+      "name": "Murray Rothbard",
+      "type": "Person",
+      "role": "American libertarian economist; cited approvingly for property rights but critiqued for four theoretical gaps"
+    },
+    {
+      "entity_id": "E-000006",
+      "name": "Ludwig von Mises",
+      "type": "Person",
+      "role": "Austrian economist; praxeology and Austrian School; cited approvingly"
+    },
+    {
+      "entity_id": "E-000007",
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "type": "Person",
+      "role": "German philosopher; cited as source of dialectical mysticism, collectivism, and statism; traced genealogy to Nazism and communism"
+    },
+    {
+      "entity_id": "E-000008",
+      "name": "Karl Marx",
+      "type": "Person",
+      "role": "German philosopher/economist; cited as recycling Hegelian mysticism into socialist state-worship"
+    },
+    {
+      "entity_id": "E-000009",
+      "name": "Thomas Hobbes",
+      "type": "Person",
+      "role": "English philosopher; author of Leviathan; cited for monopoly-of-violence theory; described as 'more honest than Locke' but still inconsistent"
+    },
+    {
+      "entity_id": "E-000010",
+      "name": "John Locke",
+      "type": "Person",
+      "role": "English philosopher; cited for property rights theory but deemed less consistent than Hobbes"
+    },
+    {
+      "entity_id": "E-000011",
+      "name": "Bertrand Russell",
+      "type": "Person",
+      "role": "British philosopher/mathematician; critiqued for reducing religion to a reaction to fear"
+    },
+    {
+      "entity_id": "E-000012",
+      "name": "Yuval Noah Harari",
+      "type": "Person",
+      "role": "Israeli historian; cited as inverting the role of religion in civilization; initial intellectual catalyst for the theory"
+    },
+    {
+      "entity_id": "E-000013",
+      "name": "Clayton Christensen",
+      "type": "Person",
+      "role": "American business theorist; cited for religion's role as moral foundation of the market"
+    },
+    {
+      "entity_id": "E-000014",
+      "name": "Daron Acemoglu",
+      "type": "Person",
+      "role": "Economist; author of 'The Narrow Corridor'; critiqued as offering another deception against liberty through balance-of-power framework"
+    },
+    {
+      "entity_id": "E-000015",
+      "name": "Leonard Peikoff",
+      "type": "Person",
+      "role": "Objectivist philosopher; cited for genealogy from Plato and Kant to Hegel to Auschwitz"
+    },
+    {
+      "entity_id": "E-000016",
+      "name": "Ayaan Hirsi Ali",
+      "type": "Person",
+      "role": "Somali-Dutch activist; cited as representative of New Atheism's inability to succeed in a civilizational war"
+    },
+    {
+      "entity_id": "E-000017",
+      "name": "Ali Shariati",
+      "type": "Person",
+      "role": "Iranian sociologist/revolutionary thinker; cited as part of the lineage of Iranian-Islamic mysticism and the silencing of reason"
+    },
+    {
+      "entity_id": "E-000018",
+      "name": "Ronald Reagan",
+      "type": "Person",
+      "role": "American president; cited as spark for the theory of liberty; symbolic of market freedom"
+    },
+    {
+      "entity_id": "E-000019",
+      "name": "Prophet Muhammad (PBUH)",
+      "type": "Historical Figure",
+      "role": "Founder of Islam; his governance cited as lacking a modern state structure; Ghadir Khumm event attributed to him"
+    },
+    {
+      "entity_id": "E-000020",
+      "name": "Ali ibn Abi Talib (AS)",
+      "type": "Historical Figure",
+      "role": "First Imam of Shi'ism; his caliphate analyzed as a struggle for liberty and property rights; Ghadir Khumm as wilayah transfer"
+    },
+    {
+      "entity_id": "E-000021",
+      "name": "Imam Husayn (AS)",
+      "type": "Historical Figure",
+      "role": "Third Imam; his uprising analyzed as resistance to tyranny, not a quest for power"
+    },
+    {
+      "entity_id": "E-000022",
+      "name": "Imam Musa al-Kazim (AS)",
+      "type": "Historical Figure",
+      "role": "Seventh Imam; cited for 'two proofs' doctrine (outward: Imams; inward: reason); his life as model of resistance without surrender"
+    },
+    {
+      "entity_id": "E-000023",
+      "name": "Imam Mahdi (AS)",
+      "type": "Historical Figure",
+      "role": "Twelfth Imam; his occultation and expected advent cited as essential to completing the theory of liberty; Mahdism as logical necessity"
+    },
+    {
+      "entity_id": "E-000024",
+      "name": "Mu'awiyah",
+      "type": "Historical Figure",
+      "role": "Umayyad caliph; cited for confiscating religion in favor of the state; analogized to Abu Sufyan's pattern"
+    },
+    {
+      "entity_id": "E-000025",
+      "name": "'Umar ibn al-Khattab",
+      "type": "Historical Figure",
+      "role": "Second caliph; cited in context of taxation and historical distortion of Ahl al-Bayt"
+    },
+    {
+      "entity_id": "E-000026",
+      "name": "Arash the Archer",
+      "type": "Historical Figure",
+      "role": "Mythological Iranian hero; metaphor used in prefatory letter for the book's civilizational reach"
+    },
+    {
+      "entity_id": "E-000027",
+      "name": "Ferdowsi",
+      "type": "Person",
+      "role": "Author of the Shahnameh; cited as preserver of Iran's civilizational memory and myths of liberty"
+    },
+    {
+      "entity_id": "E-000028",
+      "name": "Rostam",
+      "type": "Historical Figure",
+      "role": "Hero of Shahnameh; analyzed in context of the impossibility of a state official remaining national"
+    },
+    {
+      "entity_id": "E-000029",
+      "name": "Esfandiyar",
+      "type": "Historical Figure",
+      "role": "Hero of Shahnameh; conflict with Rostam analyzed as state vs. civilization tension"
+    },
+    {
+      "entity_id": "E-000030",
+      "name": "Bahram Gur",
+      "type": "Historical Figure",
+      "role": "Sassanid king; cited for Charter of Limited Kingship: 'a king who calls the people kings over their own possessions'"
+    },
+    {
+      "entity_id": "E-000031",
+      "name": "Zahhak",
+      "type": "Historical Figure",
+      "role": "Mythological Iranian tyrant; analyzed as the pattern of state, power, and deception; Satan feeds on his shoulders"
+    },
+    {
+      "entity_id": "E-000032",
+      "name": "Iblis (Satan)",
+      "type": "Concept",
+      "role": "Religious figure; analyzed as mechanism of servitude to other-than-God; analogized to the State"
+    },
+    {
+      "entity_id": "E-000033",
+      "name": "Iran",
+      "type": "Country",
+      "role": "Central civilizational subject; defined as land of proprietors; two-sided wound: distortion of religion and theft of history"
+    },
+    {
+      "entity_id": "E-000034",
+      "name": "Islamic Republic of Iran",
+      "type": "Institution",
+      "role": "Current Iranian state; analyzed as product of historical roots; its 1979 revolution analyzed via time preference"
+    },
+    {
+      "entity_id": "E-000035",
+      "name": "Shi'ism",
+      "type": "Religion",
+      "role": "Branch of Islam; analyzed as inherently liberty-oriented if purified; popular continuity in Iran explained"
+    },
+    {
+      "entity_id": "E-000036",
+      "name": "Islam",
+      "type": "Religion",
+      "role": "Primary religion analyzed; interpreted as formal system of liberty; entry into Iran analyzed as transformative theory"
+    },
+    {
+      "entity_id": "E-000037",
+      "name": "Christianity",
+      "type": "Religion",
+      "role": "Compared to Islam; Trinity analyzed as source of dialectical mysticism; Church cited as historical instrument of state-religion conflation"
+    },
+    {
+      "entity_id": "E-000038",
+      "name": "Zoroastrianism",
+      "type": "Religion",
+      "role": "Ancient Iranian religion; Zurvanism and Manichaeism cited as lineage of mysticism"
+    },
+    {
+      "entity_id": "E-000039",
+      "name": "Austrian School of Economics",
+      "type": "School of Thought",
+      "role": "Economic tradition (Mises, Hayek, Rothbard); cited approvingly but critiqued as incomplete without theological grounding"
+    },
+    {
+      "entity_id": "E-000040",
+      "name": "Libertarianism",
+      "type": "School of Thought",
+      "role": "Political philosophy; cited approvingly but described as incomplete system without religious foundation"
+    },
+    {
+      "entity_id": "E-000041",
+      "name": "Socialism / Communism",
+      "type": "School of Thought",
+      "role": "Analyzed as envy armed with greed; anti-human; anti-liberty; rooted in mysticism and statism"
+    },
+    {
+      "entity_id": "E-000042",
+      "name": "New Atheism",
+      "type": "School of Thought",
+      "role": "Represented by Ayaan Hirsi Ali; analyzed as incapable of winning civilizational war"
+    },
+    {
+      "entity_id": "E-000043",
+      "name": "Nazism / Fascism",
+      "type": "School of Thought",
+      "role": "Cited as outcome of Hegelian-dialectical lineage; product of anti-liberty mysticism"
+    },
+    {
+      "entity_id": "E-000044",
+      "name": "Umayyad Caliphate",
+      "type": "Institution",
+      "role": "Historical Islamic state; analyzed as usurpation of religion in favor of power; oppressor of Iranians"
+    },
+    {
+      "entity_id": "E-000045",
+      "name": "Abbasid Caliphate",
+      "type": "Institution",
+      "role": "Historical Islamic state; oppression of Iranians cited as deepening bond with Ahl al-Bayt"
+    },
+    {
+      "entity_id": "E-000046",
+      "name": "Sassanid Empire",
+      "type": "Institution",
+      "role": "Pre-Islamic Iranian empire; its taxation cited; Bahram Gur's charter analyzed; context for Islam's appeal in Iran"
+    },
+    {
+      "entity_id": "E-000047",
+      "name": "Suffolk Bank",
+      "type": "Institution",
+      "role": "Historical American bank; cited as witness to viability of free banking and private clearing"
+    },
+    {
+      "entity_id": "E-000048",
+      "name": "Central Bank",
+      "type": "Institution",
+      "role": "Described as 'earthly god'; analyzed as monopolistic state tool contradicting liberty; inflation generator"
+    },
+    {
+      "entity_id": "E-000049",
+      "name": "Gödel's Incompleteness Theorems",
+      "type": "Scientific Theory",
+      "role": "Mathematical/logical theorems; applied to argue religion must be an open, consistent system; used to critique Hilbert's formalism"
+    },
+    {
+      "entity_id": "E-000050",
+      "name": "Praxeology",
+      "type": "Scientific Theory",
+      "role": "Austrian economic methodology (Mises); cited as basis for praxeological inference of the theory of liberty"
+    },
+    {
+      "entity_id": "E-000051",
+      "name": "Game Theory",
+      "type": "Scientific Theory",
+      "role": "Applied to unsupervised store theft problem; used to model deterrence and last-round effects"
+    },
+    {
+      "entity_id": "E-000052",
+      "name": "Artificial Intelligence (AI)",
+      "type": "AI Concept",
+      "role": "Central to the book's challenge: consistent formal ethical system must be programmable; AI as test of religious consistency"
+    },
+    {
+      "entity_id": "E-000053",
+      "name": "AI Alignment",
+      "type": "AI Concept",
+      "role": "Problem of aligning AI with human values; the theory of liberty claims to be the only existing solution"
+    },
+    {
+      "entity_id": "E-000054",
+      "name": "Formal Axiomatic System",
+      "type": "Mathematical Concept",
+      "role": "Core methodological framework; religion must be representable as finite, non-contradictory axiomatic system"
+    },
+    {
+      "entity_id": "E-000055",
+      "name": "Leviathan (Hobbes)",
+      "type": "Book",
+      "role": "Hobbes's political philosophy text; analyzed critically; Iran cited as historically independent of its model"
+    },
+    {
+      "entity_id": "E-000056",
+      "name": "The Narrow Corridor (Acemoglu & Robinson)",
+      "type": "Book",
+      "role": "Analyzed and critiqued as 'another deception against liberty'"
+    },
+    {
+      "entity_id": "E-000057",
+      "name": "Shahnameh (Ferdowsi)",
+      "type": "Book",
+      "role": "Epic of Iranian kings; analyzed as civilizational memory of liberty; myths decoded through theory of liberty"
+    },
+    {
+      "entity_id": "E-000058",
+      "name": "The Qur'an",
+      "type": "Book",
+      "role": "Primary Islamic text; 'string of beads' metaphor applied; its challenge accepted as test of consistency"
+    },
+    {
+      "entity_id": "E-000059",
+      "name": "Heraclitus",
+      "type": "Person",
+      "role": "Ancient Greek philosopher; cited in genealogy of political mysticism leading to Hegel"
+    },
+    {
+      "entity_id": "E-000060",
+      "name": "Plato",
+      "type": "Person",
+      "role": "Ancient Greek philosopher; Platonism applied to Gödel's objectivism; Peikoff genealogy from Plato to Auschwitz"
+    },
+    {
+      "entity_id": "E-000061",
+      "name": "Kant, Immanuel",
+      "type": "Person",
+      "role": "German philosopher; cited in Peikoff's genealogy; subject-centered reason criticized"
+    },
+    {
+      "entity_id": "E-000062",
+      "name": "Zurvanism",
+      "type": "Religion",
+      "role": "Ancient Iranian religious movement; cited as lineage of mysticism and the silencing of reason"
+    },
+    {
+      "entity_id": "E-000063",
+      "name": "Manichaeism",
+      "type": "Religion",
+      "role": "Gnostic religion; cited as lineage of dualism and mysticism in Iranian tradition"
+    },
+    {
+      "entity_id": "E-000064",
+      "name": "Kurdish Koolbars",
+      "type": "Concept",
+      "role": "Cross-border porters in Kurdistan; cited approvingly as legitimate market actors resisting state-imposed tariffs"
+    },
+    {
+      "entity_id": "E-000065",
+      "name": "Mudarabah",
+      "type": "Economic Theory",
+      "role": "Islamic profit-sharing contract; cited as natural financial form under free banking"
+    },
+    {
+      "entity_id": "E-000066",
+      "name": "Taghut",
+      "type": "Concept",
+      "role": "Quranic term for illegitimate ruling power/idol; applied to any state that exceeds its bounds"
+    },
+    {
+      "entity_id": "E-000067",
+      "name": "Ahl al-Bayt",
+      "type": "Concept",
+      "role": "Prophet's household; Imams; eschatological reports cited as derived from axiomatic-inferential logic"
+    },
+    {
+      "entity_id": "E-000068",
+      "name": "Wilayah (Guardianship)",
+      "type": "Concept",
+      "role": "Islamic concept; distinguished from caliphate/state power; Ghadir as transfer of wilayah, not state"
+    },
+    {
+      "entity_id": "E-000069",
+      "name": "Imamate",
+      "type": "Concept",
+      "role": "Shi'i doctrine of succession; analyzed as preservation of religion against state capture"
+    },
+    {
+      "entity_id": "E-000070",
+      "name": "Ghadir Khumm",
+      "type": "Event",
+      "role": "Event where Prophet designated Ali; reinterpreted as transfer of guardianship (wilayah), not political state"
+    },
+    {
+      "entity_id": "E-000071",
+      "name": "1979 Iranian Revolution",
+      "type": "Event",
+      "role": "Analyzed via time preference; 'Neither Shah nor Sheikh' position; religious state capture analyzed"
+    },
+    {
+      "entity_id": "E-000072",
+      "name": "22 September 2022",
+      "type": "Event",
+      "role": "Author's personal crisis: forced leap from window to preserve free-thought path; referenced in prefatory letter"
+    },
+    {
+      "entity_id": "E-000073",
+      "name": "January 2026 Iran Struggle",
+      "type": "Event",
+      "role": "Cited as 'tragic struggle for Liberty, paid for in blood'; contemporary context for the book"
+    },
+    {
+      "entity_id": "E-000074",
+      "name": "Coup of 19 August 1953 (Mossadegh Coup)",
+      "type": "Event",
+      "role": "Described as 'distortion of 19 August 1953 and the theft of history'; geopolitical analysis applied"
+    },
+    {
+      "entity_id": "E-000075",
+      "name": "Learned Helplessness",
+      "type": "Concept",
+      "role": "Psychological mechanism of domination; cited as tool of state control; overcome through hope and faith"
+    },
+    {
+      "entity_id": "E-000076",
+      "name": "Jizya",
+      "type": "Concept",
+      "role": "Islamic tax on non-Muslims; analyzed in comparison to Sassanid taxation as context for Islam's appeal in Iran"
+    },
+    {
+      "entity_id": "E-000077",
+      "name": "Nazri (Votive offering)",
+      "type": "Concept",
+      "role": "Grassroots voluntary charitable giving; contrasted with state-administered welfare"
+    },
+    {
+      "entity_id": "E-000078",
+      "name": "Savak / State Security",
+      "type": "Institution",
+      "role": "Implicit in context of author's arrest and judicial ambiguity; instruments of state control"
+    },
+    {
+      "entity_id": "E-000079",
+      "name": "United States",
+      "type": "Country",
+      "role": "Referenced as location of AI companies; Reagan era cited; foreign policy implications discussed"
+    },
+    {
+      "entity_id": "E-000080",
+      "name": "Europe / Western Civilization",
+      "type": "Civilization",
+      "role": "Analyzed critically: Western problem is intervention, not liberty; Renaissance-to-socialism path warned against"
+    },
+    {
+      "entity_id": "E-000081",
+      "name": "Time Preference",
+      "type": "Economic Theory",
+      "role": "Austrian concept; cited in analysis of 1979 Revolution and land/civilization relationship"
+    },
+    {
+      "entity_id": "E-000082",
+      "name": "Dopamine",
+      "type": "Concept",
+      "role": "Neurological mechanism; cited in context of inflation and moral decline"
+    },
+    {
+      "entity_id": "E-000083",
+      "name": "Entropy",
+      "type": "Scientific Theory",
+      "role": "Thermodynamic concept; applied to model life, production, consumption, and defense of liberalism"
+    },
+    {
+      "entity_id": "E-000084",
+      "name": "Reductio ad Absurdum",
+      "type": "Logical Concept",
+      "role": "Method of argument; used in critique of godless capitalism and resource crisis"
+    },
+    {
+      "entity_id": "E-000085",
+      "name": "Amir al-Mu'minin Ali (AS)",
+      "type": "Historical Figure",
+      "role": "Same as Ali ibn Abi Talib; formal title used in caliphate context"
+    },
+    {
+      "entity_id": "E-000086",
+      "name": "Abu Sufyan",
+      "type": "Historical Figure",
+      "role": "Meccan opponent of Islam; cited as pattern of confiscating religion for state power"
+    },
+    {
+      "entity_id": "E-000087",
+      "name": "Imam Reza (AS)",
+      "type": "Historical Figure",
+      "role": "Eighth Imam; book's completion noted on his birth anniversary in Mashhad"
+    },
+    {
+      "entity_id": "E-000088",
+      "name": "Mashhad",
+      "type": "Country",
+      "role": "Iranian city; location where book was completed"
+    },
+    {
+      "entity_id": "E-000089",
+      "name": "Affirmative Action",
+      "type": "Concept",
+      "role": "American policy; analyzed as institutionalized envy; violates equality of dignity"
+    },
+    {
+      "entity_id": "E-000090",
+      "name": "Hilbert, David",
+      "type": "Person",
+      "role": "Mathematician; his formalist program cited as limited by 'anti-Platonist prejudice'; incompleteness theorems refute it"
+    }
+  ]
+}
