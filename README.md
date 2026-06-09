@@ -2,7 +2,7 @@
 ### A Machine-Audited Knowledge Base
 
 **Source:** Mohammadali Jannatkhahdoost, *Theory of Liberty (Individual Property Rights) — Iran & Religion*
-**Audit Engine:** Claude Sonnet 4.6 · **Status:** Phase 3 Complete · Phase 4 Pending
+**Audit Engine:** Claude Sonnet 4.6 · **Status:** Phase 4 Complete · Classification: C (Substantially Survives)
 
 ---
 
@@ -126,10 +126,11 @@ Theory-of-Liberty-Religion-Iran/
 │
 └── audit/                             ← Adversarial audit results (evaluations)
     ├── README.md
-    ├── phase1_audit/                    (51–61)  Logical consistency: 62/100
-    ├── phase2_uniqueness/               (71–85)  Uniqueness: 65/100 · CE-003 found
-    ├── phase25_ce003/                   (91–105) CE-003 = weak counterexample
-    └── phase3_formal/                   (111–126) B: Proto-Formal · 39/100
+    ├── phase1_audit/                    (51–61)   Logical consistency: 62/100
+    ├── phase2_uniqueness/               (71–85)   Uniqueness: 65/100 · CE-003 found
+    ├── phase25_ce003/                   (91–105)  CE-003 = weak counterexample
+    ├── phase3_formal/                   (111–126) B: Proto-Formal · 39/100
+    └── phase4_hostile/                  (131–145) Hostile review: C (Survives with repairs)
 ```
 
 ---
@@ -145,6 +146,9 @@ Theory-of-Liberty-Religion-Iran/
 | `audit/phase2_uniqueness/84_uniqueness_final_verdict.md` | Phase 2 verdict |
 | `audit/phase25_ce003/104_counterexample_verdict.md` | CE-003 verdict |
 | `audit/phase3_formal/126_formal_system_final_verdict.md` | Phase 3 verdict |
+| `audit/phase4_hostile/144_hostile_review_final_verdict.md` | Phase 4 — hostile review verdict (C: Survives) |
+| `audit/phase4_hostile/141_killshot_analysis.md` | Kill shot analysis — no single fatal critique found |
+| `audit/phase4_hostile/140_top_criticisms.json` | 25 strongest criticisms, ranked by severity |
 
 ---
 
@@ -205,3 +209,59 @@ To reach Category A, the theory needs: explicit inference rules, 8 Hilbert-style
 ---
 
 *Audited June 2026. The audit is adversarial and does not represent the author's position.*
+
+
+---
+
+## Phase 4 — Hostile Expert Review
+
+**Panel**: 20 reviewers — Gödel, Tarski, Russell, Quine, Dennett, Parfit, Lewis, Rawls, Nozick, Ostrom, Hayek, Yudkowsky, Bostrom, Christiano, Stuart Russell, Nash, Aumann, Popper, Lakatos, Sowell
+
+**Files**: `audit/phase4_hostile/` (131–145)
+
+### Final Classification
+
+**C — Substantially Survives with Repairs Required**
+
+The theory survives hostile expert review in its core but not in its peripheral claims.
+
+### What Survives
+- Anti-totalitarianism structural argument (most robust; 90% confidence)
+- Free will foundation (85%)
+- Last-round game-theoretic solution (scoped to finite case with common knowledge; 75%)
+- Parsimony of 6-axiom kernel (objective metric; 90%)
+- AI alignment values specification (not complete mechanism; 80%)
+
+### What Collapses Under Review
+- Uniqueness claim ("THE ONLY CFS") — CE-003 and secular alternatives exist
+- Formal system Category A claim — Category B (39/100) only
+- CIRC-001 (mysticism = anti-liberty) — circular, must be reformulated
+- CIRC-005 (authentic religion = CFS for liberty) — circular, must be reformulated
+- Universal last-round solution — scoped to common-knowledge communities
+
+### Strongest Criticism
+**Tarski's circularity objection**: CIRC-001 and CIRC-005 make ~600 claims analytically true, not discovered. Until fixed, the uniqueness argument and anti-mysticism argument are circular. Severity: 9/10.
+
+### Best Defense
+**Structural reformulation of Tawhid**: "No finite entity possesses non-contingent, non-delegated, unlimited authority over rational agents." This is defensible by atheists and believers alike, removes the God-existence prerequisite, and preserves the full anti-totalitarianism conclusion.
+
+### Survivability Verdict
+If all 25 strongest criticisms are stipulated as correct, the theory does not collapse — it contracts. What remains is still more formally rigorous than Rawls, Nozick, Hayek, Rothbard, and Kant by the standards of Phase 3. The core metaphysical derivation is intact.
+
+### Academic Reception Forecast
+| Institution | Interest | Key Blocker |
+|-------------|----------|-------------|
+| Oxford Philosophy | Medium | CIRC-001/005; no formal proofs |
+| MIRI | **High** | Needs Lean 4 formalization |
+| Princeton Politics | Medium-High | Rawls engagement; circularity |
+| U Chicago Economics | Medium | Needs empirical predictions |
+| DeepMind / Anthropic | Low-Medium | Non-ML approach |
+
+**After full formalization (Lean 4, Hilbert proofs, Robinson Q)**: potential for exceptional academic reception as the only mechanically verified formal axiomatic system in political philosophy.
+
+### Required Repairs to Reach Classification D
+1. Fix CIRC-001 and CIRC-005 with structural definitions
+2. Reformulate uniqueness claim as "strongest available CFS"
+3. Add explicit inference rules (MP, RAA, UI, HS)
+4. Scope the last-round solution to finite case with common knowledge
+5. Reformulate Tawhid structurally (remove God-existence prerequisite)
