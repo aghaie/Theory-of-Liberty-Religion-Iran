@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this knowledge base in academic work, please cite it as below."
+type: dataset
+title: "Theory of Liberty — Machine Audit Knowledge Base"
+abstract: >
+  A machine-readable, formally audited knowledge base derived from
+  Mohammadali Jannatkhahdoost's 'Theory of Liberty (Individual Property Rights) —
+  Iran & Religion'. Contains 16,569 extracted claims, 1,244 definitions, 838 axiom
+  candidates, dependency graphs, and multi-phase adversarial audit results covering
+  logical consistency, uniqueness, and formal system qualification.
+authors:
+  - family-names: Aghaie
+    given-names: Ali
+    email: aghaie.ali@gmail.com
+  - name: "Mohammadali Jannatkhahdoost (original theory author)"
+    alias: "Source author"
+version: "1.0.0"
+date-released: "2026-06-09"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/aghaie-ali/Theory-of-Liberty-Religion-Iran"
+keywords:
+  - political philosophy
+  - formal axiomatic systems
+  - Islamic philosophy
+  - liberty
+  - property rights
+  - AI ethics
+  - knowledge base
+  - formal logic
+  - Iran
+  - computational philosophy
+references:
+  - type: book
+    title: "Theory of Liberty (Individual Property Rights) — Iran & Religion"
+    authors:
+      - family-names: Jannatkhahdoost
+        given-names: Mohammadali
+    notes: "Original Persian-language source text from which this knowledge base is derived"

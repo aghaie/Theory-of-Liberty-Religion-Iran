@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temp analysis scripts
+/tmp/phase*.py
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Large generated intermediates (keep .jsonl, ignore raw dumps)
+*.log
+*.tmp
+
+# OS
+Thumbs.db
+ehthumbs.db
