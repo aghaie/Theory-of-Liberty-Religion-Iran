@@ -1,0 +1,42 @@
+{
+  "question": "Does the theory contain a proof calculus — a systematic procedure for generating valid proofs?",
+  "calculus_types_checked": [
+    {
+      "type": "Hilbert-style proof calculus",
+      "description": "Axiom-heavy, few rules (MP + substitution). Proofs are sequences of WFFs.",
+      "present": false,
+      "notes": "No Hilbert-style proof sequences exist anywhere in the theory."
+    },
+    {
+      "type": "Natural Deduction (Gentzen NJ/NK)",
+      "description": "Introduction/elimination rules for each connective. Proofs are derivation trees.",
+      "present": false,
+      "notes": "No natural deduction trees exist. Some argument structures resemble ND informally."
+    },
+    {
+      "type": "Sequent Calculus (Gentzen LK)",
+      "description": "Sequents Γ⊢Δ with structural rules. Proof search is more systematic.",
+      "present": false,
+      "notes": "Not used."
+    },
+    {
+      "type": "Tableaux / Semantic Trees",
+      "description": "Refutation-based: branch until contradiction found.",
+      "present": false,
+      "notes": "Not used."
+    },
+    {
+      "type": "Informal Proof Sketches",
+      "description": "Natural language arguments that could be systematized.",
+      "present": true,
+      "notes": "The theory DOES contain informal proof sketches. The argument structures for the main claims (FW→PR→L, Tawhid→anti-statism, Resurrection→stability) are informal proofs that have definite logical structure. 55_inference_validity_report.json documents 8 such chains. These are PROTO-PROOFS, not formal proofs."
+    }
+  ],
+  "derivation_procedures_present": false,
+  "theorem_generation_systematic": false,
+  "proto_proof_sketches_count": 8,
+  "formalized_proofs_count": 0,
+  "proof_calculus_score": 10,
+  "verdict": "NO proof calculus exists. The theory argues via informal prose proof sketches. These have been mapped to inference chains in Phase 1 but no formal proof calculus was used by the author or identified in the text. Score: 10/100 — awarded only for the existence of recoverable proof structure.",
+  "minimum_viable_proof_calculus": "To achieve a proof calculus, the following suffices: (1) State MP, RAA, UI, HS as named rules. (2) Convert each of the 8 inference chains (55_inference_validity_report.json) into explicit Hilbert-style or natural-deduction proof sequences. (3) Fill the two bridge premises identified in Phase 1 (self-ownership from FW; negative-theology-operationalization from Tawhid). This is achievable technical work, not philosophical work."
+}

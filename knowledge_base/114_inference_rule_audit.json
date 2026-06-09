@@ -1,0 +1,60 @@
+{
+  "question": "Does the theory explicitly state rules of inference?",
+  "explicit_rules_stated": false,
+  "implicit_rules_identifiable": true,
+  "reconstruction_attempt": [
+    {
+      "rule": "Modus Ponens",
+      "formal": "From φ and φ→ψ, derive ψ",
+      "evidence_of_use": "The most common inference pattern in the theory. Example: 'Free will exists (A-000001) → self-ownership follows (MS-A2-equivalent) → property rights follow (C-000001).' Each step is an implicit modus ponens. 55_inference_validity_report.json documents 8 chains that all use this pattern.",
+      "explicitly_stated": false,
+      "reconstructable": true
+    },
+    {
+      "rule": "Reductio ad Absurdum (RAA)",
+      "formal": "From (¬φ → ⊥), derive φ",
+      "evidence_of_use": "Used explicitly in the performative contradiction argument (A-000001): 'Assume ¬FW → the assertion is determined, not argued → the assertion is self-undermining → ¬(¬FW) → FW.' This is textbook RAA and is the most formal single inference in the entire theory.",
+      "explicitly_stated": false,
+      "reconstructable": true
+    },
+    {
+      "rule": "Universal Instantiation",
+      "formal": "From ∀x φ(x), derive φ(a) for any term a",
+      "evidence_of_use": "Used when the theory moves from general principles to specific applications: 'No human agent should be served (Tawhid) → therefore no state should be served.' The move from universal to particular is UI.",
+      "explicitly_stated": false,
+      "reconstructable": true
+    },
+    {
+      "rule": "Hypothetical Syllogism",
+      "formal": "From φ→ψ and ψ→χ, derive φ→χ",
+      "evidence_of_use": "Used throughout the main derivation chain: FW→PR→L→T→CFS→R is a chain of conditionals composed via HS.",
+      "explicitly_stated": false,
+      "reconstructable": true
+    },
+    {
+      "rule": "Game-Theoretic Backward Induction (Non-standard)",
+      "formal": "From: (T known ∧ rational_defect_at_T) → backward_induction_to_T-1 → ... → T-k. Contrapositive: ¬(T known) → ¬backward_induction.",
+      "evidence_of_use": "The last-round problem argument. This is not standard FOL — it requires game-theoretic reasoning which is a non-classical inference pattern.",
+      "explicitly_stated": false,
+      "reconstructable": true,
+      "note": "Requires game-theory axioms not stated in the theory."
+    },
+    {
+      "rule": "Performative Contradiction Rule (Non-standard)",
+      "formal": "For any agent a: if a asserts P, and P is inconsistent with the preconditions of assertion, then ¬P.",
+      "evidence_of_use": "Used for A-000001. Structurally like RAA but applies to META-level (the act of assertion) rather than object-level propositions. Not a standard rule in any classical or modal logic.",
+      "explicitly_stated": false,
+      "reconstructable": true,
+      "note": "Would need to be added as a rule or derived as a meta-theorem."
+    }
+  ],
+  "inference_rule_score": 25,
+  "scale": "0-100",
+  "score_rationale": "Rules are identifiable (score not 0). All rules are standard (modus ponens, RAA, UI, HS). None are STATED (score not above 50). Two non-standard rules are required (game theory, performative contradiction) that must be either stated as primitive rules or derived — neither has been done. Score: 25/100.",
+  "what_is_needed": [
+    "Explicitly state MP, RAA, UI, HS as named rules of the formal system",
+    "Either derive the performative-contradiction rule as a meta-theorem or add it as a primitive rule",
+    "Either embed game-theoretic backward induction in the system or state it as an external theorem applied via instantiation"
+  ],
+  "verdict": "IMPLICIT only — no explicit inference rules stated. Reconstructable but not present."
+}

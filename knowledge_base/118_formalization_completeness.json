@@ -1,0 +1,53 @@
+{
+  "total_claims_in_knowledge_base": 16569,
+  "total_unique_claims": 16178,
+  "kernel_claims": 14,
+  "kernel_axioms": 6,
+  "kernel_definitions": 8,
+  "total_kernel_items": 28,
+  "formalized_items": {
+    "axioms_with_FOL_equivalent": 6,
+    "claims_with_formal_equivalent": 20,
+    "definitions_with_formal_equivalent": 8,
+    "total_formally_expressed": 34
+  },
+  "formalization_percentages": {
+    "kernel_coverage": 121,
+    "note_kernel_coverage": "Over 100% because some items have multiple formalizations",
+    "adjusted_kernel_coverage": 92,
+    "total_claims_coverage": 0.21,
+    "note_total": "Only 34 of 16,569 total claims have formal equivalents — 0.2%"
+  },
+  "quality_of_formalization": {
+    "propositional_formulas": {
+      "count": 8,
+      "quality": "GOOD — propositional structure is unambiguous",
+      "completeness": "Low — only the simplest claims are purely propositional"
+    },
+    "FOL_formulas": {
+      "count": 12,
+      "quality": "MODERATE — predicates are named but not fully defined",
+      "completeness": "Partial — major claims have FOL sketches; full definitions missing"
+    },
+    "modal_S5_formulas": {
+      "count": 8,
+      "quality": "PARTIAL — modal operators used but S5 frame conditions not verified",
+      "completeness": "Low"
+    },
+    "deontic_logic_formulas": {
+      "count": 6,
+      "quality": "PARTIAL — O(·), P(·), F(·) operators used but deontic system not specified",
+      "completeness": "Low"
+    }
+  },
+  "informal_percentage": 99.8,
+  "formally_expressed_percentage": 0.2,
+  "kernel_formally_expressed_percentage": 92,
+  "ambiguous_percentage": {
+    "estimate": 15,
+    "sources": "Mysticism definition (CIRC-001), authentic religion (CIRC-005), some derived claims"
+  },
+  "verdict": "The theory is 92% formally expressible at the kernel level — this is strong. However, only 0.2% of the full claim set has been formally expressed. The kernel is the right target for formalization. If the 28 kernel items are fully formalized (target: 100%), the theory achieves formal system status for its core. The 16,569 claims represent philosophical elaboration that does not need full formalization for the core formal system to be valid.",
+  "score": 55,
+  "score_rationale": "55/100: kernel near-fully expressible (+) but only sketched (+), not proven in formal calculus (-), 0.2% of total claims (-), deontic/modal logic unspecified (-)."
+}

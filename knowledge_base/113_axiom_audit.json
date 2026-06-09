@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "component": "FR-02a: Explicit axioms",
+      "verdict": "YES",
+      "evidence": "15 named axioms identified (41_minimum_axiom_set.json). 6-axiom minimum kernel established (42_theory_kernel.json). Axioms are explicitly named: A-000001 through A-000015. This is the strongest formal feature of the theory.",
+      "score": 90
+    },
+    {
+      "component": "FR-02b: Axioms are WFFs",
+      "verdict": "PARTIAL",
+      "evidence": "The axioms are stated in natural language. 40_formalization_expansion.json provides FOL equivalents for the most important axioms: A-000001: ∃x[FW(x)] ∧ ∀y[Asserts(y, ¬FW) → FW], A-000004: ¬∃x[deserves_absolute_servitude(x) ∧ x≠God], A-000006: ∀x∀t[Person(x) ∧ Accounts_for(x,t) → ∃t′[t′>t]], A-000008: ∀x∀p[Owns(x,p) → ¬Coerce_allowed_by_law(¬x,p)]. However these WFF-versions are external translations, not original form.",
+      "score": 65
+    },
+    {
+      "component": "FR-02c: Independent axioms",
+      "verdict": "MOSTLY_YES",
+      "evidence": "Phase 1 Step 1 (51_axiom_independence_report.json): A-000001 INDEPENDENT; A-000004 WEAKLY INDEPENDENT; A-000006 INDEPENDENT; A-000007 INDEPENDENT; A-000011 INDEPENDENT; A-000012 INDEPENDENT. A-000003 CONFIRMED REDUNDANT (derivable from A-000001 + A-000004). 5/6 minimum kernel axioms are confirmed independent. One full axiom (A-000003) is redundant.",
+      "score": 82
+    },
+    {
+      "component": "FR-02d: Finite axiom set",
+      "verdict": "YES",
+      "evidence": "15 named axioms; 6 in minimum kernel. |A| = 6 (minimum) or 15 (full). Both values are finite positive integers. No open-ended axiom schema is used.",
+      "score": 100
+    },
+    {
+      "component": "FR-02e: Machine-identifiable axioms",
+      "verdict": "PARTIAL",
+      "evidence": "The axiom IDs (A-000001 through A-000015) are machine-identifiable by their ID codes in the knowledge base. A machine can enumerate them by reading 41_minimum_axiom_set.json and 42_theory_kernel.json. HOWEVER: the machine cannot identify which sentences in the original text are axioms vs. derived claims vs. examples. The identification required the Phase 0-0.9 human annotation process.",
+      "score": 60
+    }
+  ],
+  "axiom_section_score": 79,
+  "overall_axiom_verdict": "STRONG — the theory's axiom structure is its best formal feature",
+  "summary": "The theory has a well-developed axiom structure: named, finite, mostly independent, with formal equivalents provided by external analysis. This satisfies FR-02 at the ~80% level. The remaining gap: axioms are in natural language; formal WFF translations are external."
+}

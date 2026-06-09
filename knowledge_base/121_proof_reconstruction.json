@@ -1,0 +1,242 @@
+{
+  "method": "Select 10 most important conclusions; attempt full formal reconstruction; identify missing premises.",
+  "reconstructions": [
+    {
+      "id": "PR-001",
+      "conclusion": "Free will is presupposed by any normative claim.",
+      "premises_used": [
+        "A-000001",
+        "A-000001-hidden: assertion presupposes agency",
+        "Logical: RAA"
+      ],
+      "proof_sketch": [
+        "(1) Assume ¬FW [for RAA]",
+        "(2) The agent asserting ¬FW performs an assertion [observation]",
+        "(3) Assertion requires the ability to choose to assert — i.e., FW [hidden premise: Asserts(a,P) → Can_choose_not_to_assert(a)]",
+        "(4) ¬FW ∧ FW — contradiction [from 1 + 3]",
+        "(5) ∴ FW [RAA on 1]"
+      ],
+      "missing_premises": [
+        "Formal semantics of Asserts predicate",
+        "Explicit statement of RAA as inference rule"
+      ],
+      "reconstruction_quality": "COMPLETE MODULO HIDDEN PREMISE",
+      "success": true
+    },
+    {
+      "id": "PR-002",
+      "conclusion": "Persons own their bodies.",
+      "premises_used": [
+        "A-000001 (FW)",
+        "Hidden: self-originating cause owns its substrate"
+      ],
+      "proof_sketch": [
+        "(1) FW: persons are self-originating causes of their actions [A-000001]",
+        "(2) A self-originating cause has sovereignty over the domain it originates from [bridge premise BP-1]",
+        "(3) The body is the physical substrate of self-originating action [empirical premise]",
+        "(4) ∴ Persons own their bodies [from 1+2+3]"
+      ],
+      "missing_premises": [
+        "BP-1: 'a self-originating cause owns its substrate' — this is the body-ownership bridge from Phase 1",
+        "Empirical premise 3 must be formalized"
+      ],
+      "reconstruction_quality": "REQUIRES BRIDGE PREMISE",
+      "success": "CONDITIONAL"
+    },
+    {
+      "id": "PR-003",
+      "conclusion": "Tawhid prohibits human institutions claiming unconditional obedience.",
+      "premises_used": [
+        "A-000004 (Tawhid)",
+        "Bridge: negative theology → operational anti-servitude"
+      ],
+      "proof_sketch": [
+        "(1) Tawhid: ¬∃x[x≠God ∧ Deserves_absolute_servitude(x)] [A-000004]",
+        "(2) A human institution that claims unconditional obedience claims to deserve absolute servitude [bridge BP-2]",
+        "(3) ∴ ¬∃I[Human_institution(I) ∧ Claims_unconditional_obedience(I)] [from 1+2, UI+MP]"
+      ],
+      "missing_premises": [
+        "BP-2: 'claiming unconditional obedience = claiming to deserve absolute servitude' — needs formal definition of both"
+      ],
+      "reconstruction_quality": "REQUIRES BRIDGE PREMISE",
+      "success": "CONDITIONAL"
+    },
+    {
+      "id": "PR-004",
+      "conclusion": "The state (monopoly coercion) is impermissible.",
+      "premises_used": [
+        "A-000004",
+        "PR-003",
+        "Definition: state = monopoly coercion"
+      ],
+      "proof_sketch": [
+        "(1) ¬∃I[Human_institution(I) ∧ Claims_unconditional_obedience(I)] [from PR-003]",
+        "(2) State: ∀S[State(S) → Monopoly_coercion(S)] [definition]",
+        "(3) Monopoly_coercion(S) → Claims_unconditional_obedience(S) [bridge BP-3]",
+        "(4) ∴ ¬∃S[State(S) ∧ Permissible(S)] [from 1+2+3]"
+      ],
+      "missing_premises": [
+        "BP-3: 'monopoly coercion implies claiming unconditional obedience' — this is contentious; a minimal-state defender would deny it",
+        "Countermodel found in Step 10 shows BP-3 is not logically necessary"
+      ],
+      "reconstruction_quality": "REQUIRES CONTESTED BRIDGE PREMISE",
+      "success": "CONDITIONAL — depends on BP-3 acceptance"
+    },
+    {
+      "id": "PR-005",
+      "conclusion": "Without Resurrection, cooperation is unstable in finite social games.",
+      "premises_used": [
+        "Standard game theory (imported)",
+        "Definition: T known → backward induction"
+      ],
+      "proof_sketch": [
+        "(1) Backward Induction Theorem: In a finitely-repeated game with known terminal T, rational agents defect in round T, then T-1, ... then 1 [external game theory]",
+        "(2) Social cooperation is a finitely-repeated game [empirical premise]",
+        "(3) Without Resurrection, T is finite and in principle knowable [negation of A-000006]",
+        "(4) ∴ Without Resurrection, cooperation is unstable [from 1+2+3]"
+      ],
+      "missing_premises": [
+        "The Backward Induction Theorem must be imported or derived (it is an external theorem)",
+        "The empirical premise (2) must be formalized as an axiom or justified"
+      ],
+      "reconstruction_quality": "REQUIRES EXTERNAL THEOREM IMPORT",
+      "success": "CONDITIONAL"
+    },
+    {
+      "id": "PR-006",
+      "conclusion": "Resurrection stabilizes liberty.",
+      "premises_used": [
+        "A-000006 (Resurrection)",
+        "PR-005 (contrapositive)"
+      ],
+      "proof_sketch": [
+        "(1) Resurrection: ∀x[Person(x) → ∃t′>T_death[Accountable(x,t′)]] [A-000006]",
+        "(2) Resurrection → terminal period T is unknowable to any finite agent [derived from A-000006]",
+        "(3) Unknown T → backward induction fails [contrapositive of PR-005]",
+        "(4) Backward induction failure → cooperation is stable [game theory]",
+        "(5) ∴ Resurrection → liberty is stable [from 2+3+4]"
+      ],
+      "missing_premises": [
+        "Same as PR-005 plus: formal derivation of (2) from A-000006 definition"
+      ],
+      "reconstruction_quality": "COMPLETE MODULO EXTERNAL THEOREM",
+      "success": "CONDITIONAL"
+    },
+    {
+      "id": "PR-007",
+      "conclusion": "The Theory of Liberty is a Consistent Formal System.",
+      "premises_used": [
+        "A-000011",
+        "A-000012",
+        "All axioms"
+      ],
+      "proof_sketch": [
+        "(1) Finite axioms: |A| = 6 [A-000011 + enumeration]",
+        "(2) Consistency: ¬(⊢φ ∧ ⊢¬φ) for any φ [A-000012 — asserted]",
+        "(3) Liberty is derivable: ⊢ Liberty [from A-000001 + A-000002 + derivation chain]",
+        "(4) ∴ The theory is a CFS for liberty [definition of CFS]"
+      ],
+      "missing_premises": [
+        "Consistency (step 2) is ASSERTED not proven — by Gödel's second theorem, if the system is rich enough, it cannot prove its own consistency from within",
+        "Step 3 requires the formal proof of Liberty which requires PR-001 + PR-002 + bridge premises",
+        "The definition of CFS must be formally stated"
+      ],
+      "reconstruction_quality": "PARTIALLY CIRCULAR",
+      "success": "CONDITIONAL — requires all prior reconstructions + consistency proof"
+    },
+    {
+      "id": "PR-008",
+      "conclusion": "Liberty is derivable from Free Will.",
+      "premises_used": [
+        "A-000001",
+        "PR-002 (body ownership)",
+        "A-000002 (homesteading)",
+        "Definition of liberty"
+      ],
+      "proof_sketch": [
+        "(1) FW → body-ownership [from PR-002]",
+        "(2) body-ownership + homesteading → property rights [A-000002 + BP-1]",
+        "(3) property rights + non-coercion → liberty [from definition]",
+        "(4) Non-coercion derivable from A-000004 (Tawhid) + A-000008 (Rule of Taslit)",
+        "(5) ∴ FW → Liberty [chain via 1+2+3+4]"
+      ],
+      "missing_premises": [
+        "BP-1",
+        "BP-2",
+        "Non-coercion derivation requires PR-003"
+      ],
+      "reconstruction_quality": "COMPLETE MODULO BRIDGES",
+      "success": "CONDITIONAL"
+    },
+    {
+      "id": "PR-009",
+      "conclusion": "Religion and the state are structural opposites.",
+      "premises_used": [
+        "Definition: religion = CFS for liberty",
+        "Definition: state = coercive monopoly",
+        "Derived: CFS requires anti-coercion"
+      ],
+      "proof_sketch": [
+        "(1) Religion: CFS(R, Liberty) → ∀x[Coercion(x) → ¬Permitted_in_R(x)] [by CFS definition]",
+        "(2) State: ∀S[State(S) → ∃x[Coercion(x) ∧ Performed_by_S(x)]] [definition]",
+        "(3) ∴ Religion permits no coercion; state requires coercion → structural opposition [from 1+2]"
+      ],
+      "missing_premises": [
+        "CIRC-005 problem: religion is defined AS CFS for liberty. The opposition is definitional, not proven.",
+        "If religion is independently defined, the proof requires showing religion has an anti-coercion theorem."
+      ],
+      "reconstruction_quality": "PARTIALLY TAUTOLOGICAL DUE TO CIRC-005",
+      "success": "CONDITIONAL — requires CIRC-005 repair"
+    },
+    {
+      "id": "PR-010",
+      "conclusion": "The theory has no alternative secular equivalent.",
+      "premises_used": [
+        "Phase 2-2.5 analysis",
+        "Compound uniqueness claim"
+      ],
+      "proof_sketch": [
+        "(1) No known system satisfies all 5 compound criteria simultaneously [Phase 2.5]",
+        "(2) CE-003 fails adversarial testing on C5 [Phase 2.5]",
+        "(3) ∴ The Theory of Liberty is currently unmatched on compound criteria"
+      ],
+      "missing_premises": [
+        "This is NOT a formal theorem — it is a survey result. 'No known counterexample' ≠ 'no counterexample exists'",
+        "A formal uniqueness proof would require showing that no system CAN satisfy criteria a-e without the ToL's structure"
+      ],
+      "reconstruction_quality": "SURVEY_NOT_PROOF",
+      "success": "NOT A FORMAL THEOREM"
+    }
+  ],
+  "summary": {
+    "fully_reconstructable": [
+      "PR-001"
+    ],
+    "reconstructable_with_bridge_premises": [
+      "PR-002",
+      "PR-003",
+      "PR-005",
+      "PR-006",
+      "PR-008"
+    ],
+    "require_circ_repair": [
+      "PR-009"
+    ],
+    "require_external_theorem": [
+      "PR-004",
+      "PR-005"
+    ],
+    "not_formal_theorems": [
+      "PR-010"
+    ],
+    "partially_circular": [
+      "PR-007"
+    ]
+  },
+  "bridge_premises_required": [
+    "BP-1: Self-originating cause owns its substrate (body-ownership)",
+    "BP-2: Claiming unconditional obedience = deserving absolute servitude (Tawhid→anti-statism bridge)",
+    "BP-3: Monopoly coercion implies claiming unconditional obedience (disputed — countermodel exists)"
+  ],
+  "verdict": "1 proof fully reconstructable; 5 reconstructable with bridge premises; 1 requires circular definition repair; 1 requires external theorem import; 1 partially circular (consistency cannot be self-proven); 1 is a survey, not a theorem. The core chain (PR-001 + PR-002 + PR-008) is reconstructable. The full theory requires 3 bridge premises to be stated as explicit axioms or derived."
+}

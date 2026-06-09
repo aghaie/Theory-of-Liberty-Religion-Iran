@@ -1,0 +1,58 @@
+{
+  "question": "Can a theorem prover verify derivations in the Theory of Liberty?",
+  "current_state": "NOT VERIFIABLE — no formal proofs exist for a theorem prover to check.",
+  "what_theorem_provers_need": [
+    "A formal language (Lean/Coq/Isabelle syntax)",
+    "Axioms expressed as formal propositions",
+    "Proof terms (tactic scripts or proof objects)",
+    "Type-checked inference steps"
+  ],
+  "current_state_by_prover": [
+    {
+      "prover": "Lean 4",
+      "current_feasibility": "REQUIRES SIGNIFICANT WORK",
+      "what_exists": "40_formalization_expansion.json provides FOL formulas that could be translated",
+      "blocking_issues": [
+        "No formal language defined — natural language must be systematically translated",
+        "Key predicates (Owns, Asserts, Deserves_servitude) have no Lean definitions",
+        "The performative-contradiction inference requires a custom tactic or lemma",
+        "Game-theoretic backward induction requires importing a game-theory library"
+      ],
+      "estimated_work": "150-300 person-hours of formalization work"
+    },
+    {
+      "prover": "Prolog (first-order)",
+      "current_feasibility": "PARTIAL — for subset of claims",
+      "what_exists": "FOL formulas in 40_formalization_expansion.json are Prolog-compatible",
+      "blocking_issues": [
+        "Prolog uses Horn clauses — deontic/modal claims cannot be directly expressed",
+        "Resurrection game-theoretic argument requires temporal logic not native to Prolog",
+        "Open-world assumption vs. closed-world assumption creates semantic mismatch"
+      ],
+      "estimated_work": "40-80 person-hours for propositional/FOL subset"
+    },
+    {
+      "prover": "Isabelle/HOL",
+      "current_feasibility": "REQUIRES SIGNIFICANT WORK",
+      "what_exists": "Higher-order logic can express deontic and modal claims",
+      "blocking_issues": [
+        "Same blocking issues as Lean 4",
+        "HOL type system requires type-checking all predicates"
+      ],
+      "estimated_work": "200-400 person-hours"
+    }
+  ],
+  "what_could_be_verified_today": [
+    "Propositional tautologies in the theory (e.g., the RAA structure of T-002)",
+    "Syllogistic inference chains where premises and conclusions are explicit",
+    "The independence tests (showing A-000003 is derivable from others)"
+  ],
+  "what_cannot_be_verified_today": [
+    "Any claim requiring semantics of Tawhid, Resurrection, or Prophethood",
+    "The game-theoretic stability argument (requires game-theory library)",
+    "The biconditional CFS ↔ religion (requires uniqueness proof)",
+    "Any claim involving deontic or modal operators (no deontic/modal extension stated)"
+  ],
+  "score": 20,
+  "verdict": "Score: 20/100. The theory is NOT currently machine-verifiable. A small subset (propositional structure, simple FOL syllogisms) could be verified with existing formalization work plus 40-80 hours of Prolog encoding. Full verification of the complete theory requires 150-400 hours and resolution of the blocking issues identified above."
+}

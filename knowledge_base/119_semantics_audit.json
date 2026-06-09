@@ -1,0 +1,124 @@
+{
+  "method": "For each key term: determine whether it has stable operational semantics, formal model-theoretic semantics, or neither.",
+  "terms": [
+    {
+      "term": "Liberty",
+      "operational_definition": "Individual property rights over body and legitimately acquired assets; absence of coercion.",
+      "stable_across_uses": true,
+      "formal_semantics": {
+        "has_formal_def": true,
+        "formula": "Liberty(x) ↔ ∀p[Owns(x,p) → ¬Coerced_over(x,p)] ∧ Owns(x, body(x))",
+        "model_theoretic_interpretation": "True in a model M iff individual x has no property under coercive control"
+      },
+      "score": 82,
+      "issues": "177 occurrences; term is consistently used across the text."
+    },
+    {
+      "term": "Property / Property Rights",
+      "operational_definition": "Legitimate claim to exclusive use and disposition of body and homesteaded/acquired assets.",
+      "stable_across_uses": true,
+      "formal_semantics": {
+        "has_formal_def": true,
+        "formula": "Owns(x,p) ↔ [p=body(x) ∨ (Homesteaded(x,p) ∧ Unowned_at_time_T(p))]",
+        "model_theoretic_interpretation": "Ownership relation holds between person and property in a model"
+      },
+      "score": 78,
+      "issues": "Labour-mixing and homesteading proviso not fully specified."
+    },
+    {
+      "term": "Tawhid",
+      "operational_definition": "No entity other than God deserves absolute (unconditional) servitude; equivalently: no human institution may command unconditional obedience.",
+      "stable_across_uses": true,
+      "formal_semantics": {
+        "has_formal_def": true,
+        "formula": "Tawhid ↔ ¬∃x[x≠God ∧ Deserves_absolute_servitude(x)]",
+        "model_theoretic_interpretation": "True in a model M iff no non-God entity has the property 'deserves absolute servitude'"
+      },
+      "score": 75,
+      "issues": "The 'negative definition of God' requires that God is defined extensionally enough to serve as the excluded entity. This creates a mild semantic dependence."
+    },
+    {
+      "term": "Resurrection",
+      "operational_definition": "Continuation of personal identity and accountability after physical death; makes the terminal period of social interaction unknowable.",
+      "stable_across_uses": true,
+      "formal_semantics": {
+        "has_formal_def": true,
+        "formula": "Resurrection ↔ ∀x[Person(x) → ∃t′>T_death[Exists(x, t′) ∧ Accountable(x, t′)]]",
+        "model_theoretic_interpretation": "True in a model M iff every person continues to exist and bear accountability after their physical death"
+      },
+      "score": 70,
+      "issues": "Requires a temporal domain T that extends beyond physical death. This requires an expanded model that includes non-physical time. Not formally specified."
+    },
+    {
+      "term": "Prophethood",
+      "operational_definition": "A designated human who receives and transmits authentic specification of the formal system; the khatam (seal) prevents further authentic amendment.",
+      "stable_across_uses": true,
+      "formal_semantics": {
+        "has_formal_def": "PARTIAL",
+        "formula": "Prophet(p) ↔ Authentic_transmitter(p, Spec) ∧ ∀q[q≠p → ¬Authentic_amends(q, Spec)] if p is the seal-prophet",
+        "model_theoretic_interpretation": "True in a model iff there exists a person who is an authentic transmitter of the system specification and no one can further amend it"
+      },
+      "score": 60,
+      "issues": "Authenticity is theologically grounded — requires a model that includes a theological domain. This is the hardest term to give secular model-theoretic interpretation."
+    },
+    {
+      "term": "Religion (authentic)",
+      "operational_definition": "A Consistent Formal System for liberty — any system satisfying the liberty-axioms.",
+      "stable_across_uses": "PARTIALLY",
+      "formal_semantics": {
+        "has_formal_def": "CIRCULAR",
+        "formula": "Authentic_religion(S) ↔ CFS_for_liberty(S)",
+        "circularity_note": "CIRC-005 confirmed in Phase 1: authentic religion defined as CFS for liberty, then shown to be CFS for liberty. The definition and the conclusion are the same."
+      },
+      "score": 40,
+      "issues": "CIRCULARITY FLAG. Must be independently defined before formal semantics can be given."
+    },
+    {
+      "term": "Mysticism",
+      "operational_definition": "UNDEFINED INDEPENDENTLY — defined as anti-liberty, making all anti-mysticism claims tautological.",
+      "stable_across_uses": false,
+      "formal_semantics": {
+        "has_formal_def": "CIRCULAR",
+        "formula": "Mysticism(S) ↔ Anti_liberty(S)",
+        "circularity_note": "CIRC-001 confirmed in Phase 1: the most critical semantic defect. Mysticism must be independently defined."
+      },
+      "score": 10,
+      "issues": "CRITICAL SEMANTIC DEFECT. Any formal system containing an undefined term is not a formal system."
+    },
+    {
+      "term": "Consistent Formal System (CFS)",
+      "operational_definition": "A finite axiomatic system with no internal contradictions, from which liberty is derivable.",
+      "stable_across_uses": true,
+      "formal_semantics": {
+        "has_formal_def": true,
+        "formula": "CFS_for_liberty(S) ↔ Finite_axioms(S) ∧ ¬Contradictory(S) ∧ ⊢_S Liberty",
+        "note": "The 'Consistent' in this definition is NOT Gödel-technical. It means non-contradictory. Per Phase 1 Step 8 finding."
+      },
+      "score": 72,
+      "issues": "The Gödel-technical claim remains unresolved."
+    }
+  ],
+  "semantics_section_summary": {
+    "fully_stable_semantics": [
+      "Liberty",
+      "Property",
+      "Tawhid",
+      "Resurrection",
+      "CFS"
+    ],
+    "partially_stable": [
+      "Prophethood"
+    ],
+    "circular_or_unstable": [
+      "Religion (authentic)",
+      "Mysticism"
+    ],
+    "critical_defects": [
+      "Mysticism (CIRC-001)",
+      "Authentic Religion (CIRC-005)"
+    ],
+    "average_score": 61
+  },
+  "verdict": "The theory has stable semantics for 5/8 key terms. Two terms (Mysticism, Authentic Religion) have circular definitions — confirmed critical defects from Phase 1. These are NOT acceptable in a formal system: a formal system must have primitives with independent definitions. Mysticism must be redefined by structural criterion before the theory can claim formal system status. This is the most tractable blocking issue.",
+  "score": 59
+}

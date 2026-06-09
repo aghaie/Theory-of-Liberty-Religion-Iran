@@ -1,0 +1,65 @@
+{
+  "title": "Gödel Eligibility Determination (Phase 3 Final)",
+  "preconditions": [
+    {
+      "id": "GE-P1",
+      "requirement": "The system is a formal system (has formal language, axioms, inference rules, proofs)",
+      "status": "NOT_MET",
+      "evidence": "Phase 3 Steps 2-5 establish: the theory has axioms and theorem candidates but lacks a formal language (FR-01), explicit inference rules (FR-03), and a proof calculus (FR-04). Classification: Proto-Formal Axiomatic System, not a full formal system."
+    },
+    {
+      "id": "GE-P2",
+      "requirement": "The system is recursively axiomatizable",
+      "status": "PARTIALLY_MET",
+      "evidence": "The 6 named kernel axioms can be enumerated by a machine (by reading 42_theory_kernel.json). The enumeration procedure is: read the file → list items in 'kernel_axioms' → done. This is recursive (decidable) for the named axioms. HOWEVER: the full axiom set including the 12 hidden axioms requires the Phase 0.9 heuristic discovery procedure, which is NOT a decision procedure. For the 6 named axioms only: PARTIALLY MET."
+    },
+    {
+      "id": "GE-P3",
+      "requirement": "The system contains Robinson Arithmetic Q as a sub-theory",
+      "status": "NOT_MET",
+      "evidence": "Step 13 confirms: no arithmetic encoding exists. Natural numbers, successor, addition, multiplication are not expressible in the current theory. This is the hard blocker for Gödel eligibility."
+    },
+    {
+      "id": "GE-P4",
+      "requirement": "The system is consistent",
+      "status": "ASSERTED_UNPROVEN",
+      "evidence": "A-000012 asserts consistency as a meta-axiom. The self-application test provides pragmatic evidence of consistency. Phase 1 found no direct contradictions in the kernel. But no formal consistency proof exists. By Gödel's second theorem, if the system is strong enough for G1 to apply, it cannot prove its own consistency — so the assertion of A-000012 is epistemically correct (it acknowledges consistency as a requirement) while being technically improvable from within."
+    },
+    {
+      "id": "GE-P5",
+      "requirement": "The system is sufficiently expressive for self-reference (Gödel numbering possible)",
+      "status": "NOT_MET",
+      "evidence": "Gödel numbering requires mapping each formula to a unique natural number and then encoding formulas-about-formulas within the system. This requires P3 (arithmetic encoding) as a prerequisite. Since P3 is not met, self-reference in the technical Gödel sense is not available."
+    }
+  ],
+  "met_count": 0,
+  "partially_met_count": 1,
+  "not_met_count": 3,
+  "asserted_unproven_count": 1,
+  "eligibility_verdict": "NOT_ELIGIBLE for full Gödel analysis",
+  "eligibility_score": 22,
+  "scale": "0-100 (100 = all preconditions met)",
+  "what_is_blocked": [
+    "Gödel's First Incompleteness Theorem (incompleteness) cannot be applied — P3 not met",
+    "Gödel's Second Incompleteness Theorem (self-consistency) cannot be applied — P1, P3 not met",
+    "Tarski undefinability of truth — P1, P3 not met",
+    "Church's Undecidability — P1, P3 not met"
+  ],
+  "what_is_permitted": [
+    "Analogical invocation of Gödel's spirit: the theory can ILLUSTRATE the idea of incompleteness",
+    "Informal completeness discussion: can the theory generate all desired theorems?",
+    "Consistency analysis by non-formal methods (which Phase 1 performed)"
+  ],
+  "path_to_eligibility": {
+    "minimum_work_required": [
+      "Step 1: Fix CIRC-001 (mysticism) and CIRC-005 (authentic religion) — enables formal language",
+      "Step 2: State 4 inference rules explicitly (MP, RAA, UI, HS)",
+      "Step 3: Convert 8 inference chains to Hilbert-style proof sequences",
+      "Step 4: State 3 bridge premises as explicit axioms (BP-1, BP-2 mandatory; BP-3 to be evaluated)",
+      "Step 5: Add Robinson Arithmetic Q as a module (7 additional axioms) or embed it",
+      "Step 6: Demonstrate Gödel numbering scheme for the resulting system"
+    ],
+    "estimated_effort": "300-600 person-hours of formalization work",
+    "result_if_completed": "The system becomes formally eligible for Gödel analysis. The result of that analysis would likely confirm the incompleteness of the combined system (ToL+Q) by Gödel's theorem — which the author appears to expect."
+  }
+}

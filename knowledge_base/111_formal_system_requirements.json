@@ -1,0 +1,150 @@
+{
+  "authoritative_sources": [
+    "Hilbert & Ackermann (1928) Grundzüge der theoretischen Logik",
+    "Tarski (1936) On the Concept of Logical Consequence",
+    "Gödel (1931) On Formally Undecidable Propositions",
+    "Church (1936) A Note on the Entscheidungsproblem",
+    "Mendelson (1997) Introduction to Mathematical Logic",
+    "Enderton (2001) A Mathematical Introduction to Logic",
+    "Shoenfield (1967) Mathematical Logic"
+  ],
+  "consensus_requirements": [
+    {
+      "id": "FR-01",
+      "requirement": "Formal Language",
+      "components": [
+        "Alphabet Σ (finite or countable symbol set)",
+        "Syntax rules producing well-formed formulas (WFFs)",
+        "Formal grammar (recursive definition of WFF)",
+        "No ambiguity in parsing"
+      ],
+      "authority": "Hilbert; Mendelson Ch.1; Enderton Ch.1",
+      "criticality": "NECESSARY",
+      "test": "Can a machine parse every sentence of the system unambiguously?"
+    },
+    {
+      "id": "FR-02",
+      "requirement": "Explicit Axioms",
+      "components": [
+        "A listed, finite (or r.e.) set of WFFs designated as true without proof",
+        "Axioms must themselves be WFFs of the formal language",
+        "Axioms must be syntactically identifiable"
+      ],
+      "authority": "Hilbert; Gödel; Enderton §2.1",
+      "criticality": "NECESSARY",
+      "test": "Can a machine enumerate the axiom set?"
+    },
+    {
+      "id": "FR-03",
+      "requirement": "Inference Rules",
+      "components": [
+        "Finitely many rules of inference stated explicitly",
+        "Each rule maps WFF-tuples to WFFs",
+        "Rules must be decidable (machine-applicable)"
+      ],
+      "authority": "Mendelson §1.2; Enderton §2.2",
+      "criticality": "NECESSARY",
+      "test": "Given a proof candidate, can a machine check each step?"
+    },
+    {
+      "id": "FR-04",
+      "requirement": "Proof / Derivation",
+      "components": [
+        "A proof = finite sequence of WFFs",
+        "Each WFF is either an axiom or follows by one inference rule",
+        "Proof must be mechanically checkable"
+      ],
+      "authority": "Hilbert; Mendelson §1.3",
+      "criticality": "NECESSARY",
+      "test": "Does a fully explicit proof of any theorem exist?"
+    },
+    {
+      "id": "FR-05",
+      "requirement": "Theorems",
+      "components": [
+        "A theorem = last line of a valid proof",
+        "Theorems are syntactically derived, not semantically argued",
+        "Distinction between theorems and conjectures is decidable"
+      ],
+      "authority": "Enderton §2.4",
+      "criticality": "NECESSARY",
+      "test": "Can the system enumerate its theorems?"
+    },
+    {
+      "id": "FR-06",
+      "requirement": "Consistency",
+      "components": [
+        "No WFF φ such that both ⊢φ and ⊢¬φ",
+        "Equivalently: ⊬⊥ (false is not derivable)"
+      ],
+      "authority": "Gödel; Tarski; standard",
+      "criticality": "NECESSARY",
+      "test": "Is there a consistency proof, or at least no discovered contradiction?"
+    },
+    {
+      "id": "FR-07",
+      "requirement": "Semantics / Interpretation",
+      "components": [
+        "A structure M = (D, I) where D is a domain and I maps symbols to domain elements",
+        "Truth-in-M defined recursively",
+        "Soundness: ⊢φ implies ⊨φ (provable implies true in all models)"
+      ],
+      "authority": "Tarski; Mendelson §2.4",
+      "criticality": "IMPORTANT",
+      "test": "Can the formal language be given a compositional model-theoretic semantics?"
+    },
+    {
+      "id": "FR-08",
+      "requirement": "Recursive Axiomatizability",
+      "components": [
+        "There is a decision procedure that, given any WFF, determines whether it is an axiom",
+        "Equivalently: the axiom set is recursive (not merely recursively enumerable)"
+      ],
+      "authority": "Church; Gödel; prerequisite for incompleteness theorems",
+      "criticality": "REQUIRED_FOR_GÖDEL",
+      "test": "Is there an algorithm for axiom membership?"
+    },
+    {
+      "id": "FR-09",
+      "requirement": "Expressiveness / Arithmetic Encoding",
+      "components": [
+        "System can express successor, zero, equality, and basic arithmetic",
+        "Robinson Arithmetic Q is embeddable as a subsystem",
+        "Gödel numbering is possible"
+      ],
+      "authority": "Gödel (1931); Robinson (1950); prerequisite for incompleteness theorems",
+      "criticality": "REQUIRED_FOR_GÖDEL",
+      "test": "Can natural number arithmetic be encoded within the system?"
+    },
+    {
+      "id": "FR-10",
+      "requirement": "Completeness (of the deductive apparatus)",
+      "components": [
+        "Every valid sentence is provable: ⊨φ implies ⊢φ",
+        "This concerns completeness of the PROOF SYSTEM, not of the theory"
+      ],
+      "authority": "Gödel (1929) Completeness Theorem; Enderton §2.5",
+      "criticality": "DESIRABLE",
+      "test": "Does the theory admit complete proof procedures for first-order consequences?"
+    }
+  ],
+  "minimum_for_formal_system_status": [
+    "FR-01",
+    "FR-02",
+    "FR-03",
+    "FR-04",
+    "FR-05",
+    "FR-06"
+  ],
+  "additional_for_godel_eligibility": [
+    "FR-07",
+    "FR-08",
+    "FR-09"
+  ],
+  "classification_criteria": {
+    "A_Formal_Axiomatic_System": "All of FR-01 through FR-06 fully satisfied; FR-07 present",
+    "B_Proto_Formal_Axiomatic_System": "FR-02 and FR-05 satisfied; FR-01, FR-03, FR-04 partially satisfied",
+    "C_Structured_Philosophical_Theory": "FR-02 present; FR-01, FR-03, FR-04 absent or implicit",
+    "D_Philosophical_Narrative": "FR-02 absent or implicit; no systematic derivation structure"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "distinction": {
+    "theorem_formal": "A WFF φ is a theorem ⊢φ iff there exists a valid proof of φ from the axioms.",
+    "theorem_informal": "A claim is a 'theorem' in the colloquial sense if it is argued for and regarded as proven.",
+    "question": "Are the theory's major conclusions theorems (formal) or argued-conclusions (informal)?"
+  },
+  "candidate_theorems": [
+    {
+      "id": "T-001",
+      "claim": "Liberty = individual property rights over body and legitimately acquired assets.",
+      "formal_status": "DEFINITION_NOT_THEOREM",
+      "derivable_formally": "N/A — definitions are not proven, they are stipulated",
+      "formalization_available": "40_formalization_expansion.json — partial",
+      "missing_for_formal_proof": "N/A"
+    },
+    {
+      "id": "T-002",
+      "claim": "Denial of free will is self-refuting.",
+      "formal_status": "CANDIDATE_THEOREM",
+      "derivable_formally": true,
+      "proof_sketch_quality": "STRONG — RAA structure is clear",
+      "formalization_available": "FOL: Asserts(a, ¬FW) ∧ Requires(assert, FW) → FW",
+      "missing_for_formal_proof": [
+        "Formal semantics for 'Asserts' predicate",
+        "Formal statement of the performative-contradiction rule as an inference rule"
+      ],
+      "theorem_prover_difficulty": "MEDIUM — achievable in Lean/Coq with proper definitions"
+    },
+    {
+      "id": "T-003",
+      "claim": "Tawhid implies prohibition on human-servitude institutions.",
+      "formal_status": "CANDIDATE_THEOREM",
+      "derivable_formally": "CONDITIONAL",
+      "proof_sketch_quality": "MODERATE — requires negative-theology bridge",
+      "formalization_available": "40_formalization_expansion.json entry exists",
+      "missing_for_formal_proof": [
+        "Bridge premise: Tawhid (no God-concept without absolute-servitude-exclusion) → operational anti-human-servitude",
+        "Formal definition of 'servitude institution' vs. 'voluntary service'"
+      ],
+      "theorem_prover_difficulty": "HIGH — the bridge premise requires philosophical work"
+    },
+    {
+      "id": "T-004",
+      "claim": "Without unknown horizon, rational agents defect in last period.",
+      "formal_status": "IMPORTED_THEOREM",
+      "derivable_formally": true,
+      "note": "This is a well-established theorem in game theory (Backward Induction Theorem for finitely repeated games). It is NOT derived within the Theory of Liberty — it is cited from external game theory. The theory USES this theorem but does not prove it. A formal system that imports theorems from external systems must either re-prove them or explicitly designate them as axioms.",
+      "missing_for_formal_proof": [
+        "Must be either proven from theory's axioms or imported via explicit axiom"
+      ],
+      "theorem_prover_difficulty": "LOW for game theory — HIGH for embedding in this system"
+    },
+    {
+      "id": "T-005",
+      "claim": "Resurrection stabilizes liberty by making terminal period unknowable.",
+      "formal_status": "CANDIDATE_THEOREM",
+      "derivable_formally": "CONDITIONAL_ON_T-004",
+      "proof_sketch_quality": "MODERATE",
+      "missing_for_formal_proof": [
+        "Formal game-theoretic embedding (T-004 must be resolved first)",
+        "Formal definition: 'afterlife continuation' → 'T is unknowable to rational agent'"
+      ],
+      "theorem_prover_difficulty": "HIGH"
+    },
+    {
+      "id": "T-006",
+      "claim": "A Consistent Formal System for liberty is equivalent to authentic religion.",
+      "formal_status": "PARTIALLY_TAUTOLOGICAL",
+      "derivable_formally": "PARTIAL",
+      "note": "Right-to-left (R → CFS): true by definition of 'authentic religion' = CFS for liberty. Left-to-right (CFS → R): requires formal proof that any CFS satisfying liberty axioms has the structural properties of authentic religion. This is the biconditional. The right-to-left is definitional (not a theorem). The left-to-right is a genuine theorem-candidate but requires the uniqueness proof first established as needed in Phase 2.",
+      "theorem_prover_difficulty": "VERY HIGH — requires uniqueness proof as sub-theorem"
+    },
+    {
+      "id": "T-007",
+      "claim": "The state (monopoly coercion) is structurally impermissible.",
+      "formal_status": "CANDIDATE_THEOREM",
+      "derivable_formally": "CONDITIONAL",
+      "proof_sketch_quality": "STRONG — derivation from Tawhid + anti-servitude",
+      "missing_for_formal_proof": [
+        "Formal definition of 'monopoly coercion' in deontic logic",
+        "Bridge: Tawhid → anti-servitude → anti-monopoly-coercion"
+      ],
+      "theorem_prover_difficulty": "MEDIUM"
+    },
+    {
+      "id": "T-008",
+      "claim": "Libertarian free will is the only consistent starting axiom for normative systems.",
+      "formal_status": "DISPUTED_CANDIDATE",
+      "derivable_formally": "PARTIAL",
+      "note": "The performative contradiction proves FW is PRESUPPOSED. Not that it is the ONLY starting axiom.",
+      "missing_for_formal_proof": [
+        "Uniqueness proof: that no other starting axiom avoids the performative contradiction"
+      ],
+      "theorem_prover_difficulty": "HIGH"
+    }
+  ],
+  "theorem_audit_summary": {
+    "total_candidate_theorems": 8,
+    "formal_theorems_existing": 0,
+    "provable_with_bridge_premises": 5,
+    "require_uniqueness_sub_proof": 2,
+    "definitional_not_theorems": 1,
+    "imported_from_external": 1
+  },
+  "score": 45,
+  "verdict": "The theory has 7 genuine candidate theorems and 1 definitional claim. NONE are currently formal theorems (no proof calculus exists). 5 of 7 could be formalized with moderate technical work (bridge premises + inference rule statements). 2 require prior uniqueness proof. Score 45/100: strong theorem candidates, zero formal proofs."
+}

@@ -1,0 +1,75 @@
+{
+  "attempts": [
+    {
+      "system": "First-Order Logic (FOL)",
+      "status": "PARTIAL_TRANSLATION_POSSIBLE",
+      "translatable_claims": [
+        "A-000001 (FW): ∃x[FW(x)] ∧ ∀y∀P[Asserts(y,¬FW_claim) → Presupposes(y, FW)]",
+        "PR-001 (denial self-refuting): Asserts(a,¬FW) ∧ Presupposes(assert,FW) ⊢_FOL FW",
+        "A-000004 (Tawhid): ¬∃x[x≠God ∧ Deserves_abs_servitude(x)]",
+        "T-002 (anti-statism from Tawhid): [A-000004 ∧ BP-2 ∧ Def_state] ⊢_FOL ¬Permissible(state)"
+      ],
+      "blocking_issues": [
+        "Game-theoretic claims require second-order logic or game-theory extension",
+        "Modal claims (necessity, possibility of liberty) require modal FOL",
+        "Deontic claims (obligatory, permitted, forbidden) require deontic extension",
+        "Temporal claims (after-death accountability) require temporal logic"
+      ],
+      "estimated_coverage_of_kernel": "40%"
+    },
+    {
+      "system": "Prolog (Horn-clause logic)",
+      "status": "LIMITED_APPLICABILITY",
+      "sample_encoding": {
+        "free_will": "free_will(X) :- person(X), not(determined(X)).",
+        "self_ownership": "owns(X, body(X)) :- person(X), free_will(X).",
+        "nap_equivalent": ":- person(X), person(Y), initiates_coercion(X, Y).",
+        "tawhid": ":- entity(X), X \\= god, deserves_absolute_servitude(X)."
+      },
+      "blocking_issues": [
+        "Closed-world assumption: Prolog assumes everything not stated is false — dangerous for normative claims",
+        "No negation-as-failure for modal contexts",
+        "Cannot express: 'terminal period is unknowable' in standard Prolog"
+      ],
+      "estimated_coverage_of_kernel": "30%"
+    },
+    {
+      "system": "Lean 4",
+      "status": "FEASIBLE_WITH_SIGNIFICANT_WORK",
+      "sample_encoding": {
+        "note": "Lean 4 type-theory sketch",
+        "free_will": "axiom free_will : ∀ (a : Agent), FreeWill a",
+        "self_refutation": "theorem denial_self_refutes : ∀ a, Asserts a (¬FreeWill a) → FreeWill a",
+        "tawhid": "axiom tawhid : ∀ (x : Entity), x ≠ God → ¬ DeservesAbsoluteServitude x"
+      },
+      "blocking_issues": [
+        "Game-theoretic theorems require mathlib game-theory library (available, but adaptation needed)",
+        "Deontic operators require a custom deontic logic library",
+        "Resurrection's temporal extension requires custom type-theoretic infrastructure",
+        "Bridge premises (BP-1, BP-2) must be axioms or proven — either choice requires justification"
+      ],
+      "estimated_coverage_of_kernel": "65% (with 150-200 hours of formalization work)"
+    },
+    {
+      "system": "Coq",
+      "status": "FEASIBLE_WITH_SIGNIFICANT_WORK",
+      "notes": "Similar to Lean 4 assessment; Coq's tactic language is more mature",
+      "estimated_coverage_of_kernel": "60% (with 200-300 hours)"
+    },
+    {
+      "system": "Isabelle/HOL",
+      "status": "FEASIBLE_WITH_SIGNIFICANT_WORK",
+      "notes": "HOL's polymorphism handles multi-typed claims; Sledgehammer tactic helps fill gaps",
+      "estimated_coverage_of_kernel": "60% (with 200-300 hours)"
+    }
+  ],
+  "overall_prover_readiness": {
+    "immediate_provable_subset": "~5 claims (propositional structure, simple FOL syllogisms)",
+    "short_term_provable_with_work": "~12-15 kernel claims (with bridge premises and 150-200 hours Lean 4 work)",
+    "long_term_provable": "~20-22 kernel claims (with full formalization and game-theory extension)",
+    "permanently_outside_scope": "Consistency self-proof (Gödel 2nd theorem barrier)"
+  },
+  "recommended_path": "Recommended formalization path: Lean 4, using mathlib for game-theory. Start with T-002 (denial self-refuting) + T-007 (Tawhid → anti-statism) as the most tractable fully-within-scope theorems. These require no external libraries. Then proceed to game-theoretic stability (T-005) using mathlib's repeated game theorems.",
+  "score": 30,
+  "verdict": "NOT_READY_TODAY. Feasible with 150-300 hours of formalization work for core theorems."
+}

@@ -1,0 +1,42 @@
+{
+  "components": [
+    {
+      "component": "FR-01a: Formal alphabet Σ",
+      "verdict": "NO",
+      "evidence": "The theory is written in natural language (Persian, with Arabic Quranic terms, and some mathematical notation introduced in Phase 0.9 formalization). No explicit alphabet is defined. No list of primitive symbols exists. Mathematical notation (∀, →, □, O) appears in the Phase 0.9 formalizations but these were added by external analysis, not by the theory itself.",
+      "score": 15
+    },
+    {
+      "component": "FR-01b: Syntax / Well-Formed Formula rules",
+      "verdict": "PARTIAL",
+      "evidence": "The Phase 0.9 formalizations (40_formalization_expansion.json) introduce FOL, propositional, modal, and deontic formulas for 26 key claims. These are WFF-structured. However: (a) no recursive grammar is stated, (b) the 26 formalizations are a SAMPLE, not a complete coverage, (c) the formulas were constructed by external audit, not by the theory. The theory itself produces natural-language sentences, not WFFs.",
+      "score": 30
+    },
+    {
+      "component": "FR-01c: Formal grammar",
+      "verdict": "NO",
+      "evidence": "No BNF grammar, no context-free grammar, no explicit recursive definition of the set of well-formed sentences of the theory. The theory uses prose argumentation, not a generated language.",
+      "score": 0
+    },
+    {
+      "component": "FR-01d: Unambiguous parsing",
+      "verdict": "NO",
+      "evidence": "Natural language is inherently ambiguous. Key terms (liberty, religion, mysticism, authentic) have multiple readings. A machine cannot parse the theory's sentences unambiguously without disambiguation rules. The 12 canonical definitions (34_definition_normalization.json) provide partial disambiguation but do not constitute a formal grammar.",
+      "score": 20
+    }
+  ],
+  "language_section_score": 16,
+  "overall_language_verdict": "NO formal language — PARTIAL formal annotations in external analysis",
+  "what_exists": [
+    "26 FOL/modal/deontic formulas in 40_formalization_expansion.json (external, partial)",
+    "12 canonical definitions providing operational semantics for key terms",
+    "15 named axioms in natural language",
+    "Dependency graph (structural language) in graphml format"
+  ],
+  "what_is_missing": [
+    "Formal alphabet",
+    "Recursive WFF grammar",
+    "Unambiguous parsing rules",
+    "Complete formal translation of all 16,569 claims"
+  ]
+}

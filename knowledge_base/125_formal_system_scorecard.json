@@ -1,0 +1,109 @@
+{
+  "dimensions": {
+    "syntax": {
+      "score": 32,
+      "components": {
+        "formal_alphabet": 15,
+        "wff_grammar": 30,
+        "unambiguous_parsing": 20,
+        "formal_language": 0
+      },
+      "justification": "Partial formalization in 40_formalization_expansion.json. No formal grammar. Natural language base."
+    },
+    "semantics": {
+      "score": 59,
+      "components": {
+        "operational_definitions": 75,
+        "formal_model_theory": 45,
+        "stable_term_usage": 65,
+        "circular_definitions_penalty": -30
+      },
+      "justification": "5/8 key terms have stable operational semantics. CIRC-001 and CIRC-005 are significant penalties."
+    },
+    "axiom_quality": {
+      "score": 79,
+      "components": {
+        "explicit": 90,
+        "independent": 82,
+        "finite": 100,
+        "wff_form": 65,
+        "machine_identifiable": 60
+      },
+      "justification": "Best dimension. Named, finite, mostly independent. Natural language form is the only gap."
+    },
+    "inference_rules": {
+      "score": 25,
+      "components": {
+        "rules_stated": 0,
+        "rules_identifiable": 75,
+        "rules_standard": 80,
+        "non_standard_rules_present": 40
+      },
+      "justification": "4 standard rules used but never stated. 2 non-standard rules required. None formally specified."
+    },
+    "proof_calculus": {
+      "score": 10,
+      "components": {
+        "proof_sequences_exist": 0,
+        "derivation_procedures": 0,
+        "theorem_generation": 0,
+        "informal_proto_proofs": 60
+      },
+      "justification": "No proof calculus. 8 informal proof sketches are proto-proofs. This is the largest gap."
+    },
+    "formalizability": {
+      "score": 58,
+      "components": {
+        "kernel_expressibility": 92,
+        "total_coverage": 2,
+        "logic_type_coverage": 75,
+        "completeness_of_formalization": 30
+      },
+      "justification": "Kernel is 92% expressible. Only 0.2% of full claim set formalized. 4 logic types covered but only sketched."
+    },
+    "machine_verifiability": {
+      "score": 20,
+      "components": {
+        "mechanical_proof_check": 0,
+        "partial_verifiability": 25,
+        "prover_readiness": 30,
+        "encoding_exists": 0
+      },
+      "justification": "Not verifiable today. 5 propositional claims could be verified. Full verification: 150-300 hours away."
+    },
+    "model_theory_readiness": {
+      "score": 52,
+      "components": {
+        "model_exists": 80,
+        "alternative_models": 60,
+        "countermodels_investigated": 60,
+        "categoricity": 0,
+        "soundness_provable": 40
+      },
+      "justification": "M1 (Islamic model) satisfies all axioms. M2 (secular reinterpretation) partial. No categoricity proof."
+    },
+    "arithmetic_expressiveness": {
+      "score": 5,
+      "components": {
+        "natural_number_domain": 0,
+        "successor_function": 0,
+        "arithmetic_operations": 0,
+        "godel_numbering": 0,
+        "robinson_q_embedded": 0
+      },
+      "justification": "No arithmetic encoding. This is the hard blocker for Gödel analysis."
+    }
+  },
+  "overall_formal_system_score": 39,
+  "weights_used": {
+    "syntax": 10,
+    "semantics": 10,
+    "axiom_quality": 15,
+    "inference_rules": 15,
+    "proof_calculus": 15,
+    "formalizability": 10,
+    "machine_verifiability": 10,
+    "model_theory_readiness": 8,
+    "arithmetic_expressiveness": 7
+  }
+}

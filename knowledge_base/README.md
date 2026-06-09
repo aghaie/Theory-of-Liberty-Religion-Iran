@@ -324,3 +324,110 @@ The correctly-scoped compound uniqueness claim — *the only known CFS satisfyin
 | `103_ce003_refutation.json` | CE-003's decisive failures (ad hoc + adversarial last-round) |
 | `104_counterexample_verdict.md` | Full verdict: WEAK COUNTEREXAMPLE |
 | `105_uniqueness_update.json` | Uniqueness upgraded: 50 → 65/100; direction D (STRENGTHENED) |
+
+
+---
+
+## Phase 3 — Formal System Qualification Audit
+
+**Completion date:** June 2026
+**Role:** Formal system qualifier — structural status only, no evaluation of content
+**Primary Question:** Is the Theory of Liberty a Formal System?
+
+### Final Classification
+
+> **B. PROTO-FORMAL AXIOMATIC SYSTEM**
+
+The theory has the axiomatic intentions and structure of a formal system. It does not satisfy the technical requirements for formal system status.
+
+### Overall Formal System Score: 39/100
+
+### Dimension Scores
+
+| Dimension | Score | Notes |
+|-----------|-------|-------|
+| Axiom Quality | 79/100 | Best dimension — named, finite, independent |
+| Semantics | 59/100 | 5/8 terms stable; CIRC-001 and CIRC-005 critical |
+| Formalizability | 58/100 | Kernel 92% expressible; proofs not written |
+| Model Theory | 52/100 | M1 (Islamic model) satisfies all; no categoricity |
+| Theorem Candidates | 45/100 | 7 candidates; 0 formal proofs |
+| Syntax | 32/100 | Partial annotations; no formal grammar |
+| Machine Verifiability | 20/100 | ~5 claims verifiable today |
+| Inference Rules | 25/100 | Used but never stated |
+| Proof Calculus | 10/100 | Absent — largest gap |
+| **Arithmetic Expressiveness** | **5/100** | **Hard Gödel blocker** |
+
+### Strongest Evidence FOR Formal System Status
+
+1. **Axiomatic structure**: 15 named axioms, 6 in minimum kernel, mostly independent, enumerable
+2. **Formalization work**: 26 formal expressions across 4 logic types (propositional, FOL, modal, deontic)
+3. **Proof reconstructability**: 8 inference chains documented; 5/10 proofs reconstructable with bridge premises
+4. **Consistency mechanism**: Self-application test; no kernel contradiction found across 4 phases
+5. **Model existence**: M1 (Islamic theological model) satisfies all 6 kernel axioms
+
+### Strongest Evidence AGAINST Formal System Status
+
+1. **No formal language**: Written in natural language; no formal grammar; no unambiguous parsing
+2. **No proof calculus**: Zero Hilbert-style or ND proofs exist; 8 informal sketches only
+3. **No explicit inference rules**: MP, RAA, UI, HS all used but never stated
+4. **Circular definitions**: CIRC-001 (mysticism) and CIRC-005 (religion/CFS) are blocking defects
+5. **No arithmetic encoding**: Robinson Arithmetic Q not embeddable; hard Gödel blocker
+
+### Comparison With Other Political Philosophy Texts
+
+| Work | Classification |
+|------|----------------|
+| Rawls, *A Theory of Justice* | C (Structured Philosophical Theory) |
+| Rothbard, *The Ethics of Liberty* | C (Structured Philosophical Theory) |
+| Nozick, *Anarchy, State, and Utopia* | C (Structured Philosophical Theory) |
+| Kant, *Metaphysics of Morals* | C (Structured Philosophical Theory) |
+| **Theory of Liberty** | **B (Proto-Formal Axiomatic System)** |
+
+### Gödel Eligibility Status
+
+**NOT ELIGIBLE.** Score: 22/100.
+
+Three preconditions not met:
+- Formal language (GE-P1): NOT MET
+- Arithmetic encoding (GE-P3): NOT MET — hard blocker
+- Formal self-reference (GE-P5): NOT MET
+
+All Gödel invocations in the theory are currently **illustrative analogies**, not technical applications. This does not undermine the substantive arguments — it restricts the scope of the formal claim.
+
+### Theorem Prover Readiness
+
+- **Today**: ~5 propositional claims verifiable
+- **After 150-200 hours of Lean 4 work**: ~20-22 kernel claims verifiable
+- **After full formalization (300-600 hours)**: Full kernel verification possible
+
+**Recommended first step**: Lean 4 + mathlib; begin with T-002 (denial self-refuting) and T-007 (Tawhid → anti-statism)
+
+### Path to Category A (Full Formal System)
+
+1. Fix CIRC-001 and CIRC-005
+2. State inference rules explicitly (MP, RAA, UI, HS)
+3. State bridge premises BP-1 and BP-2 as axioms
+4. Write 8 Hilbert-style proof sequences
+5. Add Robinson Arithmetic Q as module
+6. Translate to Lean 4
+
+### Output Files (Phase 3)
+
+| File | Contents |
+|------|----------|
+| `111_formal_system_requirements.json` | Consensus checklist from Hilbert, Tarski, Gödel, Mendelson, Enderton |
+| `112_language_audit.json` | Formal language: NO formal grammar; PARTIAL annotations |
+| `113_axiom_audit.json` | Axioms: strong (79/100); named, finite, mostly independent |
+| `114_inference_rule_audit.json` | Rules: implicit only; 4 standard + 2 non-standard needed |
+| `115_proof_calculus_audit.json` | Proof calculus: ABSENT; 8 proto-proofs exist |
+| `116_theorem_audit.json` | 7 candidate theorems; 0 formal proofs; 3 require bridge premises |
+| `117_machine_verifiability_audit.json` | Not verifiable today; 150-300 hours to Lean 4 readiness |
+| `118_formalization_completeness.json` | Kernel 92% expressible; 0.2% of total claims formalized |
+| `119_semantics_audit.json` | 5/8 key terms stable; CIRC-001 and CIRC-005 critical defects |
+| `120_model_theory_audit.json` | M1 satisfies all axioms; M2 (secular) partial; countermodel found |
+| `121_proof_reconstruction.json` | 10 proof reconstructions; 1 complete; 5 need bridge premises |
+| `122_theorem_prover_test.json` | Lean 4 recommended; 150-300 hours for core theorems |
+| `123_robinson_arithmetic_audit.json` | Robinson Q not encodable; P3 not met |
+| `124_godel_eligibility_report.json` | NOT ELIGIBLE; score 22/100; P1, P3, P5 not met |
+| `125_formal_system_scorecard.json` | Overall formal system score: 39/100 |
+| `126_formal_system_final_verdict.md` | Final classification: B (Proto-Formal Axiomatic System) |
