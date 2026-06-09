@@ -1,0 +1,208 @@
+{
+  "total_nodes_in_backbone": 49,
+  "source_only_nodes": 8,
+  "leaf_nodes": 24,
+  "true_orphan_count": 0,
+  "source_only_list": [
+    "A-000001",
+    "A-000008",
+    "A-000011",
+    "A-000014",
+    "A-000015",
+    "C-000009",
+    "C-000046",
+    "C-000055"
+  ],
+  "source_only_details": [
+    {
+      "id": "A-000001",
+      "text": "Human free will exists and is universally presupposed.",
+      "role": "axiom_or_unsupported_root"
+    },
+    {
+      "id": "A-000008",
+      "text": "Rule of Taslīṭ: individuals are sovereign over their own property.",
+      "role": "axiom_or_unsupported_root"
+    },
+    {
+      "id": "A-000011",
+      "text": "A valid formal system must have finite and minimal axioms.",
+      "role": "axiom_or_unsupported_root"
+    },
+    {
+      "id": "A-000014",
+      "text": "Theory has primacy over data in understanding history and religion.",
+      "role": "axiom_or_unsupported_root"
+    },
+    {
+      "id": "A-000015",
+      "text": "Mahdism: the theory cannot be completed without a terminal condition.",
+      "role": "axiom_or_unsupported_root"
+    },
+    {
+      "id": "C-000009",
+      "text": "Mysticism is the philosophical pipeline from anti-property to totalitarianism.",
+      "role": "axiom_or_unsupported_root"
+    },
+    {
+      "id": "C-000046",
+      "text": "Envy is the root of socialism.",
+      "role": "axiom_or_unsupported_root"
+    },
+    {
+      "id": "C-000055",
+      "text": "Religion is the antithesis of the state.",
+      "role": "axiom_or_unsupported_root"
+    }
+  ],
+  "leaf_nodes_list": [
+    "A-000005",
+    "A-000009",
+    "A-000013",
+    "C-000003",
+    "C-000005",
+    "C-000011",
+    "C-000014",
+    "C-000015",
+    "C-000017",
+    "C-000018",
+    "C-000020",
+    "C-000023",
+    "C-000026",
+    "C-000027",
+    "C-000033",
+    "C-000039",
+    "C-000041",
+    "C-000043",
+    "C-000048",
+    "C-000051",
+    "C-000056",
+    "C-000067",
+    "C-000071",
+    "C-000074"
+  ],
+  "leaf_node_details": [
+    {
+      "id": "A-000005",
+      "text": "No compulsion in religion.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "A-000009",
+      "text": "Dignitary equality: all humans are equal in dignity before God.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "A-000013",
+      "text": "Liberty and property rights are prior normative axioms to any scientific conclusion.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000003",
+      "text": "Owning the body is necessary for being free.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000005",
+      "text": "No compulsion in religion; true religion cannot be forced.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000011",
+      "text": "AI tests consistency: machines cannot tolerate contradiction.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000014",
+      "text": "Acceptance of free will is prerequisite for science.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000015",
+      "text": "Free will is the axiom everyone is forced to presuppose.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000017",
+      "text": "Eliminating Tawhid proliferates axioms and leads to totalitarianism.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000018",
+      "text": "Formal systems must have finite, minimal axioms.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000020",
+      "text": "Without a game-theoretic solution for the last-round problem, liberty collapses.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000023",
+      "text": "Prophethood is the barrier against false messiahs and time-setters.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000026",
+      "text": "Market intervention = forced servitude to other humans.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000027",
+      "text": "Gödel: humans are not machines; they perceive truths no formal system can prove.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000033",
+      "text": "Iran, if it returns to its truth, becomes the model for human-machine civilization.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000039",
+      "text": "Denial of free will is self-refuting.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000041",
+      "text": "Law is discovered, not enacted.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000043",
+      "text": "Democracy does not legitimize the choice to violate individual rights.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000048",
+      "text": "State education reproduces slavery.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000051",
+      "text": "Without Mahdism, the theory of liberty cannot be completed.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000056",
+      "text": "Ghadir = transfer of wilayah, not political state.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000067",
+      "text": "Rule of Taslīṭ is the religious form of property rights.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000071",
+      "text": "Theory of liberty is the only existing solution for AI ethics.",
+      "role": "terminal_conclusion"
+    },
+    {
+      "id": "C-000074",
+      "text": "Hegel, Marx, fascism, communism are recyclings of ancient mysticism.",
+      "role": "terminal_conclusion"
+    }
+  ],
+  "true_orphans": [],
+  "note": "Source-only nodes are axioms (expected: A-000001, A-000011, A-000012) plus any claims that enter the graph from outside the backbone (e.g., via historical interpretation). Leaf nodes are terminal conclusions. True orphans (neither source nor target) exist only for isolated nodes not connected to the backbone."
+}

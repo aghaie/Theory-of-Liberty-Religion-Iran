@@ -1,0 +1,242 @@
+{
+  "total_candidates": 10,
+  "by_status": {
+    "RESOLVABLE_CONDITIONAL": 1,
+    "RESOLVABLE_SCOPE": 3,
+    "STRUCTURALLY_UNRESOLVED": 4,
+    "RESOLVABLE_TEMPORAL": 1,
+    "CIRCULAR — REQUIRES DEFINITION REFORM": 1
+  },
+  "critical_unresolved": [
+    {
+      "id": "CR-003",
+      "title": "Tawhid as objective definition vs. Tawhid requiring faith",
+      "confidence": 75
+    },
+    {
+      "id": "CR-004",
+      "title": "Religion = CFS uniqueness vs. Austrian School completeness",
+      "confidence": 72
+    },
+    {
+      "id": "CR-006",
+      "title": "Gödel transfers to social systems vs. Gödel is about arithmetic",
+      "confidence": 80
+    },
+    {
+      "id": "CR-007",
+      "title": "Mysticism as catch-all vs. mysticism as specific phenomenon",
+      "confidence": 88
+    },
+    {
+      "id": "CR-010",
+      "title": "Theory has primacy over data vs. theory must be falsifiable",
+      "confidence": 78
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "CR-001",
+      "title": "Secular derivation vs. religious requirement",
+      "claim_a_id": "C-000015",
+      "claim_a": "Free will is the axiom everyone is forced to presuppose — derivable by reason alone.",
+      "claim_b_id": "C-000013",
+      "claim_b": "Liberty → property rights → religion (the chain terminates in religion, not just reason).",
+      "conflict": "If free will and reason alone are sufficient to derive liberty, then religion is optional. But the master chain says liberty ultimately requires religion. These cannot both be strictly true.",
+      "dependency_path_a": [
+        "A-000001",
+        "C-000015",
+        "C-000039"
+      ],
+      "dependency_path_b": [
+        "A-000001",
+        "C-000001",
+        "C-000013",
+        "C-000004"
+      ],
+      "confidence": 85,
+      "resolution_candidate": "The author's position: reason alone derives liberty up to a stability threshold; beyond that threshold (last-round problem), religion is required. This is a scope-conditional resolution, not a true contradiction.",
+      "formal_status": "RESOLVABLE_CONDITIONAL"
+    },
+    {
+      "candidate_id": "CR-002",
+      "title": "No compulsion in religion vs. Islamic Republic enforcement",
+      "claim_a_id": "A-000005",
+      "claim_a": "No compulsion in religion — forcing religion on anyone is wrong.",
+      "claim_b_id": "C-000055",
+      "claim_b": "Religion is the antithesis of the state — yet the author endorses Shi'ism as Iran's protective substrate.",
+      "conflict": "If religion cannot be compelled and is the antithesis of the state, then Shi'ism-as-state-religion is impossible to endorse. The author endorses Shi'ism's civilizational role while opposing the Islamic Republic — this distinction is load-bearing but not always maintained.",
+      "dependency_path_a": [
+        "A-000004",
+        "A-000005"
+      ],
+      "dependency_path_b": [
+        "C-000004",
+        "C-000055",
+        "C-000060"
+      ],
+      "confidence": 70,
+      "resolution_candidate": "Shi'ism as civilizational substrate ≠ Shi'ism as state religion. The author consistently opposes institutional Velayat-e Faqih while supporting Shi'a values. Resolvable by scope.",
+      "formal_status": "RESOLVABLE_SCOPE"
+    },
+    {
+      "candidate_id": "CR-003",
+      "title": "Tawhid as objective definition vs. Tawhid requiring faith",
+      "claim_a_id": "A-000004",
+      "claim_a": "Tawhid has an objective, agreement-admissible definition (God is not any observable entity).",
+      "claim_b_id": "HA-011",
+      "claim_b": "The negative ostensive definition of God is sufficient for formal work — but this is itself an unproven assumption (HA-011).",
+      "conflict": "The author claims Tawhid is agreement-admissible without faith. But whether 'negative ostensive definition suffices for formal axiomatic work' is itself a hidden axiom (HA-011) requiring faith in a specific theory of meaning.",
+      "dependency_path_a": [
+        "A-000004"
+      ],
+      "dependency_path_b": [
+        "HA-011"
+      ],
+      "confidence": 75,
+      "resolution_candidate": "Requires formal demonstration that negative ostensive definitions are sufficient for formal axiomatic systems. This is a non-trivial claim in philosophy of language.",
+      "formal_status": "STRUCTURALLY_UNRESOLVED"
+    },
+    {
+      "candidate_id": "CR-004",
+      "title": "Religion = CFS uniqueness vs. Austrian School completeness",
+      "claim_a_id": "C-000071",
+      "claim_a": "Theory of liberty is the only existing solution for AI ethics.",
+      "claim_b_id": "C-000040",
+      "claim_b": "Austrian School is incomplete without theological grounding.",
+      "conflict": "If Austrian School is merely incomplete (not wrong), then completing it with theological grounding might produce a different CFS for liberty that is not Islam-specific. This undermines the uniqueness claim.",
+      "dependency_path_a": [
+        "C-000013",
+        "C-000029",
+        "C-000012",
+        "C-000071"
+      ],
+      "dependency_path_b": [
+        "A-000003",
+        "C-000013",
+        "C-000040"
+      ],
+      "confidence": 72,
+      "resolution_candidate": "The author's position: Austrian School's incompleteness is precisely the last-round problem gap, and only Resurrection/Tawhid/Prophethood fill it. This is a strong claim requiring formal demonstration.",
+      "formal_status": "STRUCTURALLY_UNRESOLVED"
+    },
+    {
+      "candidate_id": "CR-005",
+      "title": "Democracy as path to communism vs. democracy as pre-liberal safeguard",
+      "claim_a_id": "C-000043",
+      "claim_a": "Democracy does not legitimize violating individual rights; it is the cheapest path to communism.",
+      "claim_b_id": "IMPLICIT",
+      "claim_b": "The author acknowledges that liberal democracies have partially preserved liberty through the past century.",
+      "conflict": "If democracy is necessarily the path to communism, why have liberal democracies (USA, UK) sustained liberty longer than non-democratic systems? The author attributes this to 'residual religious strands of liberalism' — but this is an ad hoc qualification.",
+      "dependency_path_a": [
+        "C-000001",
+        "C-000043"
+      ],
+      "dependency_path_b": [
+        "A-000014",
+        "C-000032"
+      ],
+      "confidence": 65,
+      "resolution_candidate": "The author argues democracy buys time but does not solve the terminal problem. This is a temporal scope qualification: democracy delays but does not prevent the slide. Partially resolvable.",
+      "formal_status": "RESOLVABLE_TEMPORAL"
+    },
+    {
+      "candidate_id": "CR-006",
+      "title": "Gödel transfers to social systems vs. Gödel is about arithmetic",
+      "claim_a_id": "A-000012",
+      "claim_a": "A valid system must be internally consistent (Gödel) — applied to religion as CFS.",
+      "claim_b_id": "HA-008",
+      "claim_b": "Gödel's theorems apply to formal systems of sufficient arithmetic power (hidden axiom HA-008 denies this transfer is proven).",
+      "conflict": "The theory's use of 'Consistent' (Gödel-sense) for religion requires that religion's axiom system meets the complexity threshold for Gödel's theorems. Whether it does is a technical question in formal logic, not settled by the author.",
+      "dependency_path_a": [
+        "A-000012",
+        "C-000028",
+        "C-000029"
+      ],
+      "dependency_path_b": [
+        "HA-008"
+      ],
+      "confidence": 80,
+      "resolution_candidate": "The author may intend 'consistent' in the ordinary sense (non-contradictory) rather than the Gödel-technical sense. If so, the Gödel reference is illustrative, not load-bearing. This must be clarified before formal analysis.",
+      "formal_status": "STRUCTURALLY_UNRESOLVED"
+    },
+    {
+      "candidate_id": "CR-007",
+      "title": "Mysticism as catch-all vs. mysticism as specific phenomenon",
+      "claim_a_id": "C-000009",
+      "claim_a": "Mysticism is the philosophical pipeline from anti-property to totalitarianism.",
+      "claim_b_id": "C-000074",
+      "claim_b": "Hegel, Marx, fascism, communism are recyclings of ancient mysticism.",
+      "conflict": "If mysticism is defined as 'any anti-liberty system,' then C-000074 becomes true by definition: anything anti-liberty is mysticism, therefore anti-liberty ideologies are mysticism. This creates a circular argument.",
+      "dependency_path_a": [
+        "C-000009"
+      ],
+      "dependency_path_b": [
+        "C-000074"
+      ],
+      "confidence": 88,
+      "resolution_candidate": "Must give mysticism an independent characterization (structural: separates person from reason/property) and then prove that Hegel etc. exhibit this structural feature. Cannot use liberty-violation in the definition.",
+      "formal_status": "CIRCULAR — REQUIRES DEFINITION REFORM"
+    },
+    {
+      "candidate_id": "CR-008",
+      "title": "Atheist liberalism as delayed communism vs. classical liberals as allies",
+      "claim_a_id": "IMPLICIT",
+      "claim_a": "Atheist liberals are delayed communists (they will eventually reintroduce servitude).",
+      "claim_b_id": "C-000040",
+      "claim_b": "Austrian School (largely atheist or agnostic in its founders) is incomplete but not wrong — it is the closest secular theory to the truth.",
+      "conflict": "Mises, Hayek, Rothbard — all non-theists — produced the closest secular approximation of the author's theory. If atheist liberals are necessarily delayed communists, how can their work be the second-best approximation of the theory?",
+      "dependency_path_a": [
+        "A-000004",
+        "C-000013"
+      ],
+      "dependency_path_b": [
+        "C-000040",
+        "A-000003"
+      ],
+      "confidence": 68,
+      "resolution_candidate": "The author distinguishes between individual atheist liberals (whose personal journey may not complete) and their theoretical contributions (which capture part of the truth). Resolvable by distinguishing person from theory.",
+      "formal_status": "RESOLVABLE_SCOPE"
+    },
+    {
+      "candidate_id": "CR-009",
+      "title": "Law is discovered vs. law requires axiomatic specification",
+      "claim_a_id": "C-000041",
+      "claim_a": "Law is discovered, not enacted — natural law principle.",
+      "claim_b_id": "C-000028",
+      "claim_b": "A consistent formal system is necessary for understanding religion/liberty — law must be formally specified.",
+      "conflict": "Natural law discovery and formal axiomatic specification are different epistemological frameworks. Discovery implies intuition and empirical observation; formal axiomatization implies explicit deductive construction. The theory uses both without clearly reconciling them.",
+      "dependency_path_a": [
+        "A-000008",
+        "C-000041"
+      ],
+      "dependency_path_b": [
+        "A-000012",
+        "C-000028"
+      ],
+      "confidence": 65,
+      "resolution_candidate": "The author may mean: law is ontologically discovered (it exists independently of human will) but epistemologically requires axiomatic specification to be reliably communicated. The tension is real but resolvable.",
+      "formal_status": "RESOLVABLE_SCOPE"
+    },
+    {
+      "candidate_id": "CR-010",
+      "title": "Theory has primacy over data vs. theory must be falsifiable",
+      "claim_a_id": "A-000014",
+      "claim_a": "Theory has primacy over data in understanding history and religion.",
+      "claim_b_id": "IMPLICIT",
+      "claim_b": "The theory makes empirical claims (Iran, Ghadir, game theory results) that it treats as confirmations of the theory.",
+      "conflict": "If theory has primacy over data, empirical evidence cannot confirm or falsify the theory — only illustrate it. But the author uses historical and economic evidence as supporting the theory. This is methodologically inconsistent: evidence cannot both be subordinate to theory and serve as its confirmation.",
+      "dependency_path_a": [
+        "A-000014"
+      ],
+      "dependency_path_b": [
+        "A-000014",
+        "C-000010",
+        "C-000060"
+      ],
+      "confidence": 78,
+      "resolution_candidate": "The author's methodology may be: theory selects which data to look at, but data within that frame still serves as evidence. This is consistent with the Lakatosian hard-core / protective-belt model. Requires explicit methodological statement.",
+      "formal_status": "STRUCTURALLY_UNRESOLVED"
+    }
+  ]
+}

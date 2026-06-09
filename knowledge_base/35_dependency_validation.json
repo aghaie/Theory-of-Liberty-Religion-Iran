@@ -1,0 +1,385 @@
+{
+  "method": "Manual reconstruction from Phase 1 theory architecture, logical graph, and argument catalog. Each edge has explicit justification and confidence score.",
+  "total_validated_edges": 46,
+  "confidence_distribution": {
+    "high_90_plus": 16,
+    "medium_75_89": 28,
+    "low_below_75": 2
+  },
+  "edges": [
+    {
+      "from": "A-000001",
+      "to": "C-000001",
+      "relation": "supports",
+      "confidence": 95,
+      "justification": "Free will is explicitly cited as foundation of liberty=property"
+    },
+    {
+      "from": "A-000001",
+      "to": "C-000015",
+      "relation": "supports",
+      "confidence": 98,
+      "justification": "Free will is itself the claim that free will is universally presupposed"
+    },
+    {
+      "from": "A-000001",
+      "to": "C-000039",
+      "relation": "supports",
+      "confidence": 90,
+      "justification": "Denial of free will is self-refuting; depends on free will existing"
+    },
+    {
+      "from": "A-000001",
+      "to": "C-000014",
+      "relation": "supports",
+      "confidence": 85,
+      "justification": "Science presupposes free will; free will is prior to science"
+    },
+    {
+      "from": "A-000001",
+      "to": "A-000002",
+      "relation": "supports",
+      "confidence": 90,
+      "justification": "Property begins with body follows from free will over body"
+    },
+    {
+      "from": "A-000001",
+      "to": "A-000004",
+      "relation": "supports",
+      "confidence": 75,
+      "justification": "Tawhid requires persons capable of choice; free will is a precondition"
+    },
+    {
+      "from": "A-000001",
+      "to": "A-000013",
+      "relation": "supports",
+      "confidence": 85,
+      "justification": "Liberty prior to science follows from free will being the axiom"
+    },
+    {
+      "from": "A-000011",
+      "to": "A-000012",
+      "relation": "supports",
+      "confidence": 80,
+      "justification": "Finite axioms + consistency are co-requirements of formal systems"
+    },
+    {
+      "from": "A-000011",
+      "to": "C-000018",
+      "relation": "supports",
+      "confidence": 92,
+      "justification": "Directly: formal systems must have finite/minimal axioms"
+    },
+    {
+      "from": "A-000011",
+      "to": "C-000017",
+      "relation": "supports",
+      "confidence": 88,
+      "justification": "Eliminating Tawhid → infinite axioms requires finite-axiom principle"
+    },
+    {
+      "from": "A-000012",
+      "to": "C-000011",
+      "relation": "supports",
+      "confidence": 92,
+      "justification": "AI tests consistency: directly from consistency axiom"
+    },
+    {
+      "from": "A-000012",
+      "to": "C-000028",
+      "relation": "supports",
+      "confidence": 90,
+      "justification": "CFS needed for religion: requires consistency axiom"
+    },
+    {
+      "from": "A-000012",
+      "to": "C-000027",
+      "relation": "supports",
+      "confidence": 75,
+      "justification": "Gödel claim about humans not machines: uses Gödel's theorems"
+    },
+    {
+      "from": "A-000004",
+      "to": "C-000016",
+      "relation": "supports",
+      "confidence": 95,
+      "justification": "Tawhid → no servitude → liberty: core theological-political derivation"
+    },
+    {
+      "from": "A-000004",
+      "to": "C-000005",
+      "relation": "supports",
+      "confidence": 88,
+      "justification": "No compulsion in religion follows directly from Tawhid"
+    },
+    {
+      "from": "A-000004",
+      "to": "C-000026",
+      "relation": "supports",
+      "confidence": 80,
+      "justification": "Market intervention = servitude to others: derived from Tawhid"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000005",
+      "relation": "supports",
+      "confidence": 90,
+      "justification": "No compulsion is a direct consequence of Tawhid"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000006",
+      "relation": "supports",
+      "confidence": 70,
+      "justification": "Resurrection is companion axiom to Tawhid in Islamic framework"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000007",
+      "relation": "supports",
+      "confidence": 70,
+      "justification": "Prophethood companion axiom to Tawhid"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000009",
+      "relation": "supports",
+      "confidence": 85,
+      "justification": "Dignitary equality: all humans equal before God, from Tawhid"
+    },
+    {
+      "from": "A-000002",
+      "to": "C-000001",
+      "relation": "defines",
+      "confidence": 92,
+      "justification": "Property begins with body → liberty = property rights"
+    },
+    {
+      "from": "A-000002",
+      "to": "C-000003",
+      "relation": "supports",
+      "confidence": 90,
+      "justification": "Owning the body is necessary for being free"
+    },
+    {
+      "from": "A-000008",
+      "to": "C-000067",
+      "relation": "supports",
+      "confidence": 95,
+      "justification": "Rule of Taslīṭ is the religious form of property rights"
+    },
+    {
+      "from": "A-000008",
+      "to": "C-000041",
+      "relation": "supports",
+      "confidence": 90,
+      "justification": "Law is discovered not enacted: from Taslīṭ principle"
+    },
+    {
+      "from": "C-000001",
+      "to": "C-000013",
+      "relation": "supports",
+      "confidence": 90,
+      "justification": "Liberty=property is the departure point of the master chain"
+    },
+    {
+      "from": "C-000013",
+      "to": "C-000004",
+      "relation": "supports",
+      "confidence": 85,
+      "justification": "Master chain terminates in: true religion = CFS for liberty"
+    },
+    {
+      "from": "C-000016",
+      "to": "C-000017",
+      "relation": "supports",
+      "confidence": 88,
+      "justification": "Tawhid guarantees liberty → eliminating Tawhid destroys it"
+    },
+    {
+      "from": "C-000004",
+      "to": "C-000029",
+      "relation": "supports",
+      "confidence": 88,
+      "justification": "True religion = CFS for liberty; formal system of liberty = religion"
+    },
+    {
+      "from": "C-000028",
+      "to": "C-000029",
+      "relation": "supports",
+      "confidence": 90,
+      "justification": "CFS needed + religion is CFS → religion = formal system"
+    },
+    {
+      "from": "A-000006",
+      "to": "C-000021",
+      "relation": "supports",
+      "confidence": 90,
+      "justification": "Resurrection stabilizes liberty via last-round solution"
+    },
+    {
+      "from": "C-000021",
+      "to": "C-000020",
+      "relation": "supports",
+      "confidence": 80,
+      "justification": "Stable liberty requires Resurrection: game-theoretic conclusion"
+    },
+    {
+      "from": "C-000004",
+      "to": "C-000012",
+      "relation": "supports",
+      "confidence": 80,
+      "justification": "True religion as CFS → translatable to machines"
+    },
+    {
+      "from": "C-000012",
+      "to": "C-000071",
+      "relation": "supports",
+      "confidence": 75,
+      "justification": "Religion encodable for AI → only solution for AI ethics"
+    },
+    {
+      "from": "C-000029",
+      "to": "C-000071",
+      "relation": "supports",
+      "confidence": 82,
+      "justification": "Religion = formal system → AI ethics candidate"
+    },
+    {
+      "from": "C-000001",
+      "to": "C-000043",
+      "relation": "supports",
+      "confidence": 88,
+      "justification": "Liberty=property rights; democracy cannot legitimize violating it"
+    },
+    {
+      "from": "C-000055",
+      "to": "C-000056",
+      "relation": "supports",
+      "confidence": 80,
+      "justification": "Religion antithesis of state → Ghadir ≠ political state"
+    },
+    {
+      "from": "A-000014",
+      "to": "C-000053",
+      "relation": "supports",
+      "confidence": 82,
+      "justification": "Theory primacy → Shahnameh as civilizational memory is readable"
+    },
+    {
+      "from": "C-000053",
+      "to": "C-000060",
+      "relation": "supports",
+      "confidence": 80,
+      "justification": "Shahnameh myths → Iranian nation defined by liberty/property"
+    },
+    {
+      "from": "C-000060",
+      "to": "C-000010",
+      "relation": "supports",
+      "confidence": 85,
+      "justification": "Iranian nation = liberty nation → Iran = civilizational continuum"
+    },
+    {
+      "from": "C-000010",
+      "to": "C-000033",
+      "relation": "supports",
+      "confidence": 78,
+      "justification": "Iran as land of liberty → model for future civilization"
+    },
+    {
+      "from": "C-000009",
+      "to": "C-000074",
+      "relation": "supports",
+      "confidence": 85,
+      "justification": "Mysticism definition → Hegel/Marx/fascism = mysticism recycling"
+    },
+    {
+      "from": "C-000046",
+      "to": "C-000047",
+      "relation": "supports",
+      "confidence": 82,
+      "justification": "Envy → socialism → taxation as penalty"
+    },
+    {
+      "from": "C-000047",
+      "to": "C-000048",
+      "relation": "supports",
+      "confidence": 80,
+      "justification": "Taxation penalty → state education reproduces slavery"
+    },
+    {
+      "from": "A-000007",
+      "to": "C-000023",
+      "relation": "supports",
+      "confidence": 85,
+      "justification": "Prophethood → barrier against false messiahs"
+    },
+    {
+      "from": "A-000015",
+      "to": "C-000051",
+      "relation": "supports",
+      "confidence": 88,
+      "justification": "Mahdism axiom → theory incomplete without terminal condition"
+    },
+    {
+      "from": "C-000013",
+      "to": "C-000051",
+      "relation": "supports",
+      "confidence": 75,
+      "justification": "Master chain → needs terminal condition → Mahdism"
+    }
+  ],
+  "nodes_covered": [
+    "A-000001",
+    "A-000002",
+    "A-000004",
+    "A-000005",
+    "A-000006",
+    "A-000007",
+    "A-000008",
+    "A-000009",
+    "A-000011",
+    "A-000012",
+    "A-000013",
+    "A-000014",
+    "A-000015",
+    "C-000001",
+    "C-000003",
+    "C-000004",
+    "C-000005",
+    "C-000009",
+    "C-000010",
+    "C-000011",
+    "C-000012",
+    "C-000013",
+    "C-000014",
+    "C-000015",
+    "C-000016",
+    "C-000017",
+    "C-000018",
+    "C-000020",
+    "C-000021",
+    "C-000023",
+    "C-000026",
+    "C-000027",
+    "C-000028",
+    "C-000029",
+    "C-000033",
+    "C-000039",
+    "C-000041",
+    "C-000043",
+    "C-000046",
+    "C-000047",
+    "C-000048",
+    "C-000051",
+    "C-000053",
+    "C-000055",
+    "C-000056",
+    "C-000060",
+    "C-000067",
+    "C-000071",
+    "C-000074"
+  ],
+  "contrast_with_phase075": "Phase 0.75 generated 35,052 edges via automatic concept-matching. This validated set of 49 edges is the high-confidence structural backbone. The full set should be understood as: 49 validated core edges + ~35K probabilistic concept-dependency edges."
+}

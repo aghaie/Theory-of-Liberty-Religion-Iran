@@ -1,0 +1,166 @@
+{
+  "total_hidden_axioms_discovered": 12,
+  "by_type": {
+    "theological": 2,
+    "methodological": 1,
+    "metaethical": 1,
+    "theoretical": 1,
+    "normative": 2,
+    "epistemological": 2,
+    "logical": 1,
+    "metaphysical": 2
+  },
+  "hidden_axioms": [
+    {
+      "hidden_axiom_id": "HA-001",
+      "name": "Existence of objective truth",
+      "statement": "Objective truth exists independently of any particular observer, government, or culture.",
+      "why_needed": "The theory's claim that liberty has an 'objective definition' presupposes that objective definitions are possible. Without this, 'liberty = property rights' is merely a preference, not a principle.",
+      "implicitly_used_in": [
+        "C-000001",
+        "A-000011",
+        "A-000012"
+      ],
+      "type": "epistemological",
+      "detectability": "The author uses phrases like 'agreement-admissible' and 'objective definition' repeatedly, presupposing that shared objective meaning is achievable."
+    },
+    {
+      "hidden_axiom_id": "HA-002",
+      "name": "Reliability of human reason",
+      "statement": "Human reason, when applied correctly to consistent formal systems, produces reliable conclusions.",
+      "why_needed": "The entire formal-system methodology depends on reason being a reliable instrument. If reason is fallible at the foundational level (as Hume argues), the axiomatic method collapses.",
+      "implicitly_used_in": [
+        "A-000001",
+        "A-000012"
+      ],
+      "type": "epistemological",
+      "detectability": "The author explicitly endorses Imam al-Kazim's 'inner proof = reason' without proving reason's reliability — taking it as given."
+    },
+    {
+      "hidden_axiom_id": "HA-003",
+      "name": "Causal structure of the world",
+      "statement": "The world has a stable causal structure such that if A causes B in one case, A will cause B in relevantly similar cases.",
+      "why_needed": "All game-theoretic arguments (prisoner's dilemma, last-round problem) depend on stable causal laws. Without this, the game-theoretic stability arguments for Resurrection fail.",
+      "implicitly_used_in": [
+        "A-000006",
+        "C-000021"
+      ],
+      "type": "metaphysical",
+      "detectability": "The game theory proofs assume consistent payoff structures across iterations — which requires causal uniformity."
+    },
+    {
+      "hidden_axiom_id": "HA-004",
+      "name": "Persistence of personal identity",
+      "statement": "A human being is the same person across time; the one who makes a contract is the same one who fulfills it.",
+      "why_needed": "Property rights require that ownership persists across time. Without personal identity persistence, 'your property' is a meaningless concept.",
+      "implicitly_used_in": [
+        "A-000002",
+        "A-000008",
+        "C-000001"
+      ],
+      "type": "metaphysical",
+      "detectability": "Property-as-extension-of-body claim implicitly requires that the body's owner is stable over time."
+    },
+    {
+      "hidden_axiom_id": "HA-005",
+      "name": "Non-arbitrariness of logical inference",
+      "statement": "Valid deductive inference is not arbitrary: if premises are true, the conclusion cannot be false.",
+      "why_needed": "Every derivation in the theory (free will → property rights → liberty → religion) depends on logical inference being non-arbitrary. This is the foundation of using Gödel's theorems.",
+      "implicitly_used_in": [
+        "A-000011",
+        "A-000012"
+      ],
+      "type": "logical",
+      "detectability": "The author never proves that his derivation steps are valid inferences; he relies on the reader accepting logic itself."
+    },
+    {
+      "hidden_axiom_id": "HA-006",
+      "name": "Uniqueness of the formal system for liberty",
+      "statement": "There exists at most one consistent formal axiomatic system that correctly captures individual liberty and property rights.",
+      "why_needed": "The theory's AI-ethics uniqueness claim ('the only existing solution') requires not just that religion is one such system, but that it is the only one. This uniqueness is asserted, never proven.",
+      "implicitly_used_in": [
+        "C-000071",
+        "C-000029"
+      ],
+      "type": "theoretical",
+      "detectability": "The author challenges readers to produce an alternative; but the burden of proof should be internal."
+    },
+    {
+      "hidden_axiom_id": "HA-007",
+      "name": "Interpretive continuity of religious texts",
+      "statement": "The Qur'an, Hadith, and the sayings of the Ahl al-Bayt can be read as a consistent, coherent system across their historical transmission.",
+      "why_needed": "The theory treats religious sources as a single coherent system. If transmission errors, interpolations, or irreducible interpretive plurality exist, the system is not formally consistent.",
+      "implicitly_used_in": [
+        "A-000004",
+        "A-000005",
+        "A-000007"
+      ],
+      "type": "theological",
+      "detectability": "The author dismisses exegesis that conflicts with liberty but accepts exegesis that confirms it, implicitly assuming a hermeneutical principle never formally stated."
+    },
+    {
+      "hidden_axiom_id": "HA-008",
+      "name": "Transferability of Gödel's theorems to social systems",
+      "statement": "Gödel's incompleteness theorems, proved for formal arithmetic, apply meaningfully to axiomatic systems governing human social organization.",
+      "why_needed": "The theory's core methodological claim — that religion is a 'consistent formal axiomatic system' — borrows Gödel's framework. But Gödel's theorems apply to systems of sufficient arithmetic power; it is not obvious that social axiomatic systems meet this criterion.",
+      "implicitly_used_in": [
+        "A-000012",
+        "C-000028",
+        "C-000029"
+      ],
+      "type": "methodological",
+      "detectability": "The author applies 'Consistent' (capital C, Gödel-sense) to religion without proving that religion's axiom system is of the required logical type."
+    },
+    {
+      "hidden_axiom_id": "HA-009",
+      "name": "Inviolability of the body as property",
+      "statement": "The human body is not only property but is inviolable property — no contract can legitimately transfer total ownership of one's body to another.",
+      "why_needed": "The argument against slavery requires that body-property is non-alienable. But standard Lockean property theory allows voluntary servitude contracts. The theory must presuppose non-alienability to block this.",
+      "implicitly_used_in": [
+        "A-000002",
+        "A-000008",
+        "C-000003"
+      ],
+      "type": "normative",
+      "detectability": "The author condemns all forms of servitude but never formally derives non-alienability from free will alone."
+    },
+    {
+      "hidden_axiom_id": "HA-010",
+      "name": "Commensurability of liberty across individuals",
+      "statement": "Different persons' claims to liberty are commensurable — when two claims conflict, a principled resolution exists.",
+      "why_needed": "The theory defines liberty as property rights, but two people's property claims can conflict (boundary disputes, contract disputes). The theory needs a conflict-resolution principle; it asserts one (Taslīṭ + non-aggression) but doesn't derive it from earlier axioms.",
+      "implicitly_used_in": [
+        "A-000008",
+        "C-000001",
+        "C-000041"
+      ],
+      "type": "normative",
+      "detectability": "The author discusses the abortion case as an example of conflict resolution but applies the principle without fully deriving it."
+    },
+    {
+      "hidden_axiom_id": "HA-011",
+      "name": "Minimal distinguishability of God",
+      "statement": "God is minimally distinguishable from all observable entities — the definition 'God is not any of the things we see' is sufficient to produce agreement-admissible propositions.",
+      "why_needed": "The theory uses 'God is not observable' as the foundation for Tawhid's objective definition. But this negative definition must be sufficient to do logical work — and it's assumed it is, not demonstrated.",
+      "implicitly_used_in": [
+        "A-000004"
+      ],
+      "type": "theological",
+      "detectability": "The author argues: 'God has an objective definition because we can say what God is NOT.' This requires that negative ostensive definition is sufficient for formal work."
+    },
+    {
+      "hidden_axiom_id": "HA-012",
+      "name": "Moral realism",
+      "statement": "Moral facts (e.g., 'slavery is wrong') are objective and discoverable by reason, not merely conventional or preference-based.",
+      "why_needed": "The theory treats 'you should not enslave others' as a discoverable truth, not a social convention. Without moral realism, the axiom of Tawhid has no binding force beyond preference.",
+      "implicitly_used_in": [
+        "A-000004",
+        "A-000009",
+        "C-000001"
+      ],
+      "type": "metaethical",
+      "detectability": "The author explicitly opposes relativism and defends objective definitions, which commits him to moral realism."
+    }
+  ],
+  "significance": "HA-001, HA-002, HA-005 (objective truth, reliable reason, valid inference) are the most critical: they are required by every step of the theory. HA-008 (Gödel transferability) is the most technically dangerous: if Gödel's theorems do not apply to the social domain, the entire CFS methodology loses its strongest support. HA-006 (uniqueness of CFS) is the weakest link in the AI-alignment uniqueness claim."
+}

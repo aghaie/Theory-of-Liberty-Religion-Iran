@@ -1,0 +1,136 @@
+{
+  "concepts_normalized": 12,
+  "method": "Canonical definition synthesized from most-cited source claims and definitions; variants identified; scope notes record legitimate definitional pluralism vs. genuine conflicts",
+  "definitions": {
+    "liberty": {
+      "canonical": "Liberty in its objective form is identical to individual property rights. It is the condition under which a person exercises sovereignty over their own body, labor, and acquired possessions, free from coercion by other human beings.",
+      "formal_symbol": "L",
+      "sources": [
+        "A-000001",
+        "A-000002",
+        "C-000001"
+      ],
+      "scope_notes": "The author uses 'liberty', 'freedom', and 'individual liberty' interchangeably. Distinguished from 'license' (which may violate others' property). In game-theoretic context refers specifically to long-run stable non-coerced interaction."
+    },
+    "religion": {
+      "canonical": "True religion is a consistent formal axiomatic system for individual liberty and property rights, purified of mysticism. It is not an institution, not a state-structure, and not a set of rituals. It is an axiomatic framework whose core axioms are Tawhid, Resurrection, and Prophethood.",
+      "formal_symbol": "R",
+      "sources": [
+        "C-000004",
+        "C-000028",
+        "C-000029"
+      ],
+      "scope_notes": "Author distinguishes 'authentic religion' (= CFS for liberty) from 'distorted religion' (= state apparatus or mystical organization). The conflicting definitions in the consistency report arise from this distinction."
+    },
+    "property_rights": {
+      "canonical": "Individual property rights are the exclusive authority of a person over their own body and legitimately acquired external goods. The Rule of Taslīṭ formalizes this: 'People are sovereign over their own property.' Property begins with the body.",
+      "formal_symbol": "P",
+      "sources": [
+        "A-000002",
+        "A-000008",
+        "C-000001"
+      ],
+      "scope_notes": "Property is both the foundation of liberty (what liberty consists in) and its boundary condition (liberty ends where another's property begins)."
+    },
+    "mysticism": {
+      "canonical": "Mysticism is any system — philosophical, religious, political, or cultural — that separates human beings from their body, reason, property, or individual identity, and delivers them to a collective entity (state, movement, mystical union, 'unity of being').",
+      "formal_symbol": "M",
+      "sources": [
+        "C-000009",
+        "CN-000003"
+      ],
+      "scope_notes": "This is the theory's broadest and most contested definition. The author explicitly includes Sufi tariqas, Hegelian dialectic, Platonism, Plotinian emanationism, and state-socialism under this term. The breadth is intentional: the term functions as the anti-concept to CFS."
+    },
+    "the_state": {
+      "canonical": "The state, in its relevant sense, is any organization monopolizing the use of legitimate coercion over a territory. Modern states function as 'new idol-temples' by forcing individuals into servitude to other humans. Distinct from 'government as steward of public affairs.'",
+      "formal_symbol": "S",
+      "sources": [
+        "C-000055",
+        "C-000075"
+      ],
+      "scope_notes": "The author distinguishes 'state as institution' from 'state as organization.' The critique targets the organization form specifically. The definitional instability reported in consistency check arises from this distinction."
+    },
+    "tawhid": {
+      "canonical": "Tawhid is the principle that no human being has the right — in any way — to strip others of their power of choice and free will. Its negative definition: God is certainly not any of the humans or entities we see with our eyes. Its operational consequence: no servitude to anything other than God, which means no servitude to other humans.",
+      "formal_symbol": "T",
+      "sources": [
+        "A-000004",
+        "C-000016"
+      ],
+      "scope_notes": "The author operationalizes Tawhid as a social-political principle first, a theological claim second. This is non-standard in Islamic theology and is the theory's most original conceptual move."
+    },
+    "free_will": {
+      "canonical": "Free will is the power of self-directed choice that every human being possesses and which is universally presupposed by all rational discourse, all contracts, and all moral claims. It is not derived; it is the necessary presupposition of derivation itself.",
+      "formal_symbol": "FW",
+      "sources": [
+        "A-000001",
+        "C-000015",
+        "C-000039"
+      ],
+      "scope_notes": "The author treats free will as the ur-axiom: the one thing you must presuppose even to deny it (performative contradiction argument)."
+    },
+    "consistent_formal_system": {
+      "canonical": "A consistent formal axiomatic system (CFS) is a system that is: (1) formally expressible in a language, (2) governed by logical rules, (3) whose definitions and concepts are objective (agreement-admissible), (4) axiomatic (derivation proceeds from a small set of unprovable but accepted premises), and (5) free of internal contradiction. Religion, purified, is such a system for liberty.",
+      "formal_symbol": "CFS",
+      "sources": [
+        "A-000011",
+        "A-000012",
+        "C-000028"
+      ],
+      "scope_notes": "The author borrows the term from Gödel's incompleteness theorem context. The application to social philosophy is the theory's central methodological claim."
+    },
+    "communism": {
+      "canonical": "Communism, in the author's expanded usage, is any ideology or policy that places collective interests above individual liberty, including socialism, fascism, statism, and atheist liberalism at its terminal stage. The common feature is state intervention in individual property.",
+      "formal_symbol": "COM",
+      "sources": [
+        "C-000013"
+      ],
+      "scope_notes": "The author explicitly broadens 'communism' beyond its standard economic meaning. This is a stipulative redefinition that must be tracked as such in formal analysis."
+    },
+    "democracy": {
+      "canonical": "Democracy is a system of majority voting over collective decisions. The author opposes democracy in matters pertaining to individual rights (property, liberty) while treating it as potentially useful for other collective decisions. Democracy is 'the cheapest path to communism' when applied to individual rights.",
+      "formal_symbol": "D",
+      "sources": [
+        "C-000043",
+        "C-000044"
+      ],
+      "scope_notes": "The author's position is anti-democratic specifically with respect to individual rights, not universally. This distinction is crucial for avoiding misreading."
+    },
+    "resurrection": {
+      "canonical": "Resurrection (Ma'ad) functions in the theory as the game-theoretic solution to the last-round problem: because there is a final accounting whose timing is unknown, no agent can rationally defect in the 'last round.' This makes cooperation (liberty-respecting behavior) the dominant long-run strategy.",
+      "formal_symbol": "Res",
+      "sources": [
+        "A-000006",
+        "C-000021"
+      ],
+      "scope_notes": "The theological content of Resurrection is treated as secondary to its game-theoretic function. The author argues that whether you believe in Resurrection literally, its logical function in stabilizing cooperation is demonstrable."
+    },
+    "iran": {
+      "canonical": "Iran, in the theory's civilizational sense, is the historical continuum of a people defined by individual property ownership and liberty-oriented social organization, whose civilizational memory is preserved in the Shahnameh and whose religious substrate (Shi'ism) preserves an anti-collectivist core.",
+      "formal_symbol": "IranCiv",
+      "sources": [
+        "C-000010",
+        "C-000060",
+        "C-000033"
+      ],
+      "scope_notes": "Definitional instability in consistency check arises from mixing Iran-as-state, Iran-as-nation, and Iran-as-civilizational-continuum. The theory's claims operate primarily at the civilizational level."
+    }
+  },
+  "definitional_conflicts_requiring_resolution": [
+    {
+      "concept": "mysticism",
+      "conflict": "The definition is so broad (any anti-liberty system) that it is partially circular: mysticism = bad → bad = mysticism. For formal analysis, mysticism must have an independent characterization before it can be shown to imply liberty-violation.",
+      "resolution_path": "Define mysticism structurally (separates person from reason/property/individual identity) without using 'liberty-violation' in the definition."
+    },
+    {
+      "concept": "communism",
+      "conflict": "The stipulative expansion (communism = any state intervention) is non-standard and risks equivocation when the theory argues against 'communism' using historical examples of actual Marxist communism.",
+      "resolution_path": "Use two symbols: COM_narrow (Marxist) and COM_broad (any collectivism). Track which sense is used in each argument."
+    },
+    {
+      "concept": "religion",
+      "conflict": "The theory uses 'religion' to mean both (a) authentic CFS for liberty, and (b) the historical phenomenon called religion (which may be distorted). Arguments using (b) as evidence for (a) are potentially circular.",
+      "resolution_path": "Use R_authentic (CFS) vs. R_historical consistently; track all occurrences."
+    }
+  ]
+}

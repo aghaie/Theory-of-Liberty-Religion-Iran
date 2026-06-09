@@ -1,0 +1,2009 @@
+{
+  "original_claim_count": 16569,
+  "atomized_claim_count": 17229,
+  "compound_claims_split": 660,
+  "net_new_atomic_claims": 660,
+  "compound_splits": [
+    {
+      "original_id": "C-000004",
+      "original_text": "Dear Iranians, As an Iranian, despite all the hardships I have faced on this path—from the unavoidable leap I had to take from a window on September 22, 2022, in order to preserve the continuity of my",
+      "split_into": [
+        "C-AT-200001",
+        "C-AT-200002"
+      ],
+      "part_a": "Dear Iranians, As an Iranian, despite all the hardships I have faced on this path—from the unavoidable leap I had to take from a window on September 2",
+      "part_b": "that will shape the foundation of the future human–machine civilization of the world, from California to Tokyo, upon the basis of Iranian civilization"
+    },
+    {
+      "original_id": "C-000007",
+      "original_text": "For every word of this book and this path, I did not use a single rial—or even a single kilobyte—that was wrongful or forbidden.",
+      "split_into": [
+        "C-AT-200003",
+        "C-AT-200004"
+      ],
+      "part_a": "For every word of this book",
+      "part_b": "this path, I did not use a single rial—or even a single kilobyte—that was wrongful or forbidden."
+    },
+    {
+      "original_id": "C-000008",
+      "original_text": "This book belongs to the civilization of Iran, and it had to be written within the civilization of Iran and born on Iranian soil.",
+      "split_into": [
+        "C-AT-200005",
+        "C-AT-200006"
+      ],
+      "part_a": "This book belongs to the civilization of Iran,",
+      "part_b": "it had to be written within the civilization of Iran and born on Iranian soil."
+    },
+    {
+      "original_id": "C-000013",
+      "original_text": "This historical battle began in Iran, and it will also end in Iran—not merely through war and politics, but through the truth of Freedom, religion,",
+      "split_into": [
+        "C-AT-200007",
+        "C-AT-200008"
+      ],
+      "part_a": "This historical battle began in Iran,",
+      "part_b": "it will also end in Iran—not merely through war and politics, but through the truth of Freedom, religion,"
+    },
+    {
+      "original_id": "C-000032",
+      "original_text": "The Conceptual Void of the Common Good ____________________________________________________ 104 Methodological Warning: Do Not Return to Positivism ___________________________________________ 105 Norm",
+      "split_into": [
+        "C-AT-200009",
+        "C-AT-200010"
+      ],
+      "part_a": "The Conceptual Void of the Common Good ____________________________________________________ 104 Methodological Warning: Do Not Return to Positivism __",
+      "part_b": "Property Prior to Any Scientific Conclusion _____________________________106 Separation of Domains: Religion for Liberty, Science for Describing the W"
+    },
+    {
+      "original_id": "C-000037",
+      "original_text": "In Praise of Kurdish Koolbars, and the Illegitimacy of Tariffs and Import–Export Restrictions ________ 137 TIR 1403 (JULY 2024) ________________________________________________________________________",
+      "split_into": [
+        "C-AT-200011",
+        "C-AT-200012"
+      ],
+      "part_a": "In Praise of Kurdish Koolbars, and the Illegitimacy of Tariffs and Import–Export Restrictions ________ 137 TIR 1403 (JULY 2024) ______________________",
+      "part_b": "Liberty as the Three Sides of a Theory ________________________________________________153 Higher Dimensions and the Analogical Logic of the Divine At"
+    },
+    {
+      "original_id": "C-000052",
+      "original_text": "Summary So Far: Religion as the Only Formal System of Liberty__________________________________ 257 History Cannot Be Understood Without Theory _________________________________________________ 259 Th",
+      "split_into": [
+        "C-AT-200013",
+        "C-AT-200014"
+      ],
+      "part_a": "Summary So Far: Religion as the Only Formal System of Liberty__________________________________ 257 History Cannot Be Understood Without Theory ______",
+      "part_b": "Property Rights _________________________________261"
+    },
+    {
+      "original_id": "C-000060",
+      "original_text": "Social Contract, Right, and the Absence of Right in the Void _____________________________________ 336 The Relationship Between Liberty and Property Rights ____________________________________________",
+      "split_into": [
+        "C-AT-200015",
+        "C-AT-200016"
+      ],
+      "part_a": "Social Contract, Right, and the Absence of Right in the Void _____________________________________ 336 The Relationship Between Liberty",
+      "part_b": "Property Rights __________________________________________________339 The Methodological Origin of Definitions of Liberty ____________________________"
+    },
+    {
+      "original_id": "C-000064",
+      "original_text": "The Market as the Epistemological Instrument of Society ________________________________________ 362 Liberty, the Market, and Religion as Instruments of Knowledge _____________________________________",
+      "split_into": [
+        "C-AT-200017",
+        "C-AT-200018"
+      ],
+      "part_a": "The Market as the Epistemological Instrument of Society ________________________________________ 362 Liberty, the Market,",
+      "part_b": "Religion as Instruments of Knowledge __________________________________________363 Dey 1404 and the Unpredictability of a Society without Liberty_____"
+    },
+    {
+      "original_id": "C-000066",
+      "original_text": "SHAHRIVAR 1403 (SEPTEMBER 2024)_________________________________________________________________ 377 Mysticism; Another Name for the Forgetting of Property _________________________________________ 37",
+      "split_into": [
+        "C-AT-200019",
+        "C-AT-200020"
+      ],
+      "part_a": "SHAHRIVAR 1403 (SEPTEMBER 2024)_________________________________________________________________ 377 Mysticism; Another Name for the Forgetting of Pro",
+      "part_b": "Religion ________________________________________________389 Evolution, the Criterion of Superiority, and the Opening of the Gate to Nazism __________"
+    },
+    {
+      "original_id": "C-000068",
+      "original_text": "The Truth They Hid from You ________________________________________________________399 Taqiyyah in Confronting the Modern State __________________________________________________________400 Dissimula",
+      "split_into": [
+        "C-AT-200021",
+        "C-AT-200022"
+      ],
+      "part_a": "The Truth They Hid from You ________________________________________________________399 Taqiyyah in Confronting the Modern State _____________________",
+      "part_b": "Property ____________________________________________414 The Voluntary Nature of Jihad as an Individual Matter and the Rejection of Collectivist and S"
+    },
+    {
+      "original_id": "C-000072",
+      "original_text": "Persian Language and Literature: The Language of Liberty _______________________________________ 450 “It Is for the Common People”: Arrogance and Religion’s Protective Shield _________________________",
+      "split_into": [
+        "C-AT-200023",
+        "C-AT-200024"
+      ],
+      "part_a": "Persian Language and Literature: The Language of Liberty _______________________________________ 450 “It Is for the Common People”: Arrogance",
+      "part_b": "Religion’s Protective Shield ________________________________451 Religion vs. Superstition and the Monopoly over Communication with God ______________"
+    },
+    {
+      "original_id": "C-000084",
+      "original_text": "Witnessing, Property Rights, and Social Agreements ____________________________________________ 533 Women, Men, Inheritance, Mahr, Alimony, and the Marriage Market ______________________________ 534 M",
+      "split_into": [
+        "C-AT-200025",
+        "C-AT-200026"
+      ],
+      "part_a": "Witnessing, Property Rights, and Social Agreements ____________________________________________ 533 Women, Men, Inheritance, Mahr, Alimony, and the Ma",
+      "part_b": "liberty _______________________________543 The issue is not vague moralism; it is contract, consent, and common sense. _____________________________54"
+    },
+    {
+      "original_id": "C-000092",
+      "original_text": "Dey 1403 (January 2025) ______________________________________________________________________ 606 Harari — The Devil’s Larynx in the Distortion of Historical Narrative _______________________________",
+      "split_into": [
+        "C-AT-200027",
+        "C-AT-200028"
+      ],
+      "part_a": "Dey 1403 (January 2025) ______________________________________________________________________ 606 Harari — The Devil’s Larynx in the Distortion of Hi",
+      "part_b": "Liberty is one.” ____________________614"
+    },
+    {
+      "original_id": "C-000094",
+      "original_text": "Islam and the Non-Revolutionary Path to the Abolition of Slavery _________________________________ 624 Two Qur’anic Paths for the Liberation of Slaves: Expiation and Mukātaba _________________________",
+      "split_into": [
+        "C-AT-200029",
+        "C-AT-200030"
+      ],
+      "part_a": "Islam and the Non-Revolutionary Path to the Abolition of Slavery _________________________________ 624 Two Qur’anic Paths for the Liberation of Slaves",
+      "part_b": "Freedom as Inner Defiance _________________________________________632 Prisoners of War, Civilization, and Resocialization ___________________________"
+    },
+    {
+      "original_id": "C-000102",
+      "original_text": "The Logic of the Theory, the Unique Answer, and Why My Reading of the Qur’an and Religion Is So Different ____________________________________________________________________________________ 694 Pride",
+      "split_into": [
+        "C-AT-200031",
+        "C-AT-200032"
+      ],
+      "part_a": "The Logic of the Theory, the Unique Answer, and Why My Reading of the Qur’an",
+      "part_b": "Religion Is So Different ____________________________________________________________________________________ 694 Pride, Self-Messiahship, and the Dif"
+    },
+    {
+      "original_id": "C-000116",
+      "original_text": "A Foundational Examination of the Sexual Deviations of Mysticism and the Satanic Order of the State771 Ritual Bathing (Ghusl), Ablution (Wudu), and Emerging from an Ambiguous State ___________________",
+      "split_into": [
+        "C-AT-200033",
+        "C-AT-200034"
+      ],
+      "part_a": "A Foundational Examination of the Sexual Deviations of Mysticism and the Satanic Order of the State771 Ritual Bathing (Ghusl), Ablution (Wudu), and Em",
+      "part_b": "Religion’s Struggle Against Satanic Defilement ________________778"
+    },
+    {
+      "original_id": "C-000120",
+      "original_text": "Why Some People Regard Religion as Superstition ______________________________________________ 796 Entering the Question of the Occult Sciences, Mysticism, and Satan __________________________________",
+      "split_into": [
+        "C-AT-200035",
+        "C-AT-200036"
+      ],
+      "part_a": "Why Some People Regard Religion as Superstition ______________________________________________ 796 Entering the Question of the Occult Sciences, Mysti",
+      "part_b": "Religion ____________________________________________________802 Why Do Some Religious Practices Appear Superstitious? _______________________________"
+    },
+    {
+      "original_id": "C-000130",
+      "original_text": "The peak of the doctrine of Liberty lies in distinguishing religion from mysticism, truth from falsehood, and establishing justice. ____________________________________________________________________",
+      "split_into": [
+        "C-AT-200037",
+        "C-AT-200038"
+      ],
+      "part_a": "The peak of the doctrine of Liberty lies in distinguishing religion from mysticism, truth from falsehood, and establishing justice. __________________",
+      "part_b": "Religion as the Two Principal Barriers to the Project of Iblis ________________________________946 In the Age of Totalitarian States, Who Are the True"
+    },
+    {
+      "original_id": "C-000135",
+      "original_text": "The Political Consequence of the Theory and the Return to the Principles of Iran and Religion ______ 982 Critique of Periodic Democracy, Dictatorship, Republic, Constitutionalism, and Partisanship ___",
+      "split_into": [
+        "C-AT-200039",
+        "C-AT-200040"
+      ],
+      "part_a": "The Political Consequence of the Theory and the Return to the Principles of Iran",
+      "part_b": "Religion ______ 982 Critique of Periodic Democracy, Dictatorship, Republic, Constitutionalism, and Partisanship ______________983 The State, Dialectic"
+    },
+    {
+      "original_id": "C-000142",
+      "original_text": "The Evil of the Constitutional Revolution: A Simultaneous Harm to Iran, Religion, and Liberty ______ 1030 Hoarding: A Violation of the Division of Labor Principle in Civilization and the Weaponization",
+      "split_into": [
+        "C-AT-200041",
+        "C-AT-200042"
+      ],
+      "part_a": "The Evil of the Constitutional Revolution: A Simultaneous Harm to Iran, Religion,",
+      "part_b": "Liberty ______ 1030 Hoarding: A Violation of the Division of Labor Principle in Civilization and the Weaponization of Food ___________________________"
+    },
+    {
+      "original_id": "C-000161",
+      "original_text": "Step Thirteen: Eliminating the monopoly over sanction circumvention under the banner of trade freedom ___________________________________________________________________________________ 1108 Step Four",
+      "split_into": [
+        "C-AT-200043",
+        "C-AT-200044"
+      ],
+      "part_a": "Step Thirteen: Eliminating the monopoly over sanction circumvention under the banner of trade freedom ________________________________________________",
+      "part_b": "religion from the state _________________ 1110 Education _______________________________________________________________________________________ 1111 "
+    },
+    {
+      "original_id": "C-000164",
+      "original_text": "The Relation of the Rescue Package to Religion: The Only Consistent Formal Axiomatic System for Individual Property Rights____________________________________________________________________ 1123 Iran",
+      "split_into": [
+        "C-AT-200045",
+        "C-AT-200046"
+      ],
+      "part_a": "The Relation of the Rescue Package to Religion: The Only Consistent Formal Axiomatic System for Individual Property Rights____________________________",
+      "part_b": "Religions ___________________________________________________ 1124"
+    },
+    {
+      "original_id": "C-000165",
+      "original_text": "Condensed Final Order of the Rescue Package for Iran _________________________________________ 1125 Why the Order of Implementation Matters More Than the Program Itself _______________________________",
+      "split_into": [
+        "C-AT-200047",
+        "C-AT-200048"
+      ],
+      "part_a": "Condensed Final Order of the Rescue Package for Iran _________________________________________ 1125 Why the Order of Implementation Matters More Than ",
+      "part_b": "Liberty__________________________________________________________________________ 1126"
+    },
+    {
+      "original_id": "C-000183",
+      "original_text": "For example, the relationship between the subject of family and liberty may at first seem very obscure and vague; but after several different turns in relation to the family, the connection between th",
+      "split_into": [
+        "C-AT-200049",
+        "C-AT-200050"
+      ],
+      "part_a": "For example, the relationship between the subject of family",
+      "part_b": "liberty may at first seem very obscure and vague; but after several different turns in relation to the family, the connection between the family, an"
+    },
+    {
+      "original_id": "C-000184",
+      "original_text": "institution such as the central bank, and liberty becomes very clear.",
+      "split_into": [
+        "C-AT-200051",
+        "C-AT-200052"
+      ],
+      "part_a": "institution such as the central bank,",
+      "part_b": "liberty becomes very clear."
+    },
+    {
+      "original_id": "C-000231",
+      "original_text": "Mysticism is the name for any intellectual or political system that separates the human being from property, body, land, reason, revelation, the market, contracts, and liberty, and delivers him to an ",
+      "split_into": [
+        "C-AT-200053",
+        "C-AT-200054"
+      ],
+      "part_a": "Mysticism is the name for any intellectual or political system that separates the human being from property, body, land, reason, revelation, the marke",
+      "part_b": "liberty, and delivers him to an ambiguous whole: the state, history, class, nation, world-spirit, dialectic, spiritual master,"
+    },
+    {
+      "original_id": "C-000238",
+      "original_text": "It is the conflict between revelation and fabricated revelation; between property and appropriation; between liberty and the state; between the human being as God’s vicegerent on earth and the human b",
+      "split_into": [
+        "C-AT-200055",
+        "C-AT-200056"
+      ],
+      "part_a": "It is the conflict between revelation and fabricated revelation; between property and appropriation; between liberty",
+      "part_b": "the state; between the human being as God’s vicegerent on earth and the human being as the slave of power."
+    },
+    {
+      "original_id": "C-000245",
+      "original_text": "The result of this separation has been a false war between being Iranian and being religious—as if Iran and religion were enemies, when in their true form they are two pillars of one roof: the roof of",
+      "split_into": [
+        "C-AT-200057",
+        "C-AT-200058"
+      ],
+      "part_a": "The result of this separation has been a false war between being Iranian and being religious—as if Iran",
+      "part_b": "religion were enemies, when in their true form they are two pillars of one roof: the roof of liberty."
+    },
+    {
+      "original_id": "C-000261",
+      "original_text": "For now, however, read the book to the end, for the good of Iran and religion requires that it be read at least once.",
+      "split_into": [
+        "C-AT-200059",
+        "C-AT-200060"
+      ],
+      "part_a": "For now, however, read the book to the end, for the good of Iran",
+      "part_b": "religion requires that it be read at least once."
+    },
+    {
+      "original_id": "C-000325",
+      "original_text": "And when it speaks of mysticism, it does not merely mean a spiritual vocabulary or historical figures—it means any system that alienates man from property, reason, revelation, and Liberty, submitting ",
+      "split_into": [
+        "C-AT-200061",
+        "C-AT-200062"
+      ],
+      "part_a": "And when it speaks of mysticism, it does not merely mean a spiritual vocabulary or historical figures—it means any system that alienates man from prop",
+      "part_b": "Liberty, submitting him to the rule of an undefined whole. 3."
+    },
+    {
+      "original_id": "C-000328",
+      "original_text": "If he distrusts private property, I ask him to see whether responsibility, civilization, family, market, and Liberty can endure without it.",
+      "split_into": [
+        "C-AT-200063",
+        "C-AT-200064"
+      ],
+      "part_a": "If he distrusts private property, I ask him to see whether responsibility, civilization, family, market,",
+      "part_b": "Liberty can endure without it."
+    },
+    {
+      "original_id": "C-000390",
+      "original_text": "In this book, mysticism refers to any framework that separates the human being from property, body, land, reason, revelation, and liberty, and instead submits him to obedience toward a vague whole: a ",
+      "split_into": [
+        "C-AT-200065",
+        "C-AT-200066"
+      ],
+      "part_a": "In this book, mysticism refers to any framework that separates the human being from property, body, land, reason, revelation,",
+      "part_b": "liberty, and instead submits him to obedience toward a vague whole: a spiritual guide, the state, history, class, the ummah, the nation, the world spi"
+    },
+    {
+      "original_id": "C-000442",
+      "original_text": "In this section the boundaries between science and religion, reason and revelation, experience and inspiration, and mysticism and religion are clarified.",
+      "split_into": [
+        "C-AT-200067",
+        "C-AT-200068"
+      ],
+      "part_a": "In this section the boundaries between science",
+      "part_b": "religion, reason and revelation, experience and inspiration, and mysticism and religion are clarified."
+    },
+    {
+      "original_id": "C-000464",
+      "original_text": "Steps discussed include halting coercive reforms, stabilizing non-disputed property rights, clarifying the assets and liabilities of the state, creating legal infrastructure for secure property transf",
+      "split_into": [
+        "C-AT-200069",
+        "C-AT-200070"
+      ],
+      "part_a": "Steps discussed include halting coercive reforms, stabilizing non-disputed property rights, clarifying the assets and liabilities of the state, creati",
+      "part_b": "religion from state control, gradually shrinking the state, and ultimately stabilizing the free order in the constitutional framework."
+    },
+    {
+      "original_id": "C-000548",
+      "original_text": "By contrast, America is one of the inherently religious countries of the world, and it still remains the most religious developed country in the world.",
+      "split_into": [
+        "C-AT-200071",
+        "C-AT-200072"
+      ],
+      "part_a": "By contrast, America is one of the inherently religious countries of the world,",
+      "part_b": "it still remains the most religious developed country in the world."
+    },
+    {
+      "original_id": "C-000551",
+      "original_text": "A reading of religion that personalizes religion and has a problem with the absolutist model of the guardianship of the jurist is exactly what the current Supreme Jurist calls ‘American Islam.’ The te",
+      "split_into": [
+        "C-AT-200073",
+        "C-AT-200074"
+      ],
+      "part_a": "A reading of religion that personalizes religion and has a problem with the absolutist model of the guardianship of the jurist is exactly what the cur",
+      "part_b": "that is why they oppose it."
+    },
+    {
+      "original_id": "C-000588",
+      "original_text": "Liberalism does not conflict with any of the principles of religion, and it has a serious problem with violent, compulsory, made-up interpretations of religion!",
+      "split_into": [
+        "C-AT-200075",
+        "C-AT-200076"
+      ],
+      "part_a": "Liberalism does not conflict with any of the principles of religion,",
+      "part_b": "it has a serious problem with violent, compulsory, made-up interpretations of religion!"
+    },
+    {
+      "original_id": "C-000589",
+      "original_text": "The emphasis on religion was meant to show that the binary between liberalism and religion is false.” Here, too, I still had not precisely understood what the problem with liberalism was, or what reli",
+      "split_into": [
+        "C-AT-200077",
+        "C-AT-200078"
+      ],
+      "part_a": "The emphasis on religion was meant to show that the binary between liberalism",
+      "part_b": "religion is false.” Here, too, I still had not precisely understood what the problem with liberalism was, or what religion even was."
+    },
+    {
+      "original_id": "C-000696",
+      "original_text": "In a capitalist system, this inequality manifests itself in many areas. (Though later I realized that today’s global capitalism is not real capitalism either, because central banking and inflation by ",
+      "split_into": [
+        "C-AT-200079",
+        "C-AT-200080"
+      ],
+      "part_a": "In a capitalist system, this inequality manifests itself in many areas. (Though later I realized that today’s global capitalism is not real capitalism",
+      "part_b": "this is precisely where the roots of socialism lie."
+    },
+    {
+      "original_id": "C-000700",
+      "original_text": "In practice, today’s capitalism — with central banking and inflation by decree — is itself a kind of large-scale socialism, and it strengthens socialist ideas.",
+      "split_into": [
+        "C-AT-200081",
+        "C-AT-200082"
+      ],
+      "part_a": "In practice, today’s capitalism — with central banking and inflation by decree — is itself a kind of large-scale socialism,",
+      "part_b": "it strengthens socialist ideas."
+    },
+    {
+      "original_id": "C-000730",
+      "original_text": "Socialist ideas run contrary to nature, and that is precisely why their historical experiments resulted in hundreds of millions of deaths and environmental destruction.",
+      "split_into": [
+        "C-AT-200083",
+        "C-AT-200084"
+      ],
+      "part_a": "Socialist ideas run contrary to nature,",
+      "part_b": "that is precisely why their historical experiments resulted in hundreds of millions of deaths and environmental destruction."
+    },
+    {
+      "original_id": "C-000931",
+      "original_text": "What assigns this consciousness and this narrator to different people?",
+      "split_into": [
+        "C-AT-200085",
+        "C-AT-200086"
+      ],
+      "part_a": "What assigns this consciousness",
+      "part_b": "this narrator to different people?"
+    },
+    {
+      "original_id": "C-000939",
+      "original_text": "In fact, we are confronted with a phenomenon of which we know neither what it is, nor where it came from, nor when we have it or lose it, nor why or by what rule it is distributed among humans such th",
+      "split_into": [
+        "C-AT-200087",
+        "C-AT-200088"
+      ],
+      "part_a": "In fact, we are confronted with a phenomenon of which we know neither what it is, nor where it came from, nor when we have it or lose it, nor why or b",
+      "part_b": "that all these things are products of chance—a claim that is itself unprovable and thus an Axiom.) This is exactly what Descartes meant by “I think, t"
+    },
+    {
+      "original_id": "C-000946",
+      "original_text": "Because they believe there is something absolute within the human being, and that this consciousness is the basis for defining humanity.",
+      "split_into": [
+        "C-AT-200089",
+        "C-AT-200090"
+      ],
+      "part_a": "Because they believe there is something absolute within the human being,",
+      "part_b": "that this consciousness is the basis for defining humanity."
+    },
+    {
+      "original_id": "C-000978",
+      "original_text": "They say that two hundred years ago people claimed that if London’s population grew, there would be more carriages and the city would drown in horse manure—but then the steam engine was invented and t",
+      "split_into": [
+        "C-AT-200091",
+        "C-AT-200092"
+      ],
+      "part_a": "They say that two hundred years ago people claimed that if London’s population grew, there would be more carriages and the city would drown in horse m",
+      "part_b": "that prediction turned out false."
+    },
+    {
+      "original_id": "C-001035",
+      "original_text": "In a godless world (in which even the theists do not know how far astray they have gone), with godless governments— either godless or pseudo-theistic rulers who have co-opted and state-ified religion—",
+      "split_into": [
+        "C-AT-200093",
+        "C-AT-200094"
+      ],
+      "part_a": "In a godless world (in which even the theists do not know how far astray they have gone), with godless governments— either godless or pseudo-theistic ",
+      "part_b": "this increases the frequency and volume of thefts, embezzlements, betrayals, and deceits from the individual level up to the level of governments; and"
+    },
+    {
+      "original_id": "C-001042",
+      "original_text": "Resurrection, Theft, and the Instability of Liberty in a Godless World So long as the Last Day is not concealed and people do not believe they must answer for their deeds, they will not possess Libert",
+      "split_into": [
+        "C-AT-200095",
+        "C-AT-200096"
+      ],
+      "part_a": "Resurrection, Theft, and the Instability of Liberty in a Godless World So long as the Last Day is not concealed and people do not believe they must an",
+      "part_b": "Liberty will be destroyed."
+    },
+    {
+      "original_id": "C-001045",
+      "original_text": "A rational person is either an atheist who knows he lives only once, that his consciousness arose by accident, and that it will be extinguished after death—therefore he must steal and will not prattle",
+      "split_into": [
+        "C-AT-200097",
+        "C-AT-200098"
+      ],
+      "part_a": "A rational person is either an atheist who knows he lives only once, that his consciousness arose by accident,",
+      "part_b": "that it will be extinguished after death—therefore he must steal and will not prattle about nonsense like “humanity” and “conscience”—or he is a ratio"
+    },
+    {
+      "original_id": "C-001046",
+      "original_text": "Of course, you will see later that, in fact, there is no such thing as a rational atheist at all, because the dispute is not about theism versus atheism; atheists are eliminated in the preliminary rou",
+      "split_into": [
+        "C-AT-200099",
+        "C-AT-200100"
+      ],
+      "part_a": "Of course, you will see later that, in fact, there is no such thing as a rational atheist at all, because the dispute is not about theism versus athei",
+      "part_b": "property rights be waged!"
+    },
+    {
+      "original_id": "C-001047",
+      "original_text": "This is the first time in history that the mere existence of the free market and competition will likely fail to generate welfare (pay attention to the qualifier “mere,” so we don’t upset each other l",
+      "split_into": [
+        "C-AT-200101",
+        "C-AT-200102"
+      ],
+      "part_a": "This is the first time in history that the mere existence of the free market and competition will likely fail to generate welfare (pay attention to th",
+      "part_b": "that what once produced Liberty now destroys it! (See later the ouroboros—the serpent that eats its own tail—in Gnosticism, i.e., “irfan.”) For in the"
+    },
+    {
+      "original_id": "C-001068",
+      "original_text": "From here on, some readers will begin to part ways with us and this book, because their loved ones, their youth, and their lives were plundered in the name of religion and in the name of the Imams.",
+      "split_into": [
+        "C-AT-200103",
+        "C-AT-200104"
+      ],
+      "part_a": "From here on, some readers will begin to part ways with us",
+      "part_b": "this book, because their loved ones, their youth, and their lives were plundered in the name of religion and in the name of the Imams."
+    },
+    {
+      "original_id": "C-001071",
+      "original_text": "They asked Imam al-Baqir (peace be upon him): “Does the advent of the Master of the Age have a set time?” Three times he answered: “Whoever sets a time has lied.” By what logic were we told that the t",
+      "split_into": [
+        "C-AT-200105",
+        "C-AT-200106"
+      ],
+      "part_a": "They asked Imam al-Baqir (peace be upon him): “Does the advent of the Master of the Age have a set time?” Three times he answered: “Whoever sets a tim",
+      "part_b": "that the government is to be handed over to the Master of the Age—and in pursuit of this lie they refrained from no crime or ruin?"
+    },
+    {
+      "original_id": "C-001076",
+      "original_text": "Say: Its knowledge is weighty in the heavens and the earth; none knows it but the Lord, and it will not come upon you except suddenly.",
+      "split_into": [
+        "C-AT-200107",
+        "C-AT-200108"
+      ],
+      "part_a": "Say: Its knowledge is weighty in the heavens and the earth; none knows it but the Lord,",
+      "part_b": "it will not come upon you except suddenly."
+    },
+    {
+      "original_id": "C-001105",
+      "original_text": "Eliminating Tawhid, proliferating axioms, and the slide into mysticism and totalitarianism Let us suppose a society fails to agree on a principle with an objective definition—one that can be stated ex",
+      "split_into": [
+        "C-AT-200109",
+        "C-AT-200110"
+      ],
+      "part_a": "Eliminating Tawhid, proliferating axioms, and the slide into mysticism and totalitarianism Let us suppose a society fails to agree on a principle with",
+      "part_b": "that this principle is not taken as the primary reference for axiomatic reasoning. (The definition of God is objective in the sense that, within a min"
+    },
+    {
+      "original_id": "C-001132",
+      "original_text": "I did not tamper with the beads; I merely pointed out that there is a string—“a Consistent formal axiomatic system for individual Liberty and property rights.” This culminated in a process where, as I",
+      "split_into": [
+        "C-AT-200111",
+        "C-AT-200112"
+      ],
+      "part_a": "I did not tamper with the beads; I merely pointed out that there is a string—“a Consistent formal axiomatic system for individual Liberty",
+      "part_b": "property rights.” This culminated in a process where, as I wrote axiomatic propositions step by step, people well-read in religion would send me verse"
+    },
+    {
+      "original_id": "C-001155",
+      "original_text": "The Qur’anic challenge is the claim: “Produce a book like this Qur’an— yet you will not be able to.” Some mocked it by saying “alif, kha, dal”—mimicking the disjointed letters of the Qur’an—so they cl",
+      "split_into": [
+        "C-AT-200113",
+        "C-AT-200114"
+      ],
+      "part_a": "The Qur’anic challenge is the claim: “Produce a book like this Qur’an— yet you will not be able to.” Some mocked it by saying “alif, kha, dal”—mimicki",
+      "part_b": "property rights,” the very least we can say is that those stories are each beads on a rosary—what unifies them is this string!"
+    },
+    {
+      "original_id": "C-001164",
+      "original_text": "The emphases on huqūq al-nās are precisely this—and even huqūq al-nās have been placed above huqūq Allāh, and there is a reason!) Religion came to free human beings from the appropriation of “gods,” a",
+      "split_into": [
+        "C-AT-200115",
+        "C-AT-200116"
+      ],
+      "part_a": "The emphases on huqūq al-nās are precisely this—and even huqūq al-nās have been placed above huqūq Allāh, and there is a reason!) Religion came to fre",
+      "part_b": "it is itself unappropriable—because the contradictions and conflicts entailed in the appropriation of religion are quickly exposed from within the rel"
+    },
+    {
+      "original_id": "C-001217",
+      "original_text": "The very first step of our argument—the unprovable but mutually acceptable starting point—is that we agree human beings possess self-awareness and free will, and that it is self-evident to everyone th",
+      "split_into": [
+        "C-AT-200117",
+        "C-AT-200118"
+      ],
+      "part_a": "The very first step of our argument—the unprovable but mutually acceptable starting point—is that we agree human beings possess self-awareness and fre",
+      "part_b": "that it is self-evident to everyone that they do not wish to be coerced."
+    },
+    {
+      "original_id": "C-001248",
+      "original_text": "Do not imagine that this is only true of Liberty and property rights and their formal, consistent, axiomatic system, i.e. religion.",
+      "split_into": [
+        "C-AT-200119",
+        "C-AT-200120"
+      ],
+      "part_a": "Do not imagine that this is only true of Liberty",
+      "part_b": "property rights and their formal, consistent, axiomatic system, i.e. religion."
+    },
+    {
+      "original_id": "C-001251",
+      "original_text": "If we have already accepted this structure of formal, consistent, axiomatic systems everywhere, and we have assumed countless unprovable axioms to be true and have lived by them, and then only when we",
+      "split_into": [
+        "C-AT-200121",
+        "C-AT-200122"
+      ],
+      "part_a": "If we have already accepted this structure of formal, consistent, axiomatic systems everywhere, and we have assumed countless unprovable axioms to be ",
+      "part_b": "religion we suddenly remember that “everything must be proven” before we accept it – this is not just a fallacy, it is a swindle."
+    },
+    {
+      "original_id": "C-001257",
+      "original_text": "Just as you cannot produce a new Euclidean geometry, similar to Euclidean geometry, which is not merely a copy of it yet still solves your geometric problems, in the matter of Liberty and property rig",
+      "split_into": [
+        "C-AT-200123",
+        "C-AT-200124"
+      ],
+      "part_a": "Just as you cannot produce a new Euclidean geometry, similar to Euclidean geometry, which is not merely a copy of it yet still solves your geometric p",
+      "part_b": "property rights you also cannot produce a book like the Qur’an."
+    },
+    {
+      "original_id": "C-001306",
+      "original_text": "You must accept responsibility for yourself and not sit around waiting for outside help (the state).” Communists, socialists, and this entire family of collectivists say: “There is no next world with ",
+      "split_into": [
+        "C-AT-200125",
+        "C-AT-200126"
+      ],
+      "part_a": "You must accept responsibility for yourself and not sit around waiting for outside help (the state).” Communists, socialists,",
+      "part_b": "this entire family of collectivists say: “There is no next world with a heaven, but we will bring heaven down into this world for you.” And of course,"
+    },
+    {
+      "original_id": "C-001341",
+      "original_text": "For centuries, deliberate efforts have been made to disrupt the relationship between Iran and religion—some spontaneous, others highly coordinated.",
+      "split_into": [
+        "C-AT-200127",
+        "C-AT-200128"
+      ],
+      "part_a": "For centuries, deliberate efforts have been made to disrupt the relationship between Iran",
+      "part_b": "religion—some spontaneous, others highly coordinated."
+    },
+    {
+      "original_id": "C-001355",
+      "original_text": "Once we clarify the relationship between Iran and religion, the lock on Iran’s treasure vault will finally open.",
+      "split_into": [
+        "C-AT-200129",
+        "C-AT-200130"
+      ],
+      "part_a": "Once we clarify the relationship between Iran",
+      "part_b": "religion, the lock on Iran’s treasure vault will finally open."
+    },
+    {
+      "original_id": "C-001505",
+      "original_text": "Supporters of a free market without state intervention, emphasizing the spontaneous order of market processes and for whom the concept of “market failure” has no meaning (the Austrian School), in cont",
+      "split_into": [
+        "C-AT-200131",
+        "C-AT-200132"
+      ],
+      "part_a": "Supporters of a free market without state intervention, emphasizing the spontaneous order of market processes and for whom the concept of “market fail",
+      "part_b": "that intervention is therefore necessary in such cases (Keynesians)."
+    },
+    {
+      "original_id": "C-001531",
+      "original_text": "Ultimately, within this intellectual framework, there is no path to secure both goodness and Liberty—whether individual or collective—other than God-belief: a form of faith that assigns no authority a",
+      "split_into": [
+        "C-AT-200133",
+        "C-AT-200134"
+      ],
+      "part_a": "Ultimately, within this intellectual framework, there is no path to secure both goodness",
+      "part_b": "Liberty—whether individual or collective—other than God-belief: a form of faith that assigns no authority above God and seeks neither domination nor c"
+    },
+    {
+      "original_id": "C-001539",
+      "original_text": "Normative Boundary: Liberty and Property Prior to Any Scientific Conclusion Our discussion concerns Liberty: what it is, the necessary and sufficient conditions for its realization, what threatens it,",
+      "split_into": [
+        "C-AT-200135",
+        "C-AT-200136"
+      ],
+      "part_a": "Normative Boundary: Liberty",
+      "part_b": "Property Prior to Any Scientific Conclusion Our discussion concerns Liberty: what it is, the necessary and sufficient conditions for its realization, "
+    },
+    {
+      "original_id": "C-001542",
+      "original_text": "For this reason, a clear line of demarcation must be drawn here: If science were to conclude that human beings are merely evolved animals, and that therefore whoever possesses greater power—whether in",
+      "split_into": [
+        "C-AT-200137",
+        "C-AT-200138"
+      ],
+      "part_a": "For this reason, a clear line of demarcation must be drawn here: If science were to conclude that human beings are merely evolved animals,",
+      "part_b": "that therefore whoever possesses greater power—whether intellectual power, physical strength, financial power, or any other form of power—has the “fit"
+    },
+    {
+      "original_id": "C-001549",
+      "original_text": "This precondition—“sitting around the table, engaging in dialogue, and reaching agreement”— means, at the very first moment, that we regard one another as equals. (If someone possesses greater force a",
+      "split_into": [
+        "C-AT-200139",
+        "C-AT-200140"
+      ],
+      "part_a": "This precondition—“sitting around the table, engaging in dialogue, and reaching agreement”— means, at the very first moment, that we regard one anothe",
+      "part_b": "that each of us possesses free will and the capacity for choice, is a prerequisite for discussing any form of social order."
+    },
+    {
+      "original_id": "C-001551",
+      "original_text": "Since, at the very beginning of dialogue and agreement, all participants—under equal conditions—accept that each possesses free will (for otherwise agreement would have no meaning), this itself consti",
+      "split_into": [
+        "C-AT-200141",
+        "C-AT-200142"
+      ],
+      "part_a": "Since, at the very beginning of dialogue and agreement, all participants—under equal conditions—accept that each possesses free will (for otherwise ag",
+      "part_b": "property rights stands prior to every other issue, even prior to questions concerning methodology, epistemology, and scientific reasoning."
+    },
+    {
+      "original_id": "C-001616",
+      "original_text": "But if you still believe in omens, magic, or talismans, the response is this: those very sorcerers claimed that the real God was theirs, but the prophets, with far mightier divine miracles, demonstrat",
+      "split_into": [
+        "C-AT-200143",
+        "C-AT-200144"
+      ],
+      "part_a": "But if you still believe in omens, magic, or talismans, the response is this: those very sorcerers claimed that the real God was theirs, but the proph",
+      "part_b": "that their gods were false."
+    },
+    {
+      "original_id": "C-001617",
+      "original_text": "For example, when the magicians in the court of Moses turned their staffs into serpents, Moses cast his staff at God’s command, and it became a dragon, powerfully attesting that Moses’s God surpassed ",
+      "split_into": [
+        "C-AT-200145",
+        "C-AT-200146"
+      ],
+      "part_a": "For example, when the magicians in the court of Moses turned their staffs into serpents, Moses cast his staff at God’s command,",
+      "part_b": "it became a dragon, powerfully attesting that Moses’s God surpassed any claim or supernatural act the sorcerers could muster."
+    },
+    {
+      "original_id": "C-001634",
+      "original_text": "The moment you are compelled to sacrifice or demonstrate fidelity to a group of other humans, your individual will and Liberty begin to be extinguished in service of the organization or sect.",
+      "split_into": [
+        "C-AT-200147",
+        "C-AT-200148"
+      ],
+      "part_a": "The moment you are compelled to sacrifice or demonstrate fidelity to a group of other humans, your individual will",
+      "part_b": "Liberty begin to be extinguished in service of the organization or sect."
+    },
+    {
+      "original_id": "C-001639",
+      "original_text": "In conclusion: Do not seek observable and positivistic methods, or empirical science, to justify the axiomatic principles of Liberty and property rights—the very core of religion.",
+      "split_into": [
+        "C-AT-200149",
+        "C-AT-200150"
+      ],
+      "part_a": "In conclusion: Do not seek observable and positivistic methods, or empirical science, to justify the axiomatic principles of Liberty",
+      "part_b": "property rights—the very core of religion."
+    },
+    {
+      "original_id": "C-001640",
+      "original_text": "That way is precisely the path I warned against earlier: the entry of empirical science into matters of Liberty and religion is mysticism, and likewise the intrusion of religion into empirical science",
+      "split_into": [
+        "C-AT-200151",
+        "C-AT-200152"
+      ],
+      "part_a": "That way is precisely the path I warned against earlier: the entry of empirical science into matters of Liberty",
+      "part_b": "religion is mysticism, and likewise the intrusion of religion into empirical science is a kind of mysticism!"
+    },
+    {
+      "original_id": "C-001659",
+      "original_text": "It means that no one else will ever receive prophetic revelation assigning divine responsibility to humans or offering a new religion (i.e., a new consistent, formal axiomatic system defining Liberty ",
+      "split_into": [
+        "C-AT-200153",
+        "C-AT-200154"
+      ],
+      "part_a": "It means that no one else will ever receive prophetic revelation assigning divine responsibility to humans or offering a new religion (i.e., a new con",
+      "part_b": "property rights—recall the argument from the start of this book why there can only be one such system, and anyone claiming a new “formula for Liberty”"
+    },
+    {
+      "original_id": "C-001662",
+      "original_text": "Without this principle, intellectual journeys regarding Liberty and property rights would be fundamentally dialectical, never formally closed.",
+      "split_into": [
+        "C-AT-200155",
+        "C-AT-200156"
+      ],
+      "part_a": "Without this principle, intellectual journeys regarding Liberty",
+      "part_b": "property rights would be fundamentally dialectical, never formally closed."
+    },
+    {
+      "original_id": "C-001663",
+      "original_text": "But the principle of Prophethood means that the path of thought concerning Liberty and property rights is a formal, consistent, axiomatic system—not an endless dialectical debate.",
+      "split_into": [
+        "C-AT-200157",
+        "C-AT-200158"
+      ],
+      "part_a": "But the principle of Prophethood means that the path of thought concerning Liberty",
+      "part_b": "property rights is a formal, consistent, axiomatic system—not an endless dialectical debate."
+    },
+    {
+      "original_id": "C-001664",
+      "original_text": "In short: Prophethood provides closure and protects the integrity of the axiomatic system of Liberty and property, preventing new claimants and ideological chaos. “No Compulsion in Religion”: The Nega",
+      "split_into": [
+        "C-AT-200159",
+        "C-AT-200160"
+      ],
+      "part_a": "In short: Prophethood provides closure and protects the integrity of the axiomatic system of Liberty",
+      "part_b": "property, preventing new claimants and ideological chaos. “No Compulsion in Religion”: The Negation of a Taghuti Religion You have probably heard the "
+    },
+    {
+      "original_id": "C-001679",
+      "original_text": "Within this framework, the verse can be understood in the following way: the religion of God is not imposed; the path of growth is clear; and this path passes through turning away from ṭāghūt and from",
+      "split_into": [
+        "C-AT-200161",
+        "C-AT-200162"
+      ],
+      "part_a": "Within this framework, the verse can be understood in the following way: the religion of God is not imposed; the path of growth is clear;",
+      "part_b": "this path passes through turning away from ṭāghūt and from the servitude of anything other than God."
+    },
+    {
+      "original_id": "C-001681",
+      "original_text": "From this perspective, the relationship between religion and the state is like that of water and oil.",
+      "split_into": [
+        "C-AT-200163",
+        "C-AT-200164"
+      ],
+      "part_a": "From this perspective, the relationship between religion",
+      "part_b": "the state is like that of water and oil."
+    },
+    {
+      "original_id": "C-001685",
+      "original_text": "Faith in God → disbelief in ṭāghūt → negation of servitude to other than God → illegitimacy of coercion in religion → incompatibility of religion with a coercive state Tawḥīd → negation of imposing th",
+      "split_into": [
+        "C-AT-200165",
+        "C-AT-200166"
+      ],
+      "part_a": "Faith in God → disbelief in ṭāghūt → negation of servitude to other than God → illegitimacy of coercion in religion → incompatibility of religion with",
+      "part_b": "property rights → the path of growth and flourishing “No compulsion in religion” → disbelief in ṭāghūt → negation of coercive religion → rejection of "
+    },
+    {
+      "original_id": "C-001692",
+      "original_text": "If a few people bow to a person out of admiration, he should not imagine that God has chosen him and that such reverence confirms a heavenly mandate.",
+      "split_into": [
+        "C-AT-200167",
+        "C-AT-200168"
+      ],
+      "part_a": "If a few people bow to a person out of admiration, he should not imagine that God has chosen him",
+      "part_b": "that such reverence confirms a heavenly mandate."
+    },
+    {
+      "original_id": "C-001708",
+      "original_text": "But when we adhere firmly to the three principles of religion thus far—tawḥīd, Prophethood, and Resurrection—we are constantly reminded that no one is infallible, that their words are not always corre",
+      "split_into": [
+        "C-AT-200169",
+        "C-AT-200170"
+      ],
+      "part_a": "But when we adhere firmly to the three principles of religion thus far—tawḥīd, Prophethood, and Resurrection—we are constantly reminded that no one is",
+      "part_b": "that they are not prophets or God’s chosen emissaries."
+    },
+    {
+      "original_id": "C-001709",
+      "original_text": "Only then do you remember that sometimes you must perform something akin to “commanding right and forbidding wrong” toward rulers (as in the event of Karbala)—reminding you that the people are the one",
+      "split_into": [
+        "C-AT-200171",
+        "C-AT-200172"
+      ],
+      "part_a": "Only then do you remember that sometimes you must perform something akin to “commanding right and forbidding wrong” toward rulers (as in the event of ",
+      "part_b": "that political leaders and governments are always in debt to the people."
+    },
+    {
+      "original_id": "C-001716",
+      "original_text": "When the Prophet Muhammad (s) said, “I, too, am a human being like you,” he affirmed the equality of all human beings and that no one has any superiority before God except through piety.",
+      "split_into": [
+        "C-AT-200173",
+        "C-AT-200174"
+      ],
+      "part_a": "When the Prophet Muhammad (s) said, “I, too, am a human being like you,” he affirmed the equality of all human beings",
+      "part_b": "that no one has any superiority before God except through piety."
+    },
+    {
+      "original_id": "C-001717",
+      "original_text": "And as we will see, this piety means nothing more than greater commitment to defending one’s own and others’ Liberty and property rights—observing ḥaqq-al-nās and defending ḥaqq-al-nās.",
+      "split_into": [
+        "C-AT-200175",
+        "C-AT-200176"
+      ],
+      "part_a": "And as we will see, this piety means nothing more than greater commitment to defending one’s own and others’ Liberty",
+      "part_b": "property rights—observing ḥaqq-al-nās and defending ḥaqq-al-nās."
+    },
+    {
+      "original_id": "C-001730",
+      "original_text": "Recall that I previously stated I am not “anti-state” nor do I seek its abolition, and that I have no interest in dialectical games.",
+      "split_into": [
+        "C-AT-200177",
+        "C-AT-200178"
+      ],
+      "part_a": "Recall that I previously stated I am not “anti-state” nor do I seek its abolition,",
+      "part_b": "that I have no interest in dialectical games."
+    },
+    {
+      "original_id": "C-001732",
+      "original_text": "Abolishing the state without accountability and the community’s sincere, faithful commitment to Liberty and property rights (such as not stealing when the opportunity is available) leads only to resul",
+      "split_into": [
+        "C-AT-200179",
+        "C-AT-200180"
+      ],
+      "part_a": "Abolishing the state without accountability and the community’s sincere, faithful commitment to Liberty",
+      "part_b": "property rights (such as not stealing when the opportunity is available) leads only to results like Somalia and other chaotic, failed, and backward co"
+    },
+    {
+      "original_id": "C-001753",
+      "original_text": "This is precisely the meaning behind the saying that charity wards off seventy calamities and that it should be given directly by one’s own hand—because those “seventy calamities” return in the form o",
+      "split_into": [
+        "C-AT-200181",
+        "C-AT-200182"
+      ],
+      "part_a": "This is precisely the meaning behind the saying that charity wards off seventy calamities",
+      "part_b": "that it should be given directly by one’s own hand—because those “seventy calamities” return in the form of the disasters of a large, interventionist "
+    },
+    {
+      "original_id": "C-001767",
+      "original_text": "The only way to outshine the West, the East—and, in fact, the entire world—is not through dialectical opposition, which is nothing but conflict and power struggle, but by presenting the genuine altern",
+      "split_into": [
+        "C-AT-200183",
+        "C-AT-200184"
+      ],
+      "part_a": "The only way to outshine the West, the East—and, in fact, the entire world—is not through dialectical opposition, which is nothing but conflict and po",
+      "part_b": "property rights even more radically."
+    },
+    {
+      "original_id": "C-001783",
+      "original_text": "If we adhere to the principles of Liberty and property rights—which are the very tenets of religion—and uphold the responsibility of Liberty so as not to result in a bloated, interventionist state, th",
+      "split_into": [
+        "C-AT-200185",
+        "C-AT-200186"
+      ],
+      "part_a": "If we adhere to the principles of Liberty",
+      "part_b": "property rights—which are the very tenets of religion—and uphold the responsibility of Liberty so as not to result in a bloated, interventionist state"
+    },
+    {
+      "original_id": "C-001786",
+      "original_text": "We handed over oil and gas to the state, and we faced shortages in electricity, gasoline, and gas; we gave the state control over water, and it resulted in land subsidence and environmental destructio",
+      "split_into": [
+        "C-AT-200187",
+        "C-AT-200188"
+      ],
+      "part_a": "We handed over oil and gas to the state, and we faced shortages in electricity, gasoline, and gas; we gave the state control over water,",
+      "part_b": "it resulted in land subsidence and environmental destruction; we gave them religion, and they destroyed it; we entrusted them with education, and we r"
+    },
+    {
+      "original_id": "C-001794",
+      "original_text": "Had the people not lost sight of these simple principles and the ultimate goal—our compass, which is Liberty and property rights—governments would have been unable to exploit religion, confiscate it, ",
+      "split_into": [
+        "C-AT-200189",
+        "C-AT-200190"
+      ],
+      "part_a": "Had the people not lost sight of these simple principles and the ultimate goal—our compass, which is Liberty",
+      "part_b": "property rights—governments would have been unable to exploit religion, confiscate it, and subsequently corrupt it."
+    },
+    {
+      "original_id": "C-001810",
+      "original_text": "Methodology of Study: Discovering the Axioms Before Reading a Mass of Texts A defining feature of thought grounded in consistent axiomatic formal systems is that, instead of reading all the theories a",
+      "split_into": [
+        "C-AT-200191",
+        "C-AT-200192"
+      ],
+      "part_a": "Methodology of Study: Discovering the Axioms Before Reading a Mass of Texts A defining feature of thought grounded in consistent axiomatic formal syst",
+      "part_b": "that field of thought."
+    },
+    {
+      "original_id": "C-001816",
+      "original_text": "Once you reach this stage, you can expose the nonsense of so-called intellectuals so quickly that you begin to realize that the treasure of thought lies in Iran and that the rest of the world has, to ",
+      "split_into": [
+        "C-AT-200193",
+        "C-AT-200194"
+      ],
+      "part_a": "Once you reach this stage, you can expose the nonsense of so-called intellectuals so quickly that you begin to realize that the treasure of thought li",
+      "part_b": "that the rest of the world has, to a large extent, kept us occupied with distractions."
+    },
+    {
+      "original_id": "C-001831",
+      "original_text": "If all the advocates of Liberty and property rights were martyred, if all their books were burned, if thousands of people—whether as clerics, religious interpreters, narrators of hadith, state histori",
+      "split_into": [
+        "C-AT-200195",
+        "C-AT-200196"
+      ],
+      "part_a": "If all the advocates of Liberty",
+      "part_b": "property rights were martyred, if all their books were burned, if thousands of people—whether as clerics, religious interpreters, narrators of hadith,"
+    },
+    {
+      "original_id": "C-001856",
+      "original_text": "This is plainly and clearly contrary to the principles of Liberty and property rights—and thus contrary to religion.",
+      "split_into": [
+        "C-AT-200197",
+        "C-AT-200198"
+      ],
+      "part_a": "This is plainly and clearly contrary to the principles of Liberty",
+      "part_b": "property rights—and thus contrary to religion."
+    },
+    {
+      "original_id": "C-001882",
+      "original_text": "But even if all the people on earth say that everyone must be forced to take the COVID vaccine, must stay at home, and must wear masks, if just one person refuses to do so, that one person’s right mus",
+      "split_into": [
+        "C-AT-200199",
+        "C-AT-200200"
+      ],
+      "part_a": "But even if all the people on earth say that everyone must be forced to take the COVID vaccine, must stay at home, and must wear masks, if just one pe",
+      "part_b": "property rights must be respected, and they must be defended."
+    },
+    {
+      "original_id": "C-001902",
+      "original_text": "In such cases, the link between ruling elites and state beneficiaries requires the design and construction of an ideology whose value exceeds that of",
+      "split_into": [
+        "C-AT-200201",
+        "C-AT-200202"
+      ],
+      "part_a": "In such cases, the link between ruling elites and state beneficiaries requires the design",
+      "part_b": "In such cases, the link between ruling elites and state beneficiaries requires construction of an ideology whose value exceeds that of"
+    },
+    {
+      "original_id": "C-001924",
+      "original_text": "This defense of Liberty is a negative defense: although the essence of God and revelation is not fully known, it is fully known that no human being is God, and that no prophetic revelation descends af",
+      "split_into": [
+        "C-AT-200203",
+        "C-AT-200204"
+      ],
+      "part_a": "This defense of Liberty is a negative defense: although the essence of God and revelation is not fully known, it is fully known that no human being is",
+      "part_b": "that no prophetic revelation descends after Muhammad."
+    },
+    {
+      "original_id": "C-001932",
+      "original_text": "The “unbelievers” whom the Prophet confronted were those who had usurped religion and the economy, enemies of Liberty who had confined God and religion to a physical domain under their own control, fa",
+      "split_into": [
+        "C-AT-200205",
+        "C-AT-200206"
+      ],
+      "part_a": "The “unbelievers” whom the Prophet confronted were those who had usurped religion and the economy, enemies of Liberty who had confined God",
+      "part_b": "religion to a physical domain under their own control, fabricating rules of faith and divine order to suit their interests—so much so that Muhammad, b"
+    },
+    {
+      "original_id": "C-001933",
+      "original_text": "When I say that the three principles of religion—Tawhid, Prophethood, and the Afterlife—are the minimal set of axioms necessary for guaranteeing Liberty, and that the violation of any of these princip",
+      "split_into": [
+        "C-AT-200207",
+        "C-AT-200208"
+      ],
+      "part_a": "When I say that the three principles of religion—Tawhid, Prophethood, and the Afterlife—are the minimal set of axioms necessary for guaranteeing Liber",
+      "part_b": "that the violation of any of these principles ultimately leads to slavery and communism, a question naturally arises: Should an agnostic or atheist, s"
+    },
+    {
+      "original_id": "C-001942",
+      "original_text": "In America, if you violate others’ property rights and Liberty, the law treats you—analogous to fighting the unbelievers—with the severest response: armed resistance.",
+      "split_into": [
+        "C-AT-200209",
+        "C-AT-200210"
+      ],
+      "part_a": "In America, if you violate others’ property rights",
+      "part_b": "Liberty, the law treats you—analogous to fighting the unbelievers—with the severest response: armed resistance."
+    },
+    {
+      "original_id": "C-001954",
+      "original_text": "America’s constitutional right to bear arms is a lower-tier version of defending private property and Liberty through divine principles—it is the nearest human and non-religious counterpart to the def",
+      "split_into": [
+        "C-AT-200211",
+        "C-AT-200212"
+      ],
+      "part_a": "America’s constitutional right to bear arms is a lower-tier version of defending private property",
+      "part_b": "Liberty through divine principles—it is the nearest human and non-religious counterpart to the defense of Liberty found in religion."
+    },
+    {
+      "original_id": "C-001985",
+      "original_text": "Seen in this light, kolbars contribute more to the development and freedom of the country than many state employees and intellectual elites—while the dominant state structures often function as obstac",
+      "split_into": [
+        "C-AT-200213",
+        "C-AT-200214"
+      ],
+      "part_a": "Seen in this light, kolbars contribute more to the development",
+      "part_b": "freedom of the country than many state employees and intellectual elites—while the dominant state structures often function as obstacles to prosperity"
+    },
+    {
+      "original_id": "C-001995",
+      "original_text": "Even if we momentarily set aside the fact that such policies violate property rights and Liberty, a deeper problem soon appears.",
+      "split_into": [
+        "C-AT-200215",
+        "C-AT-200216"
+      ],
+      "part_a": "Even if we momentarily set aside the fact that such policies violate property rights",
+      "part_b": "Liberty, a deeper problem soon appears."
+    },
+    {
+      "original_id": "C-002033",
+      "original_text": "A composite being depends on its parts for its identity, and it can be explained through analysis of those parts.",
+      "split_into": [
+        "C-AT-200217",
+        "C-AT-200218"
+      ],
+      "part_a": "A composite being depends on its parts for its identity,",
+      "part_b": "it can be explained through analysis of those parts."
+    },
+    {
+      "original_id": "C-002050",
+      "original_text": "In order to uncover the truth of Liberty and property rights, religion had to reemerge from beneath the rubble.",
+      "split_into": [
+        "C-AT-200219",
+        "C-AT-200220"
+      ],
+      "part_a": "In order to uncover the truth of Liberty",
+      "part_b": "property rights, religion had to reemerge from beneath the rubble."
+    },
+    {
+      "original_id": "C-002091",
+      "original_text": "For instance, through my formal system for the concept of Liberty and property rights, I was able to evaluate and verify numerous weak and strong ḥadiths and religious reports, comparing the results w",
+      "split_into": [
+        "C-AT-200221",
+        "C-AT-200222"
+      ],
+      "part_a": "For instance, through my formal system for the concept of Liberty",
+      "part_b": "property rights, I was able to evaluate and verify numerous weak and strong ḥadiths and religious reports, comparing the results with traditional meth"
+    },
+    {
+      "original_id": "C-002146",
+      "original_text": "Naturally, when the state grows larger, so does interventionist oversight, and Liberty is sacrificed at the altar of the state.",
+      "split_into": [
+        "C-AT-200223",
+        "C-AT-200224"
+      ],
+      "part_a": "Naturally, when the state grows larger, so does interventionist oversight,",
+      "part_b": "Liberty is sacrificed at the altar of the state."
+    },
+    {
+      "original_id": "C-002148",
+      "original_text": "This is why, if religious punishments are enforced by the structure of the “modern state” (or as I call it, the “backward state” defined by monopoly of violence), then we have handed over non-monopoli",
+      "split_into": [
+        "C-AT-200225",
+        "C-AT-200226"
+      ],
+      "part_a": "This is why, if religious punishments are enforced by the structure of the “modern state” (or as I call it, the “backward state” defined by monopoly o",
+      "part_b": "property rights—into the hands of the “State, monopolist of violence,” giving it a pseudo-divine and sacred veneer."
+    },
+    {
+      "original_id": "C-002159",
+      "original_text": "The state, meanwhile, takes its cut as the highwayman of the social order for administering the prisons, and in turn, has every incentive to see crime increase, since running prisons has now become a ",
+      "split_into": [
+        "C-AT-200227",
+        "C-AT-200228"
+      ],
+      "part_a": "The state, meanwhile, takes its cut as the highwayman of the social order for administering the prisons, and in turn, has every incentive to see crime",
+      "part_b": "the state together have a vested interest in more theft, so that the parasitic life of the state endures.) The very idea of prison is fundamentally op"
+    },
+    {
+      "original_id": "C-002183",
+      "original_text": "That high price made Iranians sanctify individual Liberty and property rights so that no force could threaten them again—and to regard the covenant that defended those liberties, namely religion, as s",
+      "split_into": [
+        "C-AT-200229",
+        "C-AT-200230"
+      ],
+      "part_a": "That high price made Iranians sanctify individual Liberty",
+      "part_b": "property rights so that no force could threaten them again—and to regard the covenant that defended those liberties, namely religion, as sacred, so th"
+    },
+    {
+      "original_id": "C-002206",
+      "original_text": "The Iranian culture and civilization approached humanity, Liberty, and religion in a way that rendered it independent of Hobbes’ notion of the Leviathan power.",
+      "split_into": [
+        "C-AT-200231",
+        "C-AT-200232"
+      ],
+      "part_a": "The Iranian culture and civilization approached humanity, Liberty,",
+      "part_b": "religion in a way that rendered it independent of Hobbes’ notion of the Leviathan power."
+    },
+    {
+      "original_id": "C-002249",
+      "original_text": "For these reasons, the main focus of our work in defending Liberty and property rights is fundamentally the negative conception of God: simply knowing that no other human being has the right to enslav",
+      "split_into": [
+        "C-AT-200233",
+        "C-AT-200234"
+      ],
+      "part_a": "For these reasons, the main focus of our work in defending Liberty",
+      "part_b": "property rights is fundamentally the negative conception of God: simply knowing that no other human being has the right to enslave us, and that we mus"
+    },
+    {
+      "original_id": "C-002274",
+      "original_text": "In this mystical ascent, to gain income, wealth, credibility, and more deposits—reaching the higher levels of the central bank—one may be compelled to create a business that triggers intense dopamine ",
+      "split_into": [
+        "C-AT-200235",
+        "C-AT-200236"
+      ],
+      "part_a": "In this mystical ascent, to gain income, wealth, credibility, and more deposits—reaching the higher levels of the central bank—one may be compelled to",
+      "part_b": "property-rights-violating actions, fueling wars, using wars to control debt and balance sheets, or openly and covertly enslaving others through deceit"
+    },
+    {
+      "original_id": "C-002285",
+      "original_text": "The flow of money, wealth, well-being, and ethics always tends toward supporting freedom and property rights—principles aligned with the systemic, consistent form of religion I have discussed from the",
+      "split_into": [
+        "C-AT-200237",
+        "C-AT-200238"
+      ],
+      "part_a": "The flow of money, wealth, well-being, and ethics always tends toward supporting freedom",
+      "part_b": "property rights—principles aligned with the systemic, consistent form of religion I have discussed from the beginning."
+    },
+    {
+      "original_id": "C-002291",
+      "original_text": "The solution, however, is freedom of choice and property rights in everything—even private money.",
+      "split_into": [
+        "C-AT-200239",
+        "C-AT-200240"
+      ],
+      "part_a": "The solution, however, is freedom of choice",
+      "part_b": "property rights in everything—even private money."
+    },
+    {
+      "original_id": "C-002321",
+      "original_text": "For example, based on Liberty and property rights, I personally have no objection if a private bank finances an entrepreneur in the pornography industry or a service like OnlyFans.",
+      "split_into": [
+        "C-AT-200241",
+        "C-AT-200242"
+      ],
+      "part_a": "For example, based on Liberty",
+      "part_b": "property rights, I personally have no objection if a private bank finances an entrepreneur in the pornography industry or a service like OnlyFans."
+    },
+    {
+      "original_id": "C-002333",
+      "original_text": "In such conditions, we see that where Liberty and property rights prevail—meaning the refusal to submit to servitude to other-than-God and the refusal to enslave others—human talents flourish.",
+      "split_into": [
+        "C-AT-200243",
+        "C-AT-200244"
+      ],
+      "part_a": "In such conditions, we see that where Liberty",
+      "part_b": "property rights prevail—meaning the refusal to submit to servitude to other-than-God and the refusal to enslave others—human talents flourish."
+    },
+    {
+      "original_id": "C-002337",
+      "original_text": "But when religion becomes coercive, when it becomes state-controlled, when history is distorted, and when the connection between religion and Liberty is buried—then it is as if we have placed the wron",
+      "split_into": [
+        "C-AT-200245",
+        "C-AT-200246"
+      ],
+      "part_a": "But when religion becomes coercive, when it becomes state-controlled, when history is distorted, and when the connection between religion",
+      "part_b": "Liberty is buried—then it is as if we have placed the wrong sign, a plus instead of a minus, at the beginning of a mathematical equation."
+    },
+    {
+      "original_id": "C-002347",
+      "original_text": "In Western liberalism, particularly influenced by Calvinism and similar ideas, there was an attempt to argue that those who are wealthier and more productive are closer to God, and that the poor someh",
+      "split_into": [
+        "C-AT-200247",
+        "C-AT-200248"
+      ],
+      "part_a": "In Western liberalism, particularly influenced by Calvinism and similar ideas, there was an attempt to argue that those who are wealthier and more pro",
+      "part_b": "that the poor somehow deserve their condition."
+    },
+    {
+      "original_id": "C-002353",
+      "original_text": "In other words, persistence in Liberty and property rights—principles that are essentially the principles of religion—ultimately leads to a situation in which material wealth becomes merely a",
+      "split_into": [
+        "C-AT-200249",
+        "C-AT-200250"
+      ],
+      "part_a": "In other words, persistence in Liberty",
+      "part_b": "property rights—principles that are essentially the principles of religion—ultimately leads to a situation in which material wealth becomes merely a"
+    },
+    {
+      "original_id": "C-002413",
+      "original_text": "For a reader unfamiliar with free banking, the issue should begin with a simple question: if there is no state central bank, how can people be confident that the money issued by different banks is rel",
+      "split_into": [
+        "C-AT-200251",
+        "C-AT-200252"
+      ],
+      "part_a": "For a reader unfamiliar with free banking, the issue should begin with a simple question: if there is no state central bank, how can people be confide",
+      "part_b": "that banks do not issue excessive banknotes?"
+    },
+    {
+      "original_id": "C-002500",
+      "original_text": "A key condition of mudarabah is that the owner of capital accepts the risk and that the working partner is not an absolute guarantor of the principal.",
+      "split_into": [
+        "C-AT-200253",
+        "C-AT-200254"
+      ],
+      "part_a": "A key condition of mudarabah is that the owner of capital accepts the risk",
+      "part_b": "that the working partner is not an absolute guarantor of the principal."
+    },
+    {
+      "original_id": "C-002503",
+      "original_text": "Monetary Liberty, the Flourishing of Talent, and the End of Narrow Definitions of Intelligence In the theory of Liberty and religion, an answer is also given to this question: why many things that tod",
+      "split_into": [
+        "C-AT-200255",
+        "C-AT-200256"
+      ],
+      "part_a": "Monetary Liberty, the Flourishing of Talent, and the End of Narrow Definitions of Intelligence In the theory of Liberty",
+      "part_b": "religion, an answer is also given to this question: why many things that today are labeled as “useless talents” or “psychological disorders” turn into"
+    },
+    {
+      "original_id": "C-002543",
+      "original_text": "The result is not merely external control; it is also the normalization of a deterministic worldview: the belief that your destiny is predetermined, that the scope of your choice is narrow, and that y",
+      "split_into": [
+        "C-AT-200257",
+        "C-AT-200258"
+      ],
+      "part_a": "The result is not merely external control; it is also the normalization of a deterministic worldview: the belief that your destiny is predetermined, t",
+      "part_b": "that your personal will plays only a negligible role."
+    },
+    {
+      "original_id": "C-002594",
+      "original_text": "This is like chaining a person’s hands and feet, then running an experiment to conclude that humans cannot walk, and that their limbs are decorative—(which, of course, they aren’t).",
+      "split_into": [
+        "C-AT-200259",
+        "C-AT-200260"
+      ],
+      "part_a": "This is like chaining a person’s hands and feet, then running an experiment to conclude that humans cannot walk,",
+      "part_b": "that their limbs are decorative—(which, of course, they aren’t)."
+    },
+    {
+      "original_id": "C-002612",
+      "original_text": "And yet the flame of humanity and Liberty has never been extinguished.",
+      "split_into": [
+        "C-AT-200261",
+        "C-AT-200262"
+      ],
+      "part_a": "And yet the flame of humanity",
+      "part_b": "Liberty has never been extinguished."
+    },
+    {
+      "original_id": "C-002615",
+      "original_text": "But if this knot is untied—if religion is separated again from the state and Liberty is understood in its true form—a domino of Liberty could once again arise from Iran.",
+      "split_into": [
+        "C-AT-200263",
+        "C-AT-200264"
+      ],
+      "part_a": "But if this knot is untied—if religion is separated again from the state",
+      "part_b": "Liberty is understood in its true form—a domino of Liberty could once again arise from Iran."
+    },
+    {
+      "original_id": "C-002616",
+      "original_text": "Dehumanization → State expansion → Destruction of Liberty and property rights → Theorizing determinism and denying free will",
+      "split_into": [
+        "C-AT-200265",
+        "C-AT-200266"
+      ],
+      "part_a": "Dehumanization → State expansion → Destruction of Liberty",
+      "part_b": "property rights → Theorizing determinism and denying free will"
+    },
+    {
+      "original_id": "C-002618",
+      "original_text": "Critique of Liberalism, the Austrian School, and Libertarianism as Incomplete Systems The Austrian School, libertarianism, and classical liberalism—without the foundational principles of a consistent,",
+      "split_into": [
+        "C-AT-200267",
+        "C-AT-200268"
+      ],
+      "part_a": "Critique of Liberalism, the Austrian School, and Libertarianism as Incomplete Systems The Austrian School, libertarianism, and classical liberalism—wi",
+      "part_b": "property rights, which in this reading are precisely the principles of religion—are not internally consistent."
+    },
+    {
+      "original_id": "C-002624",
+      "original_text": "The reason is simple: their formal systems of Liberty and property rights are not consistent; each presents only a fragment of what I am presenting in this book, and none of them guarantees Liberty.",
+      "split_into": [
+        "C-AT-200269",
+        "C-AT-200270"
+      ],
+      "part_a": "The reason is simple: their formal systems of Liberty",
+      "part_b": "property rights are not consistent; each presents only a fragment of what I am presenting in this book, and none of them guarantees Liberty."
+    },
+    {
+      "original_id": "C-002627",
+      "original_text": "Do not assume we are unschooled and that others have “read books” while we have not.",
+      "split_into": [
+        "C-AT-200271",
+        "C-AT-200272"
+      ],
+      "part_a": "Do not assume we are unschooled",
+      "part_b": "that others have “read books” while we have not."
+    },
+    {
+      "original_id": "C-002647",
+      "original_text": "However, I turn away from all religions that are imposed by force or run by the state and that have become monopolistic organizations of interpretation.",
+      "split_into": [
+        "C-AT-200273",
+        "C-AT-200274"
+      ],
+      "part_a": "However, I turn away from all religions that are imposed by force or run by the state",
+      "part_b": "that have become monopolistic organizations of interpretation."
+    },
+    {
+      "original_id": "C-002660",
+      "original_text": "They tried to say that religion came for justice, and then they altered the meaning of justice and contaminated it with Marx’s notion of “social justice.” But I have demonstrated that if we establish ",
+      "split_into": [
+        "C-AT-200275",
+        "C-AT-200276"
+      ],
+      "part_a": "They tried to say that religion came for justice, and then they altered the meaning of justice and contaminated it with Marx’s notion of “social justi",
+      "part_b": "Liberty, justice in society will emerge as one of its results."
+    },
+    {
+      "original_id": "C-002665",
+      "original_text": "The smaller the government he leaves behind—compared to the one he inherited—and the less its interventions against the Liberty and property rights of the people, the more pious he is.",
+      "split_into": [
+        "C-AT-200277",
+        "C-AT-200278"
+      ],
+      "part_a": "The smaller the government he leaves behind—compared to the one he inherited—and the less its interventions against the Liberty",
+      "part_b": "property rights of the people, the more pious he is."
+    },
+    {
+      "original_id": "C-002687",
+      "original_text": "Yet the very existence of the concept of spontaneous order implies that the world is not exclusively materialistic or reducible to matter, and it stands in fundamental tension with the materialist ide",
+      "split_into": [
+        "C-AT-200279",
+        "C-AT-200280"
+      ],
+      "part_a": "Yet the very existence of the concept of spontaneous order implies that the world is not exclusively materialistic or reducible to matter,",
+      "part_b": "it stands in fundamental tension with the materialist ideas of the socialists."
+    },
+    {
+      "original_id": "C-002691",
+      "original_text": "Perhaps Hayek himself did not fully articulate this—but I will write it plainly: Hayek believed in something he could neither describe nor define, and that something was spontaneous order.",
+      "split_into": [
+        "C-AT-200281",
+        "C-AT-200282"
+      ],
+      "part_a": "Perhaps Hayek himself did not fully articulate this—but I will write it plainly: Hayek believed in something he could neither describe nor define,",
+      "part_b": "that something was spontaneous order."
+    },
+    {
+      "original_id": "C-002723",
+      "original_text": "But Kurt Gödel accomplished something that allowed me to build a bridge between his incompleteness theorems and the philosophers of liberty, and to claim that the concepts of religion and liberty are ",
+      "split_into": [
+        "C-AT-200283",
+        "C-AT-200284"
+      ],
+      "part_a": "But Kurt Gödel accomplished something that allowed me to build a bridge between his incompleteness theorems and the philosophers of liberty, and to cl",
+      "part_b": "liberty are inseparable—and indeed identical."
+    },
+    {
+      "original_id": "C-002734",
+      "original_text": "In this system, all instruments are wrested from the devil’s hands: money becomes private, and the state is regarded as pure evil—utterly unnecessary even in principle.",
+      "split_into": [
+        "C-AT-200285",
+        "C-AT-200286"
+      ],
+      "part_a": "In this system, all instruments are wrested from the devil’s hands: money becomes private,",
+      "part_b": "the state is regarded as pure evil—utterly unnecessary even in principle."
+    },
+    {
+      "original_id": "C-002758",
+      "original_text": "Evil exists precisely because the State monopolizes power and violence; and the State exists because evil can deceive us in secret, causing us to violate others’ property rights even without any earth",
+      "split_into": [
+        "C-AT-200287",
+        "C-AT-200288"
+      ],
+      "part_a": "Evil exists precisely because the State monopolizes power and violence;",
+      "part_b": "the State exists because evil can deceive us in secret, causing us to violate others’ property rights even without any earthly overseer."
+    },
+    {
+      "original_id": "C-002780",
+      "original_text": "Religion should restrain the State for the sake of personal liberty and property rights—not for the sake of the clerical establishment, the seminary, or organized religion—but for the sake of the reli",
+      "split_into": [
+        "C-AT-200289",
+        "C-AT-200290"
+      ],
+      "part_a": "Religion should restrain the State for the sake of personal liberty",
+      "part_b": "property rights—not for the sake of the clerical establishment, the seminary, or organized religion—but for the sake of the religious institution that"
+    },
+    {
+      "original_id": "C-002870",
+      "original_text": "If the choice is between two individuals, each of whom intends—according to his own method— to violate the liberty and property rights of some people in favor of others (for example, by imposing highe",
+      "split_into": [
+        "C-AT-200291",
+        "C-AT-200292"
+      ],
+      "part_a": "If the choice is between two individuals, each of whom intends—according to his own method— to violate the liberty",
+      "part_b": "property rights of some people in favor of others (for example, by imposing higher taxes on one group in order to spend the revenue for the benefit of"
+    },
+    {
+      "original_id": "C-002895",
+      "original_text": "The answer is: human beings can, through social agreement among themselves, choose where they live, selecting a community in which the foundational principles of liberty and property rights— that is, ",
+      "split_into": [
+        "C-AT-200293",
+        "C-AT-200294"
+      ],
+      "part_a": "The answer is: human beings can, through social agreement among themselves, choose where they live, selecting a community in which the foundational pr",
+      "part_b": "property rights— that is, the true religion—are mutually accepted."
+    },
+    {
+      "original_id": "C-002899",
+      "original_text": "In that case, one must turn to another method of defending liberty and property rights: namely, enjoining right and forbidding wrong directed toward rulers.",
+      "split_into": [
+        "C-AT-200295",
+        "C-AT-200296"
+      ],
+      "part_a": "In that case, one must turn to another method of defending liberty",
+      "part_b": "property rights: namely, enjoining right and forbidding wrong directed toward rulers."
+    },
+    {
+      "original_id": "C-002907",
+      "original_text": "He refused allegiance to a ruler who violated liberty, demanded compulsory obedience, and infringed upon the principles of freedom and property rights—re-establishing monopolies of coercion and power.",
+      "split_into": [
+        "C-AT-200297",
+        "C-AT-200298"
+      ],
+      "part_a": "He refused allegiance to a ruler who violated liberty, demanded compulsory obedience, and infringed upon the principles of freedom",
+      "part_b": "property rights—re-establishing monopolies of coercion and power."
+    },
+    {
+      "original_id": "C-002910",
+      "original_text": "If the people of a city wish not to pledge allegiance to a ruler, but to another person based on the principles of liberty and property rights, that is their right—though the topic requires deeper dis",
+      "split_into": [
+        "C-AT-200299",
+        "C-AT-200300"
+      ],
+      "part_a": "If the people of a city wish not to pledge allegiance to a ruler, but to another person based on the principles of liberty",
+      "part_b": "property rights, that is their right—though the topic requires deeper discussion."
+    },
+    {
+      "original_id": "C-002947",
+      "original_text": "In the history of Iranian culture, civilization, and religion, love has naturally always held a high position, and a person would stand by their beloved, family, and children even unto death.",
+      "split_into": [
+        "C-AT-200301",
+        "C-AT-200302"
+      ],
+      "part_a": "In the history of Iranian culture, civilization,",
+      "part_b": "religion, love has naturally always held a high position, and a person would stand by their beloved, family, and children even unto death."
+    },
+    {
+      "original_id": "C-002960",
+      "original_text": "Since one party often possesses greater physical strength and may use it to create psychological games or exert physical force, the rule should be that, in order to increase confidence in the consent ",
+      "split_into": [
+        "C-AT-200303",
+        "C-AT-200304"
+      ],
+      "part_a": "Since one party often possesses greater physical strength and may use it to create psychological games or exert physical force, the rule should be tha",
+      "part_b": "this must occur under conditions where no pressure or coercion is present."
+    },
+    {
+      "original_id": "C-002964",
+      "original_text": "I will examine more closely how religion has provided a protective shield of property rights for women, and how—rather than romanticism—it has safeguarded liberty and property rights in such a way tha",
+      "split_into": [
+        "C-AT-200305",
+        "C-AT-200306"
+      ],
+      "part_a": "I will examine more closely how religion has provided a protective shield of property rights for women, and how—rather than romanticism—it has safegua",
+      "part_b": "property rights in such a way that sex cannot be as free and secure under any other social order."
+    },
+    {
+      "original_id": "C-002980",
+      "original_text": "I believe that for the health of the human psyche and the existence of the human being, responding to instincts—without violating the Liberty and property rights of others—is self-evident and perpetua",
+      "split_into": [
+        "C-AT-200307",
+        "C-AT-200308"
+      ],
+      "part_a": "I believe that for the health of the human psyche and the existence of the human being, responding to instincts—without violating the Liberty",
+      "part_b": "property rights of others—is self-evident and perpetual, and should never be neglected."
+    },
+    {
+      "original_id": "C-002984",
+      "original_text": "Therefore, within my theoretical framework, if a person—without violating the Liberty and property rights of others—fails to respond to their primary needs such as sex, then by what scientific method ",
+      "split_into": [
+        "C-AT-200309",
+        "C-AT-200310"
+      ],
+      "part_a": "Therefore, within my theoretical framework, if a person—without violating the Liberty",
+      "part_b": "property rights of others—fails to respond to their primary needs such as sex, then by what scientific method can we label them with physical or psych"
+    },
+    {
+      "original_id": "C-002985",
+      "original_text": "Some might say that perhaps such a person truly is mentally ill and that entering into a sexual relationship might harm",
+      "split_into": [
+        "C-AT-200311",
+        "C-AT-200312"
+      ],
+      "part_a": "Some might say that perhaps such a person truly is mentally ill",
+      "part_b": "that entering into a sexual relationship might harm"
+    },
+    {
+      "original_id": "C-002994",
+      "original_text": "On the other hand, many of these psychologists and therapists themselves do not have healthy relationships, and it is unclear how one could guarantee that they are capable of repairing the complex psy",
+      "split_into": [
+        "C-AT-200313",
+        "C-AT-200314"
+      ],
+      "part_a": "On the other hand, many of these psychologists and therapists themselves do not have healthy relationships,",
+      "part_b": "it is unclear how one could guarantee that they are capable of repairing the complex psyche of a human being—the most complex phenomenon we have ever "
+    },
+    {
+      "original_id": "C-003002",
+      "original_text": "For this reason, if you have accepted these principles of religion (with the aim that these principles guarantee a Consistent formal system for Liberty and property rights), the cost of therapists and",
+      "split_into": [
+        "C-AT-200315",
+        "C-AT-200316"
+      ],
+      "part_a": "For this reason, if you have accepted these principles of religion (with the aim that these principles guarantee a Consistent formal system for Libert",
+      "part_b": "property rights), the cost of therapists and these games decreases significantly."
+    },
+    {
+      "original_id": "C-003004",
+      "original_text": "You are freed from the anxieties that Irvin Yalom spoke of and that leave the human being suspended in midair.",
+      "split_into": [
+        "C-AT-200317",
+        "C-AT-200318"
+      ],
+      "part_a": "You are freed from the anxieties that Irvin Yalom spoke of",
+      "part_b": "that leave the human being suspended in midair."
+    },
+    {
+      "original_id": "C-003045",
+      "original_text": "Of course, there are always rational solutions grounded in Liberty and property rights to reduce the cost of mistakes.",
+      "split_into": [
+        "C-AT-200319",
+        "C-AT-200320"
+      ],
+      "part_a": "Of course, there are always rational solutions grounded in Liberty",
+      "part_b": "property rights to reduce the cost of mistakes."
+    },
+    {
+      "original_id": "C-003064",
+      "original_text": "As long as the “sinner” (the violator of Liberty and property rights) exists, the existence of the state remains necessary.",
+      "split_into": [
+        "C-AT-200321",
+        "C-AT-200322"
+      ],
+      "part_a": "As long as the “sinner” (the violator of Liberty",
+      "part_b": "property rights) exists, the existence of the state remains necessary."
+    },
+    {
+      "original_id": "C-003065",
+      "original_text": "However, the problem is that even if human beings were to cease sinning (violating Liberty and property rights), the state might still refuse to dismount from society’s back until civilization is utte",
+      "split_into": [
+        "C-AT-200323",
+        "C-AT-200324"
+      ],
+      "part_a": "However, the problem is that even if human beings were to cease sinning (violating Liberty",
+      "part_b": "property rights), the state might still refuse to dismount from society’s back until civilization is utterly destroyed and society is reduced to skin "
+    },
+    {
+      "original_id": "C-003079",
+      "original_text": "Because there is always something that everyone wants but not everyone can have; for if everyone were to have it, they would no longer want it, and it would be replaced by something else that everyone",
+      "split_into": [
+        "C-AT-200325",
+        "C-AT-200326"
+      ],
+      "part_a": "Because there is always something that everyone wants but not everyone can have; for if everyone were to have it, they would no longer want it,",
+      "part_b": "it would be replaced by something else that everyone desires but not everyone can obtain."
+    },
+    {
+      "original_id": "C-003106",
+      "original_text": "And who has managed, even at the level of a province or a single nation, to give that stronger vision a real and practical form? (That, indeed, is what we intend to build in Iran—on the foundations of",
+      "split_into": [
+        "C-AT-200327",
+        "C-AT-200328"
+      ],
+      "part_a": "And who has managed, even at the level of a province or a single nation, to give that stronger vision a real and practical form? (That, indeed, is wha",
+      "part_b": "freedom of expression are sacred—among its highest values."
+    },
+    {
+      "original_id": "C-003186",
+      "original_text": "A crucial proposition you must now take to heart: Satan makes good deeds appear evil and evil deeds appear good; the government makes good deeds appear evil and evil deeds appear good; the monopolizer",
+      "split_into": [
+        "C-AT-200329",
+        "C-AT-200330"
+      ],
+      "part_a": "A crucial proposition you must now take to heart: Satan makes good deeds appear evil and evil deeds appear good; the government makes good deeds appea",
+      "part_b": "it has become axiomatic for them."
+    },
+    {
+      "original_id": "C-003189",
+      "original_text": "One of the ways Satan feeds is through taxation because it suppresses Liberty and property rights, reduces creativity, and forces servitude to other than God.",
+      "split_into": [
+        "C-AT-200331",
+        "C-AT-200332"
+      ],
+      "part_a": "One of the ways Satan feeds is through taxation because it suppresses Liberty",
+      "part_b": "property rights, reduces creativity, and forces servitude to other than God."
+    },
+    {
+      "original_id": "C-003201",
+      "original_text": "Every free service comes at the cost of killing creativity and opportunities for growth and the potential for technology to become free in a particular field, and it lowers general welfare and makes c",
+      "split_into": [
+        "C-AT-200333",
+        "C-AT-200334"
+      ],
+      "part_a": "Every free service comes at the cost of killing creativity and opportunities for growth and the potential for technology to become free in a particula",
+      "part_b": "it lowers general welfare and makes current services more expensive."
+    },
+    {
+      "original_id": "C-003202",
+      "original_text": "Returning to the hypothetical situation I mentioned earlier (a reminder that we always have resource scarcity because what everyone wants does not reach everyone, and as soon as it reaches everyone, e",
+      "split_into": [
+        "C-AT-200335",
+        "C-AT-200336"
+      ],
+      "part_a": "Returning to the hypothetical situation I mentioned earlier (a reminder that we always have resource scarcity because what everyone wants does not rea",
+      "part_b": "this path is endless."
+    },
+    {
+      "original_id": "C-003227",
+      "original_text": "What concern is it of mine or others’ that due to your irresponsibility regarding your own liberty and property rights, we are forced to pay additional health taxes to the state?",
+      "split_into": [
+        "C-AT-200337",
+        "C-AT-200338"
+      ],
+      "part_a": "What concern is it of mine or others’ that due to your irresponsibility regarding your own liberty",
+      "part_b": "property rights, we are forced to pay additional health taxes to the state?"
+    },
+    {
+      "original_id": "C-003230",
+      "original_text": "Let’s assume, despite this entire scenario being against individual free will and property rights, that a conditional statement (“if, then”) is true, and that by increasing taxes on cigarettes, their ",
+      "split_into": [
+        "C-AT-200339",
+        "C-AT-200340"
+      ],
+      "part_a": "Let’s assume, despite this entire scenario being against individual free will",
+      "part_b": "property rights, that a conditional statement (“if, then”) is true, and that by increasing taxes on cigarettes, their consumption actually decreases."
+    },
+    {
+      "original_id": "C-003251",
+      "original_text": "A List of Ideas that Lead to the Expansion of the State (Up to This Point in the Book) If we summarize up to this point, the results produced by the following ideas are all the same: they lead to grea",
+      "split_into": [
+        "C-AT-200341",
+        "C-AT-200342"
+      ],
+      "part_a": "A List of Ideas that Lead to the Expansion of the State (Up to This Point in the Book) If we summarize up to this point, the results produced by the f",
+      "part_b": "property rights: Atheism; belief in God but with a definable God such as Spinoza’s; belief that environmental crises will be solved by artificial inte"
+    },
+    {
+      "original_id": "C-003268",
+      "original_text": "Yet those scribbles managed to burn both Iran and religion for half a century, to the point that a large portion of Iranians now run away from any word that even faintly smells of religion—and they ar",
+      "split_into": [
+        "C-AT-200343",
+        "C-AT-200344"
+      ],
+      "part_a": "Yet those scribbles managed to burn both Iran",
+      "part_b": "religion for half a century, to the point that a large portion of Iranians now run away from any word that even faintly smells of religion—and they ar"
+    },
+    {
+      "original_id": "C-003283",
+      "original_text": "Socialists proclaim that they are “citizens of the world” and that borders are meaningless.",
+      "split_into": [
+        "C-AT-200345",
+        "C-AT-200346"
+      ],
+      "part_a": "Socialists proclaim that they are “citizens of the world”",
+      "part_b": "that borders are meaningless."
+    },
+    {
+      "original_id": "C-003364",
+      "original_text": "Satan also made good appear evil and evil appear good, opening yet another interpretation—that the apple was the apple of knowledge and that humanity gained knowledge through disobedience.",
+      "split_into": [
+        "C-AT-200347",
+        "C-AT-200348"
+      ],
+      "part_a": "Satan also made good appear evil and evil appear good, opening yet another interpretation—that the apple was the apple of knowledge",
+      "part_b": "that humanity gained knowledge through disobedience."
+    },
+    {
+      "original_id": "C-003387",
+      "original_text": "In lexicographical traditions, salām is closely connected with salāmah, meaning a state of safety, soundness, and freedom from defect or danger.",
+      "split_into": [
+        "C-AT-200349",
+        "C-AT-200350"
+      ],
+      "part_a": "In lexicographical traditions, salām is closely connected with salāmah, meaning a state of safety, soundness,",
+      "part_b": "freedom from defect or danger."
+    },
+    {
+      "original_id": "C-003408",
+      "original_text": "If one has already understood the meanings of the words Islām and taslīm from the previous section discussing the story of Adam and Eve—particularly the idea of submission to the Liberty and property ",
+      "split_into": [
+        "C-AT-200351",
+        "C-AT-200352"
+      ],
+      "part_a": "If one has already understood the meanings of the words Islām and taslīm from the previous section discussing the story of Adam and Eve—particularly t",
+      "part_b": "property rights of another—then the word salām, at the beginning of a conversation or interaction, can be understood as a compressed declaration that "
+    },
+    {
+      "original_id": "C-003410",
+      "original_text": "The everyday utterance of this word in interactions thus forms part of the institutional framework that defends Liberty and property rights in bilateral and multilateral relations.",
+      "split_into": [
+        "C-AT-200353",
+        "C-AT-200354"
+      ],
+      "part_a": "The everyday utterance of this word in interactions thus forms part of the institutional framework that defends Liberty",
+      "part_b": "property rights in bilateral and multilateral relations."
+    },
+    {
+      "original_id": "C-003413",
+      "original_text": "It reinforces and perpetuates a culture of respect for property rights and Liberty and helps preserve it through continual social reminder within the order of society.",
+      "split_into": [
+        "C-AT-200355",
+        "C-AT-200356"
+      ],
+      "part_a": "It reinforces and perpetuates a culture of respect for property rights",
+      "part_b": "Liberty and helps preserve it through continual social reminder within the order of society."
+    },
+    {
+      "original_id": "C-003414",
+      "original_text": "It therefore becomes clear that salām brings peace, safety, and well-being, and that all of these concepts are linked in a chain with the concept of Liberty.",
+      "split_into": [
+        "C-AT-200357",
+        "C-AT-200358"
+      ],
+      "part_a": "It therefore becomes clear that salām brings peace, safety, and well-being,",
+      "part_b": "that all of these concepts are linked in a chain with the concept of Liberty."
+    },
+    {
+      "original_id": "C-003422",
+      "original_text": "In this sense, salām is a manifesto of submission to God’s command: a command whose violation constitutes an infringement upon the Liberty and property rights of another.",
+      "split_into": [
+        "C-AT-200359",
+        "C-AT-200360"
+      ],
+      "part_a": "In this sense, salām is a manifesto of submission to God’s command: a command whose violation constitutes an infringement upon the Liberty",
+      "part_b": "property rights of another."
+    },
+    {
+      "original_id": "C-003449",
+      "original_text": "Even if we assume that many parents exist (which is not the case) who are hostile toward their children or indifferent to them (which again is not the case), and that they produce many children, the r",
+      "split_into": [
+        "C-AT-200361",
+        "C-AT-200362"
+      ],
+      "part_a": "Even if we assume that many parents exist (which is not the case) who are hostile toward their children or indifferent to them (which again is not the",
+      "part_b": "that they produce many children, the result would be that the costs of their behavior are constantly imposed on responsible parents and productive mem"
+    },
+    {
+      "original_id": "C-003474",
+      "original_text": "Summary of the second objection: Poor parenting carries its own punishment for parents, and it is not even in their interest to neglect their children.",
+      "split_into": [
+        "C-AT-200363",
+        "C-AT-200364"
+      ],
+      "part_a": "Summary of the second objection: Poor parenting carries its own punishment for parents,",
+      "part_b": "it is not even in their interest to neglect their children."
+    },
+    {
+      "original_id": "C-003480",
+      "original_text": "Third objection: State intervention and the violation of family Liberty and property rights are themselves a primary structural cause of the rise of neglected or abused children.",
+      "split_into": [
+        "C-AT-200365",
+        "C-AT-200366"
+      ],
+      "part_a": "Third objection: State intervention and the violation of family Liberty",
+      "part_b": "property rights are themselves a primary structural cause of the rise of neglected or abused children."
+    },
+    {
+      "original_id": "C-003485",
+      "original_text": "The crucial point is that if today we observe a certain number 𝑋of abusive parents among every thousand parents, in a healthy order without state intervention—one based on Liberty and property rights ",
+      "split_into": [
+        "C-AT-200367",
+        "C-AT-200368"
+      ],
+      "part_a": "The crucial point is that if today we observe a certain number 𝑋of abusive parents among every thousand parents, in a healthy order without state inte",
+      "part_b": "property rights (which in this framework correspond to the principles of religion)—that number would likely fall to at least one-tenth of its current "
+    },
+    {
+      "original_id": "C-003504",
+      "original_text": "But if they are raised within a centralized state structure, even if they hear about Liberty and religion day and night, they will still become a cog in the machinery of Satan’s oppression and remain ",
+      "split_into": [
+        "C-AT-200369",
+        "C-AT-200370"
+      ],
+      "part_a": "But if they are raised within a centralized state structure, even if they hear about Liberty",
+      "part_b": "religion day and night, they will still become a cog in the machinery of Satan’s oppression and remain passive in the face of injustice."
+    },
+    {
+      "original_id": "C-003565",
+      "original_text": "Affirmative Action and Envy Another mechanism used by major collectivist and socialist charlatans to enslave others and violate Liberty and property rights is the phenomenon known as affirmative actio",
+      "split_into": [
+        "C-AT-200371",
+        "C-AT-200372"
+      ],
+      "part_a": "Affirmative Action and Envy Another mechanism used by major collectivist and socialist charlatans to enslave others and violate Liberty",
+      "part_b": "property rights is the phenomenon known as affirmative action."
+    },
+    {
+      "original_id": "C-003661",
+      "original_text": "This is the dangerous point where the slightest logical error in the formal system can suddenly turn a consistent, powerful formal structure designed to defend Liberty and property rights into the str",
+      "split_into": [
+        "C-AT-200373",
+        "C-AT-200374"
+      ],
+      "part_a": "This is the dangerous point where the slightest logical error in the formal system can suddenly turn a consistent, powerful formal structure designed ",
+      "part_b": "property rights into the strongest consistent formal structure against itself."
+    },
+    {
+      "original_id": "C-003670",
+      "original_text": "“God does not change the condition of any people until they change what is within themselves.” And what is intended by God in the Qur’anic sense—and what brings about fundamental change— is the defens",
+      "split_into": [
+        "C-AT-200375",
+        "C-AT-200376"
+      ],
+      "part_a": "“God does not change the condition of any people until they change what is within themselves.” And what is intended by God in the Qur’anic sense—and w",
+      "part_b": "property rights even when one possesses the power to steal or to use force, as in the store-and-surveillance-camera example in game theory; that is, t"
+    },
+    {
+      "original_id": "C-003676",
+      "original_text": "Divine Justice means that each person is responsible for his own act and that no one pays the penalty for another’s sin.",
+      "split_into": [
+        "C-AT-200377",
+        "C-AT-200378"
+      ],
+      "part_a": "Divine Justice means that each person is responsible for his own act",
+      "part_b": "that no one pays the penalty for another’s sin."
+    },
+    {
+      "original_id": "C-003687",
+      "original_text": "From this, one of the principal roots of violations of Liberty and property rights becomes clear: wherever a person considers another human being to be inherently inferior, less entitled, or deserving",
+      "split_into": [
+        "C-AT-200379",
+        "C-AT-200380"
+      ],
+      "part_a": "From this, one of the principal roots of violations of Liberty",
+      "part_b": "property rights becomes clear: wherever a person considers another human being to be inherently inferior, less entitled, or deserving of compulsory co"
+    },
+    {
+      "original_id": "C-003689",
+      "original_text": "Faith that no human being has the right to play God over another→ Acceptance of the dignitary equality of human beings→ Rejection of any right to superiority and dominion→ Respect for another’s body a",
+      "split_into": [
+        "C-AT-200381",
+        "C-AT-200382"
+      ],
+      "part_a": "Faith that no human being has the right to play God over another→ Acceptance of the dignitary equality of human beings→ Rejection of any right to supe",
+      "part_b": "property→ The possibility of Liberty and property rights Violation of another’s Liberty and property rights→ Justification of dominion→ Acceptance of "
+    },
+    {
+      "original_id": "C-003699",
+      "original_text": "Today Iranians understand well why one must deal decisively and severely with violators of Liberty and property rights, the foremost of which is a person’s life.",
+      "split_into": [
+        "C-AT-200383",
+        "C-AT-200384"
+      ],
+      "part_a": "Today Iranians understand well why one must deal decisively and severely with violators of Liberty",
+      "part_b": "property rights, the foremost of which is a person’s life."
+    },
+    {
+      "original_id": "C-003700",
+      "original_text": "Why State-Sponsored Science Became an Instrument of Control Let us review why faith in science — without first sitting at a common table and agreeing on the methodological and epistemological foundati",
+      "split_into": [
+        "C-AT-200385",
+        "C-AT-200386"
+      ],
+      "part_a": "Why State-Sponsored Science Became an Instrument of Control Let us review why faith in science — without first sitting at a common table and agreeing ",
+      "part_b": "property rights) — has today turned into an instrument for controlling others."
+    },
+    {
+      "original_id": "C-003711",
+      "original_text": "The only stable formal system for property rights and Liberty exists in Iran.",
+      "split_into": [
+        "C-AT-200387",
+        "C-AT-200388"
+      ],
+      "part_a": "The only stable formal system for property rights",
+      "part_b": "Liberty exists in Iran."
+    },
+    {
+      "original_id": "C-003716",
+      "original_text": "The Distortion of 19 August 1953 and the Theft of History, and the Control of the Present and Future of Iranians But as an example for those who, relying heavily on works like Ṭabarī’s History (even t",
+      "split_into": [
+        "C-AT-200389",
+        "C-AT-200390"
+      ],
+      "part_a": "The Distortion of 19 August 1953 and the Theft of History, and the Control of the Present and Future of Iranians But as an example for those who, rely",
+      "part_b": "that readers must establish the authenticity of those reports) draw astonishing conclusions about religion and the lives of the Prophet’s Household, I"
+    },
+    {
+      "original_id": "C-003736",
+      "original_text": "The Definition of the Iranian Nation Based on Liberty and Property Rights We must define the Iranian nation around the axis of Liberty and Property Rights, for we are the only nation in the world that",
+      "split_into": [
+        "C-AT-200391",
+        "C-AT-200392"
+      ],
+      "part_a": "The Definition of the Iranian Nation Based on Liberty",
+      "part_b": "Property Rights We must define the Iranian nation around the axis of Liberty and Property Rights, for we are the only nation in the world that exists "
+    },
+    {
+      "original_id": "C-003738",
+      "original_text": "The only true reason Iranians became a nation is the creation of a civilization grounded in bilateral and multilateral agreements to uphold each other’s Liberty and Property Rights, and to defend coll",
+      "split_into": [
+        "C-AT-200393",
+        "C-AT-200394"
+      ],
+      "part_a": "The only true reason Iranians became a nation is the creation of a civilization grounded in bilateral and multilateral agreements to uphold each other",
+      "part_b": "Property Rights, and to defend collectively against aggressors and all enemies of this idea."
+    },
+    {
+      "original_id": "C-003740",
+      "original_text": "Whoever defends the tradition of Liberty and Property Rights can be Iranian.",
+      "split_into": [
+        "C-AT-200395",
+        "C-AT-200396"
+      ],
+      "part_a": "Whoever defends the tradition of Liberty",
+      "part_b": "Property Rights can be Iranian."
+    },
+    {
+      "original_id": "C-003753",
+      "original_text": "That is precisely what Trump meant when he said Iranians “lose in war but win in negotiation”: negotiation skills arise from a society built upon Liberty and Property Rights—where everyone in the mark",
+      "split_into": [
+        "C-AT-200397",
+        "C-AT-200398"
+      ],
+      "part_a": "That is precisely what Trump meant when he said Iranians “lose in war but win in negotiation”: negotiation skills arise from a society built upon Libe",
+      "part_b": "Property Rights—where everyone in the market must learn how to deal and negotiate without coercion or violence."
+    },
+    {
+      "original_id": "C-003757",
+      "original_text": "The Master Key: Religion + Liberty + Iran The very idea that Iran is the land of the free—the land of those who have pledged to defend one another’s Liberty and Property Rights, and that Religion is t",
+      "split_into": [
+        "C-AT-200399",
+        "C-AT-200400"
+      ],
+      "part_a": "The Master Key: Religion + Liberty + Iran The very idea that Iran is the land of the free—the land of those who have pledged to defend one another’s L",
+      "part_b": "Property Rights, and that Religion is the only formal, consistent, and stable system through which the covenant of Liberty can be maintained—is the ma"
+    }
+  ],
+  "note": "Compound detection uses predicate-level conjunction patterns. Conservative: only clear subject+predicate duplication triggers split."
+}

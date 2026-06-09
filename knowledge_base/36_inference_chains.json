@@ -1,0 +1,635 @@
+{
+  "total_claims_traced": 19,
+  "fully_traced_to_tier0": 12,
+  "orphaned_claims": 7,
+  "chains": [
+    {
+      "target_id": "C-000071",
+      "target_text": "Theory of liberty is the only existing solution for AI ethics.",
+      "paths_found": 5,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 4,
+      "paths": [
+        {
+          "steps": [
+            "C-000071",
+            "C-000029",
+            "C-000028",
+            "A-000012"
+          ],
+          "step_texts": [
+            "Theory of liberty is the only existing solution for AI ethics.",
+            "The formal system of liberty is equivalent to religion.",
+            "A consistent formal system is necessary for understanding true religion.",
+            "A valid system must be internally consistent (Gödel)."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000071",
+            "C-000012",
+            "C-000004",
+            "C-000013",
+            "C-000001",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Theory of liberty is the only existing solution for AI ethics.",
+            "True religion as CFS must be translatable to machines.",
+            "True religion purified of mysticism is the most precise system for liberty's defense.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000071",
+            "C-000029",
+            "C-000004",
+            "C-000013",
+            "C-000001",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Theory of liberty is the only existing solution for AI ethics.",
+            "The formal system of liberty is equivalent to religion.",
+            "True religion purified of mysticism is the most precise system for liberty's defense.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000033",
+      "target_text": "Iran, if it returns to its truth, becomes the model for human-machine civilization.",
+      "paths_found": 1,
+      "has_axiom_traceback": false,
+      "shortest_path_length": 6,
+      "paths": [
+        {
+          "steps": [
+            "C-000033",
+            "C-000010",
+            "C-000060",
+            "C-000053",
+            "A-000014",
+            "[NO_UPSTREAM]"
+          ],
+          "step_texts": [
+            "Iran, if it returns to its truth, becomes the model for human-machine civilization.",
+            "Iran is the civilizational continuum — land of proprietors.",
+            "Iranian nation defined by liberty and property rights.",
+            "Shahnameh myths are the civilizational memory of liberty.",
+            "Theory has primacy over data in understanding history and religion.",
+            "[NO_UPSTREAM]"
+          ],
+          "terminates_at_axiom": false
+        }
+      ]
+    },
+    {
+      "target_id": "C-000051",
+      "target_text": "Without Mahdism, the theory of liberty cannot be completed.",
+      "paths_found": 3,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 3,
+      "paths": [
+        {
+          "steps": [
+            "C-000051",
+            "A-000015",
+            "[NO_UPSTREAM]"
+          ],
+          "step_texts": [
+            "Without Mahdism, the theory of liberty cannot be completed.",
+            "Mahdism: the theory cannot be completed without a terminal condition.",
+            "[NO_UPSTREAM]"
+          ],
+          "terminates_at_axiom": false
+        },
+        {
+          "steps": [
+            "C-000051",
+            "C-000013",
+            "C-000001",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Without Mahdism, the theory of liberty cannot be completed.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000051",
+            "C-000013",
+            "C-000001",
+            "A-000002",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Without Mahdism, the theory of liberty cannot be completed.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Property begins with the human body.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000013",
+      "target_text": "Liberty → property rights → religion (master derivation chain).",
+      "paths_found": 2,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 3,
+      "paths": [
+        {
+          "steps": [
+            "C-000013",
+            "C-000001",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000013",
+            "C-000001",
+            "A-000002",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Property begins with the human body.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000029",
+      "target_text": "The formal system of liberty is equivalent to religion.",
+      "paths_found": 3,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 3,
+      "paths": [
+        {
+          "steps": [
+            "C-000029",
+            "C-000028",
+            "A-000012"
+          ],
+          "step_texts": [
+            "The formal system of liberty is equivalent to religion.",
+            "A consistent formal system is necessary for understanding true religion.",
+            "A valid system must be internally consistent (Gödel)."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000029",
+            "C-000004",
+            "C-000013",
+            "C-000001",
+            "A-000001"
+          ],
+          "step_texts": [
+            "The formal system of liberty is equivalent to religion.",
+            "True religion purified of mysticism is the most precise system for liberty's defense.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000029",
+            "C-000004",
+            "C-000013",
+            "C-000001",
+            "A-000002",
+            "A-000001"
+          ],
+          "step_texts": [
+            "The formal system of liberty is equivalent to religion.",
+            "True religion purified of mysticism is the most precise system for liberty's defense.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Property begins with the human body.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000017",
+      "target_text": "Eliminating Tawhid proliferates axioms and leads to totalitarianism.",
+      "paths_found": 2,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 2,
+      "paths": [
+        {
+          "steps": [
+            "C-000017",
+            "A-000011"
+          ],
+          "step_texts": [
+            "Eliminating Tawhid proliferates axioms and leads to totalitarianism.",
+            "A valid formal system must have finite and minimal axioms."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000017",
+            "C-000016",
+            "A-000004",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Eliminating Tawhid proliferates axioms and leads to totalitarianism.",
+            "Tawhid guarantees liberty by eliminating servitude to other-than-God.",
+            "Tawhid: no servitude to anything other than God.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000021",
+      "target_text": "Liberty is unstable without resurrection (last-round problem).",
+      "paths_found": 1,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 4,
+      "paths": [
+        {
+          "steps": [
+            "C-000021",
+            "A-000006",
+            "A-000004",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Liberty is unstable without resurrection (last-round problem).",
+            "Resurrection exists; it stabilizes liberty.",
+            "Tawhid: no servitude to anything other than God.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000056",
+      "target_text": "Ghadir = transfer of wilayah, not political state.",
+      "paths_found": 1,
+      "has_axiom_traceback": false,
+      "shortest_path_length": 3,
+      "paths": [
+        {
+          "steps": [
+            "C-000056",
+            "C-000055",
+            "[NO_UPSTREAM]"
+          ],
+          "step_texts": [
+            "Ghadir = transfer of wilayah, not political state.",
+            "Religion is the antithesis of the state.",
+            "[NO_UPSTREAM]"
+          ],
+          "terminates_at_axiom": false
+        }
+      ]
+    },
+    {
+      "target_id": "C-000048",
+      "target_text": "State education reproduces slavery.",
+      "paths_found": 1,
+      "has_axiom_traceback": false,
+      "shortest_path_length": 4,
+      "paths": [
+        {
+          "steps": [
+            "C-000048",
+            "C-000047",
+            "C-000046",
+            "[NO_UPSTREAM]"
+          ],
+          "step_texts": [
+            "State education reproduces slavery.",
+            "Taxation is a penalty for creativity.",
+            "Envy is the root of socialism.",
+            "[NO_UPSTREAM]"
+          ],
+          "terminates_at_axiom": false
+        }
+      ]
+    },
+    {
+      "target_id": "C-000074",
+      "target_text": "Hegel, Marx, fascism, communism are recyclings of ancient mysticism.",
+      "paths_found": 1,
+      "has_axiom_traceback": false,
+      "shortest_path_length": 3,
+      "paths": [
+        {
+          "steps": [
+            "C-000074",
+            "C-000009",
+            "[NO_UPSTREAM]"
+          ],
+          "step_texts": [
+            "Hegel, Marx, fascism, communism are recyclings of ancient mysticism.",
+            "Mysticism is the philosophical pipeline from anti-property to totalitarianism.",
+            "[NO_UPSTREAM]"
+          ],
+          "terminates_at_axiom": false
+        }
+      ]
+    },
+    {
+      "target_id": "C-000016",
+      "target_text": "Tawhid guarantees liberty by eliminating servitude to other-than-God.",
+      "paths_found": 1,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 3,
+      "paths": [
+        {
+          "steps": [
+            "C-000016",
+            "A-000004",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Tawhid guarantees liberty by eliminating servitude to other-than-God.",
+            "Tawhid: no servitude to anything other than God.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000004",
+      "target_text": "True religion purified of mysticism is the most precise system for liberty's defense.",
+      "paths_found": 2,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 4,
+      "paths": [
+        {
+          "steps": [
+            "C-000004",
+            "C-000013",
+            "C-000001",
+            "A-000001"
+          ],
+          "step_texts": [
+            "True religion purified of mysticism is the most precise system for liberty's defense.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000004",
+            "C-000013",
+            "C-000001",
+            "A-000002",
+            "A-000001"
+          ],
+          "step_texts": [
+            "True religion purified of mysticism is the most precise system for liberty's defense.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Property begins with the human body.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000001",
+      "target_text": "Liberty = individual property rights.",
+      "paths_found": 2,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 2,
+      "paths": [
+        {
+          "steps": [
+            "C-000001",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Liberty = individual property rights.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000001",
+            "A-000002",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Liberty = individual property rights.",
+            "Property begins with the human body.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000028",
+      "target_text": "A consistent formal system is necessary for understanding true religion.",
+      "paths_found": 1,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 2,
+      "paths": [
+        {
+          "steps": [
+            "C-000028",
+            "A-000012"
+          ],
+          "step_texts": [
+            "A consistent formal system is necessary for understanding true religion.",
+            "A valid system must be internally consistent (Gödel)."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000012",
+      "target_text": "True religion as CFS must be translatable to machines.",
+      "paths_found": 2,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 5,
+      "paths": [
+        {
+          "steps": [
+            "C-000012",
+            "C-000004",
+            "C-000013",
+            "C-000001",
+            "A-000001"
+          ],
+          "step_texts": [
+            "True religion as CFS must be translatable to machines.",
+            "True religion purified of mysticism is the most precise system for liberty's defense.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000012",
+            "C-000004",
+            "C-000013",
+            "C-000001",
+            "A-000002",
+            "A-000001"
+          ],
+          "step_texts": [
+            "True religion as CFS must be translatable to machines.",
+            "True religion purified of mysticism is the most precise system for liberty's defense.",
+            "Liberty → property rights → religion (master derivation chain).",
+            "Liberty = individual property rights.",
+            "Property begins with the human body.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000043",
+      "target_text": "Democracy does not legitimize the choice to violate individual rights.",
+      "paths_found": 2,
+      "has_axiom_traceback": true,
+      "shortest_path_length": 3,
+      "paths": [
+        {
+          "steps": [
+            "C-000043",
+            "C-000001",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Democracy does not legitimize the choice to violate individual rights.",
+            "Liberty = individual property rights.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        },
+        {
+          "steps": [
+            "C-000043",
+            "C-000001",
+            "A-000002",
+            "A-000001"
+          ],
+          "step_texts": [
+            "Democracy does not legitimize the choice to violate individual rights.",
+            "Liberty = individual property rights.",
+            "Property begins with the human body.",
+            "Human free will exists and is universally presupposed."
+          ],
+          "terminates_at_axiom": true
+        }
+      ]
+    },
+    {
+      "target_id": "C-000055",
+      "target_text": "Religion is the antithesis of the state.",
+      "paths_found": 1,
+      "has_axiom_traceback": false,
+      "shortest_path_length": 2,
+      "paths": [
+        {
+          "steps": [
+            "C-000055",
+            "[NO_UPSTREAM]"
+          ],
+          "step_texts": [
+            "Religion is the antithesis of the state.",
+            "[NO_UPSTREAM]"
+          ],
+          "terminates_at_axiom": false
+        }
+      ]
+    },
+    {
+      "target_id": "C-000060",
+      "target_text": "Iranian nation defined by liberty and property rights.",
+      "paths_found": 1,
+      "has_axiom_traceback": false,
+      "shortest_path_length": 4,
+      "paths": [
+        {
+          "steps": [
+            "C-000060",
+            "C-000053",
+            "A-000014",
+            "[NO_UPSTREAM]"
+          ],
+          "step_texts": [
+            "Iranian nation defined by liberty and property rights.",
+            "Shahnameh myths are the civilizational memory of liberty.",
+            "Theory has primacy over data in understanding history and religion.",
+            "[NO_UPSTREAM]"
+          ],
+          "terminates_at_axiom": false
+        }
+      ]
+    },
+    {
+      "target_id": "C-000046",
+      "target_text": "Envy is the root of socialism.",
+      "paths_found": 1,
+      "has_axiom_traceback": false,
+      "shortest_path_length": 2,
+      "paths": [
+        {
+          "steps": [
+            "C-000046",
+            "[NO_UPSTREAM]"
+          ],
+          "step_texts": [
+            "Envy is the root of socialism.",
+            "[NO_UPSTREAM]"
+          ],
+          "terminates_at_axiom": false
+        }
+      ]
+    }
+  ]
+}

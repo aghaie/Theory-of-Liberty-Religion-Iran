@@ -1,0 +1,301 @@
+{
+  "notation": {
+    "propositional": {
+      "->": "implies",
+      "<->": "iff",
+      "¬": "not",
+      "∧": "and",
+      "∨": "or"
+    },
+    "first_order": {
+      "∀": "for all",
+      "∃": "there exists",
+      "→": "implies"
+    },
+    "modal_K": {
+      "□": "necessarily",
+      "◇": "possibly"
+    },
+    "modal_S5": {
+      "□": "necessarily (true in all possible worlds)",
+      "◇": "possibly (true in some world)"
+    },
+    "deontic": {
+      "O": "obligatory",
+      "P": "permitted",
+      "F": "forbidden",
+      "W": "waived"
+    },
+    "symbols": {
+      "FW(x)": "x has free will",
+      "L(x)": "x has liberty",
+      "PR(x)": "x has property rights",
+      "R": "true religion (CFS)",
+      "T": "Tawhid holds",
+      "Res": "Resurrection obtains",
+      "Proph": "Prophethood obtains",
+      "S(x)": "x is in servitude to others",
+      "G(x)": "x is an agent claiming godlike authority",
+      "CFS(X)": "X is a consistent formal axiomatic system",
+      "M(x)": "x exhibits mysticism",
+      "AI_E": "AI has an ethical alignment system",
+      "Iran": "Iranian civilizational substrate",
+      "Coop(x,y)": "x cooperates (respects property of) y",
+      "Defect(x,y)": "x defects (violates property of) y in last round"
+    }
+  },
+  "total_formalizations": 26,
+  "by_logic_type": {
+    "propositional": 7,
+    "first_order": 11,
+    "modal_S5": 4,
+    "deontic": 4
+  },
+  "formalizations": [
+    {
+      "formal_id": "F2-001",
+      "claim_id": "C-000001",
+      "logic_type": "propositional",
+      "natural": "Liberty is identical to individual property rights.",
+      "formal": "L ↔ PR",
+      "confidence": 95,
+      "notes": "Definitional biconditional; the theory's central definition."
+    },
+    {
+      "formal_id": "F2-002",
+      "claim_id": "C-000039",
+      "logic_type": "propositional",
+      "natural": "Denial of free will is self-refuting.",
+      "formal": "assert(¬FW) → FW",
+      "confidence": 90,
+      "notes": "Performative contradiction: asserting ¬FW requires FW to make the assertion."
+    },
+    {
+      "formal_id": "F2-003",
+      "claim_id": "C-000017",
+      "logic_type": "propositional",
+      "natural": "Eliminating Tawhid proliferates axioms and leads to totalitarianism.",
+      "formal": "¬T → (|Axioms| → ∞) → ¬CFS → M → ¬L",
+      "confidence": 80,
+      "notes": "Chain: no Tawhid → infinite axiom proliferation → no consistent system → mysticism → no liberty."
+    },
+    {
+      "formal_id": "F2-004",
+      "claim_id": "C-000013",
+      "logic_type": "propositional",
+      "natural": "Liberty → Property Rights → Religion (master chain).",
+      "formal": "L → PR ∧ PR → (stable(L) → R)",
+      "confidence": 82,
+      "notes": "The arrow PR → R is conditional on stability requirement."
+    },
+    {
+      "formal_id": "F2-005",
+      "claim_id": "C-000029",
+      "logic_type": "propositional",
+      "natural": "The formal system of liberty is equivalent to religion.",
+      "formal": "CFS(L) ↔ R",
+      "confidence": 85,
+      "notes": "Biconditional: any CFS for liberty is religion; religion (authentic) is a CFS for liberty."
+    },
+    {
+      "formal_id": "F2-006",
+      "claim_id": "C-000021",
+      "logic_type": "propositional",
+      "natural": "Liberty is unstable without Resurrection.",
+      "formal": "¬Res → ∃ last_round_defection → ¬stable(L)",
+      "confidence": 80,
+      "notes": "Game-theoretic: without unknown terminal, backward induction produces defection."
+    },
+    {
+      "formal_id": "F2-007",
+      "claim_id": "A-000012",
+      "logic_type": "propositional",
+      "natural": "A valid formal system must be internally consistent.",
+      "formal": "valid(FS) → ¬∃(p): FS ⊢ p ∧ FS ⊢ ¬p",
+      "confidence": 95,
+      "notes": "Standard consistency requirement. Capital-C Consistent in Gödel sense: no proof of ⊥."
+    },
+    {
+      "formal_id": "F2-008",
+      "claim_id": "A-000001",
+      "logic_type": "first_order",
+      "natural": "Human free will exists and is universally presupposed.",
+      "formal": "∀x[Human(x) → FW(x)] ∧ ∀x[RationalAgent(x) → Presupposes(x, FW(x))]",
+      "confidence": 90,
+      "notes": "Universal quantification over humans. Second conjunct: performative presupposition."
+    },
+    {
+      "formal_id": "F2-009",
+      "claim_id": "A-000004",
+      "logic_type": "first_order",
+      "natural": "Tawhid: no human has the right to deprive another of free will.",
+      "formal": "T ↔ ∀x∀y[Human(x) ∧ Human(y) → ¬HasRightTo(x, DepriveFW(y))]",
+      "confidence": 88,
+      "notes": "Tawhid operationalized as universal prohibition on depriving others of free will."
+    },
+    {
+      "formal_id": "F2-010",
+      "claim_id": "C-000016",
+      "logic_type": "first_order",
+      "natural": "Tawhid guarantees liberty by eliminating servitude to other-than-God.",
+      "formal": "T → ∀x[Human(x) → ¬S(x)] → ∀x[Human(x) → L(x)]",
+      "confidence": 85,
+      "notes": "T eliminates servitude; absence of servitude entails liberty."
+    },
+    {
+      "formal_id": "F2-011",
+      "claim_id": "A-000008",
+      "logic_type": "first_order",
+      "natural": "Rule of Taslīṭ: persons are sovereign over their property.",
+      "formal": "∀x∀p[Human(x) ∧ Owns(x,p) → Sovereign(x,p) ∧ ¬∃y[y≠x ∧ HasRightTo(y, Control(p))]]",
+      "confidence": 90,
+      "notes": "Exclusive sovereignty; no third party has rightful control over another's property."
+    },
+    {
+      "formal_id": "F2-012",
+      "claim_id": "C-000055",
+      "logic_type": "first_order",
+      "natural": "Religion is the antithesis of the state.",
+      "formal": "∀x[CFS_Liberty(x) → ¬State(x)] ∧ ∀x[State(x) → ¬CFS_Liberty(x)]",
+      "confidence": 80,
+      "notes": "Mutual exclusion: no system can be simultaneously state (monopoly-coercion) and liberty-CFS."
+    },
+    {
+      "formal_id": "F2-013",
+      "claim_id": "C-000043",
+      "logic_type": "first_order",
+      "natural": "Democracy cannot legitimize violating individual rights.",
+      "formal": "∀p[IndividualRight(p) → ¬∃majority[majority-vote(¬p) → Legitimate(¬p)]]",
+      "confidence": 85,
+      "notes": "Individual rights are outside the domain of democratic legitimation."
+    },
+    {
+      "formal_id": "F2-014",
+      "claim_id": "A-000001",
+      "logic_type": "modal_S5",
+      "natural": "Free will is necessarily presupposed by all rational agents.",
+      "formal": "□(∀x[RationalAgent(x) → Presupposes(x, FW(x))])",
+      "confidence": 88,
+      "notes": "Necessity modal: in all possible worlds where rational agents exist, they presuppose free will."
+    },
+    {
+      "formal_id": "F2-015",
+      "claim_id": "C-000039",
+      "logic_type": "modal_S5",
+      "natural": "There is no possible world in which free will is coherently denied.",
+      "formal": "¬◇(∃x[RationalAgent(x) ∧ CoherentlyAsserts(x, ¬FW(x))])",
+      "confidence": 85,
+      "notes": "Impossibility of coherent free will denial across all possible worlds."
+    },
+    {
+      "formal_id": "F2-016",
+      "claim_id": "C-000071",
+      "logic_type": "modal_S5",
+      "natural": "The theory of liberty is the only possible consistent formal system for AI ethics.",
+      "formal": "□(∀s[CFS_AiEthics(s) → Equivalent(s, TheoryOfLiberty)])",
+      "confidence": 60,
+      "notes": "FRAGILE: this is the uniqueness claim. The modal necessity is the weakest link. Requires proof that no alternative CFS exists."
+    },
+    {
+      "formal_id": "F2-017",
+      "claim_id": "A-000006",
+      "logic_type": "modal_S5",
+      "natural": "Resurrection (unknown terminal) is possibly true and if true, stabilizes liberty.",
+      "formal": "◇Res ∧ (Res → □stable(L))",
+      "confidence": 70,
+      "notes": "Author does not claim Resurrection is necessarily true; only that it is agreement-admissible. Modal possibility captures this."
+    },
+    {
+      "formal_id": "F2-018",
+      "claim_id": "A-000005",
+      "logic_type": "deontic",
+      "natural": "No compulsion in religion: it is forbidden to force religion on anyone.",
+      "formal": "F(∀x∀y[Human(x) ∧ Human(y) → Coerce(x, AcceptReligion, y)])",
+      "confidence": 92,
+      "notes": "Deontic prohibition: coercing religious acceptance is forbidden."
+    },
+    {
+      "formal_id": "F2-019",
+      "claim_id": "A-000008",
+      "logic_type": "deontic",
+      "natural": "It is forbidden for anyone to violate another's property rights.",
+      "formal": "∀x∀y∀p[Human(x) ∧ Owns(y,p) ∧ x≠y → F(Violate(x, PropertyRight(y,p)))]",
+      "confidence": 93,
+      "notes": "Universal deontic prohibition on property violation."
+    },
+    {
+      "formal_id": "F2-020",
+      "claim_id": "C-000026",
+      "logic_type": "deontic",
+      "natural": "Market intervention is forbidden because it is equivalent to servitude.",
+      "formal": "∀x[MarketIntervention(x) → Servitude(x)] ∧ F(Servitude) → F(MarketIntervention)",
+      "confidence": 78,
+      "notes": "Deontic transfer: if servitude is forbidden and intervention = servitude, intervention is forbidden."
+    },
+    {
+      "formal_id": "F2-021",
+      "claim_id": "C-000009",
+      "logic_type": "deontic",
+      "natural": "Mysticism is forbidden as it separates persons from their rights.",
+      "formal": "∀s[Mysticism(s) → ∀x[Member(x,s) → F(Member(x,s))]]",
+      "confidence": 70,
+      "notes": "Conditional deontic: membership in mystical systems is forbidden because of what such systems do."
+    },
+    {
+      "formal_id": "F2-022",
+      "claim_id": "C-000028",
+      "logic_type": "first_order",
+      "natural": "A consistent formal system is necessary and sufficient for true religion.",
+      "formal": "R_authentic ↔ CFS(liberty) ∧ ¬(∃p: CFS ⊢ p ∧ CFS ⊢ ¬p)",
+      "confidence": 82,
+      "notes": "Biconditional: authentic religion IS a consistent formal system for liberty."
+    },
+    {
+      "formal_id": "F2-023",
+      "claim_id": "A-000011",
+      "logic_type": "first_order",
+      "natural": "Minimal axiom set: for any two systems solving the same problem, prefer fewer axioms.",
+      "formal": "∀F1∀F2[SolveSame(F1,F2,Goal) ∧ |Axioms(F1)| < |Axioms(F2)| → Prefer(F1,F2)]",
+      "confidence": 88,
+      "notes": "Principle of parsimony applied to axiomatic systems. Grounds the Tawhid-over-alternatives argument."
+    },
+    {
+      "formal_id": "F2-024",
+      "claim_id": "C-000012",
+      "logic_type": "first_order",
+      "natural": "If religion is a CFS, it can be encoded for AI alignment.",
+      "formal": "CFS(R) → ∃encoding[Encodes(encoding, R, AI) ∧ Aligned(AI, L)]",
+      "confidence": 72,
+      "notes": "Existence claim: some encoding procedure maps CFS(R) to AI-alignment specification."
+    },
+    {
+      "formal_id": "F2-025",
+      "claim_id": "HA-001",
+      "logic_type": "first_order",
+      "natural": "Objective truth exists independently of any observer.",
+      "formal": "∃T[Truth(T) ∧ ∀x[Observer(x) → ¬Determines(x, T)]]",
+      "confidence": 85,
+      "notes": "Hidden axiom; required for 'agreement-admissible' to mean something non-trivial."
+    },
+    {
+      "formal_id": "F2-026",
+      "claim_id": "HA-008",
+      "logic_type": "first_order",
+      "natural": "Gödel's theorems apply to the theory's axiomatic system.",
+      "formal": "∃F[AxiomSystem(F, Theory_of_Liberty) ∧ SufficientlyRich(F) ∧ AppliesTo(Gödel, F)]",
+      "confidence": 55,
+      "notes": "FRAGILE: this existence claim is the weakest formalization. 'SufficientlyRich' requires Robinson arithmetic as a subsystem, which is unproven for social axiomatic systems."
+    }
+  ],
+  "coverage_assessment": {
+    "propositional": "Core chain formalized; sufficient for SAT-solver input with translation.",
+    "first_order": "Universal quantifications over humans and systems captured; sufficient for FOL theorem provers.",
+    "modal": "Necessity/possibility of liberty claims captured; requires S5 semantics.",
+    "deontic": "Prohibition/permission structure of property rights captured; requires Standard Deontic Logic or Anderson's reduction.",
+    "known_gaps": [
+      "The Resurrection game-theory argument needs temporal logic (LTL or CTL) to capture 'last-round'.",
+      "The Mahdism terminal condition needs a temporal operator for 'unknown future time T*'.",
+      "The Iran civilizational claims need a historical-process logic (interval logic or dynamic logic)."
+    ]
+  }
+}

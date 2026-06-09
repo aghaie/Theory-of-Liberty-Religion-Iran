@@ -1,0 +1,163 @@
+{
+  "title": "PHASE 0.9 — THEORY COMPILER HARDENING — FINAL REPORT",
+  "book": "Theory of Liberty (Individual Property Rights) — Iran & Religion",
+  "author": "Mohammadali Jannatkhahdoost",
+  "date": "June 2026",
+  "phase": "0.9",
+  "hardening_statistics": {
+    "claims_after_atomization": 17229,
+    "compound_claims_split": 660,
+    "axiom_candidates_audited": 838,
+    "axiom_candidates_retained": 636,
+    "named_axioms_classified": 15,
+    "hidden_axioms_discovered": 12,
+    "canonical_definitions_normalized": 12,
+    "definitional_conflicts_flagged": 3,
+    "validated_backbone_edges": 46,
+    "inference_chains_built": 19,
+    "claims_fully_traced_to_axiom": 12,
+    "orphaned_source_nodes": 8,
+    "leaf_nodes": 24,
+    "true_orphans": 0,
+    "cycles_found": 0,
+    "contradiction_candidates": 10,
+    "critical_unresolved_contradictions": 5,
+    "formalizations_produced": 26,
+    "kernel_axioms": 6,
+    "kernel_claims": 14,
+    "minimum_axiom_set_size": 3,
+    "graph_integrity_score": 60,
+    "theorem_prover_readiness_score": 64
+  },
+  "question_1": {
+    "q": "Is the theory graph complete?",
+    "a": "PARTIALLY",
+    "detail": "The validated backbone (46 edges, ~40 named nodes) is complete for the logical spine. The full claim graph (16,178 nodes, 35K probabilistic edges) is comprehensive but not all edges are validated. 7 of 19 major inference chains do not fully trace to tier-0 axioms via the backbone — these rely on historical claims (Iran, Ghadir, Shahnameh) that are embedded as premises, not conclusions. The graph is complete for formal analysis of the theory's philosophical core; incomplete for the civilizational and historical branches."
+  },
+  "question_2": {
+    "q": "Are the axioms minimized?",
+    "a": "YES",
+    "detail": "Reduction from 15 named axioms to 3 foundational (FW, Finite, Consistent) + 3 theological (Tawhid, Resurrection, Prophethood) = 6. A-000003 (Liberty requires divine grounding) is confirmed redundant: it is derivable from A-000001 + A-000004. A-000005, A-000009, A-000010 are derivable from A-000004. A-000008 is derivable from A-000002 + A-000004. A-000013 is derivable from A-000001. A-000014 is derivable from A-000012. A-000015 (Mahdism) is the only non-reducible terminal axiom. 12 hidden axioms identified as meta-layer prerequisites — cannot be eliminated but should be acknowledged."
+  },
+  "question_3": {
+    "q": "Are hidden axioms identified?",
+    "a": "YES",
+    "detail": "12 hidden axioms identified and formally stated. Most critical: HA-001 (objective truth), HA-002 (reliable reason), HA-005 (valid inference), HA-008 (Gödel transfer). HA-008 is the most technically dangerous: it is unproven and undermines the theory's strongest methodological claim. HA-006 (uniqueness of CFS) is the most consequential for the AI-alignment conclusion. All 12 hidden axioms have been given formal statements and classified by type."
+  },
+  "question_4": {
+    "q": "Are definitions normalized?",
+    "a": "YES",
+    "detail": "12 canonical definitions produced with formal symbols, source claims, and scope notes. 3 definitional conflicts identified and resolution paths specified: (1) Mysticism is circular — must be given independent structural characterization; (2) Communism is stipulatively expanded — must track COM_narrow vs. COM_broad; (3) Religion conflates authentic and historical senses — must use R_authentic vs. R_historical. Islam is the only major term with stable definition (80% overlap across 27 occurrences). Liberty has 177 definitional occurrences but all are consistent with the canonical definition."
+  },
+  "question_5": {
+    "q": "Are contradiction candidates reconstructed?",
+    "a": "YES",
+    "detail": "10 contradiction candidates reconstructed with full dependency paths. 5 are structurally unresolved: CR-003 (Tawhid objectivity), CR-004 (Austrian School uniqueness), CR-006 (Gödel transfer), CR-007 (mysticism circularity — CRITICAL), CR-010 (theory primacy vs. evidence). CR-007 is the most severe: it is a circular definition that creates a circular argument. 5 are resolvable by scope, temporal, or person/theory distinctions."
+  },
+  "question_6": {
+    "q": "Is the graph theorem-prover ready?",
+    "a": "PARTIALLY",
+    "detail": "Overall readiness score: 64/100. The propositional core (SAT-solving) scores 82/100 — ready with standard encoding. FOL theorem proving scores 65/100 — blocked by second-order CFS predicate. Full readiness blocked by: CR-007 circular definition, HA-008 Gödel transfer claim, and the uniqueness claim (C-000071) not expressed as a theorem to be proven."
+  },
+  "question_7": {
+    "q": "Is the graph suitable for Gödel analysis?",
+    "a": "PARTIALLY",
+    "detail": "Gödel readiness score: 45/100. The theory makes explicit Gödel claims (religion is Consistent in Gödel's sense). Blocking issues: (1) Robinson Arithmetic subsystem not demonstrated; (2) self-referential structure ('this theory is a CFS; religion is a CFS; this theory is religion') not formally handled; (3) By G2, if consistent, the theory cannot prove its own consistency — but it asserts consistency. The theory is suitable for INFORMAL Gödel analysis (applying Gödel's concepts metaphorically) but not for formal Gödel proof-theoretic analysis."
+  },
+  "question_8": {
+    "q": "Is the graph suitable for AI-alignment analysis?",
+    "a": "YES",
+    "detail": "The theory's AI-alignment claims (C-000011, C-000012, C-000071) are well-positioned for AI-alignment evaluation because: (1) the theory is explicit about what a CFS for liberty means, (2) the formalization expansion provides 26 machine-readable logical statements, (3) the kernel (6 axioms + 14 claims + 8 definitions) is compact enough for AI encoding, (4) the theory makes a specific and falsifiable uniqueness claim. The blocking issue for AI-alignment analysis is HA-006 (uniqueness not proven) and the need for a formal translation protocol from the deontic-modal formalizations to a machine-actionable reward/constraint specification."
+  },
+  "question_9": {
+    "q": "What remains structurally weak?",
+    "a": "IDENTIFIED",
+    "weaknesses": [
+      {
+        "rank": 1,
+        "issue": "Circular definition of mysticism (CR-007)",
+        "impact": "Any argument using 'mysticism leads to anti-liberty' is circular if mysticism is defined as anti-liberty. This affects ~428 history-domain claims.",
+        "severity": "CRITICAL"
+      },
+      {
+        "rank": 2,
+        "issue": "Gödel transfer claim (HA-008, CR-006)",
+        "impact": "If religion's axiom system is not of sufficient arithmetic power, the Gödel-theoretic methodology loses its formal justification. The 'Consistent' (capital-C) language throughout the theory is then illustrative, not technical.",
+        "severity": "HIGH"
+      },
+      {
+        "rank": 3,
+        "issue": "Uniqueness claim for AI ethics (C-000071, HA-006)",
+        "impact": "The theory's terminal conclusion is unproven uniqueness. It is asserted as a challenge, not a theorem. This makes the AI-alignment conclusion empirically vulnerable.",
+        "severity": "HIGH"
+      },
+      {
+        "rank": 4,
+        "issue": "Historical claims embedded as premises (A-000014)",
+        "impact": "Iran as land of proprietors, Ghadir interpretation, Shahnameh as civilizational memory — these are treated as theory-confirmed facts, but they are empirical claims that must be independently supported. If they fail, the civilizational Layer 4 collapses.",
+        "severity": "MEDIUM-HIGH"
+      },
+      {
+        "rank": 5,
+        "issue": "7 of 19 major claims lack full axiom traceback",
+        "impact": "Terminal civilizational conclusions cannot be traced back to tier-0 axioms via the validated backbone. They depend on the historical premises above.",
+        "severity": "MEDIUM"
+      },
+      {
+        "rank": 6,
+        "issue": "Mahdism terminal axiom (A-000015) has no secular derivation",
+        "impact": "The theory is incomplete for non-Shi'a readers unless Mahdism can be reformulated as a secular terminal condition (e.g., 'the theory requires a terminal condition whose timing is unknown — Mahdism is the religious name for this logical requirement').",
+        "severity": "MEDIUM"
+      },
+      {
+        "rank": 7,
+        "issue": "Deontic bridge from liberty to obligation not explicit",
+        "impact": "The transition from 'liberty = property rights' (descriptive) to 'thou shalt not violate property' (deontic) requires a bridge principle that moral facts are objective (HA-012). This is a hidden axiom, not a derived claim.",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  "question_10": {
+    "q": "What additional reconstruction is required before scientific evaluation?",
+    "a": "IDENTIFIED",
+    "required_work": [
+      {
+        "priority": 1,
+        "task": "Resolve CR-007: Redefine mysticism structurally without using liberty-violation in the definition.",
+        "effort": "LOW — definitional reform, ~1 paragraph",
+        "blocking": "All arguments that use mysticism as an explanandum"
+      },
+      {
+        "priority": 2,
+        "task": "Formalize or downgrade the Gödel transfer claim (HA-008): Either prove the axiom system contains Robinson Arithmetic, or replace 'Consistent (Gödel-sense)' with 'consistent (non-contradictory)' throughout.",
+        "effort": "HIGH — requires collaboration with a formal logician",
+        "blocking": "All CFS methodology claims"
+      },
+      {
+        "priority": 3,
+        "task": "Express C-000071 as a theorem-to-be-proven: 'No other consistent formal axiomatic system for individual liberty and property rights has been proposed that is independent of {FW, Tawhid, Resurrection, Prophethood}.' Then attempt falsification.",
+        "effort": "MEDIUM — requires survey of literature + formal comparison",
+        "blocking": "AI-alignment uniqueness claim"
+      },
+      {
+        "priority": 4,
+        "task": "Separate empirical historical premises from derived claims: Flag A-000014-dependent claims as 'conditionally valid given historical premises' rather than unconditionally valid.",
+        "effort": "MEDIUM — tagging exercise + dependency re-annotation",
+        "blocking": "Scientific evaluation of Layer 4 (civilizational) claims"
+      },
+      {
+        "priority": 5,
+        "task": "Extend formalization to temporal logic: The Resurrection last-round argument and Mahdism terminal condition require LTL or epistemic-temporal modalities. Without these, the game-theoretic proofs cannot be machine-checked.",
+        "effort": "HIGH — requires temporal logic encoding",
+        "blocking": "Game-theoretic and eschatological branch theorem-proving"
+      },
+      {
+        "priority": 6,
+        "task": "Produce a constructive model for consistency: Build a minimal model (satisfying all 6 kernel axioms simultaneously) to demonstrate that the kernel is consistent. This is required before Gödel analysis.",
+        "effort": "MEDIUM — model construction in Lean 4 or Coq",
+        "blocking": "All consistency checking and Gödel analysis"
+      }
+    ]
+  },
+  "overall_hardening_verdict": "The knowledge base has been substantially hardened. The theory's logical spine is now machine-traversable, formally expressed, and integrity-checked. The minimum axiom set has been reduced from 15 to 6 (with 12 hidden axioms identified). 10 contradiction candidates have been reconstructed with full dependency paths. 26 formalizations across 4 logic types have been produced. The theory is ready for domain-specific scientific evaluation of its economic, political-theory, and philosophical claims. It is not yet ready for full formal theorem-proving of its terminal claims until the 6 priority reconstruction tasks above are completed. The most critical unresolved issue is the circular definition of mysticism (CR-007). Fixing this single issue would eliminate the circularity concern from ~428 claims."
+}
