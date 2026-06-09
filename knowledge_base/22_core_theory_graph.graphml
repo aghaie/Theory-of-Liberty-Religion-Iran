@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/graphml">
+  <key id="label" for="node" attr.name="label" attr.type="string"/>
+  <key id="type" for="node" attr.name="type" attr.type="string"/>
+  <key id="tier" for="node" attr.name="tier" attr.type="string"/>
+  <key id="relation" for="edge" attr.name="relation" attr.type="string"/>
+  <graph id="theory_of_liberty" edgedefault="directed">
+    <node id="A-000001">
+      <data key="label">Human free will exists and is universally presupposed.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="A-000002">
+      <data key="label">Property begins with the human body.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="A-000003">
+      <data key="label">Liberty requires divine grounding to withstand state and maj</data>
+      <data key="type">axiom</data>
+      <data key="tier">1</data>
+    </node>
+    <node id="A-000004">
+      <data key="label">Tawhid: no servitude to anything other than God.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="A-000005">
+      <data key="label">No compulsion in religion.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="A-000006">
+      <data key="label">Resurrection exists; it stabilizes liberty.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="A-000007">
+      <data key="label">Prophethood is real; it is the barrier against false messiah</data>
+      <data key="type">axiom</data>
+      <data key="tier">2</data>
+    </node>
+    <node id="A-000008">
+      <data key="label">Rule of Taslīṭ: individuals are sovereign over their own pro</data>
+      <data key="type">axiom</data>
+      <data key="tier">2</data>
+    </node>
+    <node id="A-000009">
+      <data key="label">Dignitary equality: all humans are equal in dignity before G</data>
+      <data key="type">axiom</data>
+      <data key="tier">2</data>
+    </node>
+    <node id="A-000010">
+      <data key="label">Personal accountability: each person is accountable only to </data>
+      <data key="type">axiom</data>
+      <data key="tier">2</data>
+    </node>
+    <node id="A-000011">
+      <data key="label">A valid formal system must have finite and minimal axioms.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="A-000012">
+      <data key="label">A valid system must be internally consistent (non-contradict</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="A-000013">
+      <data key="label">Liberty and property rights are prior normative axioms to an</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="A-000014">
+      <data key="label">Theory has primacy over data in understanding history and re</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="A-000015">
+      <data key="label">Mahdism: the theory cannot be completed without a terminal c</data>
+      <data key="type">axiom</data>
+      <data key="tier">3</data>
+    </node>
+    <node id="C-000001">
+      <data key="label">Liberty = individual property rights.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000015">
+      <data key="label">Free will is the axiom everyone is forced to presuppose.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000039">
+      <data key="label">Denial of free will is self-refuting.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000014">
+      <data key="label">Acceptance of free will is prerequisite for science.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000022">
+      <data key="label">Liberty and property rights are prior to scientific conclusi</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000003">
+      <data key="label">Owning the body is necessary for being free.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000038">
+      <data key="label">Deterministic government is incompatible with volitional lib</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000016">
+      <data key="label">Tawhid guarantees liberty by eliminating servitude to other-</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000017">
+      <data key="label">Eliminating Tawhid proliferates axioms and leads to totalita</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000018">
+      <data key="label">Formal systems must have finite, minimal axioms.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000027">
+      <data key="label">Gödel: humans are not machines; they perceive truths no form</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000028">
+      <data key="label">A consistent formal system is necessary for understanding tr</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000021">
+      <data key="label">Liberty is unstable without resurrection (last-round problem</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000023">
+      <data key="label">Prophethood is barrier against fraud and false messiahs.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000041">
+      <data key="label">Law is discovered, not enacted.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000042">
+      <data key="label">Institution ≠ organization; conflating them destroys liberty</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000046">
+      <data key="label">Envy is the root of socialism.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000034">
+      <data key="label">Central bank = earthly god; violates liberty.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000043">
+      <data key="label">Democracy does not legitimize the choice of the devil.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000004">
+      <data key="label">True religion purified of mysticism is the most precise syst</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000040">
+      <data key="label">Austrian School is incomplete without theological grounding.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000050">
+      <data key="label">Hobbes is more honest than Locke and Rothbard but still inco</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000047">
+      <data key="label">Taxation is a penalty for creativity.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000048">
+      <data key="label">State education reproduces slavery.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000045">
+      <data key="label">Family disruption paves the way for the state.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000036">
+      <data key="label">Suffolk Bank demonstrates viability of free banking.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000037">
+      <data key="label">Mudarabah is the natural contract under free banking.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000029">
+      <data key="label">The formal system of liberty is equivalent to religion.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000055">
+      <data key="label">Religion is antithesis of the state.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000067">
+      <data key="label">Rule of Taslīṭ is the religious form of property rights.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000013">
+      <data key="label">Liberty → property rights → religion (master derivation).</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000010">
+      <data key="label">Iran is the civilizational continuum — land of proprietors.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000059">
+      <data key="label">Iran's crisis: distortion of religion + theft of history.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000053">
+      <data key="label">Shahnameh myths are the civilizational memory of liberty.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000056">
+      <data key="label">Ghadir = transfer of wilayah, not political state.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000057">
+      <data key="label">Islam entered Iran as theory of transformation, not only swo</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000060">
+      <data key="label">Iranian nation defined by liberty and property rights.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000032">
+      <data key="label">Iran historically independent from Hobbesian Leviathan model</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000074">
+      <data key="label">Hegel, Marx, fascism, communism are recyclings of ancient my</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000078">
+      <data key="label">If Shi'ism were consistent with socialism/fascism, Iran woul</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000011">
+      <data key="label">AI tests consistency: machines cannot tolerate contradiction</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000012">
+      <data key="label">True religion as CFS must be translatable to machines.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000071">
+      <data key="label">Theory of liberty is the only existing solution for AI ethic</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000072">
+      <data key="label">A civilization without consistent principles collapses.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000051">
+      <data key="label">Without Mahdism, the theory cannot be completed.</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000033">
+      <data key="label">Iran, if it returns to its truth, becomes the land of libert</data>
+      <data key="type">claim</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000001">
+      <data key="label">Liberty in its objective form is individual property rights.</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000002">
+      <data key="label">Without property rights, there is no liberty.</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000003">
+      <data key="label">If liberty, then property rights; if property rights, then (</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000004">
+      <data key="label">True religion is a consistent formal system if and only if i</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000005">
+      <data key="label">Tawhid (one God) guarantees liberty by eliminating servitude</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000006">
+      <data key="label">Without Tawhid, axioms proliferate, leading to mysticism and</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000007">
+      <data key="label">Free will is the necessary presupposition of all rational di</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000008">
+      <data key="label">The denial of free will is self-refuting.</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000009">
+      <data key="label">Without resurrection, the last-round problem collapses liber</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000010">
+      <data key="label">If resurrection exists, long-run stability of liberty is ach</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000011">
+      <data key="label">The state (as violator) is the negation of liberty.</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000012">
+      <data key="label">Democracy does not imply liberty; individual rights are non-</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000013">
+      <data key="label">Envy leads to socialism, which leads to the expansion of the</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000014">
+      <data key="label">Mysticism separates humans from property and delivers them t</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000015">
+      <data key="label">If religion is a consistent formal system, it can be encoded</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000016">
+      <data key="label">Statism is shirk (associating partners with God): submitting</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000017">
+      <data key="label">Without Mahdism, the theory of liberty cannot be complete (n</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000018">
+      <data key="label">Science presupposes liberty (free will is prior to scientifi</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000019">
+      <data key="label">A civilization without consistent principles collapses under</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="F-000020">
+      <data key="label">Islam (salaam) = declaration of proprietary peace = covenant</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000066">
+      <data key="label">C-000066</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_dialectic">
+      <data key="label">CN:dialectic</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000004">
+      <data key="label">CN-000004</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000003">
+      <data key="label">CN-000003</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000064">
+      <data key="label">C-000064</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="E-000049">
+      <data key="label">E-000049</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000025">
+      <data key="label">C-000025</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000065">
+      <data key="label">C-000065</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_mahdism">
+      <data key="label">CN:mahdism</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000001">
+      <data key="label">ARG-000001</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000002">
+      <data key="label">ARG-000002</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000026">
+      <data key="label">C-000026</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_the_state">
+      <data key="label">CN:the_state</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_family">
+      <data key="label">CN:family</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_goedel">
+      <data key="label">CN:goedel</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000009">
+      <data key="label">C-000009</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_religion">
+      <data key="label">CN:religion</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000007">
+      <data key="label">ARG-000007</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000012">
+      <data key="label">ARG-000012</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="E-000003">
+      <data key="label">E-000003</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_velayat">
+      <data key="label">CN:velayat</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000007">
+      <data key="label">CN-000007</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000058">
+      <data key="label">C-000058</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_formal_system">
+      <data key="label">CN:formal_system</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_shahnameh">
+      <data key="label">CN:shahnameh</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="E-000007">
+      <data key="label">E-000007</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_mysticism">
+      <data key="label">CN:mysticism</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000005">
+      <data key="label">CN-000005</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="E-000009">
+      <data key="label">E-000009</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_tawhid">
+      <data key="label">CN:tawhid</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000008">
+      <data key="label">C-000008</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_prophethood">
+      <data key="label">CN:prophethood</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000011">
+      <data key="label">ARG-000011</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_german_idealism">
+      <data key="label">CN:german_idealism</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_communism">
+      <data key="label">CN:communism</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000009">
+      <data key="label">ARG-000009</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000005">
+      <data key="label">ARG-000005</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="E-000004">
+      <data key="label">E-000004</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000008">
+      <data key="label">CN-000008</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000006">
+      <data key="label">C-000006</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000013">
+      <data key="label">CN-000013</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="E-000047">
+      <data key="label">E-000047</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="E-000014">
+      <data key="label">E-000014</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_austrian_school">
+      <data key="label">CN:austrian_school</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_free_will">
+      <data key="label">CN:free_will</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000014">
+      <data key="label">CN-000014</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000031">
+      <data key="label">C-000031</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000001">
+      <data key="label">CN-000001</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000008">
+      <data key="label">ARG-000008</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000020">
+      <data key="label">C-000020</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_property_rights">
+      <data key="label">CN:property_rights</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_central_bank">
+      <data key="label">CN:central_bank</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000062">
+      <data key="label">C-000062</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000063">
+      <data key="label">C-000063</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="E-000005">
+      <data key="label">E-000005</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000036">
+      <data key="label">CN-000036</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_iran">
+      <data key="label">CN:iran</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_ai_alignment">
+      <data key="label">CN:ai_alignment</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000006">
+      <data key="label">ARG-000006</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_resurrection">
+      <data key="label">CN:resurrection</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000010">
+      <data key="label">ARG-000010</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_islam">
+      <data key="label">CN:islam</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_liberty">
+      <data key="label">CN:liberty</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000005">
+      <data key="label">C-000005</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000002">
+      <data key="label">C-000002</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000003">
+      <data key="label">ARG-000003</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_taxation">
+      <data key="label">CN:taxation</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_envy">
+      <data key="label">CN:envy</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_game_theory">
+      <data key="label">CN:game_theory</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="ARG-000004">
+      <data key="label">ARG-000004</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="C-000024">
+      <data key="label">C-000024</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN-000006">
+      <data key="label">CN-000006</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <node id="CN_ghadir">
+      <data key="label">CN:ghadir</data>
+      <data key="type">node</data>
+      <data key="tier"></data>
+    </node>
+    <edge id="e0" source="A-000001" target="A-000002">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e1" source="A-000001" target="A-000003">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e2" source="A-000001" target="A-000004">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e3" source="A-000001" target="A-000013">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e4" source="A-000001" target="ARG-000001">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e5" source="A-000001" target="ARG-000004">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e6" source="A-000001" target="C-000001">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e7" source="A-000001" target="C-000014">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e8" source="A-000001" target="C-000015">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e9" source="A-000001" target="C-000038">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e10" source="A-000001" target="C-000039">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e11" source="A-000002" target="A-000008">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e12" source="A-000002" target="C-000001">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e13" source="A-000002" target="C-000002">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e14" source="A-000003" target="ARG-000001">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e15" source="A-000003" target="C-000013">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e16" source="A-000003" target="C-000040">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e17" source="A-000003" target="C-000066">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e18" source="A-000004" target="A-000003">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e19" source="A-000004" target="A-000005">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e20" source="A-000004" target="A-000006">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e21" source="A-000004" target="A-000007">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e22" source="A-000004" target="A-000008">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e23" source="A-000004" target="A-000009">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e24" source="A-000004" target="A-000015">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e25" source="A-000004" target="ARG-000005">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e26" source="A-000004" target="C-000005">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e27" source="A-000004" target="C-000016">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e28" source="A-000004" target="C-000017">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e29" source="A-000004" target="C-000026">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e30" source="A-000004" target="C-000063">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e31" source="A-000004" target="CN-000004">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e32" source="A-000005" target="C-000004">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e33" source="A-000005" target="CN-000036">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e34" source="A-000006" target="A-000010">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e35" source="A-000006" target="A-000015">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e36" source="A-000006" target="ARG-000002">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e37" source="A-000006" target="C-000021">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e38" source="A-000007" target="A-000015">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e39" source="A-000007" target="C-000023">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e40" source="A-000007" target="C-000024">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e41" source="A-000007" target="C-000064">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e42" source="A-000008" target="C-000041">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e43" source="A-000008" target="C-000067">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e44" source="A-000009" target="C-000046">
+      <data key="relation">contradicts</data>
+    </edge>
+    <edge id="e45" source="A-000009" target="C-000048">
+      <data key="relation">contradicts</data>
+    </edge>
+    <edge id="e46" source="A-000010" target="C-000046">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e47" source="A-000011" target="ARG-000005">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e48" source="A-000011" target="C-000017">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e49" source="A-000011" target="C-000018">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e50" source="A-000011" target="C-000072">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e51" source="A-000012" target="A-000014">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e52" source="A-000012" target="ARG-000003">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e53" source="A-000012" target="C-000011">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e54" source="A-000012" target="C-000028">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e55" source="A-000012" target="C-000072">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e56" source="A-000013" target="ARG-000006">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e57" source="A-000013" target="C-000001">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e58" source="A-000013" target="C-000022">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e59" source="A-000014" target="C-000053">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e60" source="A-000014" target="C-000058">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e61" source="A-000014" target="C-000060">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e62" source="A-000015" target="ARG-000009">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e63" source="A-000015" target="C-000051">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e64" source="ARG-000001" target="C-000013">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e65" source="ARG-000002" target="C-000021">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e66" source="ARG-000003" target="C-000028">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e67" source="ARG-000004" target="C-000039">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e68" source="ARG-000005" target="C-000016">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e69" source="ARG-000006" target="C-000022">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e70" source="ARG-000007" target="C-000043">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e71" source="ARG-000008" target="C-000056">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e72" source="ARG-000009" target="C-000051">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e73" source="ARG-000010" target="C-000040">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e74" source="ARG-000011" target="C-000071">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e75" source="ARG-000012" target="C-000074">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e76" source="C-000001" target="C-000002">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e77" source="C-000001" target="C-000003">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e78" source="C-000001" target="C-000022">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e79" source="C-000001" target="C-000041">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e80" source="C-000001" target="C-000043">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e81" source="C-000001" target="C-000055">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e82" source="C-000001" target="CN-000001">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e83" source="C-000004" target="C-000008">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e84" source="C-000004" target="C-000028">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e85" source="C-000004" target="C-000029">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e86" source="C-000004" target="C-000031">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e87" source="C-000004" target="C-000055">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e88" source="C-000009" target="C-000074">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e89" source="C-000013" target="C-000004">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e90" source="C-000013" target="C-000033">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e91" source="C-000013" target="C-000051">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e92" source="C-000013" target="C-000071">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e93" source="C-000016" target="C-000017">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e94" source="C-000016" target="C-000062">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e95" source="C-000021" target="C-000020">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e96" source="C-000029" target="C-000071">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e97" source="C-000040" target="C-000013">
+      <data key="relation">derives_from</data>
+    </edge>
+    <edge id="e98" source="C-000045" target="C-000025">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e99" source="C-000046" target="C-000047">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e100" source="C-000047" target="C-000048">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e101" source="C-000055" target="C-000056">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e102" source="CN-000003" target="C-000009">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e103" source="CN-000003" target="C-000074">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e104" source="CN-000005" target="C-000016">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e105" source="CN-000005" target="C-000017">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e106" source="CN-000006" target="C-000006">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e107" source="CN-000007" target="A-000001">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e108" source="CN-000008" target="A-000012">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e109" source="CN-000013" target="A-000006">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e110" source="CN-000014" target="A-000015">
+      <data key="relation">defines</data>
+    </edge>
+    <edge id="e111" source="CN_communism" target="CN_envy">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e112" source="CN_dialectic" target="CN_german_idealism">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e113" source="CN_formal_system" target="CN_ai_alignment">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e114" source="CN_formal_system" target="CN_goedel">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e115" source="CN_formal_system" target="CN_religion">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e116" source="CN_free_will" target="CN_austrian_school">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e117" source="CN_free_will" target="CN_formal_system">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e118" source="CN_free_will" target="CN_liberty">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e119" source="CN_free_will" target="CN_property_rights">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e120" source="CN_free_will" target="CN_tawhid">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e121" source="CN_iran" target="CN_shahnameh">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e122" source="CN_islam" target="CN_ghadir">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e123" source="CN_islam" target="CN_iran">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e124" source="CN_liberty" target="CN_ai_alignment">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e125" source="CN_liberty" target="CN_austrian_school">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e126" source="CN_liberty" target="CN_family">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e127" source="CN_liberty" target="CN_game_theory">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e128" source="CN_liberty" target="CN_iran">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e129" source="CN_mysticism" target="CN_dialectic">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e130" source="CN_mysticism" target="CN_german_idealism">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e131" source="CN_property_rights" target="CN_austrian_school">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e132" source="CN_property_rights" target="CN_family">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e133" source="CN_property_rights" target="CN_iran">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e134" source="CN_property_rights" target="CN_liberty">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e135" source="CN_prophethood" target="CN_ghadir">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e136" source="CN_prophethood" target="CN_islam">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e137" source="CN_prophethood" target="CN_mahdism">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e138" source="CN_prophethood" target="CN_religion">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e139" source="CN_religion" target="CN_ai_alignment">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e140" source="CN_religion" target="CN_mahdism">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e141" source="CN_resurrection" target="CN_game_theory">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e142" source="CN_resurrection" target="CN_islam">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e143" source="CN_resurrection" target="CN_mahdism">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e144" source="CN_resurrection" target="CN_religion">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e145" source="CN_tawhid" target="CN_islam">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e146" source="CN_tawhid" target="CN_property_rights">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e147" source="CN_tawhid" target="CN_prophethood">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e148" source="CN_tawhid" target="CN_religion">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e149" source="CN_tawhid" target="CN_resurrection">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e150" source="CN_the_state" target="CN_central_bank">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e151" source="CN_the_state" target="CN_taxation">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e152" source="CN_the_state" target="CN_velayat">
+      <data key="relation">concept_depends_on</data>
+    </edge>
+    <edge id="e153" source="E-000003" target="A-000012">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e154" source="E-000003" target="ARG-000003">
+      <data key="relation">references</data>
+    </edge>
+    <edge id="e155" source="E-000003" target="C-000027">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e156" source="E-000004" target="C-000022">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e157" source="E-000004" target="C-000036">
+      <data key="relation">references</data>
+    </edge>
+    <edge id="e158" source="E-000005" target="ARG-000010">
+      <data key="relation">references</data>
+    </edge>
+    <edge id="e159" source="E-000005" target="C-000065">
+      <data key="relation">references</data>
+    </edge>
+    <edge id="e160" source="E-000007" target="C-000009">
+      <data key="relation">references</data>
+    </edge>
+    <edge id="e161" source="E-000007" target="C-000074">
+      <data key="relation">references</data>
+    </edge>
+    <edge id="e162" source="E-000009" target="C-000032">
+      <data key="relation">references</data>
+    </edge>
+    <edge id="e163" source="E-000009" target="C-000050">
+      <data key="relation">references</data>
+    </edge>
+    <edge id="e164" source="E-000014" target="C-000045">
+      <data key="relation">references</data>
+    </edge>
+    <edge id="e165" source="E-000047" target="C-000036">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e166" source="E-000049" target="A-000012">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e167" source="E-000049" target="ARG-000003">
+      <data key="relation">supports</data>
+    </edge>
+    <edge id="e168" source="E-000049" target="C-000027">
+      <data key="relation">supports</data>
+    </edge>
+  </graph>
+</graphml>

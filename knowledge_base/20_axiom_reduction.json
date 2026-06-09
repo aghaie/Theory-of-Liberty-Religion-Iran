@@ -1,0 +1,183 @@
+{
+  "summary": {
+    "total_axioms": 15,
+    "foundational": 3,
+    "derived": 11,
+    "redundant": 1,
+    "minimum_axiom_set": [
+      "A-000001",
+      "A-000011",
+      "A-000012"
+    ],
+    "minimum_set_texts": [
+      "Human free will exists and is universally presupposed.",
+      "A valid formal system must have finite and minimal axioms.",
+      "A valid system must be internally consistent (Gödel)."
+    ]
+  },
+  "axioms": [
+    {
+      "axiom_id": "A-000001",
+      "text": "Human free will exists and is universally presupposed.",
+      "tier": 0,
+      "type": "foundational",
+      "depends_on": [],
+      "claims_supported": 5387,
+      "coverage_ratio": 1.7957
+    },
+    {
+      "axiom_id": "A-000002",
+      "text": "Property begins with the human body.",
+      "tier": 1,
+      "type": "derived",
+      "depends_on": [
+        "A-000001"
+      ],
+      "claims_supported": 2054,
+      "coverage_ratio": 0.6847
+    },
+    {
+      "axiom_id": "A-000003",
+      "text": "Liberty requires divine grounding to withstand state and majority.",
+      "tier": 1,
+      "type": "redundant",
+      "depends_on": [
+        "A-000001",
+        "A-000004"
+      ],
+      "claims_supported": 0,
+      "coverage_ratio": 0.0
+    },
+    {
+      "axiom_id": "A-000004",
+      "text": "Tawhid: no servitude to anything other than God.",
+      "tier": 1,
+      "type": "derived",
+      "depends_on": [
+        "A-000001"
+      ],
+      "claims_supported": 2246,
+      "coverage_ratio": 0.7487
+    },
+    {
+      "axiom_id": "A-000005",
+      "text": "No compulsion in religion.",
+      "tier": 2,
+      "type": "derived",
+      "depends_on": [
+        "A-000004"
+      ],
+      "claims_supported": 0,
+      "coverage_ratio": 0.0
+    },
+    {
+      "axiom_id": "A-000006",
+      "text": "Resurrection exists; it stabilizes liberty.",
+      "tier": 2,
+      "type": "derived",
+      "depends_on": [
+        "A-000004"
+      ],
+      "claims_supported": 1115,
+      "coverage_ratio": 0.3717
+    },
+    {
+      "axiom_id": "A-000007",
+      "text": "Prophethood is real; it is the barrier against false messiahs.",
+      "tier": 2,
+      "type": "derived",
+      "depends_on": [
+        "A-000004"
+      ],
+      "claims_supported": 1091,
+      "coverage_ratio": 0.3637
+    },
+    {
+      "axiom_id": "A-000008",
+      "text": "Rule of Taslīṭ: individuals are sovereign over their own property.",
+      "tier": 2,
+      "type": "derived",
+      "depends_on": [
+        "A-000002",
+        "A-000004"
+      ],
+      "claims_supported": 0,
+      "coverage_ratio": 0.0
+    },
+    {
+      "axiom_id": "A-000009",
+      "text": "Dignitary equality: all humans are equal in dignity before God.",
+      "tier": 2,
+      "type": "derived",
+      "depends_on": [
+        "A-000004"
+      ],
+      "claims_supported": 0,
+      "coverage_ratio": 0.0
+    },
+    {
+      "axiom_id": "A-000010",
+      "text": "Personal accountability: each person is accountable only to God.",
+      "tier": 2,
+      "type": "derived",
+      "depends_on": [
+        "A-000006"
+      ],
+      "claims_supported": 0,
+      "coverage_ratio": 0.0
+    },
+    {
+      "axiom_id": "A-000011",
+      "text": "A valid formal system must have finite and minimal axioms.",
+      "tier": 0,
+      "type": "foundational",
+      "depends_on": [],
+      "claims_supported": 0,
+      "coverage_ratio": 0.0
+    },
+    {
+      "axiom_id": "A-000012",
+      "text": "A valid system must be internally consistent (Gödel).",
+      "tier": 0,
+      "type": "foundational",
+      "depends_on": [],
+      "claims_supported": 1840,
+      "coverage_ratio": 0.6133
+    },
+    {
+      "axiom_id": "A-000013",
+      "text": "Liberty and property rights are prior normative axioms to any scientific conclusion.",
+      "tier": 1,
+      "type": "derived",
+      "depends_on": [
+        "A-000001"
+      ],
+      "claims_supported": 0,
+      "coverage_ratio": 0.0
+    },
+    {
+      "axiom_id": "A-000014",
+      "text": "Theory has primacy over data in understanding history and religion.",
+      "tier": 1,
+      "type": "derived",
+      "depends_on": [
+        "A-000012"
+      ],
+      "claims_supported": 154,
+      "coverage_ratio": 0.0513
+    },
+    {
+      "axiom_id": "A-000015",
+      "text": "Mahdism: the theory cannot be completed without a terminal condition.",
+      "tier": 3,
+      "type": "derived",
+      "depends_on": [
+        "A-000006",
+        "A-000007",
+        "A-000004"
+      ],
+      "claims_supported": 29,
+      "coverage_ratio": 0.0097
+    }
+  ]
+}

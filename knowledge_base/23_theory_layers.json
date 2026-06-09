@@ -1,0 +1,125 @@
+{
+  "method": "Concept depth from foundational axioms via CONCEPT_DEPS graph",
+  "total_claims_assigned": 16178,
+  "layers": [
+    {
+      "layer": 0,
+      "label": "Fundamental Axioms and First Principles",
+      "claim_count": 1694,
+      "claim_ids_sample": [
+        "C-000010",
+        "C-000031",
+        "C-000045",
+        "C-000079",
+        "C-000088",
+        "C-000103",
+        "C-000105",
+        "C-000115",
+        "C-000118",
+        "C-000162"
+      ]
+    },
+    {
+      "layer": 1,
+      "label": "Direct Consequences (Liberty, Property, Tawhid)",
+      "claim_count": 817,
+      "claim_ids_sample": [
+        "C-000035",
+        "C-000047",
+        "C-000090",
+        "C-000338",
+        "C-000344",
+        "C-000411",
+        "C-000416",
+        "C-000515",
+        "C-000516",
+        "C-000517"
+      ]
+    },
+    {
+      "layer": 2,
+      "label": "Intermediate Theory (Religion, State, Formal Systems)",
+      "claim_count": 841,
+      "claim_ids_sample": [
+        "C-000033",
+        "C-000106",
+        "C-000305",
+        "C-000388",
+        "C-000394",
+        "C-000399",
+        "C-000414",
+        "C-000447",
+        "C-000474",
+        "C-000580"
+      ]
+    },
+    {
+      "layer": 3,
+      "label": "Applied Political Theory (Democracy, Communism, Iran)",
+      "claim_count": 3305,
+      "claim_ids_sample": [
+        "C-000001",
+        "C-000032",
+        "C-000034",
+        "C-000036",
+        "C-000039",
+        "C-000040",
+        "C-000042",
+        "C-000044",
+        "C-000048",
+        "C-000049"
+      ]
+    },
+    {
+      "layer": 4,
+      "label": "Historical and Civilizational Analysis (Iran, Islam, Shahnameh)",
+      "claim_count": 1728,
+      "claim_ids_sample": [
+        "C-000003",
+        "C-000004",
+        "C-000005",
+        "C-000006",
+        "C-000008",
+        "C-000009",
+        "C-000011",
+        "C-000012",
+        "C-000013",
+        "C-000015"
+      ]
+    },
+    {
+      "layer": 5,
+      "label": "Terminal Consequences (Mahdism, Velayat, Ghadir)",
+      "claim_count": 35,
+      "claim_ids_sample": [
+        "C-000053",
+        "C-000068",
+        "C-001348",
+        "C-002535",
+        "C-002785",
+        "C-003795",
+        "C-003796",
+        "C-003798",
+        "C-003820",
+        "C-003843"
+      ]
+    },
+    {
+      "layer": 99,
+      "label": "Uncategorized / Secondary Illustration",
+      "claim_count": 7758,
+      "claim_ids_sample": [
+        "C-000002",
+        "C-000007",
+        "C-000014",
+        "C-000017",
+        "C-000020",
+        "C-000023",
+        "C-000024",
+        "C-000058",
+        "C-000070",
+        "C-000076"
+      ]
+    }
+  ]
+}

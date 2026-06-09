@@ -1,0 +1,101 @@
+{
+  "method": "Fragile = many downstream dependents, few upstream supporters",
+  "fragile_nodes": [
+    {
+      "node": "CN-000007",
+      "upstream_supporters": 0,
+      "downstream_dependents": 8162,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "A-000004",
+      "upstream_supporters": 0,
+      "downstream_dependents": 8018,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "A-000002",
+      "upstream_supporters": 0,
+      "downstream_dependents": 6649,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "CN-000013",
+      "upstream_supporters": 0,
+      "downstream_dependents": 4346,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "A-000007",
+      "upstream_supporters": 0,
+      "downstream_dependents": 4324,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "E-000003",
+      "upstream_supporters": 0,
+      "downstream_dependents": 3064,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "E-000049",
+      "upstream_supporters": 0,
+      "downstream_dependents": 3064,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "CN-000008",
+      "upstream_supporters": 0,
+      "downstream_dependents": 3063,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "A-000014",
+      "upstream_supporters": 0,
+      "downstream_dependents": 436,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "CN-000014",
+      "upstream_supporters": 0,
+      "downstream_dependents": 112,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "E-000005",
+      "upstream_supporters": 0,
+      "downstream_dependents": 14,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "A-000003",
+      "upstream_supporters": 0,
+      "downstream_dependents": 14,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    },
+    {
+      "node": "A-000013",
+      "upstream_supporters": 0,
+      "downstream_dependents": 10,
+      "note": "This node has no upstream support but supports many claims. If challenged, large chain collapses."
+    }
+  ],
+  "well_supported_nodes": [
+    {
+      "node": "C-000040",
+      "upstream_supporters": 5,
+      "downstream_dependents": 11
+    },
+    {
+      "node": "C-000013",
+      "upstream_supporters": 9,
+      "downstream_dependents": 10
+    },
+    {
+      "node": "C-000004",
+      "upstream_supporters": 8,
+      "downstream_dependents": 7
+    }
+  ],
+  "isolated_nodes": []
+}

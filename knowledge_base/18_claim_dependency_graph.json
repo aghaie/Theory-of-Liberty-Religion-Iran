@@ -1,0 +1,2052 @@
+{
+  "description": "Claim-to-axiom dependency edges for all processed claims",
+  "total_claim_nodes": 16178,
+  "total_axiom_nodes": 15,
+  "total_dependency_edges": 35052,
+  "edges_sample": [
+    {
+      "claim": "C-000001",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000003",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000004",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000005",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000006",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000007",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000008",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000009",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000010",
+      "depends_on": [
+        "A-000001"
+      ],
+      "domain": "general"
+    },
+    {
+      "claim": "C-000011",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000012",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000013",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000015",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000016",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000018",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000019",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000021",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000025",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000026",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000027",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000028",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000029",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000030",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000031",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000032",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000033",
+      "depends_on": [
+        "A-000001",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000034",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000035",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000036",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000037",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000038",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000039",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000040",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000041",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000042",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000043",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000044",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000045",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000046",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000047",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000048",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000049",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000050",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000051",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000052",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000053",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012",
+        "A-000014"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000054",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000055",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000015"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000056",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000057",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000058",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000059",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "general"
+    },
+    {
+      "claim": "C-000060",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000061",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000062",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000063",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000064",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000065",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000015"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000066",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000067",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000068",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000069",
+      "depends_on": [
+        "A-000001",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000070",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000071",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000072",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000073",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000074",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000075",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000077",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000078",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000079",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000080",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000081",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "sociology"
+    },
+    {
+      "claim": "C-000082",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000083",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000084",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000085",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000086",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000087",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000088",
+      "depends_on": [
+        "A-000001",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000089",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000090",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000091",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000092",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000093",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000094",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000095",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000096",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000097",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000098",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000099",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000100",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000101",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000102",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000103",
+      "depends_on": [
+        "A-000001",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000105",
+      "depends_on": [
+        "A-000001",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000106",
+      "depends_on": [
+        "A-000001",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000107",
+      "depends_on": [
+        "A-000001",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000108",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000109",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000110",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000111",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000112",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000114",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000115",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000116",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000117",
+      "depends_on": [
+        "A-000001",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000118",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000120",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000121",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000122",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000123",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000124",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000125",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000126",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000127",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000128",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000129",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012",
+        "A-000015"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000130",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012",
+        "A-000015"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000131",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000132",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000133",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000134",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000135",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000136",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000137",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000138",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000139",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000141",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000142",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000143",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000144",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000145",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000147",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000149",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000151",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000155",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000156",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000157",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000158",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000160",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000161",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000162",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000163",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000164",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000165",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000166",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000012"
+      ],
+      "domain": "ai_technology"
+    },
+    {
+      "claim": "C-000167",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000172",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000173",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000174",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000179",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000181",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000182",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000183",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000184",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000185",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000191",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000192",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000197",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000199",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000202",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000203",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000204",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000205",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000206",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000207",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000208",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000209",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000210",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000211",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000212",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000213",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000214",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000218",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000219",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000220",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000221",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000222",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000223",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000224",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000225",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000226",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000227",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000228",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000229",
+      "depends_on": [
+        "A-000001",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000230",
+      "depends_on": [
+        "A-000001",
+        "A-000012"
+      ],
+      "domain": "philosophy"
+    },
+    {
+      "claim": "C-000231",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000233",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000234",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000235",
+      "depends_on": [
+        "A-000001",
+        "A-000002"
+      ],
+      "domain": "economics"
+    },
+    {
+      "claim": "C-000237",
+      "depends_on": [
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000238",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000239",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000240",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000241",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000242",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000014"
+      ],
+      "domain": "history"
+    },
+    {
+      "claim": "C-000243",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007"
+      ],
+      "domain": "theology"
+    },
+    {
+      "claim": "C-000244",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "political_theory"
+    },
+    {
+      "claim": "C-000245",
+      "depends_on": [
+        "A-000001",
+        "A-000002",
+        "A-000004",
+        "A-000006",
+        "A-000007",
+        "A-000012"
+      ],
+      "domain": "theology"
+    }
+  ],
+  "all_axioms_used": [
+    "A-000001",
+    "A-000002",
+    "A-000004",
+    "A-000006",
+    "A-000007",
+    "A-000012",
+    "A-000014",
+    "A-000015"
+  ],
+  "axiom_support_counts": {
+    "A-000001": 5387,
+    "A-000004": 2246,
+    "A-000002": 2054,
+    "A-000012": 1840,
+    "A-000006": 1115,
+    "A-000007": 1091,
+    "A-000014": 154,
+    "A-000015": 29
+  }
+}

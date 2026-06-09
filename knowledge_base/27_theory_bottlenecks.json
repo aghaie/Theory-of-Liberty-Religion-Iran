@@ -1,0 +1,706 @@
+{
+  "method": "Removal impact: count of nodes downstream from each node",
+  "total_nodes_in_graph": 10947,
+  "top_100_bottlenecks": [
+    {
+      "node": "CN-000007",
+      "downstream_claims": 8162,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.7455923997442222
+    },
+    {
+      "node": "A-000001",
+      "downstream_claims": 8161,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.7455010505161231
+    },
+    {
+      "node": "A-000004",
+      "downstream_claims": 8018,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.732438110897963
+    },
+    {
+      "node": "A-000002",
+      "downstream_claims": 6649,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.607381017630401
+    },
+    {
+      "node": "CN-000013",
+      "downstream_claims": 4346,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.3970037453183521
+    },
+    {
+      "node": "A-000006",
+      "downstream_claims": 4345,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.39691239609025303
+    },
+    {
+      "node": "A-000007",
+      "downstream_claims": 4324,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.3949940623001736
+    },
+    {
+      "node": "E-000003",
+      "downstream_claims": 3064,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.27989403489540515
+    },
+    {
+      "node": "E-000049",
+      "downstream_claims": 3064,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.27989403489540515
+    },
+    {
+      "node": "CN-000008",
+      "downstream_claims": 3063,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.2798026856673061
+    },
+    {
+      "node": "A-000012",
+      "downstream_claims": 3062,
+      "upstream_supporters": 3,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.2797113364392071
+    },
+    {
+      "node": "A-000014",
+      "downstream_claims": 436,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.03982826345117384
+    },
+    {
+      "node": "CN-000014",
+      "downstream_claims": 112,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.010231113547090527
+    },
+    {
+      "node": "A-000015",
+      "downstream_claims": 111,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.010139764318991504
+    },
+    {
+      "node": "A-000003",
+      "downstream_claims": 14,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.001278889193386316
+    },
+    {
+      "node": "E-000005",
+      "downstream_claims": 14,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.001278889193386316
+    },
+    {
+      "node": "ARG-000010",
+      "downstream_claims": 12,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0010961907371882709
+    },
+    {
+      "node": "ARG-000001",
+      "downstream_claims": 11,
+      "upstream_supporters": 2,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0010048415090892482
+    },
+    {
+      "node": "C-000040",
+      "downstream_claims": 11,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0010048415090892482
+    },
+    {
+      "node": "A-000013",
+      "downstream_claims": 10,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.0009134922809902257
+    },
+    {
+      "node": "C-000013",
+      "downstream_claims": 10,
+      "upstream_supporters": 9,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0009134922809902257
+    },
+    {
+      "node": "A-000005",
+      "downstream_claims": 9,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.000822143052891203
+    },
+    {
+      "node": "C-000001",
+      "downstream_claims": 8,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0007307938247921805
+    },
+    {
+      "node": "C-000004",
+      "downstream_claims": 7,
+      "upstream_supporters": 8,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.000639444596693158
+    },
+    {
+      "node": "A-000011",
+      "downstream_claims": 6,
+      "upstream_supporters": 0,
+      "is_structural_bridge": true,
+      "collapse_impact": 0.0005480953685941354
+    },
+    {
+      "node": "A-000009",
+      "downstream_claims": 3,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0002740476842970677
+    },
+    {
+      "node": "A-000010",
+      "downstream_claims": 3,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0002740476842970677
+    },
+    {
+      "node": "ARG-000005",
+      "downstream_claims": 3,
+      "upstream_supporters": 2,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0002740476842970677
+    },
+    {
+      "node": "CN-000005",
+      "downstream_claims": 3,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0002740476842970677
+    },
+    {
+      "node": "A-000008",
+      "downstream_claims": 2,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.00018269845619804512
+    },
+    {
+      "node": "ARG-000002",
+      "downstream_claims": 2,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.00018269845619804512
+    },
+    {
+      "node": "C-000016",
+      "downstream_claims": 2,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.00018269845619804512
+    },
+    {
+      "node": "C-000046",
+      "downstream_claims": 2,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.00018269845619804512
+    },
+    {
+      "node": "CN-000003",
+      "downstream_claims": 2,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.00018269845619804512
+    },
+    {
+      "node": "E-000004",
+      "downstream_claims": 2,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.00018269845619804512
+    },
+    {
+      "node": "E-000007",
+      "downstream_claims": 2,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.00018269845619804512
+    },
+    {
+      "node": "E-000009",
+      "downstream_claims": 2,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.00018269845619804512
+    },
+    {
+      "node": "E-000014",
+      "downstream_claims": 2,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.00018269845619804512
+    },
+    {
+      "node": "ARG-000003",
+      "downstream_claims": 1,
+      "upstream_supporters": 3,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "ARG-000004",
+      "downstream_claims": 1,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "ARG-000006",
+      "downstream_claims": 1,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "ARG-000007",
+      "downstream_claims": 1,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "ARG-000008",
+      "downstream_claims": 1,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "ARG-000009",
+      "downstream_claims": 1,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "ARG-000011",
+      "downstream_claims": 1,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "ARG-000012",
+      "downstream_claims": 1,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "C-000009",
+      "downstream_claims": 1,
+      "upstream_supporters": 8,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "C-000021",
+      "downstream_claims": 1,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "C-000029",
+      "downstream_claims": 1,
+      "upstream_supporters": 7,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "C-000045",
+      "downstream_claims": 1,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "C-000047",
+      "downstream_claims": 1,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "C-000055",
+      "downstream_claims": 1,
+      "upstream_supporters": 8,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "CN-000006",
+      "downstream_claims": 1,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "E-000047",
+      "downstream_claims": 1,
+      "upstream_supporters": 0,
+      "is_structural_bridge": false,
+      "collapse_impact": 9.134922809902256e-05
+    },
+    {
+      "node": "C-000002",
+      "downstream_claims": 0,
+      "upstream_supporters": 2,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000003",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000005",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000006",
+      "downstream_claims": 0,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000007",
+      "downstream_claims": 0,
+      "upstream_supporters": 2,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000008",
+      "downstream_claims": 0,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000010",
+      "downstream_claims": 0,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000011",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000012",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000014",
+      "downstream_claims": 0,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000015",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000017",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000018",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000019",
+      "downstream_claims": 0,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000020",
+      "downstream_claims": 0,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000022",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000023",
+      "downstream_claims": 0,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000024",
+      "downstream_claims": 0,
+      "upstream_supporters": 1,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000025",
+      "downstream_claims": 0,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000026",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000027",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000028",
+      "downstream_claims": 0,
+      "upstream_supporters": 7,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000030",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000031",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000032",
+      "downstream_claims": 0,
+      "upstream_supporters": 7,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000033",
+      "downstream_claims": 0,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000034",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000035",
+      "downstream_claims": 0,
+      "upstream_supporters": 3,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000036",
+      "downstream_claims": 0,
+      "upstream_supporters": 8,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000037",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000038",
+      "downstream_claims": 0,
+      "upstream_supporters": 3,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000039",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000041",
+      "downstream_claims": 0,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000042",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000043",
+      "downstream_claims": 0,
+      "upstream_supporters": 8,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000044",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000048",
+      "downstream_claims": 0,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000049",
+      "downstream_claims": 0,
+      "upstream_supporters": 5,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000050",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000051",
+      "downstream_claims": 0,
+      "upstream_supporters": 8,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000052",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000053",
+      "downstream_claims": 0,
+      "upstream_supporters": 7,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000054",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000056",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000057",
+      "downstream_claims": 0,
+      "upstream_supporters": 6,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    },
+    {
+      "node": "C-000058",
+      "downstream_claims": 0,
+      "upstream_supporters": 4,
+      "is_structural_bridge": false,
+      "collapse_impact": 0.0
+    }
+  ]
+}

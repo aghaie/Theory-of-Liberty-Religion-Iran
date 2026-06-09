@@ -1,0 +1,611 @@
+{
+  "method": "Degree centrality and dependency centrality on combined dependency graph",
+  "total_nodes": 10947,
+  "total_edges": 35150,
+  "top_50_by_dependency_centrality": [
+    {
+      "node": "CN-000007",
+      "reachable_downstream": 8162
+    },
+    {
+      "node": "A-000001",
+      "reachable_downstream": 8161
+    },
+    {
+      "node": "A-000004",
+      "reachable_downstream": 8018
+    },
+    {
+      "node": "A-000002",
+      "reachable_downstream": 6649
+    },
+    {
+      "node": "CN-000013",
+      "reachable_downstream": 4346
+    },
+    {
+      "node": "A-000006",
+      "reachable_downstream": 4345
+    },
+    {
+      "node": "A-000007",
+      "reachable_downstream": 4324
+    },
+    {
+      "node": "E-000003",
+      "reachable_downstream": 3064
+    },
+    {
+      "node": "E-000049",
+      "reachable_downstream": 3064
+    },
+    {
+      "node": "CN-000008",
+      "reachable_downstream": 3063
+    },
+    {
+      "node": "A-000012",
+      "reachable_downstream": 3062
+    },
+    {
+      "node": "A-000014",
+      "reachable_downstream": 436
+    },
+    {
+      "node": "CN-000014",
+      "reachable_downstream": 112
+    },
+    {
+      "node": "A-000015",
+      "reachable_downstream": 111
+    },
+    {
+      "node": "E-000005",
+      "reachable_downstream": 14
+    },
+    {
+      "node": "A-000003",
+      "reachable_downstream": 14
+    },
+    {
+      "node": "ARG-000010",
+      "reachable_downstream": 12
+    },
+    {
+      "node": "ARG-000001",
+      "reachable_downstream": 11
+    },
+    {
+      "node": "C-000040",
+      "reachable_downstream": 11
+    },
+    {
+      "node": "A-000013",
+      "reachable_downstream": 10
+    },
+    {
+      "node": "C-000013",
+      "reachable_downstream": 10
+    },
+    {
+      "node": "A-000005",
+      "reachable_downstream": 9
+    },
+    {
+      "node": "C-000001",
+      "reachable_downstream": 8
+    },
+    {
+      "node": "C-000004",
+      "reachable_downstream": 7
+    },
+    {
+      "node": "A-000011",
+      "reachable_downstream": 6
+    },
+    {
+      "node": "A-000010",
+      "reachable_downstream": 3
+    },
+    {
+      "node": "ARG-000005",
+      "reachable_downstream": 3
+    },
+    {
+      "node": "CN-000005",
+      "reachable_downstream": 3
+    },
+    {
+      "node": "A-000009",
+      "reachable_downstream": 3
+    },
+    {
+      "node": "C-000046",
+      "reachable_downstream": 2
+    },
+    {
+      "node": "E-000007",
+      "reachable_downstream": 2
+    },
+    {
+      "node": "C-000016",
+      "reachable_downstream": 2
+    },
+    {
+      "node": "CN-000003",
+      "reachable_downstream": 2
+    },
+    {
+      "node": "ARG-000002",
+      "reachable_downstream": 2
+    },
+    {
+      "node": "A-000008",
+      "reachable_downstream": 2
+    },
+    {
+      "node": "E-000004",
+      "reachable_downstream": 2
+    },
+    {
+      "node": "E-000009",
+      "reachable_downstream": 2
+    },
+    {
+      "node": "E-000014",
+      "reachable_downstream": 2
+    },
+    {
+      "node": "ARG-000008",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "C-000021",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "C-000047",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "CN-000006",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "C-000045",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "ARG-000009",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "C-000029",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "C-000055",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "ARG-000006",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "ARG-000004",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "ARG-000003",
+      "reachable_downstream": 1
+    },
+    {
+      "node": "C-000009",
+      "reachable_downstream": 1
+    }
+  ],
+  "top_50_by_in_degree": [
+    {
+      "node": "C-000013",
+      "in_degree": 9
+    },
+    {
+      "node": "C-000071",
+      "in_degree": 9
+    },
+    {
+      "node": "C-000051",
+      "in_degree": 8
+    },
+    {
+      "node": "C-000055",
+      "in_degree": 8
+    },
+    {
+      "node": "C-000009",
+      "in_degree": 8
+    },
+    {
+      "node": "C-000043",
+      "in_degree": 8
+    },
+    {
+      "node": "C-000036",
+      "in_degree": 8
+    },
+    {
+      "node": "C-000004",
+      "in_degree": 8
+    },
+    {
+      "node": "C-013441",
+      "in_degree": 7
+    },
+    {
+      "node": "C-004276",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013598",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000066",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000065",
+      "in_degree": 7
+    },
+    {
+      "node": "C-004055",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013961",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000053",
+      "in_degree": 7
+    },
+    {
+      "node": "C-009316",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013378",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000029",
+      "in_degree": 7
+    },
+    {
+      "node": "C-016460",
+      "in_degree": 7
+    },
+    {
+      "node": "C-002199",
+      "in_degree": 7
+    },
+    {
+      "node": "C-004318",
+      "in_degree": 7
+    },
+    {
+      "node": "C-003271",
+      "in_degree": 7
+    },
+    {
+      "node": "C-014520",
+      "in_degree": 7
+    },
+    {
+      "node": "C-003725",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000028",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000072",
+      "in_degree": 7
+    },
+    {
+      "node": "C-003760",
+      "in_degree": 7
+    },
+    {
+      "node": "C-014464",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013440",
+      "in_degree": 7
+    },
+    {
+      "node": "C-007402",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013360",
+      "in_degree": 7
+    },
+    {
+      "node": "C-005079",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000130",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000129",
+      "in_degree": 7
+    },
+    {
+      "node": "C-003268",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013140",
+      "in_degree": 7
+    },
+    {
+      "node": "C-004298",
+      "in_degree": 7
+    },
+    {
+      "node": "C-014475",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000032",
+      "in_degree": 7
+    },
+    {
+      "node": "C-003779",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000268",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000062",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013910",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013299",
+      "in_degree": 7
+    },
+    {
+      "node": "C-000074",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013153",
+      "in_degree": 7
+    },
+    {
+      "node": "C-014652",
+      "in_degree": 7
+    },
+    {
+      "node": "C-013594",
+      "in_degree": 7
+    },
+    {
+      "node": "C-009340",
+      "in_degree": 6
+    }
+  ],
+  "top_50_by_out_degree": [
+    {
+      "node": "A-000001",
+      "out_degree": 8156
+    },
+    {
+      "node": "A-000004",
+      "out_degree": 8013
+    },
+    {
+      "node": "A-000002",
+      "out_degree": 6644
+    },
+    {
+      "node": "A-000006",
+      "out_degree": 4339
+    },
+    {
+      "node": "A-000007",
+      "out_degree": 4319
+    },
+    {
+      "node": "A-000012",
+      "out_degree": 3055
+    },
+    {
+      "node": "A-000014",
+      "out_degree": 433
+    },
+    {
+      "node": "A-000015",
+      "out_degree": 110
+    },
+    {
+      "node": "C-000001",
+      "out_degree": 7
+    },
+    {
+      "node": "C-000004",
+      "out_degree": 5
+    },
+    {
+      "node": "C-000013",
+      "out_degree": 4
+    },
+    {
+      "node": "A-000011",
+      "out_degree": 4
+    },
+    {
+      "node": "A-000003",
+      "out_degree": 4
+    },
+    {
+      "node": "A-000013",
+      "out_degree": 3
+    },
+    {
+      "node": "E-000003",
+      "out_degree": 3
+    },
+    {
+      "node": "E-000049",
+      "out_degree": 3
+    },
+    {
+      "node": "CN-000005",
+      "out_degree": 2
+    },
+    {
+      "node": "E-000007",
+      "out_degree": 2
+    },
+    {
+      "node": "C-000016",
+      "out_degree": 2
+    },
+    {
+      "node": "CN-000003",
+      "out_degree": 2
+    },
+    {
+      "node": "A-000008",
+      "out_degree": 2
+    },
+    {
+      "node": "E-000005",
+      "out_degree": 2
+    },
+    {
+      "node": "A-000005",
+      "out_degree": 2
+    },
+    {
+      "node": "E-000004",
+      "out_degree": 2
+    },
+    {
+      "node": "E-000009",
+      "out_degree": 2
+    },
+    {
+      "node": "A-000009",
+      "out_degree": 2
+    },
+    {
+      "node": "A-000010",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000005",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000008",
+      "out_degree": 1
+    },
+    {
+      "node": "C-000021",
+      "out_degree": 1
+    },
+    {
+      "node": "C-000047",
+      "out_degree": 1
+    },
+    {
+      "node": "CN-000006",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000001",
+      "out_degree": 1
+    },
+    {
+      "node": "C-000045",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000009",
+      "out_degree": 1
+    },
+    {
+      "node": "C-000046",
+      "out_degree": 1
+    },
+    {
+      "node": "C-000029",
+      "out_degree": 1
+    },
+    {
+      "node": "C-000055",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000006",
+      "out_degree": 1
+    },
+    {
+      "node": "CN-000013",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000004",
+      "out_degree": 1
+    },
+    {
+      "node": "CN-000007",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000002",
+      "out_degree": 1
+    },
+    {
+      "node": "C-000040",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000003",
+      "out_degree": 1
+    },
+    {
+      "node": "CN-000008",
+      "out_degree": 1
+    },
+    {
+      "node": "C-000009",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000011",
+      "out_degree": 1
+    },
+    {
+      "node": "CN-000014",
+      "out_degree": 1
+    },
+    {
+      "node": "ARG-000007",
+      "out_degree": 1
+    }
+  ]
+}

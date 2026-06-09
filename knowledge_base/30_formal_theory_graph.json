@@ -1,0 +1,1600 @@
+{
+  "node_count": 81,
+  "edge_count": 169,
+  "nodes": [
+    {
+      "id": "F-000001",
+      "natural_language": "Liberty in its objective form is individual property rights.",
+      "symbolic": "L ↔ P",
+      "confidence": 95,
+      "source_claims": [
+        "C-000001"
+      ]
+    },
+    {
+      "id": "F-000002",
+      "natural_language": "Without property rights, there is no liberty.",
+      "symbolic": "¬P → ¬L",
+      "confidence": 95,
+      "source_claims": [
+        "C-000001",
+        "C-000003"
+      ]
+    },
+    {
+      "id": "F-000003",
+      "natural_language": "If liberty, then property rights; if property rights, then (ultimately) religion.",
+      "symbolic": "L → P ∧ P → R",
+      "confidence": 85,
+      "source_claims": [
+        "C-000013"
+      ]
+    },
+    {
+      "id": "F-000004",
+      "natural_language": "True religion is a consistent formal system if and only if it is purified of mysticism.",
+      "symbolic": "R → CFS ↔ ¬M",
+      "confidence": 80,
+      "source_claims": [
+        "C-000004",
+        "C-000028"
+      ]
+    },
+    {
+      "id": "F-000005",
+      "natural_language": "Tawhid (one God) guarantees liberty by eliminating servitude to other-than-God.",
+      "symbolic": "T → ¬Serv → L",
+      "confidence": 85,
+      "source_claims": [
+        "C-000016"
+      ]
+    },
+    {
+      "id": "F-000006",
+      "natural_language": "Without Tawhid, axioms proliferate, leading to mysticism and totalitarianism.",
+      "symbolic": "¬T → (axioms → ∞) → M → ¬L",
+      "confidence": 75,
+      "source_claims": [
+        "C-000017"
+      ]
+    },
+    {
+      "id": "F-000007",
+      "natural_language": "Free will is the necessary presupposition of all rational discourse.",
+      "symbolic": "∀ rational_agent x: discourse(x) → FW(x)",
+      "confidence": 90,
+      "source_claims": [
+        "C-000015"
+      ]
+    },
+    {
+      "id": "F-000008",
+      "natural_language": "The denial of free will is self-refuting.",
+      "symbolic": "assert(¬FW) → FW (performative contradiction)",
+      "confidence": 90,
+      "source_claims": [
+        "C-000039"
+      ]
+    },
+    {
+      "id": "F-000009",
+      "natural_language": "Without resurrection, the last-round problem collapses liberty.",
+      "symbolic": "¬Res → last_round_defection → ¬stable(L)",
+      "confidence": 80,
+      "source_claims": [
+        "C-000021"
+      ]
+    },
+    {
+      "id": "F-000010",
+      "natural_language": "If resurrection exists, long-run stability of liberty is achievable.",
+      "symbolic": "Res → stable(L)",
+      "confidence": 75,
+      "source_claims": [
+        "C-000021",
+        "A-000006"
+      ]
+    },
+    {
+      "id": "F-000011",
+      "natural_language": "The state (as violator) is the negation of liberty.",
+      "symbolic": "S → ¬L ∨ S ↔ ¬L (under its monopoly)",
+      "confidence": 80,
+      "source_claims": [
+        "C-000055",
+        "C-000075"
+      ]
+    },
+    {
+      "id": "F-000012",
+      "natural_language": "Democracy does not imply liberty; individual rights are non-negotiable.",
+      "symbolic": "Dem ↛ L ∧ ¬(P ∈ domain(Dem))",
+      "confidence": 85,
+      "source_claims": [
+        "C-000043",
+        "C-000044"
+      ]
+    },
+    {
+      "id": "F-000013",
+      "natural_language": "Envy leads to socialism, which leads to the expansion of the state.",
+      "symbolic": "Env → Soc → S↑ → ¬L",
+      "confidence": 75,
+      "source_claims": [
+        "C-000046",
+        "C-000047"
+      ]
+    },
+    {
+      "id": "F-000014",
+      "natural_language": "Mysticism separates humans from property and delivers them to collective entities (state).",
+      "symbolic": "M → ¬P → S → ¬L",
+      "confidence": 80,
+      "source_claims": [
+        "C-000009",
+        "C-000074"
+      ]
+    },
+    {
+      "id": "F-000015",
+      "natural_language": "If religion is a consistent formal system, it can be encoded for AI alignment.",
+      "symbolic": "CFS(R) → encodable(R, AI) → aligned(AI, L)",
+      "confidence": 70,
+      "source_claims": [
+        "C-000012",
+        "C-000071"
+      ]
+    },
+    {
+      "id": "F-000016",
+      "natural_language": "Statism is shirk (associating partners with God): submitting to the state as ultimate authority = idolatry.",
+      "symbolic": "worship(S) ↔ Shirk ↔ ¬T",
+      "confidence": 75,
+      "source_claims": [
+        "C-000062"
+      ]
+    },
+    {
+      "id": "F-000017",
+      "natural_language": "Without Mahdism, the theory of liberty cannot be complete (no terminal condition).",
+      "symbolic": "¬Mahdism → incomplete(theory_of_liberty)",
+      "confidence": 65,
+      "source_claims": [
+        "C-000051"
+      ]
+    },
+    {
+      "id": "F-000018",
+      "natural_language": "Science presupposes liberty (free will is prior to scientific method).",
+      "symbolic": "science → FW → L; therefore L prior to science",
+      "confidence": 85,
+      "source_claims": [
+        "C-000014",
+        "C-000022"
+      ]
+    },
+    {
+      "id": "F-000019",
+      "natural_language": "A civilization without consistent principles collapses under its own contradictions.",
+      "symbolic": "¬CFS(civilization) → contradiction → collapse",
+      "confidence": 80,
+      "source_claims": [
+        "C-000072"
+      ]
+    },
+    {
+      "id": "F-000020",
+      "natural_language": "Islam (salaam) = declaration of proprietary peace = covenant of property rights.",
+      "symbolic": "Islam ↔ covenant(P₁, P₂) where P₁ and P₂ agree ¬violate(property)",
+      "confidence": 70,
+      "source_claims": [
+        "C-000006",
+        "C-000007"
+      ]
+    },
+    {
+      "id": "A-000001",
+      "natural_language": "Human free will exists and is universally presupposed.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 0,
+      "depends_on": []
+    },
+    {
+      "id": "A-000002",
+      "natural_language": "Property begins with the human body.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 1,
+      "depends_on": [
+        "A-000001"
+      ]
+    },
+    {
+      "id": "A-000003",
+      "natural_language": "Liberty requires divine grounding to withstand state and majority.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 1,
+      "depends_on": [
+        "A-000001",
+        "A-000004"
+      ]
+    },
+    {
+      "id": "A-000004",
+      "natural_language": "Tawhid: no servitude to anything other than God.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 1,
+      "depends_on": [
+        "A-000001"
+      ]
+    },
+    {
+      "id": "A-000005",
+      "natural_language": "No compulsion in religion.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 2,
+      "depends_on": [
+        "A-000004"
+      ]
+    },
+    {
+      "id": "A-000006",
+      "natural_language": "Resurrection exists; it stabilizes liberty.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 2,
+      "depends_on": [
+        "A-000004"
+      ]
+    },
+    {
+      "id": "A-000007",
+      "natural_language": "Prophethood is real; it is the barrier against false messiahs.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 2,
+      "depends_on": [
+        "A-000004"
+      ]
+    },
+    {
+      "id": "A-000008",
+      "natural_language": "Rule of Taslīṭ: individuals are sovereign over their own property.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 2,
+      "depends_on": [
+        "A-000002",
+        "A-000004"
+      ]
+    },
+    {
+      "id": "A-000009",
+      "natural_language": "Dignitary equality: all humans are equal in dignity before God.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 2,
+      "depends_on": [
+        "A-000004"
+      ]
+    },
+    {
+      "id": "A-000010",
+      "natural_language": "Personal accountability: each person is accountable only to God.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 2,
+      "depends_on": [
+        "A-000006"
+      ]
+    },
+    {
+      "id": "A-000011",
+      "natural_language": "A valid formal system must have finite and minimal axioms.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 0,
+      "depends_on": []
+    },
+    {
+      "id": "A-000012",
+      "natural_language": "A valid system must be internally consistent (Gödel).",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 0,
+      "depends_on": []
+    },
+    {
+      "id": "A-000013",
+      "natural_language": "Liberty and property rights are prior normative axioms to any scientific conclusion.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 1,
+      "depends_on": [
+        "A-000001"
+      ]
+    },
+    {
+      "id": "A-000014",
+      "natural_language": "Theory has primacy over data in understanding history and religion.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 1,
+      "depends_on": [
+        "A-000012"
+      ]
+    },
+    {
+      "id": "A-000015",
+      "natural_language": "Mahdism: the theory cannot be completed without a terminal condition.",
+      "symbolic": "",
+      "type": "axiom",
+      "tier": 3,
+      "depends_on": [
+        "A-000006",
+        "A-000007",
+        "A-000004"
+      ]
+    },
+    {
+      "id": "C-000001",
+      "natural_language": "Liberty = individual property rights.",
+      "type": "claim",
+      "derives_from": [
+        "A-000001",
+        "A-000013"
+      ]
+    },
+    {
+      "id": "C-000015",
+      "natural_language": "Free will is the axiom everyone is forced to presuppose.",
+      "type": "claim",
+      "derives_from": [
+        "A-000001"
+      ]
+    },
+    {
+      "id": "C-000039",
+      "natural_language": "Denial of free will is self-refuting.",
+      "type": "claim",
+      "derives_from": [
+        "A-000001"
+      ]
+    },
+    {
+      "id": "C-000014",
+      "natural_language": "Acceptance of free will is prerequisite for science.",
+      "type": "claim",
+      "derives_from": [
+        "A-000001"
+      ]
+    },
+    {
+      "id": "C-000022",
+      "natural_language": "Liberty and property rights are prior to scientific conclusions.",
+      "type": "claim",
+      "derives_from": [
+        "A-000013"
+      ]
+    },
+    {
+      "id": "C-000003",
+      "natural_language": "Owning the body is necessary for being free.",
+      "type": "claim",
+      "derives_from": [
+        "C-000001",
+        "A-000002"
+      ]
+    },
+    {
+      "id": "C-000038",
+      "natural_language": "Deterministic government is incompatible with volitional liberty.",
+      "type": "claim",
+      "derives_from": [
+        "A-000001",
+        "C-000001"
+      ]
+    },
+    {
+      "id": "C-000016",
+      "natural_language": "Tawhid guarantees liberty by eliminating servitude to other-than-God.",
+      "type": "claim",
+      "derives_from": [
+        "A-000004",
+        "C-000001"
+      ]
+    },
+    {
+      "id": "C-000017",
+      "natural_language": "Eliminating Tawhid proliferates axioms and leads to totalitarianism.",
+      "type": "claim",
+      "derives_from": [
+        "A-000011",
+        "C-000016"
+      ]
+    },
+    {
+      "id": "C-000018",
+      "natural_language": "Formal systems must have finite, minimal axioms.",
+      "type": "claim",
+      "derives_from": [
+        "A-000011",
+        "A-000012"
+      ]
+    },
+    {
+      "id": "C-000027",
+      "natural_language": "Gödel: humans are not machines; they perceive truths no formal system can prove.",
+      "type": "claim",
+      "derives_from": [
+        "E-000049"
+      ]
+    },
+    {
+      "id": "C-000028",
+      "natural_language": "A consistent formal system is necessary for understanding true religion.",
+      "type": "claim",
+      "derives_from": [
+        "A-000012",
+        "C-000004"
+      ]
+    },
+    {
+      "id": "C-000021",
+      "natural_language": "Liberty is unstable without resurrection (last-round problem).",
+      "type": "claim",
+      "derives_from": [
+        "A-000006",
+        "A-000001"
+      ]
+    },
+    {
+      "id": "C-000023",
+      "natural_language": "Prophethood is barrier against fraud and false messiahs.",
+      "type": "claim",
+      "derives_from": [
+        "A-000007",
+        "A-000004"
+      ]
+    },
+    {
+      "id": "C-000041",
+      "natural_language": "Law is discovered, not enacted.",
+      "type": "claim",
+      "derives_from": [
+        "C-000001",
+        "A-000008"
+      ]
+    },
+    {
+      "id": "C-000042",
+      "natural_language": "Institution ≠ organization; conflating them destroys liberty.",
+      "type": "claim",
+      "derives_from": [
+        "C-000041"
+      ]
+    },
+    {
+      "id": "C-000046",
+      "natural_language": "Envy is the root of socialism.",
+      "type": "claim",
+      "derives_from": [
+        "C-000001"
+      ]
+    },
+    {
+      "id": "C-000034",
+      "natural_language": "Central bank = earthly god; violates liberty.",
+      "type": "claim",
+      "derives_from": [
+        "C-000001",
+        "C-000016"
+      ]
+    },
+    {
+      "id": "C-000043",
+      "natural_language": "Democracy does not legitimize the choice of the devil.",
+      "type": "claim",
+      "derives_from": [
+        "C-000001",
+        "C-000022"
+      ]
+    },
+    {
+      "id": "C-000004",
+      "natural_language": "True religion purified of mysticism is the most precise system for liberty's defense.",
+      "type": "claim",
+      "derives_from": [
+        "C-000013",
+        "A-000004",
+        "A-000005"
+      ]
+    },
+    {
+      "id": "C-000040",
+      "natural_language": "Austrian School is incomplete without theological grounding.",
+      "type": "claim",
+      "derives_from": [
+        "A-000003",
+        "C-000013"
+      ]
+    },
+    {
+      "id": "C-000050",
+      "natural_language": "Hobbes is more honest than Locke and Rothbard but still inconsistent.",
+      "type": "claim",
+      "derives_from": [
+        "C-000001",
+        "A-000003"
+      ]
+    },
+    {
+      "id": "C-000047",
+      "natural_language": "Taxation is a penalty for creativity.",
+      "type": "claim",
+      "derives_from": [
+        "C-000046",
+        "C-000001"
+      ]
+    },
+    {
+      "id": "C-000048",
+      "natural_language": "State education reproduces slavery.",
+      "type": "claim",
+      "derives_from": [
+        "C-000047",
+        "C-000001"
+      ]
+    },
+    {
+      "id": "C-000045",
+      "natural_language": "Family disruption paves the way for the state.",
+      "type": "claim",
+      "derives_from": [
+        "C-000001",
+        "C-000037"
+      ]
+    },
+    {
+      "id": "C-000036",
+      "natural_language": "Suffolk Bank demonstrates viability of free banking.",
+      "type": "claim",
+      "derives_from": [
+        "C-000022"
+      ]
+    },
+    {
+      "id": "C-000037",
+      "natural_language": "Mudarabah is the natural contract under free banking.",
+      "type": "claim",
+      "derives_from": [
+        "C-000022",
+        "C-000036"
+      ]
+    },
+    {
+      "id": "C-000029",
+      "natural_language": "The formal system of liberty is equivalent to religion.",
+      "type": "claim",
+      "derives_from": [
+        "C-000028",
+        "C-000004"
+      ]
+    },
+    {
+      "id": "C-000055",
+      "natural_language": "Religion is the antithesis of the state.",
+      "type": "claim",
+      "derives_from": [
+        "C-000004",
+        "C-000006"
+      ]
+    },
+    {
+      "id": "C-000067",
+      "natural_language": "Rule of Taslīṭ is the religious form of property rights.",
+      "type": "claim",
+      "derives_from": [
+        "A-000008",
+        "C-000041"
+      ]
+    },
+    {
+      "id": "C-000013",
+      "natural_language": "Liberty → property rights → religion (master derivation).",
+      "type": "claim",
+      "derives_from": [
+        "C-000001",
+        "C-000004",
+        "A-000003"
+      ]
+    },
+    {
+      "id": "C-000010",
+      "natural_language": "Iran is the civilizational continuum — land of proprietors.",
+      "type": "claim",
+      "derives_from": [
+        "C-000060",
+        "A-000014"
+      ]
+    },
+    {
+      "id": "C-000059",
+      "natural_language": "Iran's crisis: distortion of religion + theft of history.",
+      "type": "claim",
+      "derives_from": [
+        "C-000058",
+        "C-000060"
+      ]
+    },
+    {
+      "id": "C-000053",
+      "natural_language": "Shahnameh myths are the civilizational memory of liberty.",
+      "type": "claim",
+      "derives_from": [
+        "A-000014",
+        "C-000060"
+      ]
+    },
+    {
+      "id": "C-000056",
+      "natural_language": "Ghadir = transfer of wilayah, not political state.",
+      "type": "claim",
+      "derives_from": [
+        "C-000055",
+        "A-000007"
+      ]
+    },
+    {
+      "id": "C-000057",
+      "natural_language": "Islam entered Iran as theory of transformation, not only sword.",
+      "type": "claim",
+      "derives_from": [
+        "C-000010",
+        "C-000004"
+      ]
+    },
+    {
+      "id": "C-000060",
+      "natural_language": "Iranian nation defined by liberty and property rights.",
+      "type": "claim",
+      "derives_from": [
+        "C-000001",
+        "C-000053"
+      ]
+    },
+    {
+      "id": "C-000032",
+      "natural_language": "Iran historically independent from Hobbesian Leviathan model.",
+      "type": "claim",
+      "derives_from": [
+        "C-000053",
+        "A-000014"
+      ]
+    },
+    {
+      "id": "C-000074",
+      "natural_language": "Hegel, Marx, fascism, communism are recyclings of ancient mysticism.",
+      "type": "claim",
+      "derives_from": [
+        "A-000014",
+        "C-000009"
+      ]
+    },
+    {
+      "id": "C-000078",
+      "natural_language": "If Shi'ism were consistent with socialism/fascism, Iran would already be finished.",
+      "type": "claim",
+      "derives_from": [
+        "C-000004",
+        "C-000057"
+      ]
+    },
+    {
+      "id": "C-000011",
+      "natural_language": "AI tests consistency: machines cannot tolerate contradiction.",
+      "type": "claim",
+      "derives_from": [
+        "A-000012"
+      ]
+    },
+    {
+      "id": "C-000012",
+      "natural_language": "True religion as CFS must be translatable to machines.",
+      "type": "claim",
+      "derives_from": [
+        "C-000004",
+        "C-000011",
+        "A-000012"
+      ]
+    },
+    {
+      "id": "C-000071",
+      "natural_language": "Theory of liberty is the only existing solution for AI ethics.",
+      "type": "claim",
+      "derives_from": [
+        "C-000012",
+        "C-000029"
+      ]
+    },
+    {
+      "id": "C-000072",
+      "natural_language": "A civilization without consistent principles collapses.",
+      "type": "claim",
+      "derives_from": [
+        "A-000011",
+        "A-000012"
+      ]
+    },
+    {
+      "id": "C-000051",
+      "natural_language": "Without Mahdism, the theory cannot be completed.",
+      "type": "claim",
+      "derives_from": [
+        "C-000013",
+        "A-000015"
+      ]
+    },
+    {
+      "id": "C-000033",
+      "natural_language": "Iran, if it returns to its truth, becomes the land of liberty and faith and a model for human-machine civilization.",
+      "type": "claim",
+      "derives_from": [
+        "C-000010",
+        "C-000059",
+        "C-000013"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "A-000001",
+      "to": "C-000001",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000001",
+      "to": "C-000014",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000001",
+      "to": "C-000015",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000001",
+      "to": "C-000038",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000001",
+      "to": "C-000039",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000001",
+      "to": "ARG-000001",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000001",
+      "to": "ARG-000004",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000002",
+      "to": "C-000001",
+      "relation": "defines"
+    },
+    {
+      "from": "A-000002",
+      "to": "C-000002",
+      "relation": "defines"
+    },
+    {
+      "from": "A-000003",
+      "to": "C-000013",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000003",
+      "to": "C-000040",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000003",
+      "to": "C-000066",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000003",
+      "to": "ARG-000001",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "C-000016",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "C-000005",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "C-000017",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "C-000026",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "C-000063",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "ARG-000005",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "CN-000004",
+      "relation": "defines"
+    },
+    {
+      "from": "A-000005",
+      "to": "C-000004",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000005",
+      "to": "CN-000036",
+      "relation": "defines"
+    },
+    {
+      "from": "A-000006",
+      "to": "C-000021",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000006",
+      "to": "ARG-000002",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000007",
+      "to": "C-000023",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000007",
+      "to": "C-000024",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000007",
+      "to": "C-000064",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000008",
+      "to": "C-000067",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000008",
+      "to": "C-000041",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000009",
+      "to": "C-000046",
+      "relation": "contradicts"
+    },
+    {
+      "from": "A-000009",
+      "to": "C-000048",
+      "relation": "contradicts"
+    },
+    {
+      "from": "A-000010",
+      "to": "C-000046",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000011",
+      "to": "C-000017",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000011",
+      "to": "C-000018",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000011",
+      "to": "C-000072",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000011",
+      "to": "ARG-000005",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000012",
+      "to": "C-000011",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000012",
+      "to": "C-000028",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000012",
+      "to": "C-000072",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000012",
+      "to": "ARG-000003",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000013",
+      "to": "C-000001",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000013",
+      "to": "C-000022",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000013",
+      "to": "ARG-000006",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000014",
+      "to": "C-000053",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000014",
+      "to": "C-000058",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000014",
+      "to": "C-000060",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000015",
+      "to": "C-000051",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000015",
+      "to": "ARG-000009",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000001",
+      "to": "C-000002",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000001",
+      "to": "C-000003",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000001",
+      "to": "C-000022",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000001",
+      "to": "C-000041",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000001",
+      "to": "C-000043",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000001",
+      "to": "C-000055",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000001",
+      "to": "CN-000001",
+      "relation": "defines"
+    },
+    {
+      "from": "C-000004",
+      "to": "C-000008",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000004",
+      "to": "C-000028",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000004",
+      "to": "C-000029",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000004",
+      "to": "C-000031",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000004",
+      "to": "C-000055",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000013",
+      "to": "C-000004",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000013",
+      "to": "C-000033",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000013",
+      "to": "C-000051",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000013",
+      "to": "C-000071",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000016",
+      "to": "C-000017",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000016",
+      "to": "C-000062",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000021",
+      "to": "C-000020",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000029",
+      "to": "C-000071",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000040",
+      "to": "C-000013",
+      "relation": "derives_from"
+    },
+    {
+      "from": "C-000055",
+      "to": "C-000056",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000009",
+      "to": "C-000074",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000046",
+      "to": "C-000047",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000047",
+      "to": "C-000048",
+      "relation": "supports"
+    },
+    {
+      "from": "C-000045",
+      "to": "C-000025",
+      "relation": "supports"
+    },
+    {
+      "from": "E-000003",
+      "to": "ARG-000003",
+      "relation": "references"
+    },
+    {
+      "from": "E-000003",
+      "to": "C-000027",
+      "relation": "supports"
+    },
+    {
+      "from": "E-000003",
+      "to": "A-000012",
+      "relation": "supports"
+    },
+    {
+      "from": "E-000004",
+      "to": "C-000022",
+      "relation": "supports"
+    },
+    {
+      "from": "E-000004",
+      "to": "C-000036",
+      "relation": "references"
+    },
+    {
+      "from": "E-000005",
+      "to": "C-000065",
+      "relation": "references"
+    },
+    {
+      "from": "E-000005",
+      "to": "ARG-000010",
+      "relation": "references"
+    },
+    {
+      "from": "E-000007",
+      "to": "C-000074",
+      "relation": "references"
+    },
+    {
+      "from": "E-000007",
+      "to": "C-000009",
+      "relation": "references"
+    },
+    {
+      "from": "E-000009",
+      "to": "C-000050",
+      "relation": "references"
+    },
+    {
+      "from": "E-000009",
+      "to": "C-000032",
+      "relation": "references"
+    },
+    {
+      "from": "E-000014",
+      "to": "C-000045",
+      "relation": "references"
+    },
+    {
+      "from": "E-000047",
+      "to": "C-000036",
+      "relation": "supports"
+    },
+    {
+      "from": "E-000049",
+      "to": "A-000012",
+      "relation": "supports"
+    },
+    {
+      "from": "E-000049",
+      "to": "C-000027",
+      "relation": "supports"
+    },
+    {
+      "from": "E-000049",
+      "to": "ARG-000003",
+      "relation": "supports"
+    },
+    {
+      "from": "CN-000003",
+      "to": "C-000009",
+      "relation": "defines"
+    },
+    {
+      "from": "CN-000003",
+      "to": "C-000074",
+      "relation": "defines"
+    },
+    {
+      "from": "CN-000005",
+      "to": "C-000016",
+      "relation": "defines"
+    },
+    {
+      "from": "CN-000005",
+      "to": "C-000017",
+      "relation": "defines"
+    },
+    {
+      "from": "CN-000006",
+      "to": "C-000006",
+      "relation": "defines"
+    },
+    {
+      "from": "CN-000007",
+      "to": "A-000001",
+      "relation": "defines"
+    },
+    {
+      "from": "CN-000008",
+      "to": "A-000012",
+      "relation": "defines"
+    },
+    {
+      "from": "CN-000013",
+      "to": "A-000006",
+      "relation": "defines"
+    },
+    {
+      "from": "CN-000014",
+      "to": "A-000015",
+      "relation": "defines"
+    },
+    {
+      "from": "ARG-000001",
+      "to": "C-000013",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000002",
+      "to": "C-000021",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000003",
+      "to": "C-000028",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000004",
+      "to": "C-000039",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000005",
+      "to": "C-000016",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000006",
+      "to": "C-000022",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000007",
+      "to": "C-000043",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000008",
+      "to": "C-000056",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000009",
+      "to": "C-000051",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000010",
+      "to": "C-000040",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000011",
+      "to": "C-000071",
+      "relation": "derives_from"
+    },
+    {
+      "from": "ARG-000012",
+      "to": "C-000074",
+      "relation": "derives_from"
+    },
+    {
+      "from": "A-000001",
+      "to": "A-000002",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000001",
+      "to": "A-000003",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000003",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000001",
+      "to": "A-000004",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000005",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000006",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000007",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000002",
+      "to": "A-000008",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000008",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000009",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000006",
+      "to": "A-000010",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000001",
+      "to": "A-000013",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000012",
+      "to": "A-000014",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000006",
+      "to": "A-000015",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000007",
+      "to": "A-000015",
+      "relation": "supports"
+    },
+    {
+      "from": "A-000004",
+      "to": "A-000015",
+      "relation": "supports"
+    },
+    {
+      "from": "CN:free_will",
+      "to": "CN:liberty",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:property_rights",
+      "to": "CN:liberty",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:free_will",
+      "to": "CN:property_rights",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:tawhid",
+      "to": "CN:property_rights",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:free_will",
+      "to": "CN:tawhid",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:tawhid",
+      "to": "CN:religion",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:resurrection",
+      "to": "CN:religion",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:prophethood",
+      "to": "CN:religion",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:formal_system",
+      "to": "CN:religion",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:free_will",
+      "to": "CN:formal_system",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:religion",
+      "to": "CN:mahdism",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:prophethood",
+      "to": "CN:mahdism",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:resurrection",
+      "to": "CN:mahdism",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:tawhid",
+      "to": "CN:islam",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:prophethood",
+      "to": "CN:islam",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:resurrection",
+      "to": "CN:islam",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:liberty",
+      "to": "CN:iran",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:property_rights",
+      "to": "CN:iran",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:islam",
+      "to": "CN:iran",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:formal_system",
+      "to": "CN:ai_alignment",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:liberty",
+      "to": "CN:ai_alignment",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:religion",
+      "to": "CN:ai_alignment",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:tawhid",
+      "to": "CN:resurrection",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:tawhid",
+      "to": "CN:prophethood",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:liberty",
+      "to": "CN:austrian_school",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:property_rights",
+      "to": "CN:austrian_school",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:free_will",
+      "to": "CN:austrian_school",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:resurrection",
+      "to": "CN:game_theory",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:liberty",
+      "to": "CN:game_theory",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:communism",
+      "to": "CN:envy",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:the_state",
+      "to": "CN:taxation",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:the_state",
+      "to": "CN:central_bank",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:mysticism",
+      "to": "CN:dialectic",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:mysticism",
+      "to": "CN:german_idealism",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:dialectic",
+      "to": "CN:german_idealism",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:the_state",
+      "to": "CN:velayat",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:iran",
+      "to": "CN:shahnameh",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:liberty",
+      "to": "CN:family",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:property_rights",
+      "to": "CN:family",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:islam",
+      "to": "CN:ghadir",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:prophethood",
+      "to": "CN:ghadir",
+      "relation": "concept_depends_on"
+    },
+    {
+      "from": "CN:formal_system",
+      "to": "CN:goedel",
+      "relation": "concept_depends_on"
+    }
+  ]
+}

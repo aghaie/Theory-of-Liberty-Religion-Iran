@@ -1,0 +1,18 @@
+{
+  "total_candidates": 1,
+  "candidates": [
+    {
+      "candidate_id": "CONTR-0001",
+      "subject": "property = liberty vs. property insufficient",
+      "claim_a_id": "C-000357",
+      "claim_a_text": "Throughout, I ask the reader to keep only one principle in mind: wherever individual property rights are violated, Liberty is violated; wherever Liberty is violated, servitude to something other than ",
+      "claim_a_count": 2,
+      "claim_b_id": "C-003959",
+      "claim_b_text": "Nevertheless, in the remaining texts and the axioms that may be extracted from them, one finds nothing but a defense of Liberty and individual property rights—though not with sufficient Consistency an",
+      "claim_b_count": 1,
+      "conflict": "Claim A asserts positive; Claim B asserts negative on: property = liberty vs. property insufficient",
+      "confidence": 60,
+      "note": "These may be resolved by domain scope (e.g., 'authentic religion' vs. 'distorted religion')"
+    }
+  ]
+}

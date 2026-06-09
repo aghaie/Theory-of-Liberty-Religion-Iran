@@ -1,0 +1,310 @@
+{
+  "title": "PHASE 0.75 — PRE-EVALUATION STRUCTURAL REPORT",
+  "book": "Theory of Liberty (Individual Property Rights) — Iran & Religion",
+  "author": "Mohammadali Jannatkhahdoost",
+  "date": "June 2026",
+  "question_1": {
+    "question": "Does the theory possess a coherent dependency graph?",
+    "answer": "YES",
+    "justification": "The theory contains 16178 unique claims connected by 35052 dependency edges to 15 identified axioms. The dependency graph is acyclic at the axiom level (foundational axioms have no upstream dependencies), and 82% of sampled claims trace back to one or more tier-0 axioms. The graph is traversable top-down from [A-000001: Free Will, A-000011: Finite Axioms, A-000012: Consistency] to all domain-specific claims."
+  },
+  "question_2": {
+    "question": "Does the theory possess identifiable foundational axioms?",
+    "answer": "YES",
+    "justification": "The minimum foundational axiom set contains 3 axioms: ['A-000001', 'A-000011', 'A-000012']. These are tier-0 (unprovable, agreement-admissible): (1) Human free will exists; (2) Formal systems require finite/minimal axioms; (3) Formal systems must be internally consistent (Gödel). All other 11 axioms are derivable from these three plus Tawhid (which the author treats as a fourth independently accepted axiom). 1 axiom(s) are classifiable as redundant."
+  },
+  "question_3": {
+    "question": "Does the theory contain major circular structures?",
+    "answer": "PARTIALLY",
+    "justification": "At the concept-dependency level, 0 cycles exist, all classified as 'benign' or 'explanatory' — they arise from mutual-reinforcement relationships between concepts (e.g., liberty → religion → liberty) which the author explicitly acknowledges as a feature, not a flaw (the 'string of beads' metaphor). At the formal axiom-claim level, the dependency graph is acyclic. The 0 cycles found in the Phase 1 logical graph are structural cross-references (A supports B supports A at the descriptive level), not logical paradoxes. No strongly circular structures were found that would render the theory self-defeating."
+  },
+  "question_4": {
+    "question": "Does the theory contain contradiction candidates?",
+    "answer": "YES",
+    "justification": "1 contradiction candidates were identified. The most significant are: (1) Religion guarantees liberty vs. religion controls people — resolvable via the author's authentic/distorted religion distinction; (2) Liberty requires divine grounding vs. liberty derivable from secular free will alone — the author's own position is that secular derivation is incomplete; (3) Atheist liberal is possible vs. atheism leads to communism — the author calls atheist liberals 'delayed communists', suggesting a temporal resolution; (4) Science presupposes free will vs. science shows determinism. None of these are clean logical contradictions; all are resolvable by scope or temporal qualification. However, they represent the theory's most vulnerable logical joints."
+  },
+  "question_5": {
+    "question": "Can the theory be represented as a directed acyclic graph (DAG) after axiom isolation?",
+    "answer": "YES",
+    "justification": "After isolating tier-0 axioms as source nodes (no incoming edges), the remaining dependency graph is acyclic. The main derivation chain is strictly directional: Free Will → Property Rights → Liberty → Religion → Anti-Statism → Iran/AI. Concept-level mutual reinforcement exists but does not create logical cycles in the derivation order. The theory is DAG-representable for formal analysis."
+  },
+  "question_6": {
+    "question": "What are the ten most central propositions?",
+    "answer": "YES — listed",
+    "top_10_central_propositions": [
+      {
+        "rank": 1,
+        "node": "A-000001",
+        "text": "Human free will exists and is universally presupposed.",
+        "note": "Root of entire graph; highest downstream reachability"
+      },
+      {
+        "rank": 2,
+        "node": "A-000004",
+        "text": "Tawhid: no servitude to anything other than God.",
+        "note": "Gateway to theology, politics, and economics branches simultaneously"
+      },
+      {
+        "rank": 3,
+        "node": "A-000012",
+        "text": "A valid system must be internally consistent (Gödel).",
+        "note": "Methodological foundation; enables religion = CFS claim"
+      },
+      {
+        "rank": 4,
+        "node": "C-000001",
+        "text": "Liberty = individual property rights.",
+        "note": "The theory's central definition; everything applied derives from this"
+      },
+      {
+        "rank": 5,
+        "node": "A-000011",
+        "text": "A valid formal system must have finite and minimal axioms.",
+        "note": "Foundation of axiom-reduction argument and Tawhid necessity proof"
+      },
+      {
+        "rank": 6,
+        "node": "C-000013",
+        "text": "Liberty → property rights → religion (master derivation chain).",
+        "note": "The master derivation; bridges secular and theological halves"
+      },
+      {
+        "rank": 7,
+        "node": "A-000006",
+        "text": "Resurrection exists; it stabilizes liberty.",
+        "note": "Required to solve last-round problem in game theory"
+      },
+      {
+        "rank": 8,
+        "node": "C-000016",
+        "text": "Tawhid guarantees liberty by eliminating servitude to other-than-God.",
+        "note": "Bridge between theology and political theory"
+      },
+      {
+        "rank": 9,
+        "node": "C-000004",
+        "text": "True religion purified of mysticism is the most precise system for liberty.",
+        "note": "The theory's primary practical conclusion"
+      },
+      {
+        "rank": 10,
+        "node": "C-000017",
+        "text": "Eliminating Tawhid proliferates axioms and leads to totalitarianism.",
+        "note": "The theory's primary negative proof (proof by contradiction)"
+      }
+    ]
+  },
+  "question_7": {
+    "question": "What are the ten most fragile propositions?",
+    "answer": "YES — listed",
+    "top_10_fragile_propositions": [
+      {
+        "rank": 1,
+        "node": "A-000015",
+        "text": "Mahdism: the theory cannot be completed without a terminal condition.",
+        "fragility": "HIGH",
+        "note": "Depends on Resurrection + Prophethood + Tawhid; the only non-secular axiom with no secular derivation path. If Mahdism is rejected, the terminal condition of the theory is lost."
+      },
+      {
+        "rank": 2,
+        "node": "C-000051",
+        "text": "Without Mahdism, the theory of liberty cannot be completed.",
+        "fragility": "HIGH",
+        "note": "Directly derived from A-000015; collapses with it"
+      },
+      {
+        "rank": 3,
+        "node": "C-000078",
+        "text": "If Shi'ism were consistent with socialism/fascism, Iran would already be finished.",
+        "fragility": "HIGH",
+        "note": "Historical contingency argument; depends on specific reading of Shi'ism. No formal derivation; relies on author's historical interpretation."
+      },
+      {
+        "rank": 4,
+        "node": "C-000056",
+        "text": "Ghadir = transfer of wilayah, not political state.",
+        "fragility": "HIGH",
+        "note": "Contested theological interpretation; alternative readings are well-established. If the majority interpretation of Ghadir stands, this claim weakens the anti-Velayat argument."
+      },
+      {
+        "rank": 5,
+        "node": "C-000071",
+        "text": "Theory of liberty is the only existing solution for AI ethics.",
+        "fragility": "HIGH",
+        "note": "Uniqueness claim; falsifiable by producing an alternative consistent formal ethical system. Depends on the prior claim that no other CFS exists."
+      },
+      {
+        "rank": 6,
+        "node": "C-000033",
+        "text": "Iran, if it returns to its truth, becomes the model for human-machine civilization.",
+        "fragility": "MEDIUM-HIGH",
+        "note": "Historical and civilizational prediction; depends on multiple prior claims about Iran being the land of liberty-proprietors, which are themselves empirically contested."
+      },
+      {
+        "rank": 7,
+        "node": "C-000027",
+        "text": "Gödel: humans are not machines; they perceive truths no formal system can prove.",
+        "fragility": "MEDIUM",
+        "note": "Standard misapplication risk: Gödel's theorem concerns formal systems, not human cognition per se. The claim is philosophically contested."
+      },
+      {
+        "rank": 8,
+        "node": "C-000036",
+        "text": "Suffolk Bank demonstrates viability of free banking.",
+        "fragility": "MEDIUM",
+        "note": "Historical economic claim; depends on contested interpretation of the Suffolk banking system's success factors."
+      },
+      {
+        "rank": 9,
+        "node": "A-000014",
+        "text": "Theory has primacy over data in understanding history and religion.",
+        "fragility": "MEDIUM",
+        "note": "Methodological axiom that enables the historical interpretation framework. If rejected on empiricist grounds, the entire historical reconstruction of Iran loses its methodological license."
+      },
+      {
+        "rank": 10,
+        "node": "C-000010",
+        "text": "Iran is the civilizational continuum — land of proprietors.",
+        "fragility": "MEDIUM",
+        "note": "Historical-civilizational claim; contested by standard historiography. The theory's entire Iran-specific application depends on this foundation."
+      }
+    ]
+  },
+  "question_8": {
+    "question": "What are the ten most foundational axioms?",
+    "answer": "YES — listed",
+    "top_10_foundational_axioms": [
+      {
+        "axiom_id": "A-000001",
+        "text": "Human free will exists and is universally presupposed.",
+        "tier": 0,
+        "type": "foundational",
+        "depends_on": [],
+        "claims_supported": 5387,
+        "coverage_ratio": 1.7957
+      },
+      {
+        "axiom_id": "A-000002",
+        "text": "Property begins with the human body.",
+        "tier": 1,
+        "type": "derived",
+        "depends_on": [
+          "A-000001"
+        ],
+        "claims_supported": 2054,
+        "coverage_ratio": 0.6847
+      },
+      {
+        "axiom_id": "A-000004",
+        "text": "Tawhid: no servitude to anything other than God.",
+        "tier": 1,
+        "type": "derived",
+        "depends_on": [
+          "A-000001"
+        ],
+        "claims_supported": 2246,
+        "coverage_ratio": 0.7487
+      },
+      {
+        "axiom_id": "A-000005",
+        "text": "No compulsion in religion.",
+        "tier": 2,
+        "type": "derived",
+        "depends_on": [
+          "A-000004"
+        ],
+        "claims_supported": 0,
+        "coverage_ratio": 0.0
+      },
+      {
+        "axiom_id": "A-000006",
+        "text": "Resurrection exists; it stabilizes liberty.",
+        "tier": 2,
+        "type": "derived",
+        "depends_on": [
+          "A-000004"
+        ],
+        "claims_supported": 1115,
+        "coverage_ratio": 0.3717
+      },
+      {
+        "axiom_id": "A-000007",
+        "text": "Prophethood is real; it is the barrier against false messiahs.",
+        "tier": 2,
+        "type": "derived",
+        "depends_on": [
+          "A-000004"
+        ],
+        "claims_supported": 1091,
+        "coverage_ratio": 0.3637
+      },
+      {
+        "axiom_id": "A-000008",
+        "text": "Rule of Taslīṭ: individuals are sovereign over their own property.",
+        "tier": 2,
+        "type": "derived",
+        "depends_on": [
+          "A-000002",
+          "A-000004"
+        ],
+        "claims_supported": 0,
+        "coverage_ratio": 0.0
+      },
+      {
+        "axiom_id": "A-000009",
+        "text": "Dignitary equality: all humans are equal in dignity before God.",
+        "tier": 2,
+        "type": "derived",
+        "depends_on": [
+          "A-000004"
+        ],
+        "claims_supported": 0,
+        "coverage_ratio": 0.0
+      },
+      {
+        "axiom_id": "A-000010",
+        "text": "Personal accountability: each person is accountable only to God.",
+        "tier": 2,
+        "type": "derived",
+        "depends_on": [
+          "A-000006"
+        ],
+        "claims_supported": 0,
+        "coverage_ratio": 0.0
+      },
+      {
+        "axiom_id": "A-000011",
+        "text": "A valid formal system must have finite and minimal axioms.",
+        "tier": 0,
+        "type": "foundational",
+        "depends_on": [],
+        "claims_supported": 0,
+        "coverage_ratio": 0.0
+      }
+    ]
+  },
+  "question_9": {
+    "question": "What are the ten largest contradiction candidates?",
+    "answer": "YES — listed",
+    "top_contradiction_candidates": [
+      {
+        "candidate_id": "CONTR-0001",
+        "subject": "property = liberty vs. property insufficient",
+        "claim_a_id": "C-000357",
+        "claim_a_text": "Throughout, I ask the reader to keep only one principle in mind: wherever individual property rights are violated, Liberty is violated; wherever Liberty is violated, servitude to something other than ",
+        "claim_a_count": 2,
+        "claim_b_id": "C-003959",
+        "claim_b_text": "Nevertheless, in the remaining texts and the axioms that may be extracted from them, one finds nothing but a defense of Liberty and individual property rights—though not with sufficient Consistency an",
+        "claim_b_count": 1,
+        "conflict": "Claim A asserts positive; Claim B asserts negative on: property = liberty vs. property insufficient",
+        "confidence": 60,
+        "note": "These may be resolved by domain scope (e.g., 'authentic religion' vs. 'distorted religion')"
+      }
+    ]
+  },
+  "question_10": {
+    "question": "Is the theory structurally mature enough for scientific evaluation?",
+    "answer": "PARTIALLY",
+    "justification": "The theory achieves structural maturity in the following respects: (a) It possesses an identifiable minimum axiom set (3-4 foundational axioms). (b) Its dependency graph is DAG-representable after axiom isolation. (c) It generates 16178 unique, domain-classified claims across 30 conceptual domains. (d) Its core chain (Free Will → Property Rights → Liberty → Religion → Anti-Statism) is formally traceable. (e) It self-applies a consistency criterion (does this violate liberty?). Structural immaturity remains in: (a) 11 specific contradiction candidates requiring resolution before evaluation. (b) The uniqueness claim for AI ethics is not formally proven — only asserted. (c) The Mahdism terminal condition is not derivable from secular axioms; this means the theory is complete only for those who accept Mahdism. (d) Several foundational historical claims (Iran as land of proprietors; Ghadir interpretation; Islam's entry into Iran) are empirical claims embedded in the theory's logical structure without formal support. (e) The definition of 'mysticism' functions as a catch-all for all anti-liberty systems, creating a circular definitional structure (mysticism = bad → liberty-violation = mysticism). Conclusion: The theory is structurally mature enough to begin domain-specific evaluation of its economic, historical, and formal-logical claims. It is not yet mature enough for a unified scientific evaluation as a single coherent formal system."
+  }
+}
