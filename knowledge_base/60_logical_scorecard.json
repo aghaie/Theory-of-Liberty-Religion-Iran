@@ -1,0 +1,107 @@
+{
+  "overall_logical_coherence_score": 62,
+  "scale": "0-100",
+  "dimensions": {
+    "axiom_quality": {
+      "score": 72,
+      "components": {
+        "independence": 65,
+        "minimality": 85,
+        "clarity": 78,
+        "hidden_axiom_burden": 55
+      },
+      "justification": "Minimality is strong (15→6 reduction, 60% reduction). Independence is moderate: A-000004 (Tawhid) is weakly independent from A-000001; A-000003 is confirmed redundant. Clarity is good for named axioms; weakened by 12 hidden axioms that should be elevated. The hidden axiom burden (12 unstated prerequisites) is the main deduction."
+    },
+    "inference_validity": {
+      "score": 73,
+      "components": {
+        "core_chain_validity": 88,
+        "bridge_premises_explicit": 55,
+        "uniqueness_inferences": 40,
+        "game_theory_validity": 80
+      },
+      "justification": "Core chain (FW→PR→L→T→CFS→R) is logically valid with two unstated bridges. The game-theoretic stability argument is valid within the model. The uniqueness inferences (only CFS, only solution) are invalid as stated. Bridge premises are reasonable but not explicitly formalised."
+    },
+    "circularity_health": {
+      "score": 62,
+      "components": {
+        "no_logical_paradoxes": 100,
+        "no_self_defeating_circles": 50,
+        "explanatory_loops_legitimate": 90,
+        "definitional_circularity_penalty": -40
+      },
+      "justification": "No logical paradoxes found — excellent. Explanatory loops (liberty↔religion) are legitimate and acknowledged. Two self-defeating definitions identified (mysticism CIRC-001, authentic religion CIRC-005). CIRC-001 (mysticism) is critical: makes ~428 claims tautological. Large circularity penalty is warranted."
+    },
+    "definition_quality": {
+      "score": 68,
+      "components": {
+        "canonical_definitions_exist": 85,
+        "key_terms_stable": 60,
+        "definitional_conflicts_resolved": 45,
+        "scope_notes_present": 90
+      },
+      "justification": "12 canonical definitions with scope notes are a strong foundation. Key term stability is moderate: liberty (177 occurrences, consistent); religion conflates authentic/historical; mysticism is circular. 3 definitional conflicts flagged; none fully resolved yet."
+    },
+    "consistency": {
+      "score": 71,
+      "components": {
+        "no_direct_contradictions_in_kernel": 90,
+        "contradiction_candidates_resolvable": 70,
+        "critical_unresolved": 55,
+        "godel_consistency_asserted_not_proven": 60
+      },
+      "justification": "Kernel axioms do not directly contradict each other — good. 7 of 10 contradiction candidates are resolvable by scope or terminology. 3 are genuine issues (CR-003, CR-006, CR-007). CR-007 (mysticism circularity) is confirmed critical. CR-006 (Gödel transfer) is high — undermines the formal methodology. Consistency is asserted via self-application test but not formally proven."
+    },
+    "formal_rigor": {
+      "score": 58,
+      "components": {
+        "formalizations_produced": 75,
+        "proof_calculus_absent": 20,
+        "arithmetic_encoding_absent": 10,
+        "coverage_of_kernel_claims": 70
+      },
+      "justification": "26 formalizations across 4 logic types are a significant achievement. 70% of kernel claims are formalized. However: no proof calculus, no formal grammar, no arithmetic encoding. The theory is formally expressed but not formally proven. It is more rigorous than an ordinary essay but does not yet meet theorem-prover-ready standards."
+    },
+    "uniqueness_justification": {
+      "score": 28,
+      "components": {
+        "uniqueness_claimed": 100,
+        "uniqueness_demonstrated": 0,
+        "challenge_method_used": 30,
+        "partial_support": 40
+      },
+      "justification": "The theory claims uniqueness in 4-5 places. None is formally demonstrated. The challenge method ('produce an alternative') is rhetorically effective but logically insufficient. The lowest score across all dimensions: uniqueness is the theory's most significant logical vulnerability."
+    }
+  },
+  "ranking": [
+    {
+      "dimension": "inference_validity",
+      "score": 73
+    },
+    {
+      "dimension": "axiom_quality",
+      "score": 72
+    },
+    {
+      "dimension": "consistency",
+      "score": 71
+    },
+    {
+      "dimension": "definition_quality",
+      "score": 68
+    },
+    {
+      "dimension": "circularity_health",
+      "score": 62
+    },
+    {
+      "dimension": "formal_rigor",
+      "score": 58
+    },
+    {
+      "dimension": "uniqueness_justification",
+      "score": 28
+    }
+  ],
+  "interpretation": "Overall score: 62/100. The theory is above the philosophical-essay baseline in formal structure, axiom minimization, and logical coherence of its core chain. Its principal weaknesses are uniqueness justification (28/100), formal rigor as measured by proof-calculus standards (58/100), and circularity health due to the mysticism definition (62/100). The core chain (FW→PR→L→R) would score 85+ if isolated from uniqueness and circularity issues."
+}

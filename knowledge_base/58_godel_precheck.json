@@ -1,0 +1,51 @@
+{
+  "overall_godel_readiness_score": 44,
+  "scale": "0-100 (100 = all prerequisites for Gödel analysis met)",
+  "prerequisites": [
+    {
+      "prerequisite": "P1: The system is a formal system (has an explicit syntax and inference rules).",
+      "status": "PARTIALLY_MET",
+      "evidence": "The theory has identified axioms, definitions, and claims. Inference rules are implicit (modus ponens used throughout). No explicit proof calculus has been stated.",
+      "gap": "No explicit formal grammar or proof calculus. The 'formal system' is described in natural language.",
+      "score": 50
+    },
+    {
+      "prerequisite": "P2: The system is recursively axiomatizable (axioms can be listed by a decision procedure).",
+      "status": "PARTIALLY_MET",
+      "evidence": "The 15 named axioms are listed. The 838 axiom candidates are listed. A decision procedure for which candidates count as axioms (classification algorithm) exists in Phase 0.9.",
+      "gap": "The classification algorithm is heuristic, not a formal decision procedure. The boundary between axiom and derived claim is not always sharp.",
+      "score": 55
+    },
+    {
+      "prerequisite": "P3: The system is sufficiently expressive to encode elementary arithmetic (contains Robinson Arithmetic Q as a subsystem).",
+      "status": "NOT_MET",
+      "evidence": "No arithmetic encoding has been demonstrated or attempted.",
+      "gap": "This is the critical gap. Gödel's first incompleteness theorem requires the formal system to be at least as expressive as Robinson Arithmetic. Social normative systems typically do not encode arithmetic. The theory has not attempted this encoding.",
+      "score": 10
+    },
+    {
+      "prerequisite": "P4: The system is consistent (no proof of ⊥ exists).",
+      "status": "ASSERTED_NOT_PROVEN",
+      "evidence": "The theory asserts consistency via the self-application test: 'any interpretation violating liberty is rejected.' This is a semantic consistency check, not a proof-theoretic one.",
+      "gap": "By Gödel's second theorem, if the system is expressive enough for G1 to apply, it cannot prove its own consistency from within. The author's consistency claim, if the system is rich enough for Gödel, is therefore unprovable by the theory itself.",
+      "score": 60
+    },
+    {
+      "prerequisite": "P5: The system is capable of self-reference (expressing claims about itself).",
+      "status": "MET",
+      "evidence": "The theory explicitly makes self-referential claims: 'this theory is a fragment of religion'; 'this theory is a CFS for liberty.' Self-reference is present.",
+      "gap": "The self-reference is in natural language, not in a formal encoding. Gödel's self-referential construction requires formal-language self-encoding (Gödel numbering).",
+      "score": 70
+    },
+    {
+      "prerequisite": "P6: The system has a complete notion of proof (every valid inference can be formally verified).",
+      "status": "NOT_MET",
+      "evidence": "No complete proof system is defined. Inference validity is checked informally.",
+      "gap": "Without a complete proof system, it is not possible to determine what is provable vs. merely true-in-the-model.",
+      "score": 20
+    }
+  ],
+  "critical_gap": "P3 (arithmetic encoding) is the hard blocker. Without it, Gödel's theorems technically do not apply.",
+  "verdict": "Gödel precheck score: 44/100. The theory CANNOT currently be subjected to formal Gödel analysis. The Gödel invocations in the theory are best understood as ILLUSTRATIVE ANALOGIES, not formal applications. This does not invalidate the theory's substantive claims — it only means the Gödel framing is currently metaphorical, not technical. To enable genuine Gödel analysis: the axiomatic system must be encoded in a formal language with explicit proof calculus, and an arithmetic embedding must be demonstrated. Recommended pathway: encode the system in Lean 4 or Isabelle/HOL and verify whether a sufficient arithmetic fragment can be extracted.",
+  "recommendation": "Replace all uses of 'Consistent (Gödel-sense)' with 'non-contradictory' until P3 is demonstrated. The substantive arguments are unaffected."
+}

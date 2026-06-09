@@ -1,0 +1,95 @@
+{
+  "total_circularity_issues": 5,
+  "by_type": {
+    "DEFINITIONAL_CIRCULARITY": 1,
+    "EXPLANATORY_FEEDBACK_LOOP": 2,
+    "BENIGN_SELF_REFERENCE": 1,
+    "POTENTIALLY_CIRCULAR": 1
+  },
+  "critical_count": 1,
+  "self_defeating": [
+    "CIRC-001",
+    "CIRC-005"
+  ],
+  "entries": [
+    {
+      "circularity_id": "CIRC-001",
+      "type": "DEFINITIONAL_CIRCULARITY",
+      "nodes": [
+        "CN:mysticism",
+        "C-000009",
+        "C-000074"
+      ],
+      "description": "Mysticism is defined as 'any system that separates humans from property/reason/liberty.' The claim 'Hegel/Marx/fascism are forms of mysticism' is then 'proven' by showing they violate liberty. But since mysticism IS (by definition) what violates liberty, the 'proof' merely unpacks the definition. The cycle: [Mysticism ≡ anti-liberty] → [X is anti-liberty] → [X is mysticism] → [mysticism is anti-liberty]",
+      "verdict": "DEFINITIONAL_CIRCULARITY",
+      "severity": "CRITICAL",
+      "scope_of_damage": "~428 history-domain claims using mysticism as explanandum.",
+      "fix": "Redefine mysticism structurally (e.g., by the 'observable-God' or 'dissolution-of-individual' criterion) then derive anti-liberty as a consequence.",
+      "is_logical_paradox": false,
+      "is_self_defeating": true,
+      "note": "The circularity makes the mysticism arguments tautological but does NOT falsify the theory. The claims may be true; they are simply not demonstrated."
+    },
+    {
+      "circularity_id": "CIRC-002",
+      "type": "EXPLANATORY_FEEDBACK_LOOP",
+      "nodes": [
+        "L",
+        "R",
+        "CFS"
+      ],
+      "description": "Liberty requires religion (for stability); religion is the CFS for liberty; the CFS for liberty IS liberty's formal expression. The cycle: [L needs stable CFS] → [R is that CFS] → [R guarantees L] → [L needs R].",
+      "verdict": "EXPLANATORY_FEEDBACK_LOOP",
+      "severity": "BENIGN",
+      "note": "The author explicitly calls this 'the string of beads' — intentional mutual reinforcement. It is not a logical paradox because the cycle is DESCRIPTIVE (how the world is) rather than DEFINITIONAL (what the terms mean). Liberty and religion are independently defined.",
+      "is_logical_paradox": false,
+      "is_self_defeating": false
+    },
+    {
+      "circularity_id": "CIRC-003",
+      "type": "EXPLANATORY_FEEDBACK_LOOP",
+      "nodes": [
+        "T",
+        "L",
+        "¬S"
+      ],
+      "description": "Tawhid → ¬servitude → liberty; liberty → rejection of servitude → Tawhid (operational meaning).",
+      "verdict": "EXPLANATORY_FEEDBACK_LOOP",
+      "severity": "BENIGN",
+      "note": "Tawhid and liberty are separately defined; their mutual entailment is a theoretical claim, not a definitional circularity.",
+      "is_logical_paradox": false,
+      "is_self_defeating": false
+    },
+    {
+      "circularity_id": "CIRC-004",
+      "type": "SELF_REFERENTIAL",
+      "nodes": [
+        "CFS(R)",
+        "R",
+        "CFS"
+      ],
+      "description": "The theory claims to be a CFS for liberty; religion is a CFS for liberty; therefore the theory is (or is a fragment of) religion. This is a self-referential claim: the theory validates itself by declaring itself a fragment of the system it is arguing for.",
+      "verdict": "BENIGN_SELF_REFERENCE",
+      "severity": "LOW",
+      "note": "Self-reference is not automatically a logical defect. Gödel's own method involves constructing self-referential statements. The question is whether the self-reference generates a paradox — it does not here, because the theory does not claim to prove its own consistency from within.",
+      "is_logical_paradox": false,
+      "is_self_defeating": false
+    },
+    {
+      "circularity_id": "CIRC-005",
+      "type": "POTENTIALLY_CIRCULAR",
+      "nodes": [
+        "R_authentic",
+        "CFS",
+        "¬contradiction"
+      ],
+      "description": "The theory defines authentic religion as a CFS, then uses religion's lack of contradiction to confirm it is a CFS. Test: [R is authentic] ↔ [R is CFS]; [R is CFS] requires [R is non-contradictory]; [R is non-contradictory] established by 'any interpretation violating liberty is inauthentic.' But 'authentic' was defined as CFS-for-liberty. Potential circularity.",
+      "verdict": "POTENTIALLY_CIRCULAR",
+      "severity": "MEDIUM",
+      "note": "The consistency test (does it violate liberty?) is the same criterion as the definition (CFS for liberty = authentic). Whether this is viciously circular depends on whether 'authentic' and 'CFS for liberty' are independently defined. They are not: they are explicitly equated.",
+      "fix": "Provide an independent criterion for 'authentic religion' (e.g., historical, textual, or formal-system-theoretic) that does not use 'CFS for liberty' in its definition. Then show convergence.",
+      "is_logical_paradox": false,
+      "is_self_defeating": true
+    }
+  ],
+  "overall_assessment": "The theory has ONE critical circularity (CIRC-001: mysticism definition) and ONE potentially circular issue (CIRC-005: authentic religion / CFS equivalence). The remaining cycles are explanatory feedback loops — theoretically legitimate. No logical paradoxes were found. The theory is not self-defeating at the level of its core logical spine; it is self-defeating in two definitional framings that can be repaired without touching the core arguments."
+}

@@ -1,0 +1,53 @@
+{
+  "total_uniqueness_claims": 5,
+  "demonstrated": 0,
+  "not_demonstrated": 4,
+  "instances": [
+    {
+      "claim_id": "C-000071",
+      "text": "Theory of liberty is the only existing solution for AI ethics.",
+      "uniqueness_type": "global_uniqueness",
+      "how_stated": "Asserted as a challenge: 'produce an alternative and we will discuss it'",
+      "demonstrated": false,
+      "what_would_demonstrate_it": "A formal proof that any CFS for liberty must contain {FW, Tawhid, Res, Proph} or functional equivalents; combined with a survey showing no other system provides these.",
+      "verdict": "NOT_DEMONSTRATED"
+    },
+    {
+      "claim_id": "C-000029",
+      "text": "The formal system of liberty is equivalent to religion.",
+      "uniqueness_type": "equivalence_uniqueness",
+      "how_stated": "As a biconditional: CFS(L) ↔ R",
+      "demonstrated": false,
+      "what_would_demonstrate_it": "Left-to-right (CFS→R): show that any CFS satisfying the liberty-axioms has the structural properties of authentic religion as independently defined. Right-to-left (R→CFS): definitionally true by the author's definition of R. Left-to-right is not formally proven.",
+      "verdict": "PARTIALLY_DEMONSTRATED"
+    },
+    {
+      "claim_id": "IMPLICIT-1",
+      "text": "Tawhid is the uniquely minimal principle for liberty (no other single principle does the same work).",
+      "uniqueness_type": "minimal_uniqueness",
+      "how_stated": "Implicit in the argument: removing Tawhid requires infinitely many replacement axioms.",
+      "demonstrated": false,
+      "what_would_demonstrate_it": "Formally: show that any single principle P that (a) is agreement-admissible, (b) prohibits human servitude, (c) has finite axiom count must be equivalent to Tawhid. Equivalently: prove that the set {P : P is a single agreement-admissible anti-servitude principle} has exactly one member (up to logical equivalence).",
+      "verdict": "NOT_DEMONSTRATED"
+    },
+    {
+      "claim_id": "IMPLICIT-2",
+      "text": "Authentic religion is the ONLY consistent formal axiomatic system for liberty.",
+      "uniqueness_type": "system_uniqueness",
+      "how_stated": "Implicit across multiple claims; explicit in AI-ethics conclusion.",
+      "demonstrated": false,
+      "what_would_demonstrate_it": "Survey of all proposed formal systems for social order and show each either: (a) is inconsistent (self-contradictory), or (b) is equivalent to the theory, or (c) fails to solve the last-round problem. This is the core uniqueness proof needed.",
+      "verdict": "NOT_DEMONSTRATED"
+    },
+    {
+      "claim_id": "IMPLICIT-3",
+      "text": "The Qur'an cannot be matched as a formal axiomatic system for liberty (tahaddi / challenge).",
+      "uniqueness_type": "textual_uniqueness",
+      "how_stated": "As a challenge: 'you cannot produce a book like the Qur'an'",
+      "demonstrated": false,
+      "what_would_demonstrate_it": "This is the theory's most theological uniqueness claim. Within the formal framework: show that no other text provides the same minimal CFS. This is both a formal claim and a historical/theological claim — outside the scope of logical analysis alone.",
+      "verdict": "OUTSIDE_LOGICAL_SCOPE"
+    }
+  ],
+  "overall_verdict": "The theory makes 4-5 uniqueness claims of different types. NONE are formally demonstrated. The theory argues for uniqueness by: (a) challenge to produce alternatives, (b) showing alternatives are incomplete, (c) definitional absorption. None of these constitute formal uniqueness proofs. This is the theory's single most significant logical gap: the difference between 'a CFS for liberty' (demonstrated) and 'the only CFS for liberty' (not demonstrated). Fixing this does not require abandoning the theory — only downgrading terminal claims from 'the only' to 'the most complete known' OR providing a formal uniqueness proof."
+}

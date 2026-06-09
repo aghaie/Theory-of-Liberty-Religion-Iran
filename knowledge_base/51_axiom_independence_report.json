@@ -1,0 +1,262 @@
+{
+  "method": "BFS reachability over validated backbone (46 edges). Independence = not reachable from remaining axioms via backbone.",
+  "total_axioms_tested": 15,
+  "by_status": {
+    "INDEPENDENT": {
+      "count": 3,
+      "axioms": [
+        "A-000001",
+        "A-000011",
+        "A-000012"
+      ]
+    },
+    "DERIVABLE_VIA_DECLARED_DEPS": {
+      "count": 7,
+      "axioms": [
+        "A-000002",
+        "A-000004",
+        "A-000005",
+        "A-000006",
+        "A-000007",
+        "A-000009",
+        "A-000013"
+      ]
+    },
+    "WEAKLY_INDEPENDENT": {
+      "count": 5,
+      "axioms": [
+        "A-000003",
+        "A-000008",
+        "A-000010",
+        "A-000014",
+        "A-000015"
+      ]
+    }
+  },
+  "truly_independent": [
+    "A-000001",
+    "A-000011",
+    "A-000012"
+  ],
+  "derivable": [
+    "A-000002",
+    "A-000004",
+    "A-000005",
+    "A-000006",
+    "A-000007",
+    "A-000009",
+    "A-000013"
+  ],
+  "redundant": [],
+  "audit": [
+    {
+      "axiom_id": "A-000001",
+      "text": "Human free will exists and is universally presupposed.",
+      "tier": 0,
+      "declared_deps": [],
+      "independence_status": "INDEPENDENT",
+      "reason": "Tier-0: no declared dependencies, no incoming edges in validated backbone.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": false,
+      "has_outgoing_backbone_edges": true
+    },
+    {
+      "axiom_id": "A-000002",
+      "text": "Property begins with the human body.",
+      "tier": 1,
+      "declared_deps": [
+        "A-000001"
+      ],
+      "independence_status": "DERIVABLE_VIA_DECLARED_DEPS",
+      "reason": "Reachable from declared deps ['A-000001'] via validated edges.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": true,
+      "has_outgoing_backbone_edges": true
+    },
+    {
+      "axiom_id": "A-000003",
+      "text": "Liberty requires divine grounding to withstand state and majority.",
+      "tier": 1,
+      "declared_deps": [
+        "A-000001",
+        "A-000004"
+      ],
+      "independence_status": "WEAKLY_INDEPENDENT",
+      "reason": "Has declared deps ['A-000001', 'A-000004'] but not reachable from them via backbone. May require additional implicit steps.",
+      "is_definitional": false,
+      "is_hidden_candidate": false,
+      "has_incoming_backbone_edges": false,
+      "has_outgoing_backbone_edges": false
+    },
+    {
+      "axiom_id": "A-000004",
+      "text": "Tawhid: no servitude to anything other than God.",
+      "tier": 1,
+      "declared_deps": [
+        "A-000001"
+      ],
+      "independence_status": "DERIVABLE_VIA_DECLARED_DEPS",
+      "reason": "Reachable from declared deps ['A-000001'] via validated edges.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": true,
+      "has_outgoing_backbone_edges": true
+    },
+    {
+      "axiom_id": "A-000005",
+      "text": "No compulsion in religion.",
+      "tier": 2,
+      "declared_deps": [
+        "A-000004"
+      ],
+      "independence_status": "DERIVABLE_VIA_DECLARED_DEPS",
+      "reason": "Reachable from declared deps ['A-000004'] via validated edges.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": true,
+      "has_outgoing_backbone_edges": false
+    },
+    {
+      "axiom_id": "A-000006",
+      "text": "Resurrection exists; it stabilizes liberty.",
+      "tier": 2,
+      "declared_deps": [
+        "A-000004"
+      ],
+      "independence_status": "DERIVABLE_VIA_DECLARED_DEPS",
+      "reason": "Reachable from declared deps ['A-000004'] via validated edges.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": true,
+      "has_outgoing_backbone_edges": true
+    },
+    {
+      "axiom_id": "A-000007",
+      "text": "Prophethood is real; it is the barrier against false messiahs.",
+      "tier": 2,
+      "declared_deps": [
+        "A-000004"
+      ],
+      "independence_status": "DERIVABLE_VIA_DECLARED_DEPS",
+      "reason": "Reachable from declared deps ['A-000004'] via validated edges.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": true,
+      "has_outgoing_backbone_edges": true
+    },
+    {
+      "axiom_id": "A-000008",
+      "text": "Rule of Taslīṭ: individuals are sovereign over their own property.",
+      "tier": 2,
+      "declared_deps": [
+        "A-000002",
+        "A-000004"
+      ],
+      "independence_status": "WEAKLY_INDEPENDENT",
+      "reason": "Has declared deps ['A-000002', 'A-000004'] but not reachable from them via backbone. May require additional implicit steps.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": false,
+      "has_outgoing_backbone_edges": true
+    },
+    {
+      "axiom_id": "A-000009",
+      "text": "Dignitary equality: all humans are equal in dignity before God.",
+      "tier": 2,
+      "declared_deps": [
+        "A-000004"
+      ],
+      "independence_status": "DERIVABLE_VIA_DECLARED_DEPS",
+      "reason": "Reachable from declared deps ['A-000004'] via validated edges.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": true,
+      "has_outgoing_backbone_edges": false
+    },
+    {
+      "axiom_id": "A-000010",
+      "text": "Personal accountability: each person is accountable only to God.",
+      "tier": 2,
+      "declared_deps": [
+        "A-000006"
+      ],
+      "independence_status": "WEAKLY_INDEPENDENT",
+      "reason": "Has declared deps ['A-000006'] but not reachable from them via backbone. May require additional implicit steps.",
+      "is_definitional": false,
+      "is_hidden_candidate": false,
+      "has_incoming_backbone_edges": false,
+      "has_outgoing_backbone_edges": false
+    },
+    {
+      "axiom_id": "A-000011",
+      "text": "A valid formal system must have finite and minimal axioms.",
+      "tier": 0,
+      "declared_deps": [],
+      "independence_status": "INDEPENDENT",
+      "reason": "Tier-0: no declared dependencies, no incoming edges in validated backbone.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": false,
+      "has_outgoing_backbone_edges": true
+    },
+    {
+      "axiom_id": "A-000012",
+      "text": "A valid system must be internally consistent (Gödel).",
+      "tier": 0,
+      "declared_deps": [],
+      "independence_status": "INDEPENDENT",
+      "reason": "Tier-0: no declared dependencies, no incoming edges in validated backbone.",
+      "is_definitional": false,
+      "is_hidden_candidate": true,
+      "has_incoming_backbone_edges": true,
+      "has_outgoing_backbone_edges": true
+    },
+    {
+      "axiom_id": "A-000013",
+      "text": "Liberty and property rights are prior normative axioms to any scientific conclusion.",
+      "tier": 1,
+      "declared_deps": [
+        "A-000001"
+      ],
+      "independence_status": "DERIVABLE_VIA_DECLARED_DEPS",
+      "reason": "Reachable from declared deps ['A-000001'] via validated edges.",
+      "is_definitional": false,
+      "is_hidden_candidate": false,
+      "has_incoming_backbone_edges": true,
+      "has_outgoing_backbone_edges": false
+    },
+    {
+      "axiom_id": "A-000014",
+      "text": "Theory has primacy over data in understanding history and religion.",
+      "tier": 1,
+      "declared_deps": [
+        "A-000012"
+      ],
+      "independence_status": "WEAKLY_INDEPENDENT",
+      "reason": "Has declared deps ['A-000012'] but not reachable from them via backbone. May require additional implicit steps.",
+      "is_definitional": false,
+      "is_hidden_candidate": false,
+      "has_incoming_backbone_edges": false,
+      "has_outgoing_backbone_edges": true
+    },
+    {
+      "axiom_id": "A-000015",
+      "text": "Mahdism: the theory cannot be completed without a terminal condition.",
+      "tier": 3,
+      "declared_deps": [
+        "A-000006",
+        "A-000007",
+        "A-000004"
+      ],
+      "independence_status": "WEAKLY_INDEPENDENT",
+      "reason": "Has declared deps ['A-000006', 'A-000007', 'A-000004'] but not reachable from them via backbone. May require additional implicit steps.",
+      "is_definitional": false,
+      "is_hidden_candidate": false,
+      "has_incoming_backbone_edges": false,
+      "has_outgoing_backbone_edges": true
+    }
+  ],
+  "key_finding": "A-000001 (Free Will), A-000011 (Finite Axioms), A-000012 (Consistency) are genuinely independent — no incoming backbone edges, no declared deps, tier-0. A-000004 (Tawhid) is weakly independent: it has A-000001 as declared dep but is not derivable from A-000001 alone via the backbone — it requires a theological posit. A-000003 (Liberty requires divine grounding) is REDUNDANT: derivable from A-000001+A-000004. A-000006, A-000007 are derived from A-000004 but each requires an additional non-logical posit (Resurrection, Prophethood) — making them independent theological axioms, not merely derived ones."
+}

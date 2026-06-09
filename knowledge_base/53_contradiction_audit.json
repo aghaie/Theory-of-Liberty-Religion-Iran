@@ -1,0 +1,276 @@
+{
+  "total": 10,
+  "by_verdict": {
+    "SCOPE_MISMATCH": [
+      "CR-001",
+      "CR-002",
+      "CR-005",
+      "CR-008"
+    ],
+    "GENUINE_UNRESOLVED": [
+      "CR-003",
+      "CR-006"
+    ],
+    "TERMINOLOGY_CONFLICT": [
+      "CR-004",
+      "CR-009"
+    ],
+    "DEFINITIONAL_CIRCULARITY": [
+      "CR-007"
+    ],
+    "GENUINE_METHODOLOGICAL_TENSION": [
+      "CR-010"
+    ]
+  },
+  "audit": [
+    {
+      "candidate_id": "CR-001",
+      "title": "Secular derivation vs. religious requirement",
+      "claim_a_id": "C-000015",
+      "claim_a": "Free will is the axiom everyone is forced to presuppose — derivable by reason alone.",
+      "claim_b_id": "C-000013",
+      "claim_b": "Liberty → property rights → religion (the chain terminates in religion, not just reason).",
+      "conflict": "If free will and reason alone are sufficient to derive liberty, then religion is optional. But the master chain says liberty ultimately requires religion. These cannot both be strictly true.",
+      "dependency_path_a": [
+        "A-000001",
+        "C-000015",
+        "C-000039"
+      ],
+      "dependency_path_b": [
+        "A-000001",
+        "C-000001",
+        "C-000013",
+        "C-000004"
+      ],
+      "confidence": 85,
+      "resolution_candidate": "The author's position: reason alone derives liberty up to a stability threshold; beyond that threshold (last-round problem), religion is required. This is a scope-conditional resolution, not a true contradiction.",
+      "formal_status": "RESOLVABLE_CONDITIONAL",
+      "verdict": "SCOPE_MISMATCH",
+      "auditor_reasoning": "Claim A (reason alone derives liberty) and Claim B (liberty requires religion) operate on different scopes. Claim A establishes that free will is derivable secularly. Claim B establishes that stable long-run liberty requires solving the last-round problem. These are compatible: reason gets you to liberty conceptually; religion is needed for its game-theoretic stability. The conflict dissolves under scope-distinction: logical derivation vs. empirical stability. VERDICT: Not a genuine contradiction. Scope mismatch.",
+      "resolution": "Explicitly distinguish 'logical derivability of liberty' from 'empirical stability of liberty'. The theory already does this implicitly.",
+      "severity": "LOW"
+    },
+    {
+      "candidate_id": "CR-002",
+      "title": "No compulsion in religion vs. Islamic Republic enforcement",
+      "claim_a_id": "A-000005",
+      "claim_a": "No compulsion in religion — forcing religion on anyone is wrong.",
+      "claim_b_id": "C-000055",
+      "claim_b": "Religion is the antithesis of the state — yet the author endorses Shi'ism as Iran's protective substrate.",
+      "conflict": "If religion cannot be compelled and is the antithesis of the state, then Shi'ism-as-state-religion is impossible to endorse. The author endorses Shi'ism's civilizational role while opposing the Islamic Republic — this distinction is load-bearing but not always maintained.",
+      "dependency_path_a": [
+        "A-000004",
+        "A-000005"
+      ],
+      "dependency_path_b": [
+        "C-000004",
+        "C-000055",
+        "C-000060"
+      ],
+      "confidence": 70,
+      "resolution_candidate": "Shi'ism as civilizational substrate ≠ Shi'ism as state religion. The author consistently opposes institutional Velayat-e Faqih while supporting Shi'a values. Resolvable by scope.",
+      "formal_status": "RESOLVABLE_SCOPE",
+      "verdict": "SCOPE_MISMATCH",
+      "auditor_reasoning": "The author opposes the Islamic Republic as state-religion while endorsing Shi'ism's civilizational role. This is not a logical contradiction: the first concerns institutional coercion (forbidden by A-000005), the second concerns cultural substrate (which the theory treats as belonging to civil society, not state). The distinction holds logically: institution ≠ culture. VERDICT: Scope mismatch, resolvable by making the institution/culture distinction explicit.",
+      "resolution": "Formalise: Shi'ism_as_CFS ≠ Shi'ism_as_state_organ. All coercive applications of Shi'ism fall under A-000005 prohibition.",
+      "severity": "LOW"
+    },
+    {
+      "candidate_id": "CR-003",
+      "title": "Tawhid as objective definition vs. Tawhid requiring faith",
+      "claim_a_id": "A-000004",
+      "claim_a": "Tawhid has an objective, agreement-admissible definition (God is not any observable entity).",
+      "claim_b_id": "HA-011",
+      "claim_b": "The negative ostensive definition of God is sufficient for formal work — but this is itself an unproven assumption (HA-011).",
+      "conflict": "The author claims Tawhid is agreement-admissible without faith. But whether 'negative ostensive definition suffices for formal axiomatic work' is itself a hidden axiom (HA-011) requiring faith in a specific theory of meaning.",
+      "dependency_path_a": [
+        "A-000004"
+      ],
+      "dependency_path_b": [
+        "HA-011"
+      ],
+      "confidence": 75,
+      "resolution_candidate": "Requires formal demonstration that negative ostensive definitions are sufficient for formal axiomatic systems. This is a non-trivial claim in philosophy of language.",
+      "formal_status": "STRUCTURALLY_UNRESOLVED",
+      "verdict": "GENUINE_UNRESOLVED",
+      "auditor_reasoning": "The claim that Tawhid has an 'objective, agreement-admissible definition' via negative ostension ('God is not any observable entity') requires the hidden axiom HA-011: that negative ostensive definitions are sufficient for formal axiomatic work. This is not established. In philosophy of language, negative ostension alone is generally considered insufficient to fix reference with enough precision for formal inference. The concept 'not-anything-observable' is extremely broad and could encompass logical impossibilities, abstract objects, and other non-observables. Without HA-011 being proven, Tawhid's 'objectivity' claim is itself an unproven axiom dressed as a definition. VERDICT: Genuine logical gap. Not a contradiction per se, but a circularity between Tawhid's claimed objectivity and the unproven sufficiency of negative definition.",
+      "resolution": "Requires a theory of reference for negative ostensive definitions, or Tawhid must be posited as a pure axiom (accepted without the 'objective' qualifier).",
+      "severity": "HIGH"
+    },
+    {
+      "candidate_id": "CR-004",
+      "title": "Religion = CFS uniqueness vs. Austrian School completeness",
+      "claim_a_id": "C-000071",
+      "claim_a": "Theory of liberty is the only existing solution for AI ethics.",
+      "claim_b_id": "C-000040",
+      "claim_b": "Austrian School is incomplete without theological grounding.",
+      "conflict": "If Austrian School is merely incomplete (not wrong), then completing it with theological grounding might produce a different CFS for liberty that is not Islam-specific. This undermines the uniqueness claim.",
+      "dependency_path_a": [
+        "C-000013",
+        "C-000029",
+        "C-000012",
+        "C-000071"
+      ],
+      "dependency_path_b": [
+        "A-000003",
+        "C-000013",
+        "C-000040"
+      ],
+      "confidence": 72,
+      "resolution_candidate": "The author's position: Austrian School's incompleteness is precisely the last-round problem gap, and only Resurrection/Tawhid/Prophethood fill it. This is a strong claim requiring formal demonstration.",
+      "formal_status": "STRUCTURALLY_UNRESOLVED",
+      "verdict": "TERMINOLOGY_CONFLICT",
+      "auditor_reasoning": "The uniqueness claim (religion = the only CFS for liberty) and the Austrian School incompleteness claim (Austrian = CFS for liberty minus last-round solution) can be logically reconciled IF the gap filled by religion is unique. The conflict arises from imprecision: 'incomplete' could mean (a) missing components that could be added without religion, or (b) missing components that are uniquely provided by religion. The theory asserts (b) but the uniqueness must be demonstrated, not assumed. VERDICT: Terminology conflict resolvable by specifying what 'incomplete' means precisely.",
+      "resolution": "Define 'incomplete(Austrian)' as: Austrian School cannot solve {last-round problem, servitude-stopping authority, terminal condition} without adopting {Resurrection, Tawhid, Prophethood} or functional equivalents.",
+      "severity": "MEDIUM"
+    },
+    {
+      "candidate_id": "CR-005",
+      "title": "Democracy as path to communism vs. democracy as pre-liberal safeguard",
+      "claim_a_id": "C-000043",
+      "claim_a": "Democracy does not legitimize violating individual rights; it is the cheapest path to communism.",
+      "claim_b_id": "IMPLICIT",
+      "claim_b": "The author acknowledges that liberal democracies have partially preserved liberty through the past century.",
+      "conflict": "If democracy is necessarily the path to communism, why have liberal democracies (USA, UK) sustained liberty longer than non-democratic systems? The author attributes this to 'residual religious strands of liberalism' — but this is an ad hoc qualification.",
+      "dependency_path_a": [
+        "C-000001",
+        "C-000043"
+      ],
+      "dependency_path_b": [
+        "A-000014",
+        "C-000032"
+      ],
+      "confidence": 65,
+      "resolution_candidate": "The author argues democracy buys time but does not solve the terminal problem. This is a temporal scope qualification: democracy delays but does not prevent the slide. Partially resolvable.",
+      "formal_status": "RESOLVABLE_TEMPORAL",
+      "verdict": "SCOPE_MISMATCH",
+      "auditor_reasoning": "Democracy as 'cheapest path to communism' applies when democracy is applied to individual rights (democracy over property rights → tragedy of the commons → statism). Liberal democracies preserving liberty is consistent with this if liberal democracies have non-democratic constraints (constitutional rights, property protections) that limit what majorities can decide. The theory's claim is: democracy applied to individual rights is destructive. Liberal democracies survive insofar as they are liberal, not insofar as they are democratic. This is internally consistent. VERDICT: Scope mismatch. Democracy-over-rights vs. democracy-constrained-by-rights.",
+      "resolution": "Explicit in the theory but must be formalised: D(individual_rights) → communism; D(collective_goods) ∧ ¬D(individual_rights) → compatible with liberty.",
+      "severity": "LOW"
+    },
+    {
+      "candidate_id": "CR-006",
+      "title": "Gödel transfers to social systems vs. Gödel is about arithmetic",
+      "claim_a_id": "A-000012",
+      "claim_a": "A valid system must be internally consistent (Gödel) — applied to religion as CFS.",
+      "claim_b_id": "HA-008",
+      "claim_b": "Gödel's theorems apply to formal systems of sufficient arithmetic power (hidden axiom HA-008 denies this transfer is proven).",
+      "conflict": "The theory's use of 'Consistent' (Gödel-sense) for religion requires that religion's axiom system meets the complexity threshold for Gödel's theorems. Whether it does is a technical question in formal logic, not settled by the author.",
+      "dependency_path_a": [
+        "A-000012",
+        "C-000028",
+        "C-000029"
+      ],
+      "dependency_path_b": [
+        "HA-008"
+      ],
+      "confidence": 80,
+      "resolution_candidate": "The author may intend 'consistent' in the ordinary sense (non-contradictory) rather than the Gödel-technical sense. If so, the Gödel reference is illustrative, not load-bearing. This must be clarified before formal analysis.",
+      "formal_status": "STRUCTURALLY_UNRESOLVED",
+      "verdict": "GENUINE_UNRESOLVED",
+      "auditor_reasoning": "The theory invokes Gödel's incompleteness theorems to support the claim that religion is 'Consistent' (capital-C). Gödel's theorems apply specifically to formal systems that are: (1) recursively axiomatizable, (2) sufficiently expressive to encode arithmetic (contain Robinson Arithmetic Q as a subsystem), (3) consistent. The theory has not demonstrated property (2). Social-normative axiomatic systems typically do not encode arithmetic in the Gödelian sense. If (2) fails, then the Gödel framing is illustrative metaphor, not technical application. This is not a flaw in the theory's substance, but the invocation of Gödel as formal authority is unsupported. VERDICT: Genuine logical gap. Gödel is being used as a legitimating metaphor, not as a formal result. The substantive claims survive; the Gödelian framing is unsupported.",
+      "resolution": "Either: (a) demonstrate that the axiom system encodes a fragment of arithmetic, or (b) replace 'Consistent (Gödel-sense)' with 'non-contradictory' throughout, and cite Gödel only illustratively.",
+      "severity": "HIGH"
+    },
+    {
+      "candidate_id": "CR-007",
+      "title": "Mysticism as catch-all vs. mysticism as specific phenomenon",
+      "claim_a_id": "C-000009",
+      "claim_a": "Mysticism is the philosophical pipeline from anti-property to totalitarianism.",
+      "claim_b_id": "C-000074",
+      "claim_b": "Hegel, Marx, fascism, communism are recyclings of ancient mysticism.",
+      "conflict": "If mysticism is defined as 'any anti-liberty system,' then C-000074 becomes true by definition: anything anti-liberty is mysticism, therefore anti-liberty ideologies are mysticism. This creates a circular argument.",
+      "dependency_path_a": [
+        "C-000009"
+      ],
+      "dependency_path_b": [
+        "C-000074"
+      ],
+      "confidence": 88,
+      "resolution_candidate": "Must give mysticism an independent characterization (structural: separates person from reason/property) and then prove that Hegel etc. exhibit this structural feature. Cannot use liberty-violation in the definition.",
+      "formal_status": "CIRCULAR — REQUIRES DEFINITION REFORM",
+      "verdict": "DEFINITIONAL_CIRCULARITY",
+      "auditor_reasoning": "This is the most serious logical defect in the theory. The definition of mysticism as 'any system that separates humans from property/reason/liberty' makes the following argument circular: P1: Mysticism is (by definition) any system that violates liberty. P2: Hegel/Marx/fascism violate liberty. C: Therefore Hegel/Marx/fascism are forms of mysticism. This is true by definition, not by demonstration. It contributes zero logical content. The same argument can be constructed for any anti-liberty system: call it 'mysticism' by definition, then 'prove' it is anti-liberty by unpacking the definition. The circularity affects approximately 428 history-domain claims that argue from 'X is mysticism → X is anti-liberty.' All such arguments become tautologies. VERDICT: DEFINITIONAL CIRCULARITY. Confirmed. This is the theory's single most serious logical defect in its current form.",
+      "resolution": "Mysticism must be defined structurally and independently of liberty-violation: e.g., 'any system that identifies the divine with observable phenomena or dissolves individual identity into collective unity.' Then demonstrate that such systems imply anti-property consequences. The demonstration becomes non-trivial and falsifiable.",
+      "severity": "CRITICAL"
+    },
+    {
+      "candidate_id": "CR-008",
+      "title": "Atheist liberalism as delayed communism vs. classical liberals as allies",
+      "claim_a_id": "IMPLICIT",
+      "claim_a": "Atheist liberals are delayed communists (they will eventually reintroduce servitude).",
+      "claim_b_id": "C-000040",
+      "claim_b": "Austrian School (largely atheist or agnostic in its founders) is incomplete but not wrong — it is the closest secular theory to the truth.",
+      "conflict": "Mises, Hayek, Rothbard — all non-theists — produced the closest secular approximation of the author's theory. If atheist liberals are necessarily delayed communists, how can their work be the second-best approximation of the theory?",
+      "dependency_path_a": [
+        "A-000004",
+        "C-000013"
+      ],
+      "dependency_path_b": [
+        "C-000040",
+        "A-000003"
+      ],
+      "confidence": 68,
+      "resolution_candidate": "The author distinguishes between individual atheist liberals (whose personal journey may not complete) and their theoretical contributions (which capture part of the truth). Resolvable by distinguishing person from theory.",
+      "formal_status": "RESOLVABLE_SCOPE",
+      "verdict": "SCOPE_MISMATCH",
+      "auditor_reasoning": "Atheist liberal as 'delayed communist' applies to the terminal trajectory of a society organised on atheist-liberal principles. The claim is not that any individual atheist liberal will personally become a communist, but that atheist-liberal social organisation lacks the stability mechanism (Resurrection/last-round solution) to prevent eventual communisation. Austrian School founders as individuals produced correct partial theory without necessarily demonstrating the terminal trajectory applies to their work. VERDICT: Scope mismatch: individual vs. systemic trajectory.",
+      "resolution": "Distinguish: 'X's theory captures truths about liberty' (compatible with atheism) from 'atheist-liberal social organisation is terminally unstable' (a systemic claim).",
+      "severity": "LOW"
+    },
+    {
+      "candidate_id": "CR-009",
+      "title": "Law is discovered vs. law requires axiomatic specification",
+      "claim_a_id": "C-000041",
+      "claim_a": "Law is discovered, not enacted — natural law principle.",
+      "claim_b_id": "C-000028",
+      "claim_b": "A consistent formal system is necessary for understanding religion/liberty — law must be formally specified.",
+      "conflict": "Natural law discovery and formal axiomatic specification are different epistemological frameworks. Discovery implies intuition and empirical observation; formal axiomatization implies explicit deductive construction. The theory uses both without clearly reconciling them.",
+      "dependency_path_a": [
+        "A-000008",
+        "C-000041"
+      ],
+      "dependency_path_b": [
+        "A-000012",
+        "C-000028"
+      ],
+      "confidence": 65,
+      "resolution_candidate": "The author may mean: law is ontologically discovered (it exists independently of human will) but epistemologically requires axiomatic specification to be reliably communicated. The tension is real but resolvable.",
+      "formal_status": "RESOLVABLE_SCOPE",
+      "verdict": "TERMINOLOGY_CONFLICT",
+      "auditor_reasoning": "Natural law discovery and formal axiomatic specification are different epistemological frameworks but are not contradictory. A law can be: (a) ontologically real (discovered, not invented), and (b) epistemologically communicated via axiomatic specification. This is standard in mathematics: mathematical truths are discovered (Platonism) but communicated via formal systems (formalism). The theory uses both, consistently. VERDICT: Terminology conflict. 'Discovered' refers to ontological status; 'axiomatic system' refers to epistemological communication. Compatible.",
+      "resolution": "Explicitly state: 'Law is ontologically discovered; axiomatic systems are the epistemological vehicle for its reliable communication.'",
+      "severity": "LOW"
+    },
+    {
+      "candidate_id": "CR-010",
+      "title": "Theory has primacy over data vs. theory must be falsifiable",
+      "claim_a_id": "A-000014",
+      "claim_a": "Theory has primacy over data in understanding history and religion.",
+      "claim_b_id": "IMPLICIT",
+      "claim_b": "The theory makes empirical claims (Iran, Ghadir, game theory results) that it treats as confirmations of the theory.",
+      "conflict": "If theory has primacy over data, empirical evidence cannot confirm or falsify the theory — only illustrate it. But the author uses historical and economic evidence as supporting the theory. This is methodologically inconsistent: evidence cannot both be subordinate to theory and serve as its confirmation.",
+      "dependency_path_a": [
+        "A-000014"
+      ],
+      "dependency_path_b": [
+        "A-000014",
+        "C-000010",
+        "C-000060"
+      ],
+      "confidence": 78,
+      "resolution_candidate": "The author's methodology may be: theory selects which data to look at, but data within that frame still serves as evidence. This is consistent with the Lakatosian hard-core / protective-belt model. Requires explicit methodological statement.",
+      "formal_status": "STRUCTURALLY_UNRESOLVED",
+      "verdict": "GENUINE_METHODOLOGICAL_TENSION",
+      "auditor_reasoning": "The claim that theory has primacy over data (A-000014) combined with using historical evidence as confirmation creates a methodological asymmetry. In a strict axiomatic theory, evidence can only instantiate or illustrate propositions, not confirm them. But the theory uses historical examples (Suffolk Bank, Iran's civilizational continuity) in ways that appear confirmatory. If A-000014 is strictly interpreted, the historical examples are only illustrations. If they are evidence, then A-000014 is overstated. This is not a logical contradiction but a methodological tension between the theory's axiomatic self-description and its actual argumentative practice. VERDICT: Genuine methodological tension. Not a formal contradiction.",
+      "resolution": "Adopt Lakatosian framework explicitly: theory (hard core) is protected from falsification by evidence; historical examples populate the protective belt as illustrations. All confirmatory language should be replaced with instantiating/illustrating language.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "summary": {
+    "not_a_contradiction": 6,
+    "genuine_issues": 4,
+    "critical": 1,
+    "high": 2
+  }
+}

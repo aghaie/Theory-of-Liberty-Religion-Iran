@@ -1,0 +1,115 @@
+{
+  "total_claims_analysed": 10,
+  "by_status": {
+    "TRUE_BY_DEFINITION_IN_THEORY": [],
+    "STRONGLY_SUPPORTED": [],
+    "WEAKLY_SUPPORTED": [],
+    "STRONGLY_SUPPORTED_CONDITIONALLY": [],
+    "STRONGLY_SUPPORTED_WITH_CIRCULARITY_RISK": [],
+    "STRONGLY_SUPPORTED_SCOPE_DEPENDENT": [],
+    "MERELY_ASSERTED": [],
+    "LOGICALLY_NECESSARY": [],
+    "LOGICALLY_PARTIAL_THEOLOGICALLY_ASSERTED": []
+  },
+  "analyses": [
+    {
+      "claim_id": "C-000001",
+      "text": "Liberty = individual property rights.",
+      "status": "DEFINITIONAL",
+      "support_level": "N/A (definition)",
+      "reasoning": "This is a definitional claim, not a derived theorem. It is necessarily true within the theory's framework because the theory defines liberty this way. The question of whether this definition adequately captures all of liberty is a conceptual question, not a logical one. Within the theory, this claim has maximum support — it is the foundation.",
+      "logical_status": "TRUE_BY_DEFINITION_IN_THEORY"
+    },
+    {
+      "claim_id": "C-000016",
+      "text": "Tawhid guarantees liberty by eliminating servitude.",
+      "status": "STRONGLY_SUPPORTED",
+      "support_level": 85,
+      "reasoning": "Follows from A-000004 (Tawhid) + C-000001 (liberty = no servitude) + bridge claim (Tawhid = no servitude to anything non-divine = no human servitude). The conclusion is strongly supported given the premises. The only vulnerability: whether Tawhid's operational meaning (no human servitude) is the correct theological interpretation. The theory handles this via negative definition of God.",
+      "logical_status": "STRONGLY_SUPPORTED"
+    },
+    {
+      "claim_id": "C-000017",
+      "text": "Eliminating Tawhid → infinite axioms → totalitarianism.",
+      "status": "WEAKLY_SUPPORTED",
+      "support_level": 65,
+      "reasoning": "The claim requires: (1) without Tawhid, no finite principle set suffices (requires uniqueness of Tawhid — HA-006 partial), (2) infinite axiom proliferation → interpreter-dependency → servitude (reasonable but not formally derived), (3) servitude → totalitarianism (definitionally true: totalitarianism = maximum collective servitude). Steps 1-2 are weakly supported; step 3 is definitionally true. The overall chain is plausible but not logically necessary.",
+      "logical_status": "WEAKLY_SUPPORTED"
+    },
+    {
+      "claim_id": "C-000021",
+      "text": "Liberty is unstable without Resurrection.",
+      "status": "STRONGLY_SUPPORTED_WITHIN_GAME_THEORY",
+      "support_level": 80,
+      "reasoning": "The game-theoretic argument (last-round problem) is formally valid. The premises (finitely repeated games produce backward induction defection; unknown terminal prevents this) are standard game-theory results. The claim is strongly supported within the game-theoretic model. The vulnerability: human social interaction may not fully reduce to finitely repeated games. If it does not, the support weakens.",
+      "logical_status": "STRONGLY_SUPPORTED_CONDITIONALLY"
+    },
+    {
+      "claim_id": "C-000029",
+      "text": "The formal system of liberty is equivalent to religion.",
+      "status": "STRONGLY_SUPPORTED",
+      "support_level": 82,
+      "reasoning": "Established by biconditional: CFS(L) ↔ R_authentic. Left-to-right (CFS for liberty = religion): the theory shows that any CFS for liberty has the same structural properties as authentic religion as defined. Right-to-left (religion = CFS for liberty): the theory defines authentic religion as a CFS for liberty. The right-to-left is true by definition; the left-to-right is strongly supported by the argument structure. Vulnerability: CIRC-005 (authentic religion defined as CFS creates circularity).",
+      "logical_status": "STRONGLY_SUPPORTED_WITH_CIRCULARITY_RISK"
+    },
+    {
+      "claim_id": "C-000055",
+      "text": "Religion is the antithesis of the state.",
+      "status": "STRONGLY_SUPPORTED",
+      "support_level": 80,
+      "reasoning": "Given definitions: state = monopoly of coercion (forces servitude); religion = CFS for liberty (forbids servitude). These are definitionally opposed: F(servitude) vs. requires-servitude. The claim is strongly supported given the definitions. The vulnerability: if 'state' is redefined as 'steward of public goods' (which the author allows for limited purposes), the antithesis is not absolute.",
+      "logical_status": "STRONGLY_SUPPORTED_SCOPE_DEPENDENT"
+    },
+    {
+      "claim_id": "C-000071",
+      "text": "Theory of liberty is the only solution for AI ethics.",
+      "status": "MERELY_ASSERTED",
+      "support_level": 40,
+      "reasoning": "The claim requires: (1) AI requires a CFS for ethical alignment, (2) The theory provides such a CFS, (3) No other CFS exists. Steps 1 and 2 are reasonably supported. Step 3 is asserted without proof. The theory challenges critics to produce an alternative but does not demonstrate uniqueness. The claim is logically equivalent to asserting its own uniqueness — which is circular. STATUS: MERELY ASSERTED with respect to uniqueness.",
+      "logical_status": "MERELY_ASSERTED"
+    },
+    {
+      "claim_id": "C-000039",
+      "text": "Denial of free will is self-refuting.",
+      "status": "LOGICALLY_NECESSARY",
+      "support_level": 92,
+      "reasoning": "The performative contradiction argument is logically necessary: to assert ¬FW is to perform an act of assertion, which presupposes FW. assert(¬FW) ∧ Presupposes(assert(¬FW), FW) → FW. This is a valid reductio ad absurdum. The claim is logically necessary given that assertion presupposes choice.",
+      "logical_status": "LOGICALLY_NECESSARY"
+    },
+    {
+      "claim_id": "C-000004",
+      "text": "True religion purified of mysticism is the most precise system for liberty.",
+      "status": "WEAKLY_SUPPORTED",
+      "support_level": 65,
+      "reasoning": "The claim requires: (1) authentic religion is a CFS for liberty (supported), (2) no more precise CFS exists (uniqueness — unsupported), (3) mysticism is the correct characterization of what is subtracted (affected by CIRC-001 circularity). Given the circularity in the mysticism definition, (3) cannot be independently verified. The claim is weakly supported.",
+      "logical_status": "WEAKLY_SUPPORTED"
+    },
+    {
+      "claim_id": "C-000051",
+      "text": "Without Mahdism, the theory cannot be completed.",
+      "status": "ASSERTED_WITHIN_THEOLOGICAL_FRAMEWORK",
+      "support_level": 55,
+      "reasoning": "The claim that Mahdism provides the 'terminal condition' is logically coherent: game-theoretic stability requires an unknown terminal point. Resurrection provides this; Mahdism specifies its form within Shi'a theology. The logical claim (a terminal condition is needed) is supported. The theological claim (it must be Mahdism specifically) is asserted within the Shi'a framework, not derived from secular axioms.",
+      "logical_status": "LOGICALLY_PARTIAL_THEOLOGICALLY_ASSERTED"
+    }
+  ],
+  "summary": {
+    "logically_necessary": [
+      "C-000039"
+    ],
+    "strongly_supported": [
+      "C-000016",
+      "C-000021",
+      "C-000029",
+      "C-000055"
+    ],
+    "weakly_supported": [
+      "C-000017",
+      "C-000004"
+    ],
+    "merely_asserted": [
+      "C-000071",
+      "C-000051"
+    ]
+  }
+}
