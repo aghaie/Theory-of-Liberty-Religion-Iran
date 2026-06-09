@@ -1,0 +1,178 @@
+{
+  "total_systems": 13,
+  "including_reference": true,
+  "reference_system": "SYS-00",
+  "systems": [
+    {
+      "id": "SYS-01",
+      "name": "Classical Liberalism",
+      "canonical_sources": [
+        "Locke (Second Treatise)",
+        "Mill (On Liberty)",
+        "Smith (Theory of Moral Sentiments)"
+      ],
+      "steelman_reconstruction": "Axioms: (1) individuals possess natural rights to life, liberty, and property by virtue of personhood; (2) rational self-interest leads to cooperative social institutions; (3) no person may initiate force against another's rights; (4) government is limited to protection of rights and enforcement of contracts. Derivations: from (1)-(3), liberty is derived as the sphere of non-interference; from (4), government obtains legitimacy only from consent of rights-holders.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 6,
+      "theological_dependency": false,
+      "notes": "The strongest purely secular competing system. Richly developed tradition."
+    },
+    {
+      "id": "SYS-02",
+      "name": "Lockean Natural Rights Theory",
+      "canonical_sources": [
+        "Locke (Second Treatise)",
+        "Nozick (Anarchy, State, and Utopia)"
+      ],
+      "steelman_reconstruction": "Axioms: (1) God created humans as His workmanship, entailing duty not to destroy oneself or others; (2) persons acquire property by mixing their labour with unowned things (Lockean proviso); (3) natural law is accessible by reason; (4) legitimate government derives from consent. Derivations: natural law → natural rights → property rights → limited government.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 5,
+      "theological_dependency": true,
+      "notes": "Closest structural competitor — also has theological grounding + property as prior to state."
+    },
+    {
+      "id": "SYS-03",
+      "name": "Hayekian Spontaneous Order",
+      "canonical_sources": [
+        "Hayek (Constitution of Liberty)",
+        "Hayek (Law, Legislation and Liberty)"
+      ],
+      "steelman_reconstruction": "Axioms: (1) dispersed knowledge in society cannot be aggregated by any central planner; (2) spontaneous order (catallaxy) emerges from rule-following behaviour in markets; (3) abstract rules of conduct (not specific outcomes) are the proper subject of law; (4) individual liberty is necessary for the price system to function; (5) evolved social institutions encode tacit knowledge. Derivations: from (1)-(2), central planning is epistemically impossible → market liberty is necessary; from (3)-(5), rule of law is the institutional form of liberty.",
+      "finite_axioms": false,
+      "estimated_axiom_count": 10,
+      "theological_dependency": false,
+      "notes": "Epistemological rather than deontological; rights emerge from evolutionary process rather than prior axiom."
+    },
+    {
+      "id": "SYS-04",
+      "name": "Rothbardian Libertarianism",
+      "canonical_sources": [
+        "Rothbard (Man, Economy and State)",
+        "Rothbard (The Ethics of Liberty)"
+      ],
+      "steelman_reconstruction": "Axioms: (1) every person owns themselves (self-ownership axiom); (2) legitimate property arises from homesteading unowned resources; (3) the non-aggression principle (NAP): initiating force is categorically impermissible; (4) all voluntary exchange is legitimate. Derivations: from (1)+(3), the state is categorically illegitimate (systematic aggressor); from (1)+(2), property rights are derived without theological premise.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 4,
+      "theological_dependency": false,
+      "notes": "Most parsimonious secular competitor. Self-ownership + NAP are extremely minimal."
+    },
+    {
+      "id": "SYS-05",
+      "name": "Kantian Deontological Ethics",
+      "canonical_sources": [
+        "Kant (Groundwork)",
+        "Kant (Metaphysics of Morals)"
+      ],
+      "steelman_reconstruction": "Axioms: (1) rational agents are ends-in-themselves, never merely means; (2) the Categorical Imperative (Formula of Universal Law): act only on maxims you could will to be universal laws; (3) the Formula of Humanity: treat humanity always as end, never merely as means; (4) perfect duties are absolute; imperfect duties allow latitude. Derivations: from (1)+(3), rights to bodily integrity and liberty are derived as conditions for treating persons as ends; from (2), maxims requiring coercion fail universalizability.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 4,
+      "theological_dependency": false,
+      "notes": "Rigorous derivation of rights from rational personhood. Highly developed formal tradition."
+    },
+    {
+      "id": "SYS-06",
+      "name": "Constitutional Liberal Democracy",
+      "canonical_sources": [
+        "Rawls (Political Liberalism)",
+        "Dworkin (Law's Empire)",
+        "US Constitution"
+      ],
+      "steelman_reconstruction": "Axioms: (1) political authority requires justification to all citizens (public reason); (2) a constitutional framework of basic rights and liberties binds all political action; (3) democratic majority rule is constrained by rights-based counter-majoritarian rules; (4) separation of powers prevents concentration. Derivations: from (1)+(2), a constitutional order protecting liberty is the uniquely legitimate form; from (3)+(4), totalitarianism is structurally prevented.",
+      "finite_axioms": false,
+      "estimated_axiom_count": 15,
+      "theological_dependency": false,
+      "notes": "Institutional rather than axiomatic. Very high axiom count for complete specification."
+    },
+    {
+      "id": "SYS-07",
+      "name": "Rule Utilitarianism",
+      "canonical_sources": [
+        "Brandt (A Theory of the Good and the Right)",
+        "Hooker (Ideal Code, Real World)"
+      ],
+      "steelman_reconstruction": "Axioms: (1) the right action is that which conforms to the set of rules whose general acceptance maximizes aggregate welfare; (2) welfare is measurable in principle; (3) rule compliance produces predictability essential for social cooperation. Derivations: empirical argument that liberty-protecting rules generally maximize welfare; therefore a system of liberty rights is derivable from utility maximization.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 3,
+      "theological_dependency": false,
+      "notes": "Most parsimonious on axiom count, but derivation of property rights depends on empirical welfare claims."
+    },
+    {
+      "id": "SYS-08",
+      "name": "Social Contractarianism",
+      "canonical_sources": [
+        "Hobbes (Leviathan)",
+        "Rousseau (Social Contract)",
+        "Gauthier (Morals by Agreement)"
+      ],
+      "steelman_reconstruction": "Axioms: (1) rational agents in a pre-political state would agree to a system of mutual constraint; (2) the terms of agreement are those that rational self-interested agents would accept; (3) political authority is legitimate only if it could have emerged from rational contract. Derivations: from (1)-(3), a minimal state protecting rights is the rational contract outcome; from Gauthier's bargaining theory, property rights are the rational division of cooperative surplus.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 5,
+      "theological_dependency": false,
+      "notes": "Depends on idealized rational agent model; actual contract vs. hypothetical contract ambiguity."
+    },
+    {
+      "id": "SYS-09",
+      "name": "Constitutional AI (Anthropic)",
+      "canonical_sources": [
+        "Anthropic (2023) Constitutional AI: Harmlessness from AI Feedback",
+        "Bai et al. 2022"
+      ],
+      "steelman_reconstruction": "Axioms: (1) a set of principles (a 'constitution') can be used to evaluate AI outputs; (2) the principles include: be helpful, harmless, and honest; (3) AI should not assist with actions that violate human rights; (4) the system is self-supervised via AI feedback on principle compliance. Derivations: from (1)-(4), an aligned AI is one whose outputs satisfy the constitutional principles consistently.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 12,
+      "theological_dependency": false,
+      "notes": "Operational AI alignment system, not a political philosophy. Principles-based but not axiomatically derived."
+    },
+    {
+      "id": "SYS-10",
+      "name": "Coherent Extrapolated Volition (CEV)",
+      "canonical_sources": [
+        "Yudkowsky (2004) Coherent Extrapolated Volition"
+      ],
+      "steelman_reconstruction": "Axioms: (1) the CEV of humanity is the extrapolated preference of what humans would want if they knew more, thought faster, and were more the people they wish they were; (2) an AI should implement the CEV if it can be computed; (3) individual volitions are aggregated through a process that is itself fair by CEV standards. Derivations: from (1)-(3), liberty-preserving outcomes are those the CEV would select.",
+      "finite_axioms": false,
+      "estimated_axiom_count": null,
+      "theological_dependency": false,
+      "notes": "Procedural rather than axiomatic. No explicit finite axiom set. Computability not demonstrated."
+    },
+    {
+      "id": "SYS-11",
+      "name": "Natural Law Theory (Thomistic)",
+      "canonical_sources": [
+        "Aquinas (Summa Theologiae)",
+        "Finnis (Natural Law and Natural Rights)"
+      ],
+      "steelman_reconstruction": "Axioms: (1) human nature has a telos (end/purpose) knowable by reason; (2) moral law is participation in eternal law via human reason; (3) basic goods (life, knowledge, friendship, practical reasonableness) are self-evidently valuable; (4) the common good requires political authority; (5) authority is just only when it respects natural rights and common good. Derivations: from (1)-(3), human rights are derived as conditions for the basic goods; from (4)-(5), limited government is derived.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 7,
+      "theological_dependency": true,
+      "notes": "Richly developed tradition. More axioms than the ToL (7 vs 6). Also has theological grounding."
+    },
+    {
+      "id": "SYS-12",
+      "name": "Rawlsian Liberalism",
+      "canonical_sources": [
+        "Rawls (A Theory of Justice)",
+        "Rawls (Political Liberalism)"
+      ],
+      "steelman_reconstruction": "Axioms: (1) the veil of ignorance: rational agents behind the veil have no knowledge of their position in society; (2) from (1), rational agents would choose: (a) equal basic liberties for all, (b) fair equality of opportunity, (c) the difference principle (benefit the least advantaged). (3) principles of justice are those rational agents behind the veil would choose. Derivations: from (1)+(2), a constitutional framework protecting basic liberties is required by justice.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 4,
+      "theological_dependency": false,
+      "notes": "Hypothetical-contractarian. Veil of ignorance is a methodological device, not an empirical claim."
+    },
+    {
+      "id": "SYS-00",
+      "name": "Theory of Liberty (ToL) — reference",
+      "canonical_sources": [
+        "Jannatkhahdoost (Theory of Liberty, Religion, Iran)"
+      ],
+      "steelman_reconstruction": "Axioms (minimum kernel, 6): A-000001 (FW), A-000004 (Tawhid), A-000006 (Resurrection), A-000007 (Prophethood), A-000011 (Finite Axioms), A-000012 (Consistency). Derivations: FW → self-ownership → property rights → liberty; Tawhid → no-servitude → anti-statism; Resurrection → last-round solution → liberty stability; Prophethood → anti-fraud → authentic-religion identification; A-000011+A-000012 → CFS methodology → formal evaluation criteria.",
+      "finite_axioms": true,
+      "estimated_axiom_count": 6,
+      "theological_dependency": true,
+      "notes": "Reference system. 3 secular axioms + 3 theological axioms in minimum kernel."
+    }
+  ],
+  "note": "All systems are steelmanned — strongest possible reconstruction used."
+}

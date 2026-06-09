@@ -1,0 +1,90 @@
+{
+  "total_counterexamples_tested": 4,
+  "genuine_partial_counterexamples": [
+    "CE-001",
+    "CE-003"
+  ],
+  "strong_theological_competitors": [
+    "CE-002"
+  ],
+  "weak_counterexamples": [
+    "CE-004"
+  ],
+  "strongest_counterexample": "CE-003",
+  "counterexamples": [
+    {
+      "id": "CE-001",
+      "name": "Rothbardian Libertarianism + Infinite Shadow of the Future",
+      "description": "Augment Rothbardian libertarianism (self-ownership, NAP, homesteading, voluntary exchange) with a 5th axiom: 'Agents rationally assign positive probability to the continuation of social interaction in every period (Axelrod/Fudenberg discount-factor argument).' This produces: δ sufficiently close to 1 → cooperation is always a Nash equilibrium even in finite repetitions. The Resurrection mechanism is replaced by a secular infinite-shadow axiom.",
+      "axiom_count": 5,
+      "theological_axioms": 0,
+      "criteria_analysis": {
+        "C1": "PASS — consistent.",
+        "C2": "PASS — 5 finite axioms.",
+        "C3": "PASS — self-ownership → liberty.",
+        "C4": "PASS — property pre-political.",
+        "C5": "PARTIAL — the 'infinite shadow' requires δ→1, which is an empirical condition. If δ < threshold, defection re-emerges. It is not structurally guaranteed as a logical consequence, only as a sufficient condition. The Theory of Liberty's Resurrection provides an ABSOLUTE (not probabilistic) unknown terminal, making cooperation always rational regardless of δ.",
+        "C6": "PASS — NAP categorically forbids state.",
+        "C7": "PASS — secular, universal.",
+        "C8": "PARTIAL — stateless accountability only.",
+        "C9": "PARTIAL — not designed for AI.",
+        "C10": "PASS — 5 independent axioms."
+      },
+      "verdict": "PARTIAL_COUNTEREXAMPLE",
+      "analysis": "This system passes 7/10 criteria and partially passes 2 others, failing only C5 fully. The 'infinite shadow' argument weakens C5: δ-dependent stability is probabilistic, not structural. The Theory of Liberty's Resurrection provides ABSOLUTE stability (unknown terminal = always cooperate), while this system provides CONDITIONAL stability (δ > threshold). The counterexample is genuine but inferior on C5: it is a PARTIAL counterexample. VERDICT: Does not fully satisfy all required properties. Theory of Liberty maintains advantage on C5.",
+      "strength": "STRONGEST_SECULAR_COUNTEREXAMPLE"
+    },
+    {
+      "id": "CE-002",
+      "name": "Lockean Natural Rights + Eschatological Secular Interpretation",
+      "description": "Reinterpret Locke's Resurrection-equivalent: humans are God's workmanship (duty not to destroy), combined with a philosophical naturalist reinterpretation: 'agents rationally act as if life has infinite value (Pascal-Locke argument).' Locke already has theological grounding and property rights prior to state. This system is structurally close to the Theory of Liberty.",
+      "axiom_count": 6,
+      "theological_axioms": 2,
+      "criteria_analysis": {
+        "C5": "PARTIAL — Pascal-Locke argument is probabilistic, not structural. God-as-workmanship is a theological axiom but does not provide game-theoretic unknown terminal.",
+        "C7": "PARTIAL — requires creator-concept theological axiom which is more specific than Tawhid's negative definition."
+      },
+      "verdict": "PARTIAL_COUNTEREXAMPLE",
+      "analysis": "Locke's system with 6 axioms is structurally similar to the Theory of Liberty. The key differences: (1) Locke's last-round mechanism is weaker (God-as-workmanship does not provide the game-theoretic unknown terminal that Resurrection does); (2) Locke's theological axioms are more specific (require creator concept, not just negative definition). Lockean system is the closest theological competitor but scores slightly lower on C5 and C7. VERDICT: Partial counterexample. Does not demonstrate that the Theory of Liberty is uniquely necessary, but also does not pass all criteria as well.",
+      "strength": "STRONG_THEOLOGICAL_COMPETITOR"
+    },
+    {
+      "id": "CE-003",
+      "name": "Minimal Secular CFS: {FW, self-ownership, NAP, unknown-horizon-posit}",
+      "description": "Construct the absolute minimum secular system: (1) Free will exists (self-refutation argument). (2) Persons own themselves. (3) No aggression (NAP). (4) The terminal period of social interaction is unknowable (secular unknown-horizon posit). This is the minimum 4-axiom system that satisfies all required properties.",
+      "axiom_count": 4,
+      "theological_axioms": 0,
+      "criteria_analysis": {
+        "C1": "PASS",
+        "C2": "PASS",
+        "C3": "PASS — self-ownership → liberty",
+        "C4": "PASS — self-ownership is pre-political",
+        "C5": "PARTIAL-to-PASS — unknown-horizon posit directly solves last-round. But it is a POSIT (asserted axiom), not derived from anything. The Theory of Liberty DERIVES the unknown horizon from Resurrection (which is itself grounded in Tawhid and Prophethood). The posit is weaker than the derivation.",
+        "C6": "PASS — NAP prohibits state",
+        "C7": "PASS — secular",
+        "C8": "PARTIAL",
+        "C9": "PARTIAL",
+        "C10": "PASS"
+      },
+      "verdict": "PARTIAL_COUNTEREXAMPLE",
+      "analysis": "This 4-axiom system is the MINIMUM COUNTEREXAMPLE — the smallest possible system satisfying most criteria. Its critical vulnerability: Axiom (4) (unknown-horizon posit) is ASSERTED without derivation. The Theory of Liberty DERIVES the unknown horizon from theological axioms (Resurrection → afterlife → infinite horizon). Formally: CE-003 has an asserted axiom where ToL has a derived theorem. The CE-003 solution is logically valid but axiomatically more burdensome in one sense (requires a specific additional axiom with no derivation) and less burdensome in another (no theological axioms). This is the most important counterexample: it demonstrates that the STRUCTURE of the last-round solution can be replicated secularly, but only by adding an explicit axiom. VERDICT: Genuine partial counterexample. The secular unknown-horizon posit is a valid structural analogue to Resurrection. It creates a secular CFS with the same structural properties as the Theory of Liberty's theological CFS.",
+      "strength": "MINIMUM_GENUINE_COUNTEREXAMPLE"
+    },
+    {
+      "id": "CE-004",
+      "name": "Kantian Ethics + Virtue Ethics Hybrid",
+      "description": "Augment Kantian ethics with virtue ethics: add an axiom that agents internalize moral law as character (Aristotelian habit). This replaces the last-round problem: virtuous agents comply with duty not for strategic reasons but for character reasons.",
+      "axiom_count": 6,
+      "theological_axioms": 0,
+      "criteria_analysis": {
+        "C5": "PARTIAL — virtue internalization is a psychological/sociological claim, not a game-theoretic structural solution. Depends on prior character formation which itself faces collective action problems.",
+        "C4": "PARTIAL — Kantian property rights are derivable but not as pre-political as Lockean/Rothbardian."
+      },
+      "verdict": "WEAK_COUNTEREXAMPLE",
+      "analysis": "The virtue ethics addition does not resolve the last-round problem structurally. A virtuous agent in the last period still faces the question: why comply? Character virtue says 'because that is who I am' but this is a psychological claim that requires prior character formation — which itself faces the last-round problem in the educational/cultural context. VERDICT: Weak counterexample. Virtue addition does not provide structural stability.",
+      "strength": "WEAK"
+    }
+  ],
+  "overall_verdict": "PARTIAL COUNTEREXAMPLE FOUND: CE-003 (4-axiom secular system with unknown-horizon posit) is a genuine partial counterexample. It demonstrates that the STRUCTURE of the Theory of Liberty can be replicated without theological axioms by substituting an explicit secular unknown-horizon axiom. HOWEVER: CE-003 does not fully defeat the Theory of Liberty's uniqueness claim because: (1) CE-003 adds an axiom that the Theory of Liberty derives — the ToL is structurally more economical; (2) The unknown-horizon posit in CE-003 is naked (no derivation), while Resurrection is embedded in a broader theological system that provides additional derivations; (3) CE-003 has weaker C8 (accountability) and C9 (AI alignment) than the ToL. CONCLUSION: The Theory of Liberty is NOT uniquely necessary. CE-003 demonstrates a structural analogue. The uniqueness claim must be downgraded from 'the only CFS' to 'the only derived CFS' or 'the most complete CFS' based on this counterexample.",
+  "uniqueness_status_after_search": "WEAKENED BUT NOT DISPROVEN. The Theory of Liberty demonstrates a CFS for liberty with superior properties on C5 (absolute vs. conditional last-round stability) compared to all secular competitors. CE-003 demonstrates that the structure can be replicated with an additional secular axiom. The uniqueness claim is weakened from 'ONLY CFS' to 'ONLY DERIVED CFS WITH ABSOLUTE C5 SOLUTION.'"
+}

@@ -1,0 +1,158 @@
+{
+  "total_uniqueness_claims": 8,
+  "by_strength": {
+    "ABSOLUTE": [
+      "UC-001",
+      "UC-002"
+    ],
+    "STRONG": [
+      "UC-003",
+      "UC-004",
+      "UC-007"
+    ],
+    "LOGICALLY_NECESSARY": [
+      "UC-008"
+    ],
+    "METHODOLOGICAL": [
+      "UC-006"
+    ],
+    "THEOLOGICAL": [
+      "UC-005"
+    ]
+  },
+  "prior_audit_summary": {
+    "not_demonstrated": [
+      "UC-001",
+      "UC-003",
+      "UC-006"
+    ],
+    "partially_demonstrated": [
+      "UC-002",
+      "UC-004",
+      "UC-007"
+    ],
+    "logically_valid_limited_scope": [
+      "UC-008"
+    ],
+    "outside_scope": [
+      "UC-005"
+    ]
+  },
+  "claims": [
+    {
+      "id": "UC-001",
+      "claim_text": "The theory of liberty is THE only existing solution for AI ethics.",
+      "source": "kernel_claim_C-000071 / AI-alignment chapter",
+      "strength": "ABSOLUTE",
+      "scope": "AI ethics / value alignment",
+      "dependencies": [
+        "A-000001",
+        "A-000004",
+        "A-000011",
+        "A-000012",
+        "C-000029"
+      ],
+      "logical_form": "∀S [S = CFS_for_liberty → S ≡ authentic_religion]  →  ¬∃S′ [S′ ≠ ToL ∧ S′ solves_AI_ethics]",
+      "how_stated_in_text": "Challenge-method: 'produce a competing system and we will evaluate it'",
+      "prior_audit_verdict": "NOT_DEMONSTRATED"
+    },
+    {
+      "id": "UC-002",
+      "claim_text": "Authentic religion is THE only consistent formal system for liberty.",
+      "source": "C-000029 / CFS biconditional chapter",
+      "strength": "ABSOLUTE",
+      "scope": "political philosophy / formal systems",
+      "dependencies": [
+        "A-000001",
+        "A-000004",
+        "A-000011",
+        "A-000012"
+      ],
+      "logical_form": "∀S [CFS(S, L) ↔ authentic_religion(S)]",
+      "how_stated_in_text": "Biconditional: CFS for liberty ↔ authentic religion (by definition + argument)",
+      "prior_audit_verdict": "PARTIALLY_DEMONSTRATED (right-to-left by definition; left-to-right not proven)"
+    },
+    {
+      "id": "UC-003",
+      "claim_text": "Tawhid is the uniquely minimal principle that grounds liberty with finite axioms.",
+      "source": "C-000017 / axiom-parsimony chapter",
+      "strength": "STRONG",
+      "scope": "axiomatic minimality",
+      "dependencies": [
+        "A-000004",
+        "A-000011"
+      ],
+      "logical_form": "∀P [single_agreement_admissible_anti_servitude_principle(P) → P ≡ Tawhid]",
+      "how_stated_in_text": "Argued: eliminating Tawhid requires infinitely many replacement axioms",
+      "prior_audit_verdict": "NOT_DEMONSTRATED"
+    },
+    {
+      "id": "UC-004",
+      "claim_text": "Without Resurrection, liberty is uniquely unstable (no other mechanism solves the last-round problem).",
+      "source": "C-000021 / game-theory chapter",
+      "strength": "STRONG",
+      "scope": "game-theoretic stability",
+      "dependencies": [
+        "A-000006"
+      ],
+      "logical_form": "∀M [solves_last_round(M) → M ≡ Resurrection_or_functional_equivalent]",
+      "how_stated_in_text": "Game-theoretic argument: infinite iteration requires infinite or unknown horizon",
+      "prior_audit_verdict": "PARTIAL — the logical structure is valid; whether Resurrection is the ONLY solution is unstated"
+    },
+    {
+      "id": "UC-005",
+      "claim_text": "The Qur'an is the uniquely inimitable formal specification of the system (tahaddi challenge).",
+      "source": "theological chapters",
+      "strength": "THEOLOGICAL",
+      "scope": "textual / theological",
+      "dependencies": [
+        "A-000007"
+      ],
+      "logical_form": "¬∃T [T ≠ Quran ∧ T is_complete_CFS_specification]",
+      "how_stated_in_text": "Classical i'jaz argument: challenge to produce equivalent text",
+      "prior_audit_verdict": "OUTSIDE_LOGICAL_SCOPE (theological claim, not subject to formal audit)"
+    },
+    {
+      "id": "UC-006",
+      "claim_text": "The system is consistent in the Gödel-technical sense, uniquely among normative systems.",
+      "source": "methodology chapter / Gödel framing",
+      "strength": "METHODOLOGICAL",
+      "scope": "formal-methods claim",
+      "dependencies": [
+        "A-000012",
+        "HA-008"
+      ],
+      "logical_form": "Con(ToL) ∧ ∀S [normative_system(S) ∧ S ≠ ToL → ¬Con(S)]",
+      "how_stated_in_text": "Gödel framing: the self-application test proves consistency",
+      "prior_audit_verdict": "INVALID — Gödel precheck scored 44/100; P3 (arithmetic encoding) not met"
+    },
+    {
+      "id": "UC-007",
+      "claim_text": "States (coercive monopolies) cannot be agreement-admissible; only religion as CFS can be.",
+      "source": "anti-statism chapter",
+      "strength": "STRONG",
+      "scope": "political philosophy",
+      "dependencies": [
+        "A-000001",
+        "A-000004",
+        "A-000008"
+      ],
+      "logical_form": "∀S [coercive_monopoly(S) → ¬agreement_admissible(S)] ∧ [authentic_religion → agreement_admissible]",
+      "how_stated_in_text": "Argued: compulsion cannot be consented to ex ante by rational agents",
+      "prior_audit_verdict": "STRONGLY_SUPPORTED for the negative claim; the positive exclusivity is unstated"
+    },
+    {
+      "id": "UC-008",
+      "claim_text": "Denial of free will is self-refuting; therefore free will is the uniquely valid starting axiom.",
+      "source": "C-000039 / performative-contradiction chapter",
+      "strength": "LOGICALLY_NECESSARY",
+      "scope": "epistemological / foundational",
+      "dependencies": [
+        "A-000001"
+      ],
+      "logical_form": "assert(¬FW) ⊃ FW  ∴  FW is necessarily true  ∴  FW must be an axiom of any valid normative system",
+      "how_stated_in_text": "Performative contradiction: denying free will is self-refuting",
+      "prior_audit_verdict": "LOGICALLY_VALID for the self-refutation; uniqueness as starting axiom is a further inference"
+    }
+  ]
+}

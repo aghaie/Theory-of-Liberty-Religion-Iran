@@ -1,0 +1,106 @@
+{
+  "total_properties": 10,
+  "by_criticality": {
+    "NECESSARY": [
+      "RP-001",
+      "RP-002",
+      "RP-003",
+      "RP-004"
+    ],
+    "HIGH": [
+      "RP-005",
+      "RP-006",
+      "RP-007",
+      "RP-008"
+    ],
+    "CONTEXTUAL": [
+      "RP-009"
+    ],
+    "FORMAL": [
+      "RP-010"
+    ]
+  },
+  "properties": [
+    {
+      "id": "RP-001",
+      "name": "Internal Consistency",
+      "description": "The system contains no internal contradictions; it passes the self-application test (applying the system's own principles to itself does not produce a violation).",
+      "derived_from": "A-000012 + Phase 1 consistency score",
+      "operationalization": "No pair (P, ¬P) is derivable from the axioms. The system does not forbid what it requires.",
+      "criticality": "NECESSARY"
+    },
+    {
+      "id": "RP-002",
+      "name": "Finite Axiom Set",
+      "description": "The system can be fully specified by a finite and enumerable set of axioms.",
+      "derived_from": "A-000011",
+      "operationalization": "The axiom set has cardinality |A| < ∞, and A is decidable.",
+      "criticality": "NECESSARY"
+    },
+    {
+      "id": "RP-003",
+      "name": "Grounding of Liberty",
+      "description": "Liberty (individual property rights over body and legitimately acquired assets) is derivable from the axioms, not merely asserted.",
+      "derived_from": "A-000001 + A-000002 + C-000001",
+      "operationalization": "The system has a derivation path from its foundational axioms to a liberty-affirming theorem.",
+      "criticality": "NECESSARY"
+    },
+    {
+      "id": "RP-004",
+      "name": "Property Rights Prior to State",
+      "description": "Individual property rights are recognized as existing prior to and independent of state authority.",
+      "derived_from": "A-000002 + A-000008",
+      "operationalization": "The system does not derive property from state grant or democratic consent.",
+      "criticality": "NECESSARY"
+    },
+    {
+      "id": "RP-005",
+      "name": "Solution to Last-Round Problem",
+      "description": "The system provides a structural mechanism that prevents defection in the final period of any finitely-repeated social game.",
+      "derived_from": "A-000006 + C-000021",
+      "operationalization": "The system contains either (a) an infinite-horizon mechanism, or (b) an epistemic mechanism making the terminal round unknowable, or (c) a dominance argument that makes cooperation always dominant regardless of horizon.",
+      "criticality": "HIGH"
+    },
+    {
+      "id": "RP-006",
+      "name": "Structural Resistance to Totalitarianism",
+      "description": "The system contains an axiom or derived principle that makes unlimited concentration of coercive power structurally impermissible.",
+      "derived_from": "A-000004 + C-000055",
+      "operationalization": "There exists a theorem T in the system such that T = 'no entity may hold monopoly coercive power over all persons.'",
+      "criticality": "HIGH"
+    },
+    {
+      "id": "RP-007",
+      "name": "Agreement-Admissibility",
+      "description": "The core principles of the system can, in principle, be accepted by any rational agent regardless of prior commitments, without being imposed by force.",
+      "derived_from": "A-000009 + anti-statism argument",
+      "operationalization": "The system's foundational axiom does not require belief in a particular historical claim, ethnic identity, or coercive imposition to be accepted.",
+      "criticality": "HIGH"
+    },
+    {
+      "id": "RP-008",
+      "name": "Accountability Mechanism",
+      "description": "The system provides a mechanism for holding agents accountable for violations of liberty that does not itself violate liberty.",
+      "derived_from": "A-000010 + C-000029",
+      "operationalization": "The system has a theorem deriving accountability without state monopoly on coercive enforcement.",
+      "criticality": "HIGH"
+    },
+    {
+      "id": "RP-009",
+      "name": "Supports AI Value Alignment",
+      "description": "The system provides formal criteria sufficient to evaluate whether an AI system's objectives are aligned with human liberty.",
+      "derived_from": "C-000071 + AI-alignment chapter",
+      "operationalization": "The system's axioms can be expressed as evaluable constraints on an AI objective function.",
+      "criticality": "CONTEXTUAL"
+    },
+    {
+      "id": "RP-010",
+      "name": "Axiom Minimality",
+      "description": "The system's axiom set is irreducible: no axiom is derivable from the others.",
+      "derived_from": "A-000011 + Phase 1 Step 1",
+      "operationalization": "No axiom A_i can be proven from {A_1,...,A_{i-1},A_{i+1},...,A_n}.",
+      "criticality": "FORMAL"
+    }
+  ],
+  "note": "All properties derived from the theory's own axioms and kernel claims. No external requirements imported."
+}

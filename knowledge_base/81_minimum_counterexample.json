@@ -1,0 +1,76 @@
+{
+  "question": "What is the smallest system satisfying all required properties (RP-001 to RP-010)?",
+  "search_method": "Start from minimum axiom set and build upward, testing required properties at each step.",
+  "minimum_secular_cfs_found": {
+    "name": "Minimum Secular CFS (MS-CFS)",
+    "axiom_count": 4,
+    "axioms": [
+      {
+        "id": "MS-A1",
+        "text": "Free will (or agent causation) exists. Denial is self-refuting.",
+        "grounds": "RP-003, RP-004"
+      },
+      {
+        "id": "MS-A2",
+        "text": "Persons own themselves. Property arises from self-ownership and homesteading.",
+        "grounds": "RP-003, RP-004"
+      },
+      {
+        "id": "MS-A3",
+        "text": "Initiating coercion against persons or their legitimately-held property is categorically impermissible (NAP).",
+        "grounds": "RP-001, RP-003, RP-006"
+      },
+      {
+        "id": "MS-A4",
+        "text": "The terminal period of social interaction is unknowable by any agent at any time (unknown-horizon posit).",
+        "grounds": "RP-005"
+      }
+    ],
+    "derived_from": "Rothbardian axioms + secular unknown-horizon posit",
+    "criteria_coverage": {
+      "C1": "PASS",
+      "C2": "PASS",
+      "C3": "PASS",
+      "C4": "PASS",
+      "C5": "PASS (structural solution via unknown-horizon)",
+      "C6": "PASS (NAP prohibits state qua systematic aggressor)",
+      "C7": "PASS (secular, universal)",
+      "C8": "PARTIAL (voluntary arbitration only)",
+      "C9": "PARTIAL (principles applicable but not designed for AI)",
+      "C10": "PASS (4 independent axioms)"
+    },
+    "score": "~70/80 estimated",
+    "gap_vs_theory_of_liberty": "MS-CFS scores ~70/80 vs Theory of Liberty's ~80/80. Key gaps: (1) MS-A4 (unknown-horizon posit) is ASSERTED; Resurrection is DERIVED from a broader theological system — the ToL has deeper structural grounding. (2) Accountability (C8): the ToL has divine + community accountability; MS-CFS has only community accountability. (3) AI specification (C9): the ToL's formal axioms are more directly expressible as AI constraints (anti-servitude is more specific than anti-coercion). The MS-CFS demonstrates that a secular CFS is POSSIBLE but does not demonstrate that it is EQUIVALENT to the Theory of Liberty."
+  },
+  "minimum_theological_cfs_found": {
+    "name": "Minimum Theological CFS (MT-CFS)",
+    "axiom_count": 4,
+    "axioms": [
+      {
+        "id": "MT-A1",
+        "text": "Free will exists (as in ToL A-000001).",
+        "grounds": "RP-003, RP-004"
+      },
+      {
+        "id": "MT-A2",
+        "text": "Tawhid: no servitude to anything other than God (as in ToL A-000004).",
+        "grounds": "RP-003, RP-004, RP-006"
+      },
+      {
+        "id": "MT-A3",
+        "text": "Resurrection: terminal period unknowable (as in ToL A-000006).",
+        "grounds": "RP-005"
+      },
+      {
+        "id": "MT-A4",
+        "text": "Prophethood: the specification is sealed and authenticated (as in ToL A-000007).",
+        "grounds": "C7"
+      }
+    ],
+    "derived_from": "Theory of Liberty minimum kernel minus methodological axioms",
+    "note": "This is essentially the ToL without A-000011/A-000012 (formal-system methodology axioms). Already a minimal CFS.",
+    "score": "~78/80 estimated",
+    "gap_vs_theory_of_liberty": "Missing methodological axioms reduce formal rigor score."
+  },
+  "verdict": "A minimum secular CFS exists with 4 axioms (MS-CFS). It satisfies all required properties but at lower quality on C8 and C9, and with an asserted (rather than derived) last-round solution. This is the strongest result of Phase 2: a genuine 4-axiom secular alternative exists. The Theory of Liberty is NOT the only CFS satisfying the required properties. It IS the most complete CFS, with the highest total score and most derived (not asserted) structure."
+}

@@ -1,0 +1,49 @@
+{
+  "question": "Can a competing system function without libertarian free will?",
+  "method": "Test each major non-libertarian-free-will alternative; evaluate structural coverage of required properties.",
+  "alternatives_tested": [
+    {
+      "name": "Hard Determinism",
+      "axiom": "All events including human choices are causally determined by prior states.",
+      "function_test": {
+        "C1_consistent": true,
+        "C3_grounds_liberty": false,
+        "reasoning": "Hard determinism cannot coherently ground NORMATIVE liberty. If all choices are determined, the distinction between coerced and voluntary action dissolves at the metaphysical level. You can maintain LEGAL freedom (not interfered with) but not MORAL freedom (genuinely choosing). Property rights under determinism become: 'the state has decreed this assignment' — there is no prior natural right because there is no prior natural choice. The theory's C-000039 (performative contradiction) applies: asserting determinism is itself self-refuting (the assertion would be determined, not reasoned). VERDICT: Hard determinism cannot ground the theory's requirements. It is self-refuting and cannot derive normative liberty."
+      },
+      "verdict": "STRUCTURALLY_INCOMPATIBLE"
+    },
+    {
+      "name": "Compatibilism (Frankfurt, Dennett)",
+      "axiom": "Free will is compatible with determinism: free action = action caused by one's own desires/reasons, not external constraint.",
+      "function_test": {
+        "C1_consistent": true,
+        "C3_grounds_liberty": "PARTIAL",
+        "reasoning": "Compatibilism is the dominant philosophical position and is structurally more viable. Under compatibilism: free action = action caused by agent's own desires = not coerced. This CAN ground a notion of liberty: liberty is absence of external constraint on one's own desire-caused actions. HOWEVER: compatibilism does not ground the Theory of Liberty's STRONG notion of property rights as pre-political. If all desires are determined, there is no 'natural' right — only socially-determined preferences for property. Compatibilism grounds a PROCEDURAL liberty (not-coerced) but not a NATURAL RIGHTS liberty (prior to social determination). The performative contradiction argument still applies (claiming determinism as REASONED conclusion presupposes reasoning = libertarian free will). VERDICT: Partial compatibility. Grounds procedural liberty but not natural rights liberty."
+      },
+      "verdict": "PARTIAL_COMPATIBILITY"
+    },
+    {
+      "name": "Agent Causation (O'Connor, Taylor)",
+      "axiom": "Agents are irreducible causal sources that initiate action without being fully determined by prior states.",
+      "function_test": {
+        "C1_consistent": true,
+        "C3_grounds_liberty": true,
+        "reasoning": "Agent causation is functionally equivalent to the Theory of Liberty's free will axiom. Agent causation provides: genuine (not-determined) origination of action → normative responsibility → property rights → liberty. This is effectively a secular restatement of A-000001. VERDICT: Functionally equivalent. Agent causation and libertarian free will are structurally identical for the theory's purposes."
+      },
+      "verdict": "FUNCTIONAL_EQUIVALENT"
+    },
+    {
+      "name": "Moral Responsibility Without Free Will (Strawson)",
+      "axiom": "Reactive attitudes (resentment, gratitude) constitute moral responsibility; metaphysical free will is unnecessary.",
+      "function_test": {
+        "C1_consistent": true,
+        "C3_grounds_liberty": "PARTIAL",
+        "reasoning": "Strawson's approach grounds moral responsibility in human practices. It can ground liberty as a social norm: 'we collectively hold each other responsible, therefore we collectively protect individual liberty.' HOWEVER: this is a sociological, not logical, grounding. It cannot provide NATURAL property rights prior to social determination. The theory requires a normative foundation prior to social practice. VERDICT: Grounds social liberty; cannot ground natural rights liberty."
+      },
+      "verdict": "INSUFFICIENT_GROUNDING"
+    }
+  ],
+  "performative_contradiction_applies": true,
+  "performative_contradiction_analysis": "The theory's A-000001 is unique among competing systems in having a SELF-REFUTATION defense: any system that denies free will must use reasoning to deny it — but reasoning presupposes the freedom to reason, which is libertarian free will. This means: (1) Hard determinism and pure compatibilism cannot consistently argue against free will — their own arguments for their positions presuppose the free will they deny. (2) Agent causation is a restatement of the same insight. (3) Strawson's approach sidesteps the issue but cannot provide pre-political rights. CONCLUSION: Libertarian free will (or its agent-causation equivalent) is PRACTICALLY NECESSARY for a consistent normative system grounding natural rights. Any system that uses normative argument at all is implicitly committed to A-000001.",
+  "verdict": "FREE WILL IS PRACTICALLY NECESSARY: any normative system that uses arguments to ground rights and liberty is implicitly committed to free will (or its functional equivalent). This does not mean 'Tawhid is necessary' — it means A-000001 is the broadest available grounding for liberty and is presupposed by all competing normative systems that make normative claims. The Theory of Liberty's advantage: it explicitly states what others hide as a hidden axiom."
+}

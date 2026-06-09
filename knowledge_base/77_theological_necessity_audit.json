@@ -1,0 +1,78 @@
+{
+  "question": "Can liberty be grounded without Tawhid, Resurrection, and Prophethood?",
+  "method": "For each theological axiom: find the strongest secular functional equivalent; evaluate whether it provides identical structural coverage.",
+  "axioms_tested": [
+    {
+      "axiom_id": "A-000004",
+      "axiom": "Tawhid: no servitude to anything other than God.",
+      "function_in_theory": "Provides the unique single-principle anti-servitude axiom that is agreement-admissible and makes all human servitude impermissible.",
+      "secular_functional_equivalents": [
+        {
+          "name": "Non-Aggression Principle (NAP)",
+          "adequacy": "PARTIAL",
+          "gap": "NAP prohibits AGGRESSION but not all servitude. Consensual servitude (voluntary slavery) is not prohibited by NAP alone. Tawhid prohibits ALL servitude including consensual. NAP cannot derive the absolute prohibition on voluntary slavery that Tawhid provides."
+        },
+        {
+          "name": "Kantian Formula of Humanity (treat persons always as ends)",
+          "adequacy": "PARTIAL",
+          "gap": "Formula of Humanity prohibits using persons as MERE means, not as any means. Kant permits contractual arrangements where persons are means-among-other-purposes. The absolute prohibition on servitude requires a stronger axiom."
+        },
+        {
+          "name": "Self-ownership Axiom (Rothbard)",
+          "adequacy": "PARTIAL",
+          "gap": "Self-ownership prohibits non-consensual servitude. It does not prohibit consensual self-enslavement. Rothbard himself struggled with voluntary slavery contracts. Tawhid provides an absolute prohibition regardless of consent."
+        }
+      ],
+      "necessity_verdict": "NOT_LOGICALLY_NECESSARY",
+      "reasoning": "Tawhid's function can be partially replicated by secular axioms. HOWEVER: no single secular axiom provides ALL of Tawhid's structural functions simultaneously: (a) absolute prohibition on all servitude (including consensual), (b) agreement-admissibility without prior religious commitment, (c) derivation of anti-statism from an anti-servitude principle, (d) grounding of accountability without state enforcement. Secular alternatives require 2-3 axioms to cover what Tawhid covers with 1. CONCLUSION: Not logically necessary, but functionally most parsimonious."
+    },
+    {
+      "axiom_id": "A-000006",
+      "axiom": "Resurrection exists; it stabilizes liberty by making the terminal period unknowable.",
+      "function_in_theory": "Solves the last-round problem: unknown terminal prevents backward induction in finitely-repeated social games.",
+      "secular_functional_equivalents": [
+        {
+          "name": "Unknown-Horizon Posit (secular)",
+          "adequacy": "FUNCTIONAL_EQUIVALENT",
+          "gap": "The secular unknown-horizon posit (CE-003, Axiom 4) provides the SAME structural game-theoretic function. It is axiomatically asserted, not derived from a broader theological system. This is a genuine functional equivalent. The Theory of Liberty derives unknown-horizon from Resurrection; CE-003 asserts it directly. Both solve the last-round problem structurally."
+        },
+        {
+          "name": "Infinite Discount Factor (δ→1)",
+          "adequacy": "CONDITIONAL",
+          "gap": "Requires empirical condition δ→1. Conditional, not structural."
+        }
+      ],
+      "necessity_verdict": "NOT_LOGICALLY_NECESSARY",
+      "reasoning": "The unknown-horizon posit can be asserted secularly without Resurrection. CE-003 demonstrates this. The function of Resurrection is logically replicable. HOWEVER: within the Theory of Liberty's own framework, Resurrection is NOT merely a functional posit — it is derived from Tawhid + Prophethood and embedded in a theological system that provides additional structure. The secular posit is a bare axiom with no further derivations; Resurrection is a derived theorem with rich structural implications (moral accountability, personal identity, justice). CONCLUSION: The STRUCTURAL FUNCTION is replicable; the full semantic content is not."
+    },
+    {
+      "axiom_id": "A-000007",
+      "axiom": "Prophethood is real; it provides authenticated specification of the formal system.",
+      "function_in_theory": "Anti-fraud function: distinguishes authentic religion (CFS for liberty) from false religion (CFS for tyranny). Prevents any human from claiming absolute authority.",
+      "secular_functional_equivalents": [
+        {
+          "name": "Open-Source / Transparent Specification",
+          "adequacy": "PARTIAL",
+          "gap": "Transparency ensures the specification can be audited but does not prevent authoritative interpreters from claiming exclusive competence. The anti-fraud function is weaker."
+        },
+        {
+          "name": "Constitutional Entrenchment",
+          "adequacy": "PARTIAL",
+          "gap": "Constitutional documents can be interpreted divergently. The Theory of Liberty argues that constitutional democracies fail precisely because interpreters claim authority. Prophethood's seal (khatam) prevents any further claimant — a unique structural feature."
+        }
+      ],
+      "necessity_verdict": "NOT_LOGICALLY_NECESSARY_BUT_UNIQUELY_ELEGANT",
+      "reasoning": "The anti-fraud function can be approximated by secular mechanisms. However, no secular mechanism provides the 'seal' property: the finality of Prophetic specification that prevents all future authoritative amendment. Constitutional documents require constitutional courts; open-source requires technical auditors. Both re-introduce expert authority. The khatam argument — once revealed, the specification is closed and no human authority can supersede it — is structurally unique to the Prophetic framework. CONCLUSION: The anti-fraud function is partially replicable; the khatam property is not."
+    }
+  ],
+  "summary": {
+    "tawhid_logically_necessary": false,
+    "resurrection_logically_necessary": false,
+    "prophethood_logically_necessary": false,
+    "theological_axioms_provide_unique_structural_value": true,
+    "secular_cfs_possible": true,
+    "secular_cfs_equally_parsimonious": false,
+    "secular_cfs_provides_identical_coverage": false
+  },
+  "final_theological_verdict": "NO theological axiom is logically necessary for grounding liberty. Secular functional equivalents exist for all three theological axioms. HOWEVER: no secular system provides the combination of (a) parsimony (all three functions in fewer axioms), (b) absolute prohibition on servitude, (c) structural last-round stability without conditional empirical requirements, and (d) the khatam anti-fraud property. The theological axioms are PRAGMATICALLY SUPERIOR within the theory's own criteria but not LOGICALLY NECESSARY for grounding liberty per se. This is the critical distinction: The theory demonstrates that theology provides the most elegant and parsimonious solution to the formal requirements of liberty, not that it is the only possible solution."
+}

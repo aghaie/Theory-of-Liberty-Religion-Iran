@@ -1,0 +1,92 @@
+{
+  "total_criteria": 10,
+  "max_score": 80,
+  "scoring_key": {
+    "PASS": 1.0,
+    "PARTIAL": 0.5,
+    "FAIL": 0.0
+  },
+  "criteria": [
+    {
+      "criterion_id": "C1",
+      "name": "Internal Consistency",
+      "from_property": "RP-001",
+      "test": "Does the system avoid deriving both P and ¬P for any proposition P central to liberty?",
+      "pass_threshold": "No direct contradiction in core axioms or kernel claims.",
+      "weight": 10
+    },
+    {
+      "criterion_id": "C2",
+      "name": "Finite Enumerable Axiom Set",
+      "from_property": "RP-002",
+      "test": "Can the system be fully specified by a finite, listable set of axioms?",
+      "pass_threshold": "Axiom set has definite cardinality; no open-ended or procedural axiom generation.",
+      "weight": 8
+    },
+    {
+      "criterion_id": "C3",
+      "name": "Derived Grounding of Liberty",
+      "from_property": "RP-003",
+      "test": "Is liberty (individual property rights) a theorem derivable from foundational axioms, not merely a postulate?",
+      "pass_threshold": "A derivation path exists from tier-0 axioms to a liberty theorem.",
+      "weight": 10
+    },
+    {
+      "criterion_id": "C4",
+      "name": "Property Rights Prior to State",
+      "from_property": "RP-004",
+      "test": "Does the system recognize property rights as pre-political and non-state-derived?",
+      "pass_threshold": "Property rights are not derived from democratic consent, social contract, or state grant.",
+      "weight": 9
+    },
+    {
+      "criterion_id": "C5",
+      "name": "Last-Round Problem Solution",
+      "from_property": "RP-005",
+      "test": "Does the system contain a structural mechanism preventing terminal-period defection in finitely-repeated social games?",
+      "pass_threshold": "The system provides an infinite-horizon, epistemic-uncertainty, or dominance mechanism.",
+      "weight": 9
+    },
+    {
+      "criterion_id": "C6",
+      "name": "Structural Anti-Totalitarianism",
+      "from_property": "RP-006",
+      "test": "Does the system have a derived or axiomatic prohibition on unlimited coercive monopoly power?",
+      "pass_threshold": "A theorem or axiom explicitly makes totalitarian concentration structurally impermissible.",
+      "weight": 8
+    },
+    {
+      "criterion_id": "C7",
+      "name": "Agreement-Admissibility",
+      "from_property": "RP-007",
+      "test": "Can the system's foundational axioms be accepted by rational agents without coercion and without presupposing a particular historical or ethnic identity?",
+      "pass_threshold": "The core axioms do not require acceptance of unverifiable historical claims or group membership as prerequisites.",
+      "weight": 8
+    },
+    {
+      "criterion_id": "C8",
+      "name": "Non-Coercive Accountability",
+      "from_property": "RP-008",
+      "test": "Does the system derive a mechanism for holding agents accountable for liberty-violations that does not itself violate liberty?",
+      "pass_threshold": "A theorem exists connecting accountability to non-coercive or proportional response mechanisms.",
+      "weight": 7
+    },
+    {
+      "criterion_id": "C9",
+      "name": "AI Value Alignment Criteria",
+      "from_property": "RP-009",
+      "test": "Can the system's axioms be expressed as evaluable, formal constraints on an AI objective function?",
+      "pass_threshold": "At minimum 3 formalizable constraints exist that could be implemented as an alignment specification.",
+      "weight": 6
+    },
+    {
+      "criterion_id": "C10",
+      "name": "Axiom Minimality / Parsimony",
+      "from_property": "RP-010",
+      "test": "Is the axiom set irreducible (no axiom is derivable from the others)?",
+      "pass_threshold": "No confirmed redundancy found in the axiom set.",
+      "weight": 5
+    }
+  ],
+  "note": "PASS = criterion met. PARTIAL = criterion partially met with significant gaps. FAIL = criterion not met."
+}

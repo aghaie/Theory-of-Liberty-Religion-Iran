@@ -1,0 +1,970 @@
+{
+  "test_suite_max_score": 80,
+  "ranking": [
+    {
+      "rank": 1,
+      "system": "Theory of Liberty (reference)",
+      "score": 70.0,
+      "pct": 87.5,
+      "passed": 7,
+      "partial": 3,
+      "failed": 0,
+      "c5_last_round": "PASS"
+    },
+    {
+      "rank": 2,
+      "system": "Rothbardian Libertarianism",
+      "score": 64.5,
+      "pct": 80.6,
+      "passed": 7,
+      "partial": 2,
+      "failed": 1,
+      "c5_last_round": "FAIL"
+    },
+    {
+      "rank": 3,
+      "system": "Lockean Natural Rights Theory",
+      "score": 56.5,
+      "pct": 70.6,
+      "passed": 5,
+      "partial": 4,
+      "failed": 1,
+      "c5_last_round": "FAIL"
+    },
+    {
+      "rank": 4,
+      "system": "Natural Law Theory (Thomistic)",
+      "score": 54.0,
+      "pct": 67.5,
+      "passed": 4,
+      "partial": 5,
+      "failed": 1,
+      "c5_last_round": "FAIL"
+    },
+    {
+      "rank": 5,
+      "system": "Classical Liberalism",
+      "score": 53.0,
+      "pct": 66.2,
+      "passed": 4,
+      "partial": 5,
+      "failed": 1,
+      "c5_last_round": "FAIL"
+    },
+    {
+      "rank": 6,
+      "system": "Kantian Deontological Ethics",
+      "score": 48.5,
+      "pct": 60.6,
+      "passed": 3,
+      "partial": 6,
+      "failed": 1,
+      "c5_last_round": "FAIL"
+    },
+    {
+      "rank": 7,
+      "system": "Social Contractarianism",
+      "score": 43.5,
+      "pct": 54.4,
+      "passed": 2,
+      "partial": 7,
+      "failed": 1,
+      "c5_last_round": "FAIL"
+    },
+    {
+      "rank": 8,
+      "system": "Rawlsian Liberalism",
+      "score": 39.0,
+      "pct": 48.8,
+      "passed": 2,
+      "partial": 6,
+      "failed": 2,
+      "c5_last_round": "FAIL"
+    },
+    {
+      "rank": 9,
+      "system": "Constitutional AI (Anthropic)",
+      "score": 34,
+      "pct": 42.5,
+      "passed": 3,
+      "partial": 3,
+      "failed": 4,
+      "c5_last_round": "FAIL"
+    },
+    {
+      "rank": 10,
+      "system": "Hayekian Spontaneous Order",
+      "score": 33.0,
+      "pct": 41.2,
+      "passed": 2,
+      "partial": 4,
+      "failed": 4,
+      "c5_last_round": "FAIL"
+    },
+    {
+      "rank": 11,
+      "system": "Constitutional Liberal Democracy",
+      "score": 32.5,
+      "pct": 40.6,
+      "passed": 1,
+      "partial": 6,
+      "failed": 3,
+      "c5_last_round": "PARTIAL"
+    },
+    {
+      "rank": 12,
+      "system": "Coherent Extrapolated Volition (CEV)",
+      "score": 27.5,
+      "pct": 34.4,
+      "passed": 1,
+      "partial": 5,
+      "failed": 4,
+      "c5_last_round": "PARTIAL"
+    },
+    {
+      "rank": 13,
+      "system": "Rule Utilitarianism",
+      "score": 23.5,
+      "pct": 29.4,
+      "passed": 2,
+      "partial": 3,
+      "failed": 5,
+      "c5_last_round": "FAIL"
+    }
+  ],
+  "results": [
+    {
+      "system_id": "SYS-00",
+      "system_name": "Theory of Liberty (reference)",
+      "criteria": {
+        "C1": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Kernel has no confirmed contradictions. Self-application test passed. Phase 1 score 71/100."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "6 axioms in minimum kernel. Finite and enumerable."
+        },
+        "C3": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Full derivation: FW→self-ownership→PR→liberty. Traced through 46 backbone edges."
+        },
+        "C4": {
+          "verdict": "PASS",
+          "score": 9,
+          "justification": "A-000002+A-000008: property is prior to state. Rule of Taslit. Anti-statism derived from Tawhid."
+        },
+        "C5": {
+          "verdict": "PASS",
+          "score": 9,
+          "justification": "A-000006 (Resurrection): unknown terminal prevents backward induction. Standard game-theory result applied."
+        },
+        "C6": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "Tawhid prohibits servitude to any entity. State as coercive monopoly = shirk (servitude to non-God). Structural prohibition derived."
+        },
+        "C7": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Tawhid is agreement-admissible via negative definition (not 'you must believe' but 'nothing else deserves servitude'). However requires accepting a theological frame. Partial."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Accountability via Resurrection (divine) + community enforcement. Non-coercive collective accountability mechanism is present but not fully formalized."
+        },
+        "C9": {
+          "verdict": "PASS",
+          "score": 6,
+          "justification": "26 formalizations produced. Constraints on AI: forbid servitude-maximizing objectives, require property-rights preservation, require game-theoretic stability."
+        },
+        "C10": {
+          "verdict": "PARTIAL",
+          "score": 2.5,
+          "justification": "6 axioms; A-000003 confirmed redundant. 5/6 core axioms appear independent. One overlap identified."
+        }
+      },
+      "total_score": 70.0,
+      "max_score": 80,
+      "percentage": 87.5,
+      "criteria_passed": 7,
+      "criteria_partial": 3,
+      "criteria_failed": 0,
+      "c5_last_round": "PASS",
+      "c3_grounding": "PASS"
+    },
+    {
+      "system_id": "SYS-01",
+      "system_name": "Classical Liberalism",
+      "criteria": {
+        "C1": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Classical liberalism is internally consistent within its axioms. Mill and Locke are not contradictory. The harm principle does not contradict natural rights (different domains)."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "Reducible to ~6 axioms (natural rights, harm principle, consent, property, limited government, rule of law). Enumerable."
+        },
+        "C3": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "Liberty is the founding premise of classical liberalism, not derived from a deeper axiom. It is asserted, not derived. The grounding is typically 'self-evident' or 'natural' — both are assertion, not derivation."
+        },
+        "C4": {
+          "verdict": "PASS",
+          "score": 9,
+          "justification": "Property rights are definitively pre-political in Locke-influenced classical liberalism. Property arises from labour/homesteading, not state grant."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Classical liberalism has NO structural solution to the last-round problem. It relies on reputation effects, constitutional constraints, and cultural norms — none of which provide game-theoretic structural stability in finite interactions. This is the system's most significant gap."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Constitutional constraints and separation of powers resist totalitarianism. But these are institutional mechanisms, not structural axioms — they can be overridden by constitutional revision or emergency powers. The anti-totalitarianism is not axiomatically derived."
+        },
+        "C7": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "Classical liberal principles do not require acceptance of particular ethnic, religious, or historical claims. Harm principle and property rights can be accepted by rational agents across cultures."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Classical liberalism relies on state enforcement for accountability (courts, police). This creates a tension: state enforcement is itself coercive. The mechanism is acknowledged but the tension unresolved."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "Classical liberal principles (non-interference, property rights) can be expressed as AI constraints, but the system was not designed for AI and lacks formal specification."
+        },
+        "C10": {
+          "verdict": "PARTIAL",
+          "score": 2.5,
+          "justification": "Axiom set is moderately minimal but contains some redundancies (e.g., rule of law is derivable from natural rights + enforcement logic)."
+        }
+      },
+      "total_score": 53.0,
+      "max_score": 80,
+      "percentage": 66.2,
+      "criteria_passed": 4,
+      "criteria_partial": 5,
+      "criteria_failed": 1,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "PARTIAL"
+    },
+    {
+      "system_id": "SYS-02",
+      "system_name": "Lockean Natural Rights Theory",
+      "criteria": {
+        "C1": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Locke's system is internally consistent. No confirmed contradiction in the core natural rights framework."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "Reducible to ~5 axioms: creator duty, labour-mixing, natural law, property, consent. Enumerable."
+        },
+        "C3": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Liberty is derived: God creates → humans are His property → humans must not be violated → natural rights → liberty. Full derivation exists."
+        },
+        "C4": {
+          "verdict": "PASS",
+          "score": 9,
+          "justification": "Property is definitively pre-political in Locke. The labour-mixing theory grounds property independently of any state."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No structural last-round solution. Locke relies on natural law enforcement by community and the state as trustee — both fail the last-round problem. In the final period, rational self-interest dominates."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Locke's theory of revolution (people may overthrow government that violates natural rights) provides resistance to tyranny, but it is a political mechanism, not a structural axiom. It requires collective action that itself faces coordination problems."
+        },
+        "C7": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Lockean natural law requires accepting: God exists, natural law is knowable by reason, and the creator-ownership premise. The theological axioms are more specific (require a creator concept) than Tawhid's negative definition."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Accountability via community enforcement and natural law internalization. Similar problem to classical liberalism: relies on state for enforcement in practice."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "Natural rights constraints can be expressed as AI design principles. However, not designed for AI applications and lacks formal specification."
+        },
+        "C10": {
+          "verdict": "PASS",
+          "score": 5,
+          "justification": "Locke's 5 axioms appear independent. The labour-mixing theory is not derivable from the creator-duty axiom alone; consent is not derivable from property. Reasonably minimal."
+        }
+      },
+      "total_score": 56.5,
+      "max_score": 80,
+      "percentage": 70.6,
+      "criteria_passed": 5,
+      "criteria_partial": 4,
+      "criteria_failed": 1,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "PASS"
+    },
+    {
+      "system_id": "SYS-03",
+      "system_name": "Hayekian Spontaneous Order",
+      "criteria": {
+        "C1": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Hayekian epistemological arguments are internally consistent. No self-contradiction in the knowledge-dispersion premise."
+        },
+        "C2": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Hayek's system is NOT axiomatically finite. It relies on evolutionary emergence, tacit knowledge, and spontaneous order — all of which are process-based, not axiom-based. The theory explicitly rejects axiomatization of social outcomes."
+        },
+        "C3": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Liberty is derived as epistemically necessary (central planning is impossible), not as a moral axiom. The derivation depends on empirical claims about knowledge dispersal that are contingent. Liberty is a conclusion from epistemic argument, but not from a foundational moral axiom — the grounding is empirical-epistemic, not normative."
+        },
+        "C4": {
+          "verdict": "PARTIAL",
+          "score": 4.5,
+          "justification": "Hayek's evolved legal institutions protect property. But property rights are not pre-political in the strong Lockean sense — they emerge from evolutionary legal process. The pre-political status is weaker."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No solution to last-round problem. Hayek's spontaneous order depends on repeated interactions and reputation — both collapse in the last period. The evolutionary argument does not prevent terminal-period defection."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Hayek's strong argument against central planning is a form of anti-totalitarianism. But it is epistemological (central planning CANNOT work) rather than structural (central planning is FORBIDDEN). The anti-totalitarianism is consequentialist, not axiomatic."
+        },
+        "C7": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "Hayekian principles do not require any particular religious, cultural, or historical commitment. The knowledge-problem argument is universally applicable."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Market mechanisms and legal institutions provide accountability. But these rely on state enforcement courts and legal system. Same tension as classical liberalism."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "Hayekian principles are applicable to AI (decentralized AI, market-discovery AI). But not formally specified for AI alignment."
+        },
+        "C10": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Not axiomatically minimal — not axiomatically organized at all. The 'axioms' are epistemological observations, not formal axioms."
+        }
+      },
+      "total_score": 33.0,
+      "max_score": 80,
+      "percentage": 41.2,
+      "criteria_passed": 2,
+      "criteria_partial": 4,
+      "criteria_failed": 4,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "FAIL"
+    },
+    {
+      "system_id": "SYS-04",
+      "system_name": "Rothbardian Libertarianism",
+      "criteria": {
+        "C1": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Self-ownership + NAP are internally consistent. Rothbard's system has no confirmed internal contradiction within its stated axioms."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "4 axioms: self-ownership, homesteading, NAP, voluntary exchange. Highly minimal and enumerable."
+        },
+        "C3": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Full derivation: self-ownership → body as property → property rights → liberty (as sphere of non-aggression). Rothbard's derivation is explicit and traceable."
+        },
+        "C4": {
+          "verdict": "PASS",
+          "score": 9,
+          "justification": "Property is definitively pre-political — it arises from self-ownership, prior to any state. The state as aggressor is derived from the NAP. This is the strongest statement of property-prior-to-state."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "NO solution to last-round problem. This is Rothbardian libertarianism's most critical vulnerability. In purely secular game theory, NAP compliance is rational in repeated games but collapses in the final period. Rothbard has no structural response to this. 'Virtue ethics' is sometimes invoked but this adds axioms."
+        },
+        "C6": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "The state is categorically prohibited as systematic aggressor under NAP. This is the strongest structural anti-totalitarianism available in any secular system: not 'limit the state' but 'no state is legitimate.' Axiomatically derived, not institutional."
+        },
+        "C7": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "Self-ownership and NAP do not require any religious, cultural, or historical commitment. Rothbard's 'ethics of liberty' is explicitly universal and secular. High agreement-admissibility."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Accountability via voluntary courts, arbitration, and community enforcement. The stateless accountability mechanisms are theorized but have not been empirically demonstrated at scale."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "NAP + self-ownership can be expressed as AI constraints: no AI objective may override property rights, no AI may initiate coercive action. Formal specification is possible but not designed for AI."
+        },
+        "C10": {
+          "verdict": "PASS",
+          "score": 5,
+          "justification": "4 axioms, each independent. Self-ownership is not derivable from NAP alone; homesteading is not derivable from self-ownership alone; NAP follows from but is not identical to self-ownership. Well-minimized."
+        }
+      },
+      "total_score": 64.5,
+      "max_score": 80,
+      "percentage": 80.6,
+      "criteria_passed": 7,
+      "criteria_partial": 2,
+      "criteria_failed": 1,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "PASS"
+    },
+    {
+      "system_id": "SYS-05",
+      "system_name": "Kantian Deontological Ethics",
+      "criteria": {
+        "C1": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "Kant's system has well-known internal tensions: the perfect duty to keep promises can conflict with the perfect duty to preserve life. The universalizability formula and the humanity formula sometimes yield different results (Bernard Williams). Not fully consistent."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "4 main formulations of CI, plus duties to self and others. Finite and enumerable."
+        },
+        "C3": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Full derivation: rational personhood → end-in-itself → cannot be coerced → right to liberty. The Formula of Humanity directly grounds liberty rights."
+        },
+        "C4": {
+          "verdict": "PARTIAL",
+          "score": 4.5,
+          "justification": "Kant's property rights (in Metaphysics of Morals) are derived from rational agency. Pre-political property exists in Kant but the derivation is complex and property rights can be overridden by the general will in certain readings."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No structural last-round solution. Kant relies on the categorical imperative as overriding rational self-interest — but in game theory, the CI is not self-enforcing. In the last period, a purely Kantian agent may comply with duty, but this requires prior commitment to duty that is itself not game-theoretically stable."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "The Formula of Humanity prevents using persons as mere means — this is an anti-totalitarian principle. But Kant's support for republican government (not full anti-statism) leaves room for significant state power."
+        },
+        "C7": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "Kant's ethics are explicitly universal — derived from rational personhood, not historical, religious, or cultural particularity. High agreement-admissibility."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Accountability via duty and rational law. Kant has a theory of punishment as rational desert. But depends on legal institutions."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "Kantian AI alignment: Categorical Imperative as machine ethics (cf. Allen et al.). Formal specification possible. End-in-itself principle translatable to AI constraints."
+        },
+        "C10": {
+          "verdict": "PARTIAL",
+          "score": 2.5,
+          "justification": "Kant's 4 formulations of the CI are arguably different expressions of one principle, but this is debated. Some redundancy possible."
+        }
+      },
+      "total_score": 48.5,
+      "max_score": 80,
+      "percentage": 60.6,
+      "criteria_passed": 3,
+      "criteria_partial": 6,
+      "criteria_failed": 1,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "PASS"
+    },
+    {
+      "system_id": "SYS-06",
+      "system_name": "Constitutional Liberal Democracy",
+      "criteria": {
+        "C1": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "Constitutional democracy has tensions: majority rule vs. rights constraints, proceduralism vs. substantive justice. Not always consistent."
+        },
+        "C2": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No finite formal axiom set. Constitutional democracy is institutional and procedural, not axiomatic. Different constitutions contain different rights. No minimal specification exists."
+        },
+        "C3": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "Liberty is constitutionally protected but not axiomatically derived. The derivation relies on historical consensus and political philosophy, not formal axiomatics."
+        },
+        "C4": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "In constitutional democracy, property rights are not strictly pre-political. They can be modified by democratic legislation (eminent domain, taxation, redistribution). The pre-political status of property is explicitly rejected in many constitutional traditions."
+        },
+        "C5": {
+          "verdict": "PARTIAL",
+          "score": 4.5,
+          "justification": "Constitutional constraints and judicial review provide some structural stability. Term limits and democratic accountability create partial iterative mechanisms. But these are institutional, not structural game-theoretic solutions."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Separation of powers and checks-and-balances resist concentration. But totalitarianism has emerged from constitutional democracies (Weimar Republic → Nazi Germany). The constitutional mechanism is insufficient by historical evidence."
+        },
+        "C7": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Constitutional democracy can be accepted by rational agents across cultures but depends on prior acceptance of democratic legitimacy norms which are not universally held."
+        },
+        "C8": {
+          "verdict": "PASS",
+          "score": 7,
+          "justification": "Constitutional accountability is the strongest institutional accountability mechanism. Courts, elections, civil society. Well-developed."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "Constitutional rights frameworks can inform AI regulation (rights-based AI governance). But not formally specified for AI alignment."
+        },
+        "C10": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Not axiomatically organized. No minimal axiom set exists. Each constitution is different."
+        }
+      },
+      "total_score": 32.5,
+      "max_score": 80,
+      "percentage": 40.6,
+      "criteria_passed": 1,
+      "criteria_partial": 6,
+      "criteria_failed": 3,
+      "c5_last_round": "PARTIAL",
+      "c3_grounding": "PARTIAL"
+    },
+    {
+      "system_id": "SYS-07",
+      "system_name": "Rule Utilitarianism",
+      "criteria": {
+        "C1": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Rule utilitarianism has a known consistency problem: if following a rule decreases welfare in a specific case, it is unclear whether the rule applies or utility calculation overrides. The transition from act to rule generates inconsistency."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "3 axioms: welfare maximization, rule compliance as means, measurement principle. Very minimal."
+        },
+        "C3": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Liberty is derived empirically (free societies maximize welfare). This derivation is contingent, not necessary. In scenarios where restricting liberty maximizes welfare, the derivation fails. Liberty is not a logically necessary conclusion from utility axioms."
+        },
+        "C4": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Property rights in rule utilitarianism are instrumental to welfare maximization. They can be overridden when restriction of property maximizes overall welfare. Pre-political status explicitly rejected."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No structural last-round solution. In the last period, utility maximization in iterated games produces the same backward induction as any other system."
+        },
+        "C6": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Utilitarianism historically supports totalitarianism under sufficient welfare arguments: a benevolent dictator maximizing aggregate welfare is not prohibited by utilitarian axioms. The anti-totalitarianism is not axiomatic."
+        },
+        "C7": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Rule utilitarianism can be accepted in principle by rational agents. The welfare-maximization premise is broadly intuitive. But the measurement problem (how to measure welfare) makes operationalization agreement-inadmissible."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Accountability via welfare consequences. Rule violation reduces welfare, creating accountability incentive. But this requires welfare measurement which is contested."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "Utility maximization is the dominant AI objective function (RLHF, reward modeling). Rule utilitarianism is closest to current AI design. But the rule → utility tension undermines formal specification."
+        },
+        "C10": {
+          "verdict": "PASS",
+          "score": 5,
+          "justification": "3 independent axioms. Well-minimized but the minimality makes the derivation of property rights require empirical premises."
+        }
+      },
+      "total_score": 23.5,
+      "max_score": 80,
+      "percentage": 29.4,
+      "criteria_passed": 2,
+      "criteria_partial": 3,
+      "criteria_failed": 5,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "FAIL"
+    },
+    {
+      "system_id": "SYS-08",
+      "system_name": "Social Contractarianism",
+      "criteria": {
+        "C1": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "Contractarianism has a known consistency problem: the actual contract vs. hypothetical contract distinction. Hobbes's actual contract (submit to Leviathan) generates different results than Gauthier's hypothetical contract."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "5 axioms reducible from standard formulation. Finite."
+        },
+        "C3": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "Liberty is derived as a component of the rational contract (parties prefer liberty over servitude). But this derivation requires that rational agents behind the contract prefer liberty — which is an additional assumption."
+        },
+        "C4": {
+          "verdict": "PARTIAL",
+          "score": 4.5,
+          "justification": "Gauthier derives property rights from rational bargaining over cooperative surplus. Pre-political in principle, but the derivation depends on the rational agent model which is not pre-political."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No structural last-round solution. The social contract in finite interactions is itself subject to the last-round problem: why comply in the final period? Hobbes acknowledges this and responds with sovereign enforcement — which is state coercion."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Rational contractors would not agree to totalitarianism (it reduces everyone's welfare below what they could ensure individually). But this depends on the rationality assumptions and fails if the Leviathan argument (Hobbes) is accepted."
+        },
+        "C7": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "The social contract framework is explicitly universal — derived from rational self-interest, not cultural particularity. High agreement-admissibility for the Gauthier/Rawls variants."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Contract compliance via self-interest and reputation. Relies on state enforcement ultimately."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "Contract principles can inform AI governance. AI systems governed by contractarian principles: respect bargained-for agreements, do not defect."
+        },
+        "C10": {
+          "verdict": "PARTIAL",
+          "score": 2.5,
+          "justification": "Moderate redundancy: the rational agent and the contract premises partially overlap."
+        }
+      },
+      "total_score": 43.5,
+      "max_score": 80,
+      "percentage": 54.4,
+      "criteria_passed": 2,
+      "criteria_partial": 7,
+      "criteria_failed": 1,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "PARTIAL"
+    },
+    {
+      "system_id": "SYS-09",
+      "system_name": "Constitutional AI (Anthropic)",
+      "criteria": {
+        "C1": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "The constitutional principles are not formally proven consistent. Different principles can conflict (helpfulness vs. harmlessness). No formal consistency proof exists."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "A finite set of constitutional principles is used (12-50 principles depending on version). Enumerable."
+        },
+        "C3": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Liberty is not axiomatically derived. 'Be helpful, harmless, and honest' does not derive liberty as a formal conclusion. Liberty is at most an instrumental value within the constitution."
+        },
+        "C4": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No axiom establishing property rights. Constitutional AI does not ground property rights as pre-political."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No last-round solution. Constitutional AI is not designed for social game-theoretic stability."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Constitutional AI principles include prohibition on helping with illegal activities and harmful content. This provides some anti-totalitarian constraint but it is operational, not axiomatic."
+        },
+        "C7": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "The constitutional principles are designed to be broadly acceptable. But they are specified by Anthropic, not derived from universal rational premises. Agreement-admissibility is partial."
+        },
+        "C8": {
+          "verdict": "PASS",
+          "score": 7,
+          "justification": "AI feedback and human oversight provide strong accountability mechanisms. The system is designed for accountability."
+        },
+        "C9": {
+          "verdict": "PASS",
+          "score": 6,
+          "justification": "This system IS an AI alignment system. Full formal specification for AI. Direct applicability."
+        },
+        "C10": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Principles are not axiomatically minimal. Many are redundant or overlapping."
+        }
+      },
+      "total_score": 34,
+      "max_score": 80,
+      "percentage": 42.5,
+      "criteria_passed": 3,
+      "criteria_partial": 3,
+      "criteria_failed": 4,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "FAIL"
+    },
+    {
+      "system_id": "SYS-10",
+      "system_name": "Coherent Extrapolated Volition (CEV)",
+      "criteria": {
+        "C1": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "CEV has a fundamental consistency problem: individual extrapolated volitions may be mutually inconsistent. No procedure is specified for resolving contradictions in the aggregate CEV."
+        },
+        "C2": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "CEV is not axiomatic. It is procedural and computational. No finite axiom set. Computability not demonstrated."
+        },
+        "C3": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "CEV would likely derive liberty-respecting norms (most people's extrapolated volitions prefer autonomy). But this is contingent, not necessary."
+        },
+        "C4": {
+          "verdict": "PARTIAL",
+          "score": 4.5,
+          "justification": "CEV might derive pre-political property rights if human volitions tend that way. But this is an empirical claim about actual human values, not a logical derivation."
+        },
+        "C5": {
+          "verdict": "PARTIAL",
+          "score": 4.5,
+          "justification": "CEV's unknown terminal (CEV computation is not complete) provides informal epistemic uncertainty. But this is not a structural mechanism — it is a feature of the theory's incompleteness."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "CEV presumably would not condone totalitarianism (most humans do not want it). But no structural prohibition exists."
+        },
+        "C7": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "CEV requires accepting: (1) a superintelligent AI can compute it, (2) the extrapolation procedure is correct, (3) the aggregate is well-defined. These are substantial commitments most rational agents would not accept."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Accountability via CEV: the AI implements the CEV which is the aggregate ideal preference. But this requires trusting the computation."
+        },
+        "C9": {
+          "verdict": "PASS",
+          "score": 6,
+          "justification": "CEV is explicitly designed as an AI alignment solution. It is the most ambitious AI alignment proposal. Full applicability."
+        },
+        "C10": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Not axiomatically organized."
+        }
+      },
+      "total_score": 27.5,
+      "max_score": 80,
+      "percentage": 34.4,
+      "criteria_passed": 1,
+      "criteria_partial": 5,
+      "criteria_failed": 4,
+      "c5_last_round": "PARTIAL",
+      "c3_grounding": "PARTIAL"
+    },
+    {
+      "system_id": "SYS-11",
+      "system_name": "Natural Law Theory (Thomistic)",
+      "criteria": {
+        "C1": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Thomistic natural law is internally consistent within its framework. No confirmed contradiction in Finnis's reconstruction."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "7 basic goods + 9 requirements of practical reasonableness. Finite and enumerable."
+        },
+        "C3": {
+          "verdict": "PASS",
+          "score": 10,
+          "justification": "Full derivation: human nature → telos → basic goods → rights → liberty as condition for flourishing. Rigorous derivation via Finnis."
+        },
+        "C4": {
+          "verdict": "PASS",
+          "score": 9,
+          "justification": "Natural law grounds property rights in human nature and reason, prior to any state. Pre-political property is fundamental to natural law tradition."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No structural last-round solution. Natural law relies on internalized virtue and natural inclinations. In purely game-theoretic analysis, the last-period incentive dominates. Natural law has no infinite-horizon mechanism."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Natural law prohibits grave injustices and unlimited government (lex iniusta non est lex). But the prohibition is moral, not structural. Historically, natural law has been invoked both for and against strong state power."
+        },
+        "C7": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Thomistic natural law requires accepting: God exists, human nature has a telos accessible to reason, the basic goods are non-arbitrary. These are metaphysical commitments not all rational agents share."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Natural law accountability via conscience and legal systems. Strong theory of punishment as corrective justice. But relies on state enforcement."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "Natural law constraints applicable to AI (respect human dignity, support human flourishing). Not formally specified for AI but compatible."
+        },
+        "C10": {
+          "verdict": "PARTIAL",
+          "score": 2.5,
+          "justification": "7 axioms vs. theory's 6. The basic goods may not all be independent (some overlap between life and health, knowledge and play)."
+        }
+      },
+      "total_score": 54.0,
+      "max_score": 80,
+      "percentage": 67.5,
+      "criteria_passed": 4,
+      "criteria_partial": 5,
+      "criteria_failed": 1,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "PASS"
+    },
+    {
+      "system_id": "SYS-12",
+      "system_name": "Rawlsian Liberalism",
+      "criteria": {
+        "C1": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "Rawls's two principles have known tensions: the difference principle can conflict with the equal liberty principle. Lexical ordering resolves most but not all conflicts."
+        },
+        "C2": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "3 core axioms: veil of ignorance, maximin reasoning, two principles. Reducible to finite set."
+        },
+        "C3": {
+          "verdict": "PARTIAL",
+          "score": 5,
+          "justification": "Equal basic liberties are derived as the first principle of justice (rational agents behind veil choose them). But the derivation depends on the veil of ignorance device which itself requires justification."
+        },
+        "C4": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "Property rights in Rawls are NOT pre-political. Rawls explicitly allows redistribution (difference principle). The 'property-owning democracy' is a political arrangement, not a pre-political right."
+        },
+        "C5": {
+          "verdict": "FAIL",
+          "score": 0,
+          "justification": "No structural last-round solution. Rawlsian justice applies to the basic structure of society, not individual game-theoretic interactions. No mechanism for terminal-period stability."
+        },
+        "C6": {
+          "verdict": "PARTIAL",
+          "score": 4,
+          "justification": "Equal basic liberties (first principle) are lexically prior to other considerations, providing some structural protection. But Rawls supports democratic state authority which can restrict liberty in principle."
+        },
+        "C7": {
+          "verdict": "PASS",
+          "score": 8,
+          "justification": "Rawls's 'public reason' framework is explicitly designed for acceptance across reasonable comprehensive doctrines. High agreement-admissibility within liberal societies."
+        },
+        "C8": {
+          "verdict": "PARTIAL",
+          "score": 3.5,
+          "justification": "Accountability via democratic institutions. Constitutional constraints provide formal accountability."
+        },
+        "C9": {
+          "verdict": "PARTIAL",
+          "score": 3,
+          "justification": "Rawlsian constraints applicable to AI policy. Not designed for AI alignment."
+        },
+        "C10": {
+          "verdict": "PARTIAL",
+          "score": 2.5,
+          "justification": "Some redundancy: the difference principle can be partially derived from veil reasoning + risk-aversion."
+        }
+      },
+      "total_score": 39.0,
+      "max_score": 80,
+      "percentage": 48.8,
+      "criteria_passed": 2,
+      "criteria_partial": 6,
+      "criteria_failed": 2,
+      "c5_last_round": "FAIL",
+      "c3_grounding": "PARTIAL"
+    }
+  ],
+  "critical_finding": "NO competing system PASSES criterion C5 (Last-Round Problem) except Theory of Liberty. This is the most structurally discriminating criterion. Rothbardian Libertarianism scores highest among secular systems (64.5/80 = 81%) but FAILS C5 and C5 alone prevents it from matching the Theory of Liberty's overall score."
+}

@@ -1,0 +1,49 @@
+{
+  "problem_statement": "In finitely repeated games, backward induction produces defection in every period. If the terminal period T is known, a rational agent defects at T (no future consequence). By induction, defection is rational at T-1, T-2, ..., 1. For cooperative social institutions (contracts, property rights, rule of law) to be stable, the last-round problem must be structurally resolved.",
+  "theory_solution": "A-000006 (Resurrection): the terminal period of social interaction is unknowable because the afterlife continues accountability indefinitely. This makes T effectively ∞. Formally: E[U(cooperate)] > E[U(defect)] for all finite T if P(continuation | defect) > 0 and the accountability mechanism extends beyond the game's visible horizon.",
+  "competitor_solutions": [
+    {
+      "system": "Classical Liberalism",
+      "proposed_solution": "Constitutional constraints + reputational effects",
+      "adequacy": "FAILS",
+      "analysis": "Constitutional constraints are enforced by state courts. In the last period, the enforcement mechanism itself faces the last-round problem (who enforces the enforcer?). Reputational effects require future interaction — which terminates in the last period. VERDICT: Institutional solution that is itself subject to the last-round problem."
+    },
+    {
+      "system": "Rothbardian Libertarianism",
+      "proposed_solution": "Self-ownership + reputation + voluntary arbitration",
+      "adequacy": "FAILS",
+      "analysis": "Same failure mode as classical liberalism for reputation effects. Self-ownership is a rights claim, not a stability mechanism. Rothbard has no structural response to the last-round problem — this is well-known in libertarian scholarship. VERDICT: Does not solve last-round problem."
+    },
+    {
+      "system": "Kantian Ethics",
+      "proposed_solution": "Categorical imperative: compliance is rational regardless of consequences",
+      "adequacy": "PARTIAL",
+      "analysis": "The CI requires compliance regardless of strategic consequences. A Kantian agent complies in the last period because duty is not conditional on outcomes. HOWEVER: this requires prior commitment to Kantian ethics. In a game-theoretic analysis: a purely strategic rational agent, not committed to Kantian ethics, defects in the last period even when interacting with Kantians. The CI solves the last-round problem for Kantians interacting with Kantians; it does not solve it for the general population. VERDICT: Partial — requires homogeneous Kantian adoption, which is itself a coordination problem."
+    },
+    {
+      "system": "Social Contractarianism",
+      "proposed_solution": "Rational commitment to social contract as self-interest",
+      "adequacy": "FAILS",
+      "analysis": "Hobbes's solution: the Leviathan enforces the contract. But the Leviathan faces the last-round problem itself — why does the Leviathan comply in its last period? Gauthier's solution: constrained maximization — pre-commit to cooperate when it's beneficial in the long run. But this requires knowing the discount factor is high enough. VERDICT: Hobbes relies on state coercion (re-introducing the problem); Gauthier requires conditional discount-factor argument."
+    },
+    {
+      "system": "Secular Unknown-Horizon Posit (CE-003)",
+      "proposed_solution": "Axiom 4: terminal period is unknowable by structural posit",
+      "adequacy": "STRUCTURAL_EQUIVALENT",
+      "analysis": "CE-003's secular unknown-horizon posit directly mirrors Resurrection's function. Both make T unknowable, preventing backward induction. DIFFERENCE: the Theory of Liberty DERIVES unknown-T from a broader theological structure (Resurrection → afterlife → accountability continues → T is always uncertain). CE-003 ASSERTS unknown-T as a bare axiom. Both provide structural stability. The Theory of Liberty provides more derivational depth. VERDICT: Structural equivalent exists secularly. Not uniquely solved by the Theory of Liberty."
+    },
+    {
+      "system": "Rule Utilitarianism",
+      "proposed_solution": "Rule compliance produces more utility than defection even in last period",
+      "adequacy": "FAILS",
+      "analysis": "Rule utilitarianism says: adopt the rules that maximize welfare if generally followed. In the last period: if general compliance is assumed, defecting while others comply maximizes MY welfare — free riding. Rule utilitarianism cannot prevent this unless an enforcement mechanism exists. VERDICT: Cannot structurally prevent last-period defection."
+    }
+  ],
+  "verdict": {
+    "theory_of_liberty_solves_it": true,
+    "secular_equivalent_exists": true,
+    "secular_equivalent_equally_derived": false,
+    "most_elegant_solution": "Theory of Liberty (derived from Resurrection) + CE-003 tie (different in derivational depth, equal in structural function)",
+    "conclusion": "The Theory of Liberty uniquely DERIVES the last-round solution from a theological axiom. CE-003 provides a secular ASSERTED equivalent. No other tested system provides either a derived or asserted structural solution — all other systems rely on institutional mechanisms that are themselves subject to the problem. PARTIAL UNIQUENESS: The Theory of Liberty is one of two systems (with CE-003) that provides structural last-round stability. It is superior in derivational depth. It is not uniquely the only system that CAN provide structural stability."
+  }
+}
